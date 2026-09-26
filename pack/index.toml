@@ -8042,11 +8042,6 @@ hash = "e34097f2fe959b7cabe84e68b0cd2cbeb39cc294550a625e7d937455ac33c556"
 metafile = true
 
 [[files]]
-file = "mods/worldstripper-1.21-5.0.0-neoforge.pw.toml"
-hash = "8f60674caf2c8ab09a6e0314a59929f3cefc90728682af01a3bc6629c15bb6ac"
-metafile = true
-
-[[files]]
 file = "mods/worldweaver-21.0.25.pw.toml"
 hash = "a7345386ff16ce1b5b0653cc3bd283d5c57406eff34fe371953f9e44c95c1f50"
 metafile = true
