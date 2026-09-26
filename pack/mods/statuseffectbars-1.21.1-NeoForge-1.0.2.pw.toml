@@ -1,6 +1,6 @@
 name = "Status Effect Bars Reforged"
 filename = "statuseffectbars-1.21.1-NeoForge-1.0.2.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/TxIuhIFo/versions/PPVE16f7/statuseffectbars-1.21.1-NeoForge-1.0.2.jar"
