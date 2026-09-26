@@ -3637,7 +3637,7 @@ preserve = true
 
 [[files]]
 file = "config/vss-client-config.json"
-hash = "99eb8e6f9bc1c6900bffc37addd582bd27af9facb6c844837813b9f348281f43"
+hash = "2ef4801427add97ced27e709802dc09c355dfd4e4ca2444bc77a6360fd2aa7d9"
 preserve = true
 
 [[files]]
@@ -3924,7 +3924,7 @@ hash = "abc7785e6077587dae7ed014740a3c215ccc5f11766d04984c34d1230a1bafe6"
 
 [[files]]
 file = "kubejs/config/chest_money.json"
-hash = "2f5af4e484513eafce05924792b5d2448733add6607ef08cef0ae95b2f158955"
+hash = "2d9bb1358c0ca27601cd61300994aabe1c98aa3bd90070ae5ba704bcbf892404"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -5656,7 +5656,7 @@ hash = "a96a6577306a4e5bfd014e43c905b44e53726f8a27f3ade87df0a238812978dd"
 
 [[files]]
 file = "kubejs/server_scripts/armamentarium.js"
-hash = "41234a23ef6dcb5004646d3aa6136b8957166d6224c8ea619925243657c906e3"
+hash = "4708f65d811092cd08f17923d0dd48c4190a866c2114de0846f94d2c7c8591aa"
 
 [[files]]
 file = "kubejs/server_scripts/balancedflight.js"
@@ -5676,7 +5676,7 @@ hash = "89a10e570a61e185c2483c80ff25a20f0dd438c957781058fe3be0a0f1696435"
 
 [[files]]
 file = "kubejs/server_scripts/economy/chest_money.js"
-hash = "588cd9fc2f7398c6cd85fde59662ccde3ed187353c452f79359bc68aa30540b9"
+hash = "3b4971a2fd8001de2967abc5960a6d08f0248c6e7d88ad0344e457c3d9fe4699"
 
 [[files]]
 file = "kubejs/server_scripts/end_portal_eyes.js"
@@ -7212,6 +7212,11 @@ hash = "c00fdcda7d258297d83e4d48b0f69283382313f5fd1fc8d485cddfe87539125c"
 metafile = true
 
 [[files]]
+file = "mods/framework-neoforge-1.21.1-0.13.11.pw.toml"
+hash = "d6a8910634206925cbbf7ec5046a15d729e25141162820f3373d4c410273ea92"
+metafile = true
+
+[[files]]
 file = "mods/ftb-essentials-neoforge-2101.1.10.pw.toml"
 hash = "20c451d025a26cf757e69621c0076e2c1fd7d40941bc6b16e839fbde542c537a"
 metafile = true
@@ -7534,6 +7539,11 @@ metafile = true
 [[files]]
 file = "mods/midnightlib-neoforge-1.9.3+1.21.1.pw.toml"
 hash = "dcfe06ccba94e4302d61436805ac2d64da10f6a92d8153d256c1095b80ba5499"
+metafile = true
+
+[[files]]
+file = "mods/mighty_mail-neoforge-1.21.1-1.1.4.pw.toml"
+hash = "8574f387966d8cdaec578c399142e1855be23e1de354a71ab55cfad2203a6a5f"
 metafile = true
 
 [[files]]
@@ -8073,7 +8083,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "7863138ceaa9781690c8fa1f1df724fd6920f4060b6bc086ded2fdf6a6dd7959"
+hash = "0b39cd1803fbd521f324a924464e3b61dabf9037e5d075e8c1d5f2dda6737bfc"
 preserve = true
 
 [[files]]
