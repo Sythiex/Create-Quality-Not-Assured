@@ -6318,7 +6318,7 @@ metafile = true
 
 [[files]]
 file = "mods/aero-shadow-fix-2.1.0.pw.toml"
-hash = "c1b6ea691aaec704974bde9204abe415c1a1818914872e6a557b7cafaccf8ff9"
+hash = "f1232651ba1d30016759df4d9bdb19240c850ca22595d7ed0d9ef02799661253"
 metafile = true
 
 [[files]]
@@ -6588,7 +6588,7 @@ metafile = true
 
 [[files]]
 file = "mods/chunkygui-neoforged-1.21.1-v1.2.0.pw.toml"
-hash = "a0682566d584c981a320604144bea23dad5157be8e355cb426ccce6181a8a420"
+hash = "aad91973180c49f9fe27e8ecedc18e783ba16a942cd968f341518b1c368b6a0d"
 metafile = true
 
 [[files]]
@@ -6758,7 +6758,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-frogport-reworked-1.0.1.pw.toml"
-hash = "a9ec8a25575f62e9d69fae2fff8be4d549143634ae1a375f247ab24466f86ae4"
+hash = "eddae57d1b7863eea4b1c8fb119f39f24ab8b55db56a50f5992de8c380b4a601"
 metafile = true
 
 [[files]]
@@ -8078,7 +8078,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "51d8f14ee5620f17d25ecb4f53652ec62244c2b47592f3ae0c61e41dccf30d50"
+hash = "7863138ceaa9781690c8fa1f1df724fd6920f4060b6bc086ded2fdf6a6dd7959"
 preserve = true
 
 [[files]]
@@ -10698,6 +10698,5 @@ file = "shaderpacks/ComplementaryUnbound_r5.9.3 + EuphoriaPatches_1.10.5/shaders
 hash = "aa0a49fff1a950b23ccd11b24757bb7d9d30c7463a3155c27f3aa8fce31ba1cb"
 
 [[files]]
-file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "0c990a4fbee13db655b83f293fe8df911971898b79be06722ed457485072766f"
-metafile = true
+file = "shaderpacks/ComplementaryUnbound_r5.9.3.zip"
+hash = "98ac741dee294d2a3c82d153349148c3bb7fb688c30eb3b49c3b9ac37e968c5a"
