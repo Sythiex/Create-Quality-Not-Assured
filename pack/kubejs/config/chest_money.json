@@ -677,6 +677,1901 @@
       "id": "idas:chests/wizardtower/wizardtower_top",
       "difficulty": 2,
       "minutesPerChest": 2
+    },
+    {
+      "id": "minecraft:chests/abandoned_mineshaft",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "minecraft:chests/ancient_city",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "minecraft:chests/ancient_city_ice_box",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "minecraft:chests/bastion_bridge",
+      "difficulty": 3,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "minecraft:chests/bastion_hoglin_stable",
+      "difficulty": 3,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "minecraft:chests/bastion_other",
+      "difficulty": 3,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "minecraft:chests/bastion_treasure",
+      "difficulty": 4,
+      "minutesPerChest": 6
+    },
+    {
+      "id": "minecraft:chests/buried_treasure",
+      "difficulty": 1,
+      "minutesPerChest": 8
+    },
+    {
+      "id": "minecraft:chests/desert_pyramid",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "minecraft:chests/end_city_treasure",
+      "difficulty": 4,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "minecraft:chests/igloo_chest",
+      "difficulty": 1,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "minecraft:chests/jungle_temple",
+      "difficulty": 2,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "minecraft:chests/nether_bridge",
+      "difficulty": 3,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "minecraft:chests/pillager_outpost",
+      "difficulty": 2,
+      "minutesPerChest": 5
+    },
+    {
+      "id": "minecraft:chests/ruined_portal",
+      "difficulty": 1,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "minecraft:chests/shipwreck_map",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "minecraft:chests/shipwreck_supply",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "minecraft:chests/shipwreck_treasure",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "minecraft:chests/simple_dungeon",
+      "difficulty": 2,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "minecraft:chests/stronghold_corridor",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "minecraft:chests/stronghold_crossing",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "minecraft:chests/stronghold_library",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "minecraft:chests/trial_chambers/corridor",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "minecraft:chests/trial_chambers/entrance",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "minecraft:chests/trial_chambers/intersection",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "minecraft:chests/trial_chambers/intersection_barrel",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "minecraft:chests/trial_chambers/supply",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "minecraft:chests/underwater_ruin_big",
+      "difficulty": 2,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "minecraft:chests/underwater_ruin_small",
+      "difficulty": 2,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "minecraft:chests/village/village_armorer",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "minecraft:chests/village/village_butcher",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "minecraft:chests/village/village_cartographer",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "minecraft:chests/village/village_desert_house",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "minecraft:chests/village/village_fisher",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "minecraft:chests/village/village_fletcher",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "minecraft:chests/village/village_mason",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "minecraft:chests/village/village_plains_house",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "minecraft:chests/village/village_savanna_house",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "minecraft:chests/village/village_shepherd",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "minecraft:chests/village/village_snowy_house",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "minecraft:chests/village/village_taiga_house",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "minecraft:chests/village/village_tannery",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "minecraft:chests/village/village_temple",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "minecraft:chests/village/village_toolsmith",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "minecraft:chests/village/village_weaponsmith",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "minecraft:chests/woodland_mansion",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "integrated_villages:chests/airship_village/airship_village",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/airship_village/airship_village_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/airship_village/airship_village_blacksmith",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/airship_village/airship_village_cartographer",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/airship_village/airship_village_cleric",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/airship_village/airship_village_create",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/airship_village/airship_village_farmhouse",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/airship_village/airship_village_fletcher",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/airship_village/airship_village_kitchen",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/airship_village/airship_village_leatherworker",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/airship_village/airship_village_library",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/airship_village/airship_village_mason",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/airship_village/airship_village_shepard",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/airship_village/airship_village_treasure",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/cabin_village/cabin_village",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/cabin_village/cabin_village_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/cabin_village/cabin_village_blacksmith",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/cabin_village/cabin_village_cartographer",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/cabin_village/cabin_village_cleric",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/cabin_village/cabin_village_farmhouse",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/cabin_village/cabin_village_fisherman",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/cabin_village/cabin_village_fletcher",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/cabin_village/cabin_village_kitchen",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/cabin_village/cabin_village_leatherworker",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/cabin_village/cabin_village_library",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/cabin_village/cabin_village_mason",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/cabin_village/cabin_village_shepard",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/clockwork_village/clockwork_village",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/clockwork_village/clockwork_village_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/clockwork_village/clockwork_village_blacksmith",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/clockwork_village/clockwork_village_cartographer",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/clockwork_village/clockwork_village_cleric",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/clockwork_village/clockwork_village_farmhouse",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/clockwork_village/clockwork_village_fisherman",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/clockwork_village/clockwork_village_fletcher",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/clockwork_village/clockwork_village_kitchen",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/clockwork_village/clockwork_village_leatherworker",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/clockwork_village/clockwork_village_library",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/clockwork_village/clockwork_village_mason",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/clockwork_village/clockwork_village_shepard",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/kutcha_village/kutcha_village",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/kutcha_village/kutcha_village_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/kutcha_village/kutcha_village_blacksmith",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/kutcha_village/kutcha_village_cartographer",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/kutcha_village/kutcha_village_cleric",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/kutcha_village/kutcha_village_farmhouse",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/kutcha_village/kutcha_village_fisherman",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/kutcha_village/kutcha_village_fletcher",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/kutcha_village/kutcha_village_kitchen",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/kutcha_village/kutcha_village_leatherworker",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/kutcha_village/kutcha_village_library",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/kutcha_village/kutcha_village_mason",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/kutcha_village/kutcha_village_shepard",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/marketstead_village/marketstead_village",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/marketstead_village/marketstead_village_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/marketstead_village/marketstead_village_blacksmith",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/marketstead_village/marketstead_village_butcher",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/marketstead_village/marketstead_village_cleric",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/marketstead_village/marketstead_village_create",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/marketstead_village/marketstead_village_farmhouse",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/marketstead_village/marketstead_village_fisherman",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/marketstead_village/marketstead_village_fletcher",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/marketstead_village/marketstead_village_kitchen",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/marketstead_village/marketstead_village_leatherworker",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/marketstead_village/marketstead_village_library",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/marketstead_village/marketstead_village_mason",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/marketstead_village/marketstead_village_tomb",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mediterranean_village/mediterranean_village",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mediterranean_village/mediterranean_village_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mediterranean_village/mediterranean_village_blacksmith",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mediterranean_village/mediterranean_village_butcher",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mediterranean_village/mediterranean_village_create",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mediterranean_village/mediterranean_village_farmhouse",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mediterranean_village/mediterranean_village_kitchen",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mediterranean_village/mediterranean_village_library",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mediterranean_village/mediterranean_village_shepard",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mediterranean_village/mediterranean_village_treasure",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/minka_village/minka_village",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/minka_village/minka_village_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/minka_village/minka_village_blacksmith",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/minka_village/minka_village_cartographer",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/minka_village/minka_village_cleric",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/minka_village/minka_village_farmhouse",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/minka_village/minka_village_fisherman",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/minka_village/minka_village_fletcher",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/minka_village/minka_village_kitchen",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/minka_village/minka_village_library",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/minka_village/minka_village_treasure",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mossy_mounds/mossy_mounds",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mossy_mounds/mossy_mounds_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mossy_mounds/mossy_mounds_blacksmith",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mossy_mounds/mossy_mounds_cartographer",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mossy_mounds/mossy_mounds_cleric",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mossy_mounds/mossy_mounds_farmhouse",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mossy_mounds/mossy_mounds_fisherman",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mossy_mounds/mossy_mounds_fletcher",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mossy_mounds/mossy_mounds_kitchen",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mossy_mounds/mossy_mounds_leatherworker",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mossy_mounds/mossy_mounds_library",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mossy_mounds/mossy_mounds_mason",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mossy_mounds/mossy_mounds_shepard",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/mossy_mounds/mossy_mounds_treasure",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/oasis_village/oasis_village",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/oasis_village/oasis_village_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/oasis_village/oasis_village_blacksmith",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/oasis_village/oasis_village_cartographer",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/oasis_village/oasis_village_cleric",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/oasis_village/oasis_village_farmhouse",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/oasis_village/oasis_village_kitchen",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/oasis_village/oasis_village_leatherworker",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/oasis_village/oasis_village_library",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/oasis_village/oasis_village_mason",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/oasis_village/oasis_village_shepard",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/pirate_village/pirate_village",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/pirate_village/pirate_village_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/pirate_village/pirate_village_blacksmith",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/pirate_village/pirate_village_cartographer",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/pirate_village/pirate_village_cleric",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/pirate_village/pirate_village_create",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/pirate_village/pirate_village_farmhouse",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/pirate_village/pirate_village_kitchen",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/pirate_village/pirate_village_leatherworker",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/pirate_village/pirate_village_library",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/pirate_village/pirate_village_mason",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/pirate_village/pirate_village_shepard",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/pirate_village/pirate_village_treasure",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/swamp_village/swamp_village",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/swamp_village/swamp_village_armorer",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/swamp_village/swamp_village_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/swamp_village/swamp_village_blacksmith",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/swamp_village/swamp_village_butcher",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/swamp_village/swamp_village_cleric",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/swamp_village/swamp_village_create",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/swamp_village/swamp_village_farmhouse",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/swamp_village/swamp_village_fisherman",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/swamp_village/swamp_village_fletcher",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/swamp_village/swamp_village_kitchen",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/swamp_village/swamp_village_leatherworker",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/swamp_village/swamp_village_library",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/swamp_village/swamp_village_mason",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/swamp_village/swamp_village_tomb",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/tavern_village/tavern_village",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/tavern_village/tavern_village_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/tavern_village/tavern_village_blacksmith",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/tavern_village/tavern_village_butcher",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/tavern_village/tavern_village_create",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/tavern_village/tavern_village_farmhouse",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/tavern_village/tavern_village_kitchen",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/tavern_village/tavern_village_library",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/tavern_village/tavern_village_shepard",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "integrated_villages:chests/tavern_village/tavern_village_treasure",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mss:abandoned",
+      "difficulty": 2,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "mss:arena",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mss:arena_amethyst_cove",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mss:arena_dungeon_chest",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mss:arena_mossy_hallway_chest",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mss:castle_tower_top",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mss:crystal",
+      "difficulty": 1,
+      "minutesPerChest": 5
+    },
+    {
+      "id": "mss:empty",
+      "difficulty": 1,
+      "minutesPerChest": 5
+    },
+    {
+      "id": "mss:general",
+      "difficulty": 1,
+      "minutesPerChest": 5
+    },
+    {
+      "id": "mss:houses_common",
+      "difficulty": 2,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "mss:houses_rare",
+      "difficulty": 1,
+      "minutesPerChest": 5
+    },
+    {
+      "id": "mss:houses_uncommon",
+      "difficulty": 1,
+      "minutesPerChest": 5
+    },
+    {
+      "id": "mss:junk",
+      "difficulty": 1,
+      "minutesPerChest": 5
+    },
+    {
+      "id": "mss:rare",
+      "difficulty": 2,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "mss:sparse",
+      "difficulty": 1,
+      "minutesPerChest": 5
+    },
+    {
+      "id": "mss:stash",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mns:chests/dragon_arena/epic",
+      "difficulty": 5,
+      "minutesPerChest": 10
+    },
+    {
+      "id": "mns:chests/dragon_arena/mid",
+      "difficulty": 5,
+      "minutesPerChest": 10
+    },
+    {
+      "id": "mns:chests/empty",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mns:chests/houses",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mns:chests/large_arena/common",
+      "difficulty": 4,
+      "minutesPerChest": 5
+    },
+    {
+      "id": "mns:chests/large_arena/treasure",
+      "difficulty": 4,
+      "minutesPerChest": 5
+    },
+    {
+      "id": "mns:chests/mega_fortress/brewing_scraps",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mns:chests/mega_fortress/intact",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mns:chests/mega_fortress/intact_base",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mns:chests/mega_fortress/intact_gold_treasure",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mns:chests/mega_fortress/intact_library",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mns:chests/mega_fortress/intact_treasure",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mns:chests/mega_fortress/intact_uncommon",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mns:chests/mega_fortress/tnt_room",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mns:chests/small_arena/gold_treasure",
+      "difficulty": 3,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mns:chests/small_arena/mid",
+      "difficulty": 3,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mns:chests/small_arena/rare",
+      "difficulty": 3,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mns:chests/treasure",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mns:chests/uncommon",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "create_ltab:core/basic_loot",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "create_ltab:core/legend_loot",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "create_ltab:core/rare_loot",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "create_ltab:desert/basic_loot",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "create_ltab:evoker_trigger",
+      "difficulty": 4,
+      "minutesPerChest": 5
+    },
+    {
+      "id": "create_ltab:nether/basic_loot",
+      "difficulty": 3,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "create_ltab:normal/basic2_loot",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "create_ltab:normal/basic3_loot",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "create_ltab:normal/basic4_loot",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "create_ltab:normal/basic_loot",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "create_ltab:normal/legend_loot",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "create_ltab:normal/rare_loot",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "create_ltab:normal/trash_loot",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "create_ltab:snow/basic_loot",
+      "difficulty": 3,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "create_ltab:water/basic_loot",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mmr:desert_mineshaft/gold_cart",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:desert_mineshaft/miner_chest",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:desert_mineshaft/miner_chest_2",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:desert_mineshaft/miner_chest_3",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:desert_mineshaft/stable",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:desert_mineshaft/supply_barrel",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:desert_mineshaft/supply_barrel_2",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:desert_mineshaft/supply_barrel_3",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:desert_mineshaft/treasure",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:desert_mineshaft/treasure_2",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:desert_mineshaft/treasure_3",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:empty",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:jungle_mineshaft/brewing_scraps",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:jungle_mineshaft/furnace_chest",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:jungle_mineshaft/gold_cart",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:jungle_mineshaft/miner_chest",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:jungle_mineshaft/miner_chest_2",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:jungle_mineshaft/miner_chest_3",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:jungle_mineshaft/supply_barrel",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:jungle_mineshaft/supply_barrel_2",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:jungle_mineshaft/supply_barrel_3",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:jungle_mineshaft/treasure",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:jungle_mineshaft/treasure_2",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:jungle_mineshaft/treasure_3",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:mesa_mineshaft/miner_chest",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:mesa_mineshaft/miner_chest_2",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:mesa_mineshaft/miner_chest_3",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:mesa_mineshaft/supply_barrel",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:mesa_mineshaft/supply_barrel_2",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:mesa_mineshaft/supply_barrel_3",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:mesa_mineshaft/treasure",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:mesa_mineshaft/treasure_2",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:mesa_mineshaft/treasure_3",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:mineshaft/common",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:mineshaft/rare",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:mineshaft/uncommon",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:nether_mineshaft/miner_chest",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mmr:nether_mineshaft/miner_chest_2",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mmr:nether_mineshaft/miner_chest_3",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mmr:nether_mineshaft/supply_barrel",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mmr:nether_mineshaft/supply_barrel_2",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mmr:nether_mineshaft/supply_barrel_3",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mmr:nether_mineshaft/treasure",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mmr:snowy_mineshaft/miner_chest",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:snowy_mineshaft/miner_chest_2",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:snowy_mineshaft/miner_chest_3",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:snowy_mineshaft/start_piece",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:snowy_mineshaft/supply_barrel",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:snowy_mineshaft/supply_barrel_2",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:snowy_mineshaft/supply_barrel_3",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:snowy_mineshaft/treasure",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:snowy_mineshaft/treasure_2",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mmr:snowy_mineshaft/treasure_3",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mos:church/church_alms",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mos:church/church_reliquary",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mos:church/church_sacristy",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mos:church/church_scriptorium",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mos:decor/clam_shell",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mos:decor/conduit_arch",
+      "difficulty": 1,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "mos:domes/pufferfish_dome",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mos:houses/atlantis_common",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:houses/atlantis_rare",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:houses/atlantis_ultra_rare",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:houses/ruined_common",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:houses/ruined_junk",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mos:houses/ruined_rare",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:portal_archway/portal_gold",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:portal_archway/portal_treasure",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:portal_archway/tree_camp",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:portal_archway/wreck_hold",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:rafts/acacia",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:rafts/birch",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:rafts/cherry",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:rafts/dark_oak",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:rafts/jungle",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:rafts/mangrove",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:rafts/oak",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:rafts/pale_forest",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:rafts/snow",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:rafts/spruce",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:rafts/wanderer_valuables",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:ruins/castle_common",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mos:ruins/castle_treasure",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mos:ships/docked_cargo",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mos:ships/hauling_provisions",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mos:ships/shipwreck_dark_oak",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mos:ships/shipwreck_oak",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mos:ships/shipwreck_spruce",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mos:ships/small_ship_stores",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mos:ships/sunken_cabin",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:ships/sunken_captain",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mos:ships/sunken_hold",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mos:ships/travel_ship_captain",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mos:ships/travel_ship_cargo",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mos:ships/travel_ship_hold",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mos:ships/travel_ship_quarters",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mos:skeleton/dragon_gut",
+      "difficulty": 1,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "mos:skeleton/dragon_hoard",
+      "difficulty": 1,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "mos:temple/temple_inner",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:temple/temple_offering",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:temple/temple_stores",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mos:treasure/buried_treasure_1",
+      "difficulty": 1,
+      "minutesPerChest": 5
+    },
+    {
+      "id": "mtr:badlands_temple_common",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mtr:badlands_temple_rare",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mtr:desert_temple_crypt_chest",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mtr:desert_temple_lower_chamber",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mtr:desert_temple_pillar_chest",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mtr:desert_temple_wall_chest",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mtr:empty",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mtr:jungle_temple_corridor",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mtr:jungle_temple_crypt_barrel_empty",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mtr:jungle_temple_crypt_barrel_full",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mtr:jungle_temple_crypt_chest",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mtr:jungle_temple_lava_chamber",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mtr:jungle_temple_main_common",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mtr:jungle_temple_main_double",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mtr:jungle_temple_puzzle_treasure",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mtr:jungle_temple_upper_chest",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mtr:jungle_temple_upper_double",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mtr:nether_temple_common",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mtr:nether_temple_rare",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mtr:nether_temple_uncommon",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mtr:ocean_temple_common",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mtr:ocean_temple_treasure",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "mtr:stronghold_barracks_barrel",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mtr:stronghold_barracks_chest",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mtr:stronghold_corridor_empty",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mtr:stronghold_corridor_rare",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mtr:stronghold_corridor_uncommon",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mtr:stronghold_library_chest",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mtr:stronghold_library_trapped_chest",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mtr:stronghold_mossy_special",
+      "difficulty": 3,
+      "minutesPerChest": 1
     }
   ]
 }

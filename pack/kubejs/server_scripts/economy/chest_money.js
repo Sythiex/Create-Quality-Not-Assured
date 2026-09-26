@@ -5,6 +5,7 @@ const QNAChestRegistries = Java.loadClass('net.minecraft.core.registries.Registr
 const QNAChestResourceKey = Java.loadClass('net.minecraft.resources.ResourceKey')
 const QNAChestResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation')
 const QNAChestLootTable = Java.loadClass('net.minecraft.world.level.storage.loot.LootTable')
+const QNAChestItems = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
 
 const qnaChestMoney = {
     rules: [],
@@ -38,8 +39,9 @@ const qnaChestMoney = {
         }
         const seen = {}
         return config.tables.map(row => {
-            if (typeof row.id !== 'string' || !/^[a-z0-9_.-]+:chests\/[a-z0-9_./-]+$/.test(row.id)) {
-                throw new Error('Chest money requires an exact namespace:chests/table ID: ' + row.id)
+            // Some mods (including MSS) put chest tables at the namespace root.
+            if (typeof row.id !== 'string' || !/^[a-z0-9_.-]+:[a-z0-9_./-]+$/.test(row.id)) {
+                throw new Error('Chest money requires an exact namespace:path table ID: ' + row.id)
             }
             if (seen[row.id]) throw new Error('Duplicate chest money table: ' + row.id)
             seen[row.id] = true
@@ -56,14 +58,15 @@ const qnaChestMoney = {
             throw new Error('Invalid chest money total: ' + spurs)
         }
         const stacks = []
-        QNAChestCoin.getCoinsFromSpurAmount(spurs).forEach(entry => {
+        // Use function-scoped mutable locals across Rhino's Java callback boundary.
+        QNAChestCoin.getCoinsFromSpurAmount(spurs).forEach(function(entry) {
             const coin = entry.getKey()
-            let count = Number(entry.getValue())
+            var remainingCoins = Number(entry.getValue())
             const maxStack = Number(coin.asStack().getMaxStackSize())
-            while (count > 0) {
-                const size = Math.min(count, maxStack)
-                stacks.push(coin.asStack(size))
-                count -= size
+            while (remainingCoins > 0) {
+                var stackSize = Math.min(remainingCoins, maxStack)
+                stacks.push(coin.asStack(stackSize))
+                remainingCoins -= stackSize
             }
         })
         return stacks
@@ -77,27 +80,35 @@ const qnaChestMoney = {
 
     selfTest: function(server) {
         if (!this.registered || this.registered !== this.rules.length) throw new Error('Modifiers did not register')
-        const denominations = QNAChestCoin.values()
+        // This native conversion returns every denomination, including zero-count entries.
+        // Use the Java List callback already used by coinStacks, and compare registry IDs,
+        // avoiding Java enum-array indexing and identity of KubeJS item wrappers.
+        const valuesById = {}
+        QNAChestCoin.getCoinsFromSpurAmount(1).forEach(function(entry) {
+            const coin = entry.getKey()
+            const id = String(QNAChestItems.ITEM.getKey(coin.asStack().getItem()))
+            const value = Number(coin.value)
+            if (id === 'minecraft:air' || !isFinite(value) || value <= 0 || valuesById[id] !== undefined) {
+                throw new Error('Invalid currency denomination: ' + id + ' = ' + value)
+            }
+            valuesById[id] = value
+        })
+        if (Object.keys(valuesById).length !== 6) throw new Error('Expected six currency denominations')
         this.rules.forEach(rule => {
             const key = QNAChestResourceKey.create(QNAChestRegistries.LOOT_TABLE, QNAChestResourceLocation.parse(rule.id))
-            if (server.reloadableRegistries().getLootTable(key).equals(QNAChestLootTable.EMPTY)) {
+            // Rhino unwraps Java objects for ===; inherited Object.equals is not exposed.
+            if (server.reloadableRegistries().getLootTable(key) === QNAChestLootTable.EMPTY) {
                 throw new Error('Missing loaded loot table: ' + rule.id)
             }
-            const bounds = rule.bounds
-            ;[bounds.min, bounds.max].forEach(total => {
-                let value = 0
+            const checkTotals = [rule.bounds.min, rule.bounds.max]
+            checkTotals.forEach(total => {
+                var value = 0
                 this.coinStacks(total).forEach(stack => {
                     if (stack.isEmpty() || stack.getCount() > stack.getMaxStackSize()) throw new Error('Invalid coin stack')
-                    let found = false
-                    for (let i = 0; i < denominations.length; i++) {
-                        const coin = denominations[i]
-                        if (stack.getItem().equals(coin.asStack().getItem())) {
-                            value += Number(coin.value) * Number(stack.getCount())
-                            found = true
-                            break
-                        }
-                    }
-                    if (!found) throw new Error('Unknown currency item')
+                    const id = String(QNAChestItems.ITEM.getKey(stack.getItem()))
+                    const unitValue = valuesById[id]
+                    if (unitValue === undefined) throw new Error('Unknown currency item: ' + id)
+                    value += unitValue * Number(stack.getCount())
                 })
                 if (value !== total) throw new Error('Coin value mismatch: ' + value + ' vs ' + total)
             })
@@ -126,8 +137,8 @@ ServerEvents.commandRegistry(event => {
         .executes(context => {
             const source = context.getSource()
             try {
-                const count = qnaChestMoney.selfTest(source.getServer())
-                source.sendSuccess(Text.of('Chest money self-test passed: ' + count + ' tables; native coin values verified. Container/Lootr checks remain manual.'), false)
+                var testedTableCount = qnaChestMoney.selfTest(source.getServer())
+                source.sendSuccess(Text.of('Chest money self-test passed: ' + testedTableCount + ' tables; native coin values verified. Container/Lootr checks remain manual.'), false)
                 return 1
             } catch (error) {
                 source.sendFailure(Text.of('Chest money self-test failed: ' + error))
