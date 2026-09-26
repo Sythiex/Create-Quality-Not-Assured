@@ -26,7 +26,7 @@
   "lodDistanceChunks": 0,
   "desiredBandwidthKbps": 0,
   "offThreadSectionProcessing": true,
-  "enableXaeroMapBridge": true,
+  "enableXaeroMapBridge": false,
   "performanceTier": "medium",
   "enablePrediction": true,
   "predictionDistanceBlocks": 4096,
