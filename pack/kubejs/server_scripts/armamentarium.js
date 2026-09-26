@@ -175,6 +175,43 @@ ServerEvents.recipes(event => {
 
     event.custom({
         type: 'minecraft:crafting_shaped',
+        category: 'equipment',
+        pattern: [
+            'aba',
+            'cde',
+            ' f '
+        ],
+        key: {
+            a: { item: 'minecraft:quartz' },
+            b: { item: 'minecraft:nether_star' },
+            c: { item: 'armamentarium:greatalloy_ingot' },
+            d: { item: 'armamentarium:sanctified_whetstone' },
+            e: { item: 'minecraft:netherite_ingot' },
+            f: { item: 'minecraft:breeze_rod' }
+        },
+        result: { id: 'armamentarium:holy_mourning_star', count: 1 }
+    }).id('armamentarium:holy_mourning_star_recipe')
+
+    event.custom({
+        type: 'minecraft:crafting_shaped',
+        category: 'misc',
+        pattern: [
+            ' ab',
+            'cd ',
+            'e  '
+        ],
+        key: {
+            a: { item: 'armamentarium:sakura_whetstone' },
+            b: { item: 'minecraft:cherry_log' },
+            c: { item: 'armamentarium:greatalloy_ingot' },
+            d: { item: 'minecraft:netherite_ingot' },
+            e: { item: 'minecraft:breeze_rod' }
+        },
+        result: { id: 'armamentarium:hanakiba', count: 1 }
+    }).id('armamentarium:hanakiba')
+
+    event.custom({
+        type: 'minecraft:crafting_shaped',
         category: 'misc',
         pattern: [
             'abc',
@@ -187,11 +224,65 @@ ServerEvents.recipes(event => {
             c: { item: 'armamentarium:greatalloy_ingot' },
             d: { item: 'minecraft:iron_ingot' },
             e: { item: 'minecraft:netherite_ingot' },
-            f: { item: 'minecraft:end_rod' },
+            f: { item: 'minecraft:breeze_rod' },
             g: { item: 'minecraft:redstone_block' }
         },
         result: { id: 'armamentarium:blood_prince_flamberge', count: 1 }
     }).id('armamentarium:blood_prince_flamberge_recipe')
+
+    event.custom({
+        type: 'minecraft:crafting_shaped',
+        category: 'equipment',
+        pattern: [
+            ' a ',
+            'aba',
+            'cdc'
+        ],
+        key: {
+            a: { tag: 'c:stones' },
+            b: { item: 'armamentarium:stone_whetstone' },
+            c: { item: 'armamentarium:greatalloy_ingot' },
+            d: { item: 'minecraft:breeze_rod' }
+        },
+        result: { id: 'armamentarium:empyrean_cinquedea', count: 1 }
+    }).id('armamentarium:empyrean_cinquedea')
+
+    event.custom({
+        type: 'minecraft:crafting_shaped',
+        category: 'equipment',
+        pattern: [
+            ' a ',
+            'bcb',
+            'def'
+        ],
+        key: {
+            a: { item: 'armamentarium:ocean_whetstone' },
+            b: { item: 'minecraft:heart_of_the_sea' },
+            c: { item: 'minecraft:diamond_block' },
+            d: { item: 'minecraft:fire_coral' },
+            e: { item: 'minecraft:breeze_rod' },
+            f: { item: 'minecraft:horn_coral' }
+        },
+        result: { id: 'armamentarium:eventide_waveblade', count: 1 }
+    }).id('armamentarium:eventide_waveblade')
+
+    event.custom({
+        type: 'minecraft:crafting_shaped',
+        category: 'equipment',
+        pattern: [
+            ' ab',
+            ' c ',
+            'de '
+        ],
+        key: {
+            a: { item: 'minecraft:iron_ingot' },
+            b: { item: 'armamentarium:feather_whetstone' },
+            c: { item: 'minecraft:breeze_rod' },
+            d: { item: 'minecraft:netherite_ingot' },
+            e: { item: 'minecraft:red_glazed_terracotta' }
+        },
+        result: { id: 'armamentarium:splitwing_scissorblade', count: 1 }
+    }).id('armamentarium:splitwing_scissorblade_recipe')
 
     event.custom({
         type: 'minecraft:crafting_shaped',
