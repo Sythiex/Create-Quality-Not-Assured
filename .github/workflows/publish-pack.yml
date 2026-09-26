@@ -75,10 +75,32 @@ jobs:
           shutil.copyfile(root / 'pack.toml', destination / 'pack.toml')
           print(f'Staged {len(index["files"])} indexed files for pack {manifest["version"]}.')
 
+      # upload-pages-artifact excludes dotfiles, which can be indexed pack files.
+      - name: Archive all staged files, including dotfiles
+        shell: python
+        run: |
+          from pathlib import Path
+          import os
+          import tarfile
+
+          site = Path('_site')
+          archive_path = Path(os.environ['RUNNER_TEMP']) / 'artifact.tar'
+          expected = {path.relative_to(site).as_posix() for path in site.rglob('*') if path.is_file()}
+          with tarfile.open(archive_path, 'w') as archive:
+              archive.add(site, arcname='.')
+          with tarfile.open(archive_path, 'r') as archive:
+              actual = {Path(entry.name).as_posix() for entry in archive.getmembers() if entry.isfile()}
+          if actual != expected:
+              raise SystemExit(f'Archive contents differ: missing={sorted(expected - actual)}, extra={sorted(actual - expected)}')
+          print(f'Verified all {len(expected)} staged files are in the Pages archive.')
+
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-artifact@v4
         with:
-          path: _site
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          retention-days: 1
+          if-no-files-found: error
 
       - name: Publish stable pack
         id: deployment
