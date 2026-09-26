@@ -8077,6 +8077,11 @@ hash = "d698c465759a4255dd2d603be3013261010a0d2ce57632f9dd4f9f8ab65ec548"
 metafile = true
 
 [[files]]
+file = "options.txt"
+hash = "51d8f14ee5620f17d25ecb4f53652ec62244c2b47592f3ae0c61e41dccf30d50"
+preserve = true
+
+[[files]]
 file = "resourcepacks/Better+Lanterns+v1.2(mc-1.21).zip"
 hash = "2b1c802be7207ac488c071ba79f54ea44227bd5d7d815f16a710a4e25da8d385"
 
