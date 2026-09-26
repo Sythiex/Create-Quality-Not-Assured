@@ -937,8 +937,7 @@ preserve = true
 
 [[files]]
 file = "config/catalyst-client.toml"
-hash = "8997b57cd282b53bd3e6c1695c14d04f2ce99d2815ef244a0f084e6aa854e853"
-preserve = true
+hash = "0505c8e72eb875b699c2ebb36c5cafee04d678fa176defdfe8591537f072ef8b"
 
 [[files]]
 file = "config/cbc_at-server.toml"
@@ -1792,8 +1791,7 @@ preserve = true
 
 [[files]]
 file = "config/fml.toml"
-hash = "e3464c6ae1e81c6047c68ceb1caf772dde5bf80f0ed55af57a8fa952bb1e6c90"
-preserve = true
+hash = "1a8cae5c9acde65c9825518257e1cc1dfd5854b1eb321a0d5b74bafa62896782"
 
 [[files]]
 file = "config/foodmood-client.toml"
@@ -6179,11 +6177,6 @@ metafile = true
 [[files]]
 file = "mods/RespawningAnimals-v21.1.2-1.21.1-NeoForge.pw.toml"
 hash = "e236d679db7b98afef69d6a94f2433c2d5a88f4d781d2afcb3c4665dfe7e0aa3"
-metafile = true
-
-[[files]]
-file = "mods/ScalableLux-neoforge-0.3.0-alpha.0.8-all.pw.toml"
-hash = "6c4b6cfbefd32161b20ec1f6cf0c4ff97d45839ee26d1a1f0e8bbac5530c36d3"
 metafile = true
 
 [[files]]

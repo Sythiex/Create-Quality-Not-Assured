@@ -45,5 +45,5 @@
 	# Range: 1 ~ 40
 	crafterRedstonePollInterval = 8
 	sableLightEngineFix = true
-	sableScalableLuxOverride = true
+	sableScalableLuxOverride = false
 	gogglesCache = true
