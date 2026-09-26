@@ -1,0 +1,85 @@
+name: Publish pack
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out pack source
+        uses: actions/checkout@v6
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Verify hashes and stage indexed pack files
+        shell: python
+        run: |
+          from pathlib import Path
+          import hashlib
+          import shutil
+          import tomllib
+
+          root = Path('pack').resolve()
+          destination = Path('_site/stable')
+          destination.mkdir(parents=True)
+
+          def checked_path(relative):
+              path = (root / relative).resolve()
+              if not path.is_relative_to(root) or not path.is_file():
+                  raise SystemExit(f'Missing or invalid pack path: {relative}')
+              return path
+
+          def verify(path, algorithm, expected):
+              with path.open('rb') as stream:
+                  actual = hashlib.file_digest(stream, algorithm).hexdigest()
+              if actual != expected:
+                  raise SystemExit(f'Hash mismatch: {path.relative_to(root)}. Refresh and commit the pack before publishing.')
+
+          manifest = tomllib.loads((root / 'pack.toml').read_text(encoding='utf-8'))
+          index_info = manifest['index']
+          index_path = checked_path(index_info['file'])
+          verify(index_path, index_info['hash-format'], index_info['hash'])
+          index = tomllib.loads(index_path.read_text(encoding='utf-8'))
+
+          for entry in index['files']:
+              source = checked_path(entry['file'])
+              verify(source, entry.get('hash-format', index['hash-format']), entry['hash'])
+              if entry.get('metafile'):
+                  metadata = tomllib.loads(source.read_text(encoding='utf-8'))
+                  if metadata.get('side', 'both') not in ('client', 'server', 'both'):
+                      raise SystemExit(f'Invalid side: {entry["file"]}')
+              target = destination / source.relative_to(root)
+              target.parent.mkdir(parents=True, exist_ok=True)
+              shutil.copyfile(source, target)
+
+          target_index = destination / index_path.relative_to(root)
+          target_index.parent.mkdir(parents=True, exist_ok=True)
+          shutil.copyfile(index_path, target_index)
+          shutil.copyfile(root / 'pack.toml', destination / 'pack.toml')
+          print(f'Staged {len(index["files"])} indexed files for pack {manifest["version"]}.')
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Publish stable pack
+        id: deployment
+        uses: actions/deploy-pages@v4
