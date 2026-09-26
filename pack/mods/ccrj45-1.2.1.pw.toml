@@ -1,0 +1,12 @@
+name = "CC: RJ45"
+filename = "ccrj45-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GZ875jdx/versions/9KaoYjFR/ccrj45-1.2.1.jar"
+hash-format = "sha256"
+hash = "90480d70f737ec5c9ceccbca1efa400808d9abcede4f469f380b854f128f4059"
+
+[update.modrinth]
+mod-id = "GZ875jdx"
+version = "9KaoYjFR"

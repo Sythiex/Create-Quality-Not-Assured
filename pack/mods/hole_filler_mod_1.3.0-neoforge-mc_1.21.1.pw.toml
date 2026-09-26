@@ -1,0 +1,12 @@
+name = "Hole Filler Mod"
+filename = "hole_filler_mod_1.3.0-neoforge-mc_1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/F3WCdx29/versions/NLWHpFiF/hole_filler_mod_1.3.0-neoforge-mc_1.21.1.jar"
+hash-format = "sha256"
+hash = "eecf4be6384cf5710a87acc7f5d2fd9dc00f82ce3f555a03b976473aa0dec92a"
+
+[update.modrinth]
+mod-id = "F3WCdx29"
+version = "NLWHpFiF"

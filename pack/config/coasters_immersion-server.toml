@@ -1,0 +1,9 @@
+#Permitir emotes de pasajero en este servidor.
+enable_emotes = true
+#Permitir el emote de selfie por separado, por si se quiere restringir solo ese.
+allow_selfie = true
+#Ticks minimos entre cambios de pose de un mismo jugador.
+#Evita que alguien sature la red cambiando de emote sin parar.
+# Default: 5
+# Range: 0 ~ 100
+emote_cooldown_ticks = 5

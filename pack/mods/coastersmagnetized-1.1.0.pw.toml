@@ -1,0 +1,12 @@
+name = "Coasters: Magnetized"
+filename = "coastersmagnetized-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9sljYUsa/versions/jVuUgvkG/coastersmagnetized-1.1.0.jar"
+hash-format = "sha256"
+hash = "52314bdace976a41d7d0948d4505ef96561719616d50dfffddce33f8f014e32a"
+
+[update.modrinth]
+mod-id = "9sljYUsa"
+version = "jVuUgvkG"

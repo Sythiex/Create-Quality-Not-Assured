@@ -1,0 +1,12 @@
+name = "Luki's Ancient Cities"
+filename = "lukis-ancient-cities-v1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/13uF4XO7/versions/8jJSPQok/lukis-ancient-cities-v1.2.jar"
+hash-format = "sha256"
+hash = "b7ac57ef8f18a46ba2fbac4458450145153a77a28dd2071aba2959dff81ec574"
+
+[update.modrinth]
+mod-id = "13uF4XO7"
+version = "8jJSPQok"

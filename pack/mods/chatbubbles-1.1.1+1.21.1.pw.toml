@@ -1,0 +1,12 @@
+name = "Chat Bubbles  - Neoforge"
+filename = "chatbubbles-1.1.1+1.21.1.jar"
+side = "both"
+
+[download]
+hash = "903a3beaddde26d41e9fb4424ad829e55362f1e6"
+hash-format = "sha1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8470425
+project-id = 1451904

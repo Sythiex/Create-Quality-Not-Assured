@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "selector": "society_trading:qna_spawn",
+  "milestones": {
+    "qna_shop_forming": {
+      "quest": "7C9FD8F0A801E203"
+    },
+    "qna_shop_brass": {
+      "quest": "4885A1D50B6C3FB0"
+    },
+    "qna_shop_precision": {
+      "quest": "77C327E2B156D168"
+    },
+    "qna_shop_railway": {
+      "quest": "7454F5C98401841A"
+    },
+    "qna_shop_engine_assembly": {
+      "quest": "2E8DC65EDCDF92D6"
+    },
+    "qna_shop_gyroscopic": {
+      "quest": "43672428F1AA1797"
+    },
+    "qna_shop_coasters": {
+      "quest": "71B8EEF0127CD660"
+    },
+    "qna_shop_nether": {
+      "teamFlag": "qna_shop_entered_nether",
+      "anyOf": [
+        {
+          "dimension": "minecraft:the_nether"
+        },
+        {
+          "advancement": "minecraft:story/enter_the_nether"
+        }
+      ]
+    },
+    "qna_shop_debris": {
+      "teamFlag": "qna_shop_obtained_debris",
+      "requires": [
+        "qna_shop_nether"
+      ],
+      "anyOf": [
+        {
+          "advancement": "minecraft:nether/obtain_ancient_debris"
+        },
+        {
+          "item": "minecraft:ancient_debris"
+        }
+      ]
+    }
+  },
+  "mapLootChecks": {
+    "qna_buy_maps_coal": "qualitynotassured:maps/coal",
+    "qna_buy_maps_copper": "qualitynotassured:maps/copper",
+    "qna_buy_maps_gold": "qualitynotassured:maps/gold",
+    "qna_buy_maps_iron": "qualitynotassured:maps/iron",
+    "qna_buy_maps_lead": "qualitynotassured:maps/lead",
+    "qna_buy_maps_lithium": "qualitynotassured:maps/lithium",
+    "qna_buy_maps_nickel": "qualitynotassured:maps/nickel",
+    "qna_buy_maps_redstone": "qualitynotassured:maps/redstone",
+    "qna_buy_maps_zinc": "qualitynotassured:maps/zinc"
+  }
+}

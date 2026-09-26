@@ -1,0 +1,13 @@
+	#How long it takes for the hearthstone to teleport you. Measured in ticks (20 ticks = 1 second). Default: 200 ticks (10 seconds)
+	ChannelTime = 200
+	#How long you must wait between hearthstone uses. Measured in ticks (20 ticks = 1 second). Default: 36000 ticks (30 minutes)
+	Cooldown = 36000
+	#Whether the hearthstone can teleport you between dimensions. Default: true
+	AllowCrossDimensionTravel = true
+	#Whether the hearthstone can link to respawn anchors. Default: true
+	AllowRespawnAnchorLinking = true
+	#Whether successful hearthstone teleports should consume a charge from linked respawn anchors. Default: false
+	ConsumeRespawnAnchorCharge = false
+	#A list of dimension ids in which the hearthstone is disabled. Example: ["minecraft:the_nether", "minecraft:the_end"]
+	DimensionBlacklist = []
+

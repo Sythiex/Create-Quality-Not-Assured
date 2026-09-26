@@ -1,0 +1,472 @@
+{
+  "frames": [
+    {
+      "id": "amethyst",
+      "texture": "tooltipoverhaul:textures/overlay/amethyst_frame.png",
+      "items": [
+        "minecraft:dragon_egg",
+        "minecraft:enchanted_golden_apple"
+      ],
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": [
+        "#C551C3",
+        "#C551C3",
+        "#C551C3"
+      ],
+      "specialEffect": "metal_shining",
+      "priority": 17
+    },
+    {
+      "id": "amber",
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "items": [
+        "minecraft:elytra",
+        "minecraft:experience_bottle",
+        "minecraft:skeleton_skull",
+        "minecraft:wither_skeleton_skull",
+        "minecraft:nether_star",
+        "minecraft:enchanted_book",
+        "minecraft:dragon_breath",
+        "minecraft:totem_of_undying",
+        "minecraft:heart_of_the_sea",
+        "minecraft:creeper_banner_pattern",
+        "minecraft:skull_banner_pattern"
+      ],
+      "gradientType": "custom",
+      "borderType": "gradient",
+      "gradientColors": [
+        "#9EA41A",
+        "#696D0D",
+        "#434509"
+      ],
+      "dividerLineColor": "#9BA323",
+      "priority": 16
+    },
+    {
+      "items": [
+        "celestisynth:frostbound",
+        "celestisynth:breezebreaker",
+        "celestisynth:aquaflora",
+        "celestisynth:rainfall_serenity"
+      ],
+      "id": "celestisynth",
+      "disableScrolling": true,
+      "priority": 15,
+      "specialEffect": "snowfall",
+      "gradientType": "custom",
+      "showRating": false
+    },
+    {
+      "id": "cataclysm",
+      "texture": "tooltipoverhaul:textures/overlay/cataclysm_frame.png",
+      "items": [
+        "cataclysm:the_incinerator",
+        "cataclysm:ceraunus",
+        "cataclysm:soul_render"
+      ],
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": [
+        "#3D3A5E",
+        "#3D3A5E",
+        "#3D3A5E"
+      ],
+      "specialEffect": "steel_shining",
+      "priority": 14,
+      "effectSettings": {
+        "steel_shining": {
+          "density": 1.0,
+          "thickness": 1.0,
+          "bandWidth": 0.74579644,
+          "dutyCycle": 0.4
+        }
+      },
+      "vignettes": [
+        "(ellipse, bottom_middle, #80383A47, 0.59186405, 0, -39)"
+      ]
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/diamond_frame.png",
+      "items": [
+        "minecraft:end_crystal",
+        "minecraft:beacon",
+        "minecraft:conduit",
+        "minecraft:golden_apple"
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "priority": 13
+    },
+    {
+      "name": "Hearthstone",
+      "items": [
+        "hearthstonemod:hearthstone"
+      ],
+      "gradientType": "custom",
+      "gradientColors": [
+        "#A7F0F9",
+        "#BCACFFFF",
+        "#B0FFFFFF"
+      ],
+      "borderType": "gradient",
+      "dividerLineColor": "#A7F0F9",
+      "priority": 12
+    },
+    {
+      "items": [
+        "terramity:unholy_lance",
+        "terramity:chthonic_cursemark",
+        "companions:shadow_bell",
+        "born_in_chaos_v1:supreme_measure",
+        "born_in_chaos_v1:stop_hammer",
+        "born_in_chaos_v1:orbofthe_summoner"
+      ],
+      "effectSettings": {
+        "opal": {
+          "colors": [
+            "#FF0000",
+            "#FF0000",
+            "#000000"
+          ],
+          "speed": 10.0
+        }
+      },
+      "specialEffect": "opal",
+      "gradientType": "custom",
+      "gradientColors": [
+        "#D20000",
+        "#710000",
+        "#2C0000"
+      ],
+      "dividerLineColor": "match_inner_frame_color",
+      "priority": 11
+    },
+    {
+      "items": [
+        "terramity:reverium_sword",
+        "terramity:reverium_shovel",
+        "terramity:reverium_pickaxe",
+        "terramity:reverium_paladin_leggings",
+        "terramity:reverium_paladin_chestplate",
+        "terramity:reverium_paladin_helmet",
+        "terramity:reverium_paladin_boots",
+        "terramity:reverium",
+        "terramity:reverium_hoe",
+        "terramity:reverium_axe",
+        "terramity:reverium_block"
+      ],
+      "specialEffect": "fluorite",
+      "effectSettings": {
+        "sunbeams": {
+          "colors": [
+            "#FFFFFF",
+            "#FFD08A",
+            "#FFFDF0"
+          ]
+        },
+        "comets": {
+          "direction": 119.9791,
+          "turbulence": 3.0,
+          "trailLength": 1.5543989,
+          "glow": 1.5862709,
+          "thickness": 1.3184303,
+          "size": 2.0137713,
+          "density": 2.1869526
+        },
+        "astral": {
+          "colors": [
+            "#FFFFFF",
+            "#000000",
+            "#000000"
+          ],
+          "density": 1.3370322,
+          "sharpness": 0.25
+        },
+        "fluorite": {
+          "colors": [
+            "#000000",
+            "#FFFFFF",
+            "#FFFFFF"
+          ],
+          "sharpness": 1.2199455,
+          "distortion": 1.1400627,
+          "fieldScale": 0.5,
+          "density": 1.0714321,
+          "speed": 10.0,
+          "intensity": 0.85,
+          "variation": 48.0
+        }
+      },
+      "priority": 10
+    },
+    {
+      "items": [
+        "companions:croissant_egg_block",
+        "companions:relic_gold",
+        "companions:soul_gem"
+      ],
+      "name": "Stars",
+      "specialEffect": "stars",
+      "priority": 9
+    },
+    {
+      "priority": 8,
+      "items": [
+        "armamentarium:dragonslayer"
+      ],
+      "name": "Dragonslayer",
+      "gradientType": "custom",
+      "specialEffect": "snowfall, storm",
+      "effectSettings": {
+        "storm": {
+          "colors": [
+            "#C1D9FA",
+            "#C9A8FF",
+            "#F3F8FF"
+          ],
+          "intensity": 0.23128483
+        },
+        "cinder": {
+          "intensity": 0.3566481,
+          "colors": [
+            "#D2BBFF",
+            "#8F4DFF",
+            "#2D0760"
+          ]
+        },
+        "snowfall": {
+          "speed": 5.2875695,
+          "colors": [
+            "#A485D8",
+            "#641ABF",
+            "#7B37E2"
+          ]
+        }
+      },
+      "gradientColors": [
+        "#FFCE8E",
+        "#473F005F",
+        "#BA34004F"
+      ]
+    },
+    {
+      "items": [
+        "armamentarium:the_mind_of_jean"
+      ],
+      "priority": 7,
+      "name": "The Mind of Jean",
+      "specialEffect": "galaxy",
+      "effectSettings": {
+        "galaxy": {
+          "intensity": 0.28865445
+        }
+      },
+      "gradientType": "epic"
+    },
+    {
+      "priority": 6,
+      "items": [
+        "armamentarium:reaper_of_the_gaol"
+      ],
+      "name": "Reaper of the Gaol",
+      "gradientType": "custom",
+      "gradientColors": [
+        "#008997",
+        "#A35899A0",
+        "#740E404E"
+      ],
+      "effectSettings": {
+        "sonar": {
+          "speed": 1.0,
+          "density": 5.0,
+          "waveSpacing": 3.0,
+          "originY": 0.035803147,
+          "originX": 0.057051156,
+          "intensity": 0.3630225,
+          "thickness": 1.0,
+          "glow": 2.2874553
+        }
+      },
+      "specialEffect": "sonar"
+    },
+    {
+      "items": [
+        "armamentarium:teraton_blackhammer"
+      ],
+      "priority": 5,
+      "name": "Teraton Blackhammer",
+      "gradientType": "custom",
+      "specialEffect": "snowfall, rim_light",
+      "effectSettings": {
+        "echo": {
+          "thickness": 1.0963886,
+          "distortion": 3.0,
+          "expansion": 0.3312475,
+          "colors": [
+            "#1D4794",
+            "#8ECFE4",
+            "#E2DCFF"
+          ]
+        },
+        "rim_light": {
+          "density": 1.0,
+          "arcLength": 1.3118557,
+          "intensity": 1.0,
+          "colors": [
+            "#B3CDD7",
+            "#538AD2",
+            "#FFFFFF"
+          ]
+        }
+      },
+      "gradientColors": [
+        "#9CDBFF",
+        "#162D3B",
+        "#121920"
+      ]
+    },
+    {
+      "items": [
+        "armamentarium:warspear_of_the_desecrator"
+      ],
+      "priority": 4,
+      "name": "War-Spear of the Desecrator",
+      "gradientType": "custom",
+      "gradientColors": [
+        "#A2FF0000",
+        "#2C0000",
+        "#88280000"
+      ],
+      "specialEffect": "prism, ripples",
+      "effectSettings": {
+        "prism": {
+          "colors": [
+            "#000000",
+            "#FF0000",
+            "#000000"
+          ],
+          "distortion": 1.8986167,
+          "fieldScale": 0.91582406,
+          "saturation": 1.0,
+          "density": 1.0,
+          "intensity": 0.33540007
+        },
+        "ripples": {
+          "speed": 0.35803145,
+          "size": 0.25,
+          "thickness": 1.0,
+          "glow": 0.0,
+          "colors": [
+            "#FF0000",
+            "#470000",
+            "#890000"
+          ],
+          "waveCount": 1.0,
+          "density": 1.9319766
+        }
+      }
+    },
+    {
+      "items": [
+        "armamentarium:excalibur"
+      ],
+      "priority": 3,
+      "name": "Excalibur",
+      "gradientType": "custom",
+      "gradientColors": [
+        "#4DFFFF",
+        "#DAB1B1B1",
+        "#9CC99F00"
+      ],
+      "specialEffect": "sunbeams, metal_shining",
+      "effectSettings": {
+        "metal_shining": {
+          "intensity": 0.43739054,
+          "density": 1.0,
+          "size": 1.0,
+          "thickness": 1.0,
+          "glow": 1.0,
+          "bandWidth": 3.0,
+          "dutyCycle": 0.29859474,
+          "colors": [
+            "#A08121",
+            "#95FFFF",
+            "#695000"
+          ]
+        },
+        "stars": {
+          "intensity": 0.51600814,
+          "burstDuration": 0.6990508,
+          "density": 1.1882962
+        },
+        "sunbeams": {
+          "colors": [
+            "#FFEFC2",
+            "#FFD08A",
+            "#00FFFF"
+          ],
+          "variation": 0.0,
+          "size": 1.0,
+          "density": 1.0,
+          "intensity": 0.6541202
+        }
+      }
+    },
+    {
+      "items": [
+        "armamentarium:blade_of_ruin"
+      ],
+      "specialEffect": "cinder",
+      "effectSettings": {
+        "cinder": {
+          "intensity": 0.24190883,
+          "turbulence": 2.1153464,
+          "trailLength": 1.0
+        }
+      },
+      "name": "Blade of Ruin",
+      "priority": 2,
+      "gradientColors": [
+        "#545454",
+        "#1D1D1D",
+        "#150A00"
+      ],
+      "gradientType": "custom"
+    },
+    {
+      "items": [
+        "armamentarium:raw_adamantium"
+      ],
+      "name": "Raw Adamantium",
+      "gradientType": "custom",
+      "gradientColors": [
+        "#1C1C1C",
+        "#33F2FF",
+        "#0E0E0E"
+      ],
+      "dividerLineColor": "#33F2FF",
+      "specialEffect": "steel_shining",
+      "effectSettings": {
+        "steel_shining": {
+          "intensity": 0.28015524,
+          "density": 1.0,
+          "bandWidth": 0.53544116
+        }
+      },
+      "priority": 1
+    },
+    {
+      "items": [
+        "ftbquests:book"
+      ],
+      "name": "Quest Book",
+      "gradientType": "custom",
+      "gradientColors": [
+        "#B9DDFF",
+        "#25619A",
+        "#423A9FFF"
+      ]
+    }
+  ]
+}

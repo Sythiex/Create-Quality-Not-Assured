@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "armamentarium:mjolnir"
+    },
+    "title": {
+      "translate": "advancements.the_god_of_thunder.title"
+    },
+    "description": {
+      "translate": "advancements.the_god_of_thunder.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_god_of_thunder_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "armamentarium:mjolnir",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "armamentarium:tastes_like_promotion"
+}

@@ -1,0 +1,12 @@
+name = "Create: Radars"
+filename = "create_radar-0.4.9.4-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BLu2Yqfq/versions/AntNFNAx/create_radar-0.4.9.4-1.21.1.jar"
+hash-format = "sha256"
+hash = "4554359fee389b1c255b4cef23ac41e978b2a371cec9e952185f4ec0a90ee930"
+
+[update.modrinth]
+mod-id = "BLu2Yqfq"
+version = "AntNFNAx"

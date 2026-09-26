@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "armamentarium:blade_of_ruin"
+    },
+    "title": {
+      "translate": "advancements.damn_the_man.title"
+    },
+    "description": {
+      "translate": "advancements.damn_the_man.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "damn_the_man_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "armamentarium:blade_of_ruin",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "armamentarium:severance_shotel_recipe",
+      "armamentarium:excalibur"
+    ]
+  },
+  "parent": "armamentarium:relics_of_a_fallen_age"
+}

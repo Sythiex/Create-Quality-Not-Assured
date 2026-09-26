@@ -1,0 +1,398 @@
+{
+  "shop_id": "qna_plants",
+  "name": {
+    "text": "Flowers"
+  },
+  "texture": "qualitynotassured:textures/block/shop_terminal/shop_terminal_front.png",
+  "hidden_from_auto_trader": true,
+  "hidden_from_selector": true,
+  "selector_weight": 3,
+  "display_type": "thin",
+  "jei_catalyst": {
+    "id": "minecraft:sunflower",
+    "count": 1
+  },
+  "trades": [
+    {
+      "trade_id": "qna_buy_plants_minecraft_dandelion",
+      "request": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:dandelion",
+        "count": 1
+      },
+      "numismatics_cost": 4,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_poppy",
+      "request": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:poppy",
+        "count": 1
+      },
+      "numismatics_cost": 4,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_blue_orchid",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:blue_orchid",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_allium",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:allium",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_azure_bluet",
+      "request": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:azure_bluet",
+        "count": 1
+      },
+      "numismatics_cost": 4,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_red_tulip",
+      "request": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:red_tulip",
+        "count": 1
+      },
+      "numismatics_cost": 4,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_orange_tulip",
+      "request": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:orange_tulip",
+        "count": 1
+      },
+      "numismatics_cost": 4,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_white_tulip",
+      "request": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:white_tulip",
+        "count": 1
+      },
+      "numismatics_cost": 4,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_pink_tulip",
+      "request": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:pink_tulip",
+        "count": 1
+      },
+      "numismatics_cost": 4,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_oxeye_daisy",
+      "request": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:oxeye_daisy",
+        "count": 1
+      },
+      "numismatics_cost": 4,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_cornflower",
+      "request": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:cornflower",
+        "count": 1
+      },
+      "numismatics_cost": 4,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_lily_of_the_valley",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:lily_of_the_valley",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_sunflower",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:sunflower",
+        "count": 1
+      },
+      "numismatics_cost": 24,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 8
+      }
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_lilac",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:lilac",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_rose_bush",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:rose_bush",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_peony",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:peony",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_pink_petals",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:pink_petals",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_spore_blossom",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:spore_blossom",
+        "count": 1
+      },
+      "numismatics_cost": 64,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_moss_block",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:moss_block",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_vine",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:vine",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_glow_lichen",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:glow_lichen",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_fern",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:fern",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_large_fern",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:large_fern",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_big_dripleaf",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:big_dripleaf",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_small_dripleaf",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "minecraft:small_dripleaf",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_lily_pad",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:lily_pad",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_seagrass",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:seagrass",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_sea_pickle",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:sea_pickle",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_plants_minecraft_grass_block",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:grass_block",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    }
+  ]
+}

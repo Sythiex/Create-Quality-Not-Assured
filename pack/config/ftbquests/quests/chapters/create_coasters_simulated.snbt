@@ -1,0 +1,453 @@
+{
+	autofocus_id: "2695F38B333530EF"
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "create_coasters_simulated"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "coasters_immersion:textures/gui/pause_menu_icon.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "475AEB03221F7E19"
+	images: [ ]
+	order_index: 5
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7C9FD8F0A801E203"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulatedcoasters:coaster_anchorpoint"
+			}
+			id: "2695F38B333530EF"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"coasters"
+				"core"
+				"qualitynotassured_coasters_anchors"
+			]
+			tasks: [{
+				consume_items: false
+				id: "23F5BE642F6DCE78"
+				item: { count: 1, id: "simulatedcoasters:coaster_anchorpoint" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2695F38B333530EF"
+				"3A5B2B713A604870"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulatedcoasters:coaster_track"
+			}
+			id: "71B8EEF0127CD660"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"coasters"
+				"core"
+				"qualitynotassured_coasters_track"
+			]
+			tasks: [{
+				consume_items: false
+				id: "209FE6632E5A1C96"
+				item: { count: 1, id: "simulatedcoasters:coaster_track" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["71B8EEF0127CD660"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulatedcoasters:coaster_cart"
+			}
+			id: "2A21495BF968203D"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"coasters"
+				"core"
+				"qualitynotassured_coasters_cart"
+			]
+			tasks: [{
+				consume_items: false
+				id: "19D8D730819913BA"
+				item: { count: 1, id: "simulatedcoasters:coaster_cart" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["71B8EEF0127CD660"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:wrench"
+			}
+			id: "2A917F52A21E2DD5"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"coasters"
+				"optional"
+				"qualitynotassured_coasters_curves"
+			]
+			tasks: [{
+				id: "79A3AF0A22C10735"
+				type: "checkmark"
+			}]
+			x: 4.8d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["71B8EEF0127CD660"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "minecraft:chain"
+			}
+			id: "60C8320DD4195DDD"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"coasters"
+				"optional"
+				"qualitynotassured_coasters_chain_lift"
+			]
+			tasks: [{
+				id: "7BD7A355D231A359"
+				type: "checkmark"
+			}]
+			x: -4.2d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["71B8EEF0127CD660"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "minecraft:gold_ingot"
+			}
+			id: "4218E8652D4E7455"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"coasters"
+				"optional"
+				"qualitynotassured_coasters_magnetic"
+			]
+			tasks: [{
+				id: "5515963A73498BBC"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["71B8EEF0127CD660"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "minecraft:lapis_lazuli"
+			}
+			id: "28C7442F532DA76A"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"coasters"
+				"optional"
+				"qualitynotassured_coasters_braking"
+			]
+			tasks: [{
+				id: "27D8B1046C0F3752"
+				type: "checkmark"
+			}]
+			x: -1.7999999999999998d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["71B8EEF0127CD660"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "coasterssimulatedextratypes:coaster_style_tool"
+			}
+			id: "7BA7288765F629E0"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"coasters"
+				"optional"
+				"qualitynotassured_coasters_style_tool"
+			]
+			tasks: [{
+				consume_items: false
+				id: "0C1F766FBEEA3BA7"
+				item: { count: 1, id: "coasterssimulatedextratypes:coaster_style_tool" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.7999999999999998d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["2695F38B333530EF"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "coasterssimulatedextratypes:anchor_style_tool"
+			}
+			id: "5668DA72405978C2"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"coasters"
+				"optional"
+				"qualitynotassured_coasters_anchor_tool"
+			]
+			tasks: [{
+				consume_items: false
+				id: "2954B112313323A0"
+				item: { count: 1, id: "coasterssimulatedextratypes:anchor_style_tool" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.7999999999999998d
+			y: 1.2d
+		}
+		{
+			dependencies: ["71B8EEF0127CD660"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "minecraft:oak_planks"
+			}
+			id: "77CA55DB13649ED4"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"coasters"
+				"optional"
+				"qualitynotassured_coasters_wood"
+			]
+			tasks: [{
+				id: "386F45AD0D26883B"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["2A21495BF968203D"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "minecraft:chain"
+			}
+			id: "00328AACA40DF139"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"coasters"
+				"optional"
+				"qualitynotassured_coasters_coupling"
+			]
+			tasks: [{
+				id: "421880E82AC2AA56"
+				type: "checkmark"
+			}]
+			x: -1.2d
+			y: 7.199999999999999d
+		}
+		{
+			dependencies: [
+				"2A21495BF968203D"
+				"4D56F1DA3F588AAC"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "createcoasterseats:red_restrictor_seat"
+			}
+			id: "4C176DCA46787ABE"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"coasters"
+				"optional"
+				"qualitynotassured_coasters_restraints"
+			]
+			tasks: [{
+				consume_items: false
+				id: "1B34A7053653B8A4"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:or(ftbfiltersystem:item(createcoasterseats:white_restrictor_seat) ftbfiltersystem:item(createcoasterseats:orange_restrictor_seat) ftbfiltersystem:item(createcoasterseats:magenta_restrictor_seat) ftbfiltersystem:item(createcoasterseats:light_blue_restrictor_seat) ftbfiltersystem:item(createcoasterseats:yellow_restrictor_seat) ftbfiltersystem:item(createcoasterseats:lime_restrictor_seat) ftbfiltersystem:item(createcoasterseats:pink_restrictor_seat) ftbfiltersystem:item(createcoasterseats:gray_restrictor_seat) ftbfiltersystem:item(createcoasterseats:light_gray_restrictor_seat) ftbfiltersystem:item(createcoasterseats:cyan_restrictor_seat) ftbfiltersystem:item(createcoasterseats:purple_restrictor_seat) ftbfiltersystem:item(createcoasterseats:blue_restrictor_seat) ftbfiltersystem:item(createcoasterseats:brown_restrictor_seat) ftbfiltersystem:item(createcoasterseats:green_restrictor_seat) ftbfiltersystem:item(createcoasterseats:red_restrictor_seat) ftbfiltersystem:item(createcoasterseats:black_restrictor_seat))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.2d
+			y: 7.199999999999999d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulatedcoasters:rivet"
+			}
+			id: "15AC3CC6E00C8DFE"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"coasters"
+				"optional"
+				"qualitynotassured_coasters_rivet"
+			]
+			tasks: [{
+				consume_items: false
+				id: "2276EDBE9FC3A453"
+				item: { count: 1, id: "simulatedcoasters:rivet" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -1.7999999999999998d
+			y: 1.2d
+		}
+		{
+			dependencies: ["2A21495BF968203D"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulatedcoasters:red_balloon"
+			}
+			id: "544AABD44C9E4E8D"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"coasters"
+				"optional"
+				"qualitynotassured_coasters_balloon"
+			]
+			tasks: [{
+				consume_items: false
+				id: "0C93D2E84C7CF56E"
+				item: { count: 1, id: "simulatedcoasters:red_balloon" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.5999999999999996d
+			y: 7.199999999999999d
+		}
+		{
+			dependencies: ["2A21495BF968203D"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"ftbquests:icon": "exposure:item/camera/camera_gui"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "09EAD57E5939ACCD"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"coasters"
+				"optional"
+				"qualitynotassured_coasters_immersion"
+			]
+			tasks: [{
+				id: "350585C810454632"
+				type: "checkmark"
+			}]
+			x: -3.5999999999999996d
+			y: 7.199999999999999d
+		}
+		{
+			dependencies: ["09EAD57E5939ACCD"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"ftbquests:icon": "quark:textures/emote/cheer.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1A38707ED9C27A2F"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"coasters"
+				"optional"
+				"qualitynotassured_coasters_emotes"
+			]
+			tasks: [{
+				id: "4FA253012D0A5A42"
+				type: "checkmark"
+			}]
+			x: -3.5999999999999996d
+			y: 9.0d
+		}
+	]
+}

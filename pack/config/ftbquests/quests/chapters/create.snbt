@@ -1,0 +1,1444 @@
+{
+	autofocus_id: "05FC1979A8936D02"
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "create"
+	group: ""
+	icon: {
+		id: "create:wrench"
+	}
+	id: "23724E4EB933B6A9"
+	images: [ ]
+	order_index: 2
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:andesite_alloy"
+			}
+			id: "05FC1979A8936D02"
+			shape: "diamond"
+			size: 1.35d
+			tags: [
+				"create"
+				"core"
+				"qualitynotassured_alloy"
+			]
+			tasks: [{
+				consume_items: false
+				id: "1E8A213C7F8E4153"
+				item: { count: 1, id: "create:andesite_alloy" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.81d
+		}
+		{
+			dependencies: ["05FC1979A8936D02"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:shaft"
+			}
+			id: "4DE480F7BFB6E49E"
+			shape: "diamond"
+			size: 1.35d
+			tags: [
+				"create"
+				"core"
+				"qualitynotassured_shafts"
+			]
+			tasks: [{
+				consume_items: false
+				id: "46DE295470F82BD4"
+				item: { count: 1, id: "create:shaft" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -0.81d
+			y: 1.62d
+		}
+		{
+			dependencies: ["05FC1979A8936D02"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:andesite_casing"
+			}
+			id: "7F87D99D091ED890"
+			shape: "diamond"
+			size: 1.35d
+			tags: [
+				"create"
+				"core"
+				"qualitynotassured_casing"
+			]
+			tasks: [{
+				consume_items: false
+				id: "64830F1940137543"
+				item: { count: 1, id: "create:andesite_casing" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.81d
+			y: 1.62d
+		}
+		{
+			dependencies: [
+				"4DE480F7BFB6E49E"
+				"7F87D99D091ED890"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:iron_sheet"
+			}
+			id: "7C9FD8F0A801E203"
+			shape: "diamond"
+			size: 1.35d
+			tags: [
+				"create"
+				"core"
+				"qualitynotassured_sheets"
+			]
+			tasks: [{
+				consume_items: false
+				id: "60ED63C3A769062D"
+				item: { count: 1, id: "create:iron_sheet" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.05d
+		}
+		{
+			dependencies: ["331E98315664FA88"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:brass_ingot"
+			}
+			id: "4885A1D50B6C3FB0"
+			shape: "diamond"
+			size: 1.35d
+			tags: [
+				"create"
+				"core"
+				"qualitynotassured_brass"
+			]
+			tasks: [{
+				consume_items: false
+				id: "66A014CA89AFDC12"
+				item: { count: 1, id: "create:brass_ingot" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -0.81d
+			y: 7.29d
+		}
+		{
+			dependencies: ["7C9FD8F0A801E203"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:electron_tube"
+			}
+			id: "152BB6569C9D9A4A"
+			shape: "diamond"
+			size: 1.35d
+			tags: [
+				"create"
+				"core"
+				"qualitynotassured_tubes"
+			]
+			tasks: [{
+				consume_items: false
+				id: "4ADACF1F4BA6912A"
+				item: { count: 1, id: "create:electron_tube" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.81d
+			y: 7.29d
+		}
+		{
+			dependencies: [
+				"4885A1D50B6C3FB0"
+				"152BB6569C9D9A4A"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:deployer"
+			}
+			id: "3A5B2B713A604870"
+			shape: "diamond"
+			size: 1.35d
+			tags: [
+				"create"
+				"core"
+				"qualitynotassured_deployer"
+			]
+			tasks: [{
+				consume_items: false
+				id: "463E721C17FA7C09"
+				item: { count: 1, id: "create:deployer" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.72d
+		}
+		{
+			dependencies: ["3A5B2B713A604870"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:precision_mechanism"
+			}
+			id: "77C327E2B156D168"
+			shape: "diamond"
+			size: 1.35d
+			tags: [
+				"create"
+				"core"
+				"qualitynotassured_precision"
+			]
+			tasks: [{
+				consume_items: false
+				id: "6A11E1CB0A98A036"
+				item: { count: 1, id: "create:precision_mechanism" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.15d
+		}
+		{
+			dependencies: ["4DE480F7BFB6E49E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:water_wheel"
+			}
+			id: "5DB215CBC32A2C3D"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_water"
+			]
+			tasks: [{
+				consume_items: false
+				id: "28EF74B7EBF6B0C9"
+				item: { count: 1, id: "create:water_wheel" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.5999999999999996d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DE480F7BFB6E49E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:windmill_bearing"
+			}
+			id: "6D47E02F82BFAEA5"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_wind"
+			]
+			tasks: [{
+				consume_items: false
+				id: "186AC786BA6322FD"
+				item: { count: 1, id: "create:windmill_bearing" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.4d
+			y: 0.6d
+		}
+		{
+			dependencies: [
+				"4DE480F7BFB6E49E"
+				"7F87D99D091ED890"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:cogwheel"
+			}
+			id: "14CB6539FFD40DF7"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_clutch"
+			]
+			tasks: [{
+				id: "45C655B48C8C3322"
+				type: "checkmark"
+			}]
+			x: -4.2d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C9FD8F0A801E203"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:redstone_link"
+			}
+			id: "4D56F1DA3F588AAC"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_wireless"
+			]
+			tasks: [{
+				consume_items: false
+				id: "2D1A2D9DFB12C1A1"
+				item: { count: 1, id: "create:redstone_link" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -4.2d
+			y: 5.3999999999999995d
+		}
+		{
+			dep_control_pts: {
+				7C9FD8F0A801E203: [
+					-0.5000000000000071d
+					3.6185714285714212d
+					-2.857142857142861d
+					1.404285714285706d
+				]
+			}
+			dependencies: ["7C9FD8F0A801E203"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:steam_engine"
+			}
+			id: "79021D3F7C6C1313"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_steam"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3DDAA6028957EDFC"
+				item: { count: 1, id: "create:steam_engine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.5999999999999996d
+			y: 1.2d
+		}
+		{
+			dependencies: ["77C327E2B156D168"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:rotation_speed_controller"
+			}
+			id: "2FB1AA418706F4A8"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_speed"
+			]
+			tasks: [{
+				consume_items: false
+				id: "0B2E436ADB87D666"
+				item: { count: 1, id: "create:rotation_speed_controller" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -1.2d
+			y: 13.799999999999999d
+		}
+		{
+			dependencies: ["7C9FD8F0A801E203"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:wrench"
+			}
+			id: "2C1CAEE66DF58B5A"
+			shape: "diamond"
+			size: 1.35d
+			tags: [
+				"create"
+				"core"
+				"qualitynotassured_tools"
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "0BC9DF40E290D751"
+					item: { count: 1, id: "create:wrench" }
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "12CA09BFD50BDB48"
+					item: { count: 1, id: "create:goggles" }
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: 0.81d
+			y: 5.67d
+		}
+		{
+			dependencies: [
+				"4DE480F7BFB6E49E"
+				"7F87D99D091ED890"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:millstone"
+			}
+			id: "1D2F1BED9AABC6A5"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_mill"
+			]
+			tasks: [{
+				consume_items: false
+				id: "7E3F1AFD7371EEDB"
+				item: { count: 1, id: "create:millstone" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.4d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C9FD8F0A801E203"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:encased_fan"
+			}
+			id: "50F048651C44B407"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_fan"
+			]
+			tasks: [{
+				consume_items: false
+				id: "60E33F8E5EA39A8D"
+				item: { count: 1, id: "create:encased_fan" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.4d
+			y: 5.3999999999999995d
+		}
+		{
+			dependencies: [
+				"4885A1D50B6C3FB0"
+				"152BB6569C9D9A4A"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:mechanical_crafter"
+			}
+			id: "1E16D63E2B655C04"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_crafter"
+			]
+			tasks: [{
+				consume_items: false
+				id: "791FC33BD66CFB42"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.4d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1E16D63E2B655C04"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:crushing_wheel"
+			}
+			id: "1E096190BDACC162"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_crusher"
+			]
+			tasks: [{
+				consume_items: false
+				id: "01D868B2D84084E7"
+				item: { count: 1, id: "create:crushing_wheel" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -4.2d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"1E096190BDACC162"
+				"305C3537C7EE9C91"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:sturdy_sheet"
+			}
+			id: "7454F5C98401841A"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_sturdy"
+			]
+			tasks: [{
+				consume_items: false
+				id: "7BAEE38BABF77799"
+				item: { count: 1, id: "create:sturdy_sheet" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -4.8d
+			y: 10.799999999999999d
+		}
+		{
+			dependencies: ["4DE480F7BFB6E49E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:mechanical_pump"
+			}
+			id: "325583AEC63D399B"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_pump"
+			]
+			tasks: [{
+				consume_items: false
+				id: "312DC8330DACB849"
+				item: { count: 1, id: "create:mechanical_pump" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -7.8d
+			y: 3.0d
+		}
+		{
+			dependencies: ["325583AEC63D399B"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:spout"
+			}
+			id: "305C3537C7EE9C91"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_spout"
+			]
+			tasks: [{
+				consume_items: false
+				id: "62BBD852A6B268A3"
+				item: { count: 1, id: "create:spout" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -7.8d
+			y: 5.3999999999999995d
+		}
+		{
+			dependencies: [
+				"325583AEC63D399B"
+				"7C9FD8F0A801E203"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:hose_pulley"
+			}
+			id: "6C79514A99571D7B"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_hose"
+			]
+			tasks: [{
+				consume_items: false
+				id: "0E3FFB27984F57E1"
+				item: { count: 1, id: "create:hose_pulley" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.3999999999999995d
+		}
+		{
+			dependencies: ["4DE480F7BFB6E49E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:belt_connector"
+			}
+			id: "72BCA4ACC1AF4CB5"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_belts"
+			]
+			tasks: [{
+				consume_items: false
+				id: "4DA6D11158E5C354"
+				item: { count: 1, id: "create:belt_connector" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["05FC1979A8936D02"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:andesite_funnel"
+			}
+			id: "3B1B6A0036D2B5F8"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_funnels"
+			]
+			tasks: [{
+				consume_items: false
+				id: "697610DDAE842ECD"
+				item: { count: 1, id: "create:andesite_funnel" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C9FD8F0A801E203"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:item_vault"
+			}
+			id: "68F6950096579846"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_vault"
+			]
+			tasks: [{
+				consume_items: false
+				id: "4DCE87B519F96ADB"
+				item: { count: 1, id: "create:item_vault" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 4.2d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4885A1D50B6C3FB0"
+				"152BB6569C9D9A4A"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:brass_funnel"
+			}
+			id: "5EFFA2A9FA9F5238"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_sorting"
+			]
+			tasks: [{
+				consume_items: false
+				id: "70F7739305B999E4"
+				item: { count: 1, id: "create:brass_funnel" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.4d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4DE480F7BFB6E49E"
+				"7F87D99D091ED890"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:mechanical_bearing"
+			}
+			id: "536C1B8B6D666DA5"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_bearing"
+			]
+			tasks: [{
+				id: "6DE3B78135DFCD54"
+				type: "checkmark"
+			}]
+			x: 3.5999999999999996d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C9FD8F0A801E203"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:mechanical_harvester"
+			}
+			id: "06EF929F4441030A"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_harvester"
+			]
+			tasks: [{
+				consume_items: false
+				id: "6E07E2681A7DD8B2"
+				item: { count: 1, id: "create:mechanical_harvester" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.3999999999999995d
+			y: 4.2d
+		}
+		{
+			dependencies: ["7F87D99D091ED890"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:mechanical_drill"
+			}
+			id: "1F974E629270A0D7"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_drill"
+			]
+			tasks: [{
+				consume_items: false
+				id: "745FDD70CF94ED5A"
+				item: { count: 1, id: "create:mechanical_drill" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C9FD8F0A801E203"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:mechanical_saw"
+			}
+			id: "37D63EA44466F66D"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_saw"
+			]
+			tasks: [{
+				consume_items: false
+				id: "50F64B4DD8B9AB14"
+				item: { count: 1, id: "create:mechanical_saw" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.3999999999999995d
+		}
+		{
+			dependencies: ["7C9FD8F0A801E203"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:portable_storage_interface"
+			}
+			id: "0C4C10DDBDE4B63A"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_interface"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3DC584824FF2DFBD"
+				item: { count: 1, id: "create:portable_storage_interface" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.2d
+		}
+		{
+			dependencies: ["3A5B2B713A604870"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:track"
+			}
+			id: "25EECBA6D41B80B6"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_tracks"
+			]
+			tasks: [{
+				consume_items: false
+				id: "2D2C38D0B7A9E920"
+				item: { count: 1, id: "create:track" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.5999999999999996d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"25EECBA6D41B80B6"
+				"7454F5C98401841A"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:track_station"
+			}
+			id: "0C80E1C94A12F5F3"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_station"
+			]
+			tasks: [{
+				consume_items: false
+				id: "6AD71459429E5794"
+				item: { count: 1, id: "create:track_station" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -4.8d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0C80E1C94A12F5F3"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:schedule"
+			}
+			id: "43AF48927FF9BC52"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_schedule"
+			]
+			tasks: [{
+				consume_items: false
+				id: "4F295A5CDE53EC55"
+				item: { count: 1, id: "create:schedule" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.4d
+		}
+		{
+			dependencies: ["0C80E1C94A12F5F3"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:track_signal"
+			}
+			id: "03423EB883CC2667"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_signals"
+			]
+			tasks: [{
+				consume_items: false
+				id: "18EADA30A3C56318"
+				item: { count: 1, id: "create:track_signal" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.6d
+		}
+		{
+			dependencies: ["7C9FD8F0A801E203"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:packager"
+			}
+			id: "77ACC6413F174CC2"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_packager"
+			]
+			tasks: [{
+				consume_items: false
+				id: "5C0EDD2634153FD4"
+				item: { count: 1, id: "create:packager" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["77ACC6413F174CC2"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:stock_link"
+			}
+			id: "2E3C3CDD7C4DDA95"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_stock_link"
+			]
+			tasks: [{
+				id: "00F3938C52E6058D"
+				type: "checkmark"
+			}]
+			x: 3.5999999999999996d
+			y: 7.199999999999999d
+		}
+		{
+			dep_control_pts: {
+				77C327E2B156D168: [
+					2.1928571428571786d
+					12.99357142857145d
+					4.607142857142847d
+					11.45785714285715d
+				]
+			}
+			dependencies: [
+				"2E3C3CDD7C4DDA95"
+				"77C327E2B156D168"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:factory_gauge"
+			}
+			id: "6AE888977929553E"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_gauge"
+			]
+			tasks: [{
+				consume_items: false
+				id: "7736D05C6B357662"
+				item: { count: 1, id: "create:factory_gauge" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 4.2d
+			y: 8.4d
+		}
+		{
+			dependencies: ["7C9FD8F0A801E203"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:super_glue"
+			}
+			id: "3F3AFD820A1E76FA"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_super_glue"
+			]
+			tasks: [{
+				consume_items: false
+				id: "4F04E0D92D54D1B3"
+				item: { count: 1, id: "create:super_glue" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.4d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C9FD8F0A801E203"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:blaze_burner"
+			}
+			id: "331E98315664FA88"
+			shape: "diamond"
+			size: 1.35d
+			tags: [
+				"create"
+				"core"
+				"qualitynotassured_blaze_burner"
+			]
+			tasks: [{
+				consume_items: false
+				id: "69504210087A16CD"
+				item: { count: 1, id: "create:blaze_burner" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -0.81d
+			y: 5.67d
+		}
+		{
+			dependencies: ["05FC1979A8936D02"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:hand_crank"
+			}
+			id: "404383B2EE4732A5"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_hand_crank"
+			]
+			tasks: [{
+				consume_items: false
+				id: "20703CF4B94A5DFF"
+				item: { count: 1, id: "create:hand_crank" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.4d
+			y: -0.6d
+		}
+		{
+			dependencies: ["7F87D99D091ED890"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:stressometer"
+			}
+			id: "0681F129A649B0EB"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_stressometer"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3A177CC09ECBC5D8"
+				item: { count: 1, id: "create:stressometer" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 4.2d
+			y: 1.2d
+		}
+		{
+			dependencies: ["7C9FD8F0A801E203"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:mechanical_plough"
+			}
+			id: "0BF8C042E61936E5"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_plough"
+			]
+			tasks: [{
+				consume_items: false
+				id: "329C1C99192C6640"
+				item: { count: 1, id: "create:mechanical_plough" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 6.6d
+			y: 4.2d
+		}
+		{
+			dependencies: ["1E096190BDACC162"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:mechanical_roller"
+			}
+			id: "75FD817608635A4D"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_roller"
+			]
+			tasks: [{
+				consume_items: false
+				id: "7E13A738F887F134"
+				item: { count: 1, id: "create:mechanical_roller" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.5999999999999996d
+			y: 10.799999999999999d
+		}
+		{
+			dependencies: ["77C327E2B156D168"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:mechanical_arm"
+			}
+			id: "6A1BCE603BAD549E"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_arm"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3B69587C216E1558"
+				item: { count: 1, id: "create:mechanical_arm" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.2d
+			y: 13.799999999999999d
+		}
+		{
+			dep_control_pts: {
+				152BB6569C9D9A4A: [
+					3.0000000000000284d
+					8.43999999999999d
+					4.714285714285737d
+					8.618571428571414d
+				]
+			}
+			dependencies: ["152BB6569C9D9A4A"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:contraption_controls"
+			}
+			id: "5F8B3AF6A8FEA312"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_contraption_controls"
+			]
+			tasks: [{
+				consume_items: false
+				id: "6217A5BA8CE0F710"
+				item: { count: 1, id: "create:contraption_controls" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.6d
+		}
+		{
+			dep_control_pts: {
+				4885A1D50B6C3FB0: [
+					-1.892857142857146d
+					7.939999999999998d
+					-4.142857142857146d
+					6.975714285714282d
+				]
+			}
+			dependencies: ["4885A1D50B6C3FB0"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:pulse_repeater"
+			}
+			id: "627E8B47502B40DB"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_logic"
+			]
+			tasks: [{
+				id: "5054AA9960E2E5F5"
+				type: "checkmark"
+			}]
+			x: -4.2d
+			y: 6.6d
+		}
+		{
+			dependencies: [
+				"4885A1D50B6C3FB0"
+				"152BB6569C9D9A4A"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "modulardynamics:pipe"
+			}
+			id: "014253E8ACB23777"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_modular_dynamics"
+			]
+			tasks: [{
+				consume_items: false
+				id: "37AB9B194E6DAB6E"
+				item: { count: 1, id: "modulardynamics:pipe" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.7999999999999998d
+			y: 10.2d
+		}
+	]
+}

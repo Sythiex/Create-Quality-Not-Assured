@@ -1,0 +1,445 @@
+{
+  "shop_id": "qna_components",
+  "name": {
+    "text": "Parts"
+  },
+  "texture": "qualitynotassured:textures/block/shop_terminal/shop_terminal_front.png",
+  "hidden_from_auto_trader": true,
+  "hidden_from_selector": true,
+  "selector_weight": 6,
+  "display_type": "thin",
+  "jei_catalyst": {
+    "id": "create:cogwheel",
+    "count": 1
+  },
+  "trades": [
+    {
+      "trade_id": "qna_buy_components_create_andesite_alloy",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "create:andesite_alloy",
+        "count": 1
+      },
+      "numismatics_cost": 12,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 4
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_create_andesite_casing",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "create:andesite_casing",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_components_create_shaft",
+      "request": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "offer": {
+        "id": "create:shaft",
+        "count": 1
+      },
+      "numismatics_cost": 4,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_components_create_cogwheel",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "create:cogwheel",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_components_create_large_cogwheel",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "create:large_cogwheel",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_components_create_gearbox",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "offer": {
+        "id": "create:gearbox",
+        "count": 1
+      },
+      "numismatics_cost": 64,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_components_create_belt_connector",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 3
+      },
+      "offer": {
+        "id": "create:belt_connector",
+        "count": 1
+      },
+      "numismatics_cost": 48,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_components_create_iron_sheet",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "create:iron_sheet",
+        "count": 1
+      },
+      "numismatics_cost": 36,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "stage_required": "qna_shop_forming",
+      "unlock_description": {
+        "text": "Team completes Iron Sheet quest"
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_create_copper_sheet",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "create:copper_sheet",
+        "count": 1
+      },
+      "numismatics_cost": 20,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "stage_required": "qna_shop_forming",
+      "unlock_description": {
+        "text": "Team completes Iron Sheet quest"
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_create_golden_sheet",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "offer": {
+        "id": "create:golden_sheet",
+        "count": 1
+      },
+      "numismatics_cost": 76,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 12
+      },
+      "stage_required": "qna_shop_forming",
+      "unlock_description": {
+        "text": "Team completes Iron Sheet quest"
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_create_copper_casing",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "create:copper_casing",
+        "count": 1
+      },
+      "numismatics_cost": 40,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 8
+      },
+      "stage_required": "qna_shop_forming",
+      "unlock_description": {
+        "text": "Team completes Iron Sheet quest"
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_create_metal_girder",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "create:metal_girder",
+        "count": 1
+      },
+      "numismatics_cost": 20,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "stage_required": "qna_shop_forming",
+      "unlock_description": {
+        "text": "Team completes Iron Sheet quest"
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_create_brass_ingot",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "create:brass_ingot",
+        "count": 1
+      },
+      "numismatics_cost": 40,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 8
+      },
+      "stage_required": "qna_shop_brass",
+      "unlock_description": {
+        "text": "Team completes Brass Ingot quest"
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_create_brass_casing",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "offer": {
+        "id": "create:brass_casing",
+        "count": 1
+      },
+      "numismatics_cost": 72,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 8
+      },
+      "stage_required": "qna_shop_brass",
+      "unlock_description": {
+        "text": "Team completes Brass Ingot quest"
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_create_electron_tube",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 6
+      },
+      "offer": {
+        "id": "create:electron_tube",
+        "count": 1
+      },
+      "numismatics_cost": 384,
+      "limit": -1,
+      "stage_required": "qna_shop_brass",
+      "unlock_description": {
+        "text": "Team completes Brass Ingot quest"
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_create_precision_mechanism",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 18
+      },
+      "offer": {
+        "id": "create:precision_mechanism",
+        "count": 1
+      },
+      "numismatics_cost": 1152,
+      "limit": -1,
+      "stage_required": "qna_shop_precision",
+      "unlock_description": {
+        "text": "Team completes Precision Mechanism quest"
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_create_sturdy_sheet",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "offer": {
+        "id": "create:sturdy_sheet",
+        "count": 1
+      },
+      "numismatics_cost": 96,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 32
+      },
+      "stage_required": "qna_shop_railway",
+      "unlock_description": {
+        "text": "Team completes Sturdy Sheet quest"
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_create_railway_casing",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 3
+      },
+      "offer": {
+        "id": "create:railway_casing",
+        "count": 1
+      },
+      "numismatics_cost": 208,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 16
+      },
+      "stage_required": "qna_shop_railway",
+      "unlock_description": {
+        "text": "Team completes Sturdy Sheet quest"
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_create_track",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 3
+      },
+      "offer": {
+        "id": "create:track",
+        "count": 1
+      },
+      "numismatics_cost": 48,
+      "limit": -1,
+      "stage_required": "qna_shop_railway",
+      "unlock_description": {
+        "text": "Team completes Sturdy Sheet quest"
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_simulated_engine_assembly",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 12
+      },
+      "offer": {
+        "id": "simulated:engine_assembly",
+        "count": 1
+      },
+      "numismatics_cost": 768,
+      "limit": -1,
+      "stage_required": "qna_shop_engine_assembly",
+      "unlock_description": {
+        "text": "Team completes Engine Assembly quest"
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_simulated_gyroscopic_mechanism",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 12
+      },
+      "offer": {
+        "id": "simulated:gyroscopic_mechanism",
+        "count": 1
+      },
+      "numismatics_cost": 768,
+      "limit": -1,
+      "stage_required": "qna_shop_gyroscopic",
+      "unlock_description": {
+        "text": "Team completes Gyroscopic Mechanism quest"
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_simulatedcoasters_coaster_track",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "offer": {
+        "id": "simulatedcoasters:coaster_track",
+        "count": 1
+      },
+      "numismatics_cost": 80,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 16
+      },
+      "stage_required": "qna_shop_coasters",
+      "unlock_description": {
+        "text": "Team completes Coaster Track quest"
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_simulatedcoasters_coaster_anchorpoint",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "simulatedcoasters:coaster_anchorpoint",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1,
+      "stage_required": "qna_shop_coasters",
+      "unlock_description": {
+        "text": "Team completes Coaster Track quest"
+      }
+    },
+    {
+      "trade_id": "qna_buy_components_createpropulsion_platinum_sheet",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "offer": {
+        "id": "createpropulsion:platinum_sheet",
+        "count": 1
+      },
+      "numismatics_cost": 100,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 36
+      },
+      "stage_required": "qna_shop_forming",
+      "unlock_description": {
+        "text": "Team completes Iron Sheet quest"
+      }
+    }
+  ]
+}

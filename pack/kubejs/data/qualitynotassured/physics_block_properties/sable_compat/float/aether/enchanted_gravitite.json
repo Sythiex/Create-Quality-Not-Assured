@@ -1,0 +1,8 @@
+{
+  "selector": "#qualitynotassured:sable_compat/float/aether/enchanted_gravitite",
+  "properties": {
+    "sable:floating_material": "aeronautics:levitite",
+    "sable:floating_scale": 4.0
+  },
+  "priority": 0
+}

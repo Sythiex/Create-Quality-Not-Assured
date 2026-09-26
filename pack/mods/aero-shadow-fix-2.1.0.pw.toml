@@ -1,0 +1,12 @@
+name = "Aeronautics Iris Fix"
+filename = "aero-shadow-fix-2.1.0.jar"
+side = "client"
+
+[download]
+hash = "47f48363d9805b9b60fb9a3cf1bb447bb80ad538"
+hash-format = "sha1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8589529
+project-id = 1641969

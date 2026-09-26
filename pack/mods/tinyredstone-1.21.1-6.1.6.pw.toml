@@ -1,0 +1,12 @@
+name = "Tiny Redstone"
+filename = "tinyredstone-1.21.1-6.1.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ThvCqQMh/versions/WMiFY8q7/tinyredstone-1.21.1-6.1.6.jar"
+hash-format = "sha256"
+hash = "d558c242570fa5a2305ac4d8d944eab960ee0aabca9233073796e9ac8dcb2e74"
+
+[update.modrinth]
+mod-id = "ThvCqQMh"
+version = "WMiFY8q7"

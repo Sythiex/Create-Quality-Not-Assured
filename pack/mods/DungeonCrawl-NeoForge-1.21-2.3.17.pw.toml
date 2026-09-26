@@ -1,0 +1,12 @@
+name = "Dungeon Crawl"
+filename = "DungeonCrawl-NeoForge-1.21-2.3.17.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/q0rRg4lH/versions/D7lKpb69/DungeonCrawl-NeoForge-1.21-2.3.17.jar"
+hash-format = "sha256"
+hash = "853cd59208f17c25188a419b48d1a9fed3acebf676bb1ddd026fa4e7fb56dad4"
+
+[update.modrinth]
+mod-id = "q0rRg4lH"
+version = "D7lKpb69"

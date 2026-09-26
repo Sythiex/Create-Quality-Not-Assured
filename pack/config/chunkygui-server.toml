@@ -1,0 +1,20 @@
+[telemetry]
+	#Write manual Chunky GUI task telemetry to CSV files.
+	#World-bound telemetry is written under <world>/data/chunkygui.
+	#是否將 Chunky GUI 手動任務遙測寫入 CSV。
+	#世界綁定資料會寫入 <world>/data/chunkygui。
+	csvEnabled = false
+
+[expansion]
+	#Minimum target radius accepted by the Chunky GUI, in chunks.
+	#0 allows a zero-radius target (center chunk only).
+	#Chunky GUI 接受的最小目標半徑，單位為 chunks。
+	#0 代表允許半徑 0（只有中心 chunk）。
+	# Default: 0
+	# Range: 0 ~ 1875000
+	minimumTargetRadiusChunks = 0
+	#Allow the Chunky GUI screen to edit the generation center X/Z.
+	#When false, the GUI follows Chunky's current center; /chunky center remains effective.
+	#是否允許 Chunky GUI 編輯生成中心 X/Z。
+	#關閉時 GUI 會跟隨 Chunky 目前中心；/chunky center 指令仍有效。
+	allowCenterMove = true

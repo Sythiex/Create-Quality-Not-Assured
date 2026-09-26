@@ -1,0 +1,12 @@
+name = "FindMe"
+filename = "findme-3.3.4-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rEuzehyH/versions/OYTXQUUB/findme-3.3.4-neoforge.jar"
+hash-format = "sha256"
+hash = "24833c85f003751deb77bdc8b481e2fbad13b67c6ab3daa01e05aa5bbdbd3f9e"
+
+[update.modrinth]
+mod-id = "rEuzehyH"
+version = "OYTXQUUB"

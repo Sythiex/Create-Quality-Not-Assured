@@ -1,0 +1,20 @@
+{
+  "idleSeconds": 25,
+  "quality": "CINEMATIC",
+  "shotLengthMultiplier": 1.0,
+  "cameraSpeed": 1.0,
+  "zoomStrength": 1.0,
+  "playerShots": true,
+  "playerDetailShots": true,
+  "entityShots": true,
+  "groupShots": true,
+  "featureShots": true,
+  "landscapeShots": true,
+  "aerialShots": true,
+  "interiorShots": true,
+  "hideHud": true,
+  "exitOnDamage": true,
+  "debugOverlay": false,
+  "focusEffects": true,
+  "screenshotIntervalSeconds": 0
+}

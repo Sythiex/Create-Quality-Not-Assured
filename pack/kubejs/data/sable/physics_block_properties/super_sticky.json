@@ -1,0 +1,7 @@
+{
+  "selector": "#sable:super_sticky",
+  "priority": 200,
+  "properties": {
+    "sable:friction": 3.5
+  }
+}

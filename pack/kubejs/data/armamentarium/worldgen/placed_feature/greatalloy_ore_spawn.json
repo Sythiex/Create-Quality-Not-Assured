@@ -1,0 +1,9 @@
+{
+  "feature": "armamentarium:greatalloy_ore_spawn",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}

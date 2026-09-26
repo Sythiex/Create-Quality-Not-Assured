@@ -1,0 +1,12 @@
+name = "Modern Train Parts"
+filename = "moderntrainparts-0.2.5-neoforge-mc1.21.1-cr6.0.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YlOA6mdQ/versions/l2cuppxH/moderntrainparts-0.2.5-neoforge-mc1.21.1-cr6.0.10.jar"
+hash-format = "sha256"
+hash = "847680fc2bfc564dfd1b8333492408546499a3327b5d3566854652701904e781"
+
+[update.modrinth]
+mod-id = "YlOA6mdQ"
+version = "l2cuppxH"

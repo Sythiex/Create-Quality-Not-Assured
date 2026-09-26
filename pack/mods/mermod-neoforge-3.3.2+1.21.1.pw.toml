@@ -1,0 +1,12 @@
+name = "Mermod"
+filename = "mermod-neoforge-3.3.2+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ORiydwz3/versions/MyXSxEZm/mermod-neoforge-3.3.2%2B1.21.1.jar"
+hash-format = "sha256"
+hash = "fc0943389ec144a9df7e393989bf4262ea749ebd0bdc823f3b8d40ea91d0856f"
+
+[update.modrinth]
+mod-id = "ORiydwz3"
+version = "MyXSxEZm"

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "armamentarium:scorpion_queens_rapier"
+    },
+    "title": {
+      "translate": "advancements.look_what_the_cat_dragged_in.title"
+    },
+    "description": {
+      "translate": "advancements.look_what_the_cat_dragged_in.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "look_what_the_cat_dragged_in_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "armamentarium:scorpion_queens_rapier",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "armamentarium:relics_of_a_fallen_age"
+}

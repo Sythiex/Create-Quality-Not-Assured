@@ -1,0 +1,7 @@
+{
+  "selector": "#sable:half_slippery",
+  "priority": 200,
+  "properties": {
+    "sable:friction": 0.5
+  }
+}

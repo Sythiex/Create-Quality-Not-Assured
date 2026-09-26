@@ -1,0 +1,12 @@
+name = "FilesJS"
+filename = "Files JS-1.21.1-NeoForge-1.0.jar"
+side = "both"
+
+[download]
+hash = "cbcbdc2cd444b8b4d21354f74d784def917bb5d5"
+hash-format = "sha1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 6756617
+project-id = 1156187

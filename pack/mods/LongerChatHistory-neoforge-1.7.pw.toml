@@ -1,0 +1,12 @@
+name = "Longer Chat History"
+filename = "LongerChatHistory-neoforge-1.7.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/f4P7fNKN/versions/Une73t0n/LongerChatHistory-neoforge-1.7.jar"
+hash-format = "sha256"
+hash = "bab6e2229974175586cfa92b576a7f66ca6915a39ccbc22a3cb80b3fb6b947d1"
+
+[update.modrinth]
+mod-id = "f4P7fNKN"
+version = "Une73t0n"

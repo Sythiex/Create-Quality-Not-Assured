@@ -1,0 +1,12 @@
+name = "Chat Impressive Animation"
+filename = "ChatImpressiveAnimation-neoforge-1.6.0+mc1.21.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/DnL1AGAI/versions/bt7XHLNp/ChatImpressiveAnimation-neoforge-1.6.0%2Bmc1.21.5.jar"
+hash-format = "sha256"
+hash = "3c530294517708f621c503d7f56eeda6efa26ecf5a5cfa1af9ddbd7d8d7ee525"
+
+[update.modrinth]
+mod-id = "DnL1AGAI"
+version = "bt7XHLNp"

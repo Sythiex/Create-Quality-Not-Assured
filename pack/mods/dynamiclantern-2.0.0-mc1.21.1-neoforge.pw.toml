@@ -1,0 +1,12 @@
+name = "DynamicLantern"
+filename = "dynamiclantern-2.0.0-mc1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash = "6fecd428e8b4f403a9d9607b3066ebb0750571a3"
+hash-format = "sha1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8923137
+project-id = 1552501

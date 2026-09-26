@@ -1,0 +1,12 @@
+name = "Petrol's Parts"
+filename = "petrolsparts-1.21.1-1.3.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AN0CZD9P/versions/2WrLbZW1/petrolsparts-1.21.1-1.3.7.jar"
+hash-format = "sha256"
+hash = "5f715707dad7188aeef490f9b8e6ab52e7c9b5312e07e125073ab898b48e9b18"
+
+[update.modrinth]
+mod-id = "AN0CZD9P"
+version = "2WrLbZW1"

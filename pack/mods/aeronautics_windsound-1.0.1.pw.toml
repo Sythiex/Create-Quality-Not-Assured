@@ -1,0 +1,12 @@
+name = "Aeronautics Wind Sound"
+filename = "aeronautics_windsound-1.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/XU9MYvTx/versions/9p7pjRKb/aeronautics_windsound-1.0.1.jar"
+hash-format = "sha256"
+hash = "f55aa24b55e9922b25085ba6d0041173077123ecaa5ebf83e16dd4a23011eabd"
+
+[update.modrinth]
+mod-id = "XU9MYvTx"
+version = "9p7pjRKb"

@@ -1,0 +1,7 @@
+{
+  "selector": "#sable:super_bouncy",
+  "priority": 200,
+  "properties": {
+    "sable:restitution": 0.8
+  }
+}

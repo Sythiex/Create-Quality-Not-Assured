@@ -1,0 +1,237 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	default_quest_size: 1.3d
+	filename: "getting_started"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:biome/forest"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "00715F010F4BEB0D"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"ftbquests:icon": "voicechat:icons/microphone"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "28BD48C59CEF6B98"
+			optional: true
+			shape: "diamond"
+			size: 1.3d
+			tags: [
+				"getting_started"
+				"optional"
+				"qualitynotassured_getting_started_voice_chat"
+			]
+			tasks: [{
+				id: "447A9CBF32BD507F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/keyboard"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5D964874337AD5BD"
+			optional: true
+			shape: "diamond"
+			size: 1.3d
+			tags: [
+				"getting_started"
+				"optional"
+				"qualitynotassured_getting_started_keybinds"
+			]
+			tasks: [{
+				id: "5ED779097B8AE6A8"
+				type: "checkmark"
+			}]
+			x: -0.78d
+			y: 0.78d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/teams.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "119F693B91820BAA"
+			optional: true
+			shape: "diamond"
+			size: 1.3d
+			tags: [
+				"getting_started"
+				"optional"
+				"qualitynotassured_getting_started_party"
+			]
+			tasks: [{
+				id: "07C65F97CE3DFD49"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.56d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/chat.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5AD9E1F3767DE7AE"
+			optional: true
+			shape: "diamond"
+			size: 1.3d
+			tags: [
+				"getting_started"
+				"optional"
+				"qualitynotassured_getting_started_chat_bubbles"
+			]
+			tasks: [{
+				id: "69ED1AA6410BFEF1"
+				type: "checkmark"
+			}]
+			x: 1.56d
+			y: 1.56d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"ftbquests:icon": "moonlight:textures/gui/sprites/media/discord.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "449A664AAC51C175"
+			optional: true
+			shape: "diamond"
+			size: 1.3d
+			tags: [
+				"getting_started"
+				"optional"
+				"qualitynotassured_getting_started_discord"
+			]
+			tasks: [{
+				id: "58C82A8F82EBBC73"
+				type: "checkmark"
+			}]
+			x: -1.56d
+			y: 1.56d
+		}
+		{
+			dependencies: ["119F693B91820BAA"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/map"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0101B65572968FB2"
+			optional: true
+			require_sequential_tasks: true
+			shape: "diamond"
+			size: 1.3d
+			tags: [
+				"getting_started"
+				"optional"
+				"qualitynotassured_getting_started_claims"
+			]
+			tasks: [{
+				id: "2B6DF0B5C12EFF5C"
+				type: "checkmark"
+			}]
+			x: 0.78d
+			y: 2.3400000000000003d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"ftbquests:icon": "iris:textures/gui/iris-logo.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "07C5A7C03E3A5F15"
+			optional: true
+			shape: "diamond"
+			size: 1.3d
+			tags: [
+				"getting_started"
+				"optional"
+				"qualitynotassured_getting_started_shader_performance"
+			]
+			tasks: [{
+				id: "20363A4E5A9DD61F"
+				type: "checkmark"
+			}]
+			x: 0.78d
+			y: 0.78d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"ftbquests:icon": "ponder:textures/gui/logo.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1C0AE77A86A2CEB6"
+			optional: true
+			shape: "diamond"
+			size: 1.3d
+			tags: [
+				"getting_started"
+				"optional"
+				"qualitynotassured_getting_started_ponder"
+			]
+			tasks: [{
+				id: "327E7F731B6D623A"
+				type: "checkmark"
+			}]
+			x: -0.78d
+			y: 2.3400000000000003d
+		}
+	]
+}

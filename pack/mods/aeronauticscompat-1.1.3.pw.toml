@@ -1,0 +1,12 @@
+name = "Create Aeronautics: Compatibility"
+filename = "aeronauticscompat-1.1.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/aLVC5usA/versions/j10zlI9h/aeronauticscompat-1.1.3.jar"
+hash-format = "sha256"
+hash = "5204e1f901f20749673e384d18f73c1222f97c3efce28ff75c8fe782a55b1226"
+
+[update.modrinth]
+mod-id = "aLVC5usA"
+version = "j10zlI9h"

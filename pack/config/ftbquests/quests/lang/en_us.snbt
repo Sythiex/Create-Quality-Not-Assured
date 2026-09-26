@@ -1,0 +1,1187 @@
+{
+	chapter.00715F010F4BEB0D.title: "Getting Started"
+	chapter.1D3F9CDF49F5F737.title: "Aeronautics"
+	chapter.23724E4EB933B6A9.title: "Create: Foundations"
+	chapter.475AEB03221F7E19.title: "Creating Coasters"
+	chapter.564E2F4A062668E8.title: "Useful Tools \\& Utilities"
+	chapter.6906914DF5917224.title: "The Factory Must Grow"
+	file.0000000000000001.title: "Create: Quality Not Assured"
+	quest.00328AACA40DF139.quest_desc: [
+		"Right click a placed cart with another Coaster Cart item, then place the new cart to couple them. Chains can also connect carts that are already placed."
+		""
+		"Use a Wrench to adjust the distance between linked carts and Shears to remove their connections. A cart can connect to two others, letting you build a train of individual cars."
+	]
+	quest.00328AACA40DF139.quest_subtitle: "Coaster Carts"
+	quest.00328AACA40DF139.title: "Bring the Next Car"
+	quest.00DDD4B706ACE501.quest_desc: ["Smelt Nickel and Lead from their ores. Press them into sheets when needed; both appear in Steel Mechanisms, with further uses in alloys, chemical equipment, and electrical parts."]
+	quest.00DDD4B706ACE501.quest_subtitle: "Milestone | Industrial Components"
+	quest.00DDD4B706ACE501.title: "Heavy Metals"
+	quest.0101B65572968FB2.quest_desc: ["Chunks can be claimed for you or your team in the world map (`M` by default). Right click on a chunk and select \"Claim Selected\" to claim. Right click and drag to claim more than one at a time. You can also forceload chunks you have already claimed through the same menu."]
+	quest.0101B65572968FB2.quest_subtitle: "Playing Together"
+	quest.0101B65572968FB2.title: "Claim Your Chunks"
+	quest.014253E8ACB23777.quest_desc: ["Modular Dynamics pipes can move both items and fluids between machines, inventories, and tanks. Modules are used to control routing behavior, and cards allow for a variety of advanced filtering options. Hold `G` on a Modular Dynamics item to learn more about it."]
+	quest.014253E8ACB23777.quest_subtitle: "Modular Dynamics"
+	quest.014253E8ACB23777.title: "A More Flexible Network"
+	quest.0145C04213E02304.quest_desc: [
+		"A Pusher Upgrade transfers stored items into an adjacent inventory on its selected side. Use it to feed a machine or move supplies onward without a separate transport block."
+		""
+		"Right click the upgrade in an inventory interface to change its direction relative to the drawer."
+	]
+	quest.0145C04213E02304.quest_subtitle: "Functional Storage"
+	quest.0145C04213E02304.title: "Hopper Out"
+	quest.01DED6B81999FD0A.quest_desc: [
+		"Crush Bauxite into powder, then process it in a heated Steel or Fireproof Chemical Vat with two electrode attachments and an electrical supply."
+		""
+		"Aluminum is used in electrical equipment, engine parts, and the P-Semiconductors needed for Transistors. Ponder the Chemical Vat for the electrode arrangement."
+	]
+	quest.01DED6B81999FD0A.quest_subtitle: "Chemical Processing"
+	quest.01DED6B81999FD0A.title: "A Lighter Metal"
+	quest.03423EB883CC2667.quest_desc: [
+		"Train Signals divide track into sections so trains can share routes safely."
+		""
+		"Learn ordinary and chain signal behavior before introducing busy junctions to your network. Simple single-train lines can function without these."
+	]
+	quest.03423EB883CC2667.quest_subtitle: "Railways"
+	quest.03423EB883CC2667.title: "Share the Railway"
+	quest.035C284EC728DE8C.quest_desc: ["A Multimeter helps inspect electrical equipment while you work on a network. Electric Gauges and Electric Measurement Blocks offer fixed ways to monitor it as well."]
+	quest.035C284EC728DE8C.quest_subtitle: "Electricity"
+	quest.035C284EC728DE8C.title: "Take a Reading"
+	quest.0377D3032E904B75.quest_desc: [
+		"Make an Empty Circuit Board from Plastic, coat it with a Gold Sheet, and etch it with Sulfuric Acid in a Chemical Vat. Sequenced assembly then adds Capacitors, Resistors, and Transistors."
+		""
+		"Transistors have their own assembly chain using Silicon-based semiconductors. These finished boards are used in more advanced equipment, including the Fireproof Chemical Vat."
+	]
+	quest.0377D3032E904B75.quest_subtitle: "Chemical Processing"
+	quest.0377D3032E904B75.title: "Put It on a Board"
+	quest.03F67D90AE7E7066.quest_desc: [
+		"A Fireproof Chemical Vat can support arc furnace steelmaking with three Graphite Electrodes and an electrical supply. The vat also needs Rubber Sheets to craft."
+		""
+		"The steel recipe requires a vat size of at least nine, Crushed Raw Iron, Limesand, and Coal Coke Dust. Keep the Molten Steel and Slag outputs moving. Ponder the Chemical Vat for the attachment layout."
+	]
+	quest.03F67D90AE7E7066.quest_subtitle: "Chemical Processing"
+	quest.03F67D90AE7E7066.title: "Steel by Arc"
+	quest.040FCA09DAB33586.quest_desc: ["Sneak-use a Hearthstone on a bed or charged Respawn Anchor to link it. Use it while standing still to return there after a short channel. It has a cooldown between uses."]
+	quest.040FCA09DAB33586.quest_subtitle: "Exploration"
+	quest.040FCA09DAB33586.title: "Welcome Back!"
+	quest.043655FE58110986.quest_desc: [
+		"Offroad adds Wheel Mounts and tires for building ground vehicles. A wheeled Simulated Contraption needs a way to drive its wheels, steer, and stop."
+		""
+		"Wheels can also serve as landing gear for aircraft."
+	]
+	quest.043655FE58110986.quest_subtitle: "Ground Vehicles"
+	quest.043655FE58110986.title: "Hit the Road"
+	quest.043A8F88262F7DC9.quest_desc: [
+		"Use a Rope Coupling to connect a Rope Winch to a Rope Connector. Power the winch to reel the rope in or out. Two Rope Connectors can also be joined for a fixed connection."
+		""
+		"Use these connections for tethers, towing, or lifting loads. Ponder the rope components for their connection rules."
+	]
+	quest.043A8F88262F7DC9.quest_subtitle: "Common Components"
+	quest.043A8F88262F7DC9.title: "Keep a Line on It"
+	quest.052B485A9C1AFC59.quest_desc: [
+		"Build a drill head with Rock Cutting Wheels and a storage container, then turn it with a Borehead Bearing. Drops collect in the drill's storage, and mining stops when it fills."
+		""
+		"Extract items through the bearing to keep it working. Ponder the Borehead Bearing for ways to arrange the cutting head and manage its mining speed."
+	]
+	quest.052B485A9C1AFC59.quest_subtitle: "Ground Vehicles"
+	quest.052B485A9C1AFC59.title: "Make Your Own Road"
+	quest.05B9CC2F6CE79669.quest_desc: ["The Magnet Upgrade pulls nearby dropped items toward you. Adjust its filters to choose what it attracts."]
+	quest.05B9CC2F6CE79669.quest_subtitle: "Traveler's Backpack"
+	quest.05B9CC2F6CE79669.title: "Yoink"
+	quest.05EA90105CB16133.quest_desc: ["A Copper Backtank stores pressurized air for equipment. Place it down and supply rotation to fill it, then pick it up and wear it."]
+	quest.05EA90105CB16133.quest_subtitle: "Equipment"
+	quest.05EA90105CB16133.title: "Air to Spare"
+	quest.05FC1979A8936D02.quest_desc: [
+		"The starting material for Create machinery. Combine andesite with iron or zinc nuggets; either metal works."
+		""
+		"This quest tree is here to help guide you through progression of Create and its addons, but it is not required. The diamond quests are core milestones in progression. Your recipe viewer has exact recipes; hold the Ponder key over supported items for detailed demonstrations."
+	]
+	quest.05FC1979A8936D02.quest_subtitle: "Milestone | Foundations"
+	quest.05FC1979A8936D02.title: "Andesite Alloy"
+	quest.0623673115C260FA.quest_desc: ["Attach a wheel to the front of a Wheel Mount, then supply rotation to drive it. Offroad accepts several wheel-like items as well as its own tires."]
+	quest.0623673115C260FA.quest_subtitle: "Ground Vehicles"
+	quest.0623673115C260FA.title: "Put It on Wheels"
+	quest.0681F129A649B0EB.quest_desc: ["A Stressometer shows how much of a rotational network's stress capacity is in use. A Speedometer measures its speed. Engineer's Goggles give more detailed readings."]
+	quest.0681F129A649B0EB.quest_subtitle: "Power \\& Control"
+	quest.0681F129A649B0EB.title: "Know Your Limits"
+	quest.06EB8AC449C41775.quest_desc: [
+		"Powered Auger Shafts transport items and collect drops from connected harvesting actors. Useful for moving the output of a vehicle's working machinery into storage."
+		""
+		"Use a wrench to switch between Auger Shaft and Auger Cogwheel forms. Ponder them for connection rules and where items can enter or leave."
+	]
+	quest.06EB8AC449C41775.quest_subtitle: "Ground Vehicles"
+	quest.06EB8AC449C41775.title: "Unload a Simulated Contraption"
+	quest.06EF929F4441030A.quest_desc: [
+		"Mechanical Harvesters work when carried by a moving contraption. Mount them on a mechanism suited to the field."
+		""
+		"Bearings, linear drives, or other contraption designs can supply the movement."
+	]
+	quest.06EF929F4441030A.quest_subtitle: "Contraptions"
+	quest.06EF929F4441030A.title: "Harvest on the Move"
+	quest.0703E0DA03B814DB.quest_desc: [
+		"Right click with a Portable Bank Terminal to open your bank account wherever you are. Check your balance, deposit coins, and withdraw money without returning to a placed terminal."
+		""
+		"A bound Bank Card in the Card Curio slot selects its linked account, provided you have access. With no card equipped, the terminal opens your personal account."
+	]
+	quest.0703E0DA03B814DB.quest_subtitle: "Economy"
+	quest.0703E0DA03B814DB.title: "Pocket Bank"
+	quest.07C5A7C03E3A5F15.quest_desc: ["If shaders lower your framerate too much, open &bOptions → Video Settings → Shader Packs → Shader Pack Settings&r and lower the performance profile."]
+	quest.07C5A7C03E3A5F15.quest_subtitle: "Performance"
+	quest.07C5A7C03E3A5F15.title: "Shader Performance"
+	quest.0927AD4FAA7A98BF.quest_desc: [
+		"Curios are tools and trinkets that can be equipped in dedicated slots and provide a variety of useful functions."
+		""
+		"The Curio slots can be found by clicking the icon in the top left of your character portrait in the inventory screen."
+	]
+	quest.0927AD4FAA7A98BF.quest_subtitle: "Equipment"
+	quest.0927AD4FAA7A98BF.title: "How Curious"
+	quest.09EAD57E5939ACCD.quest_desc: [
+		"Coasters: Immersion adds camera banking, movement from ride forces, wind sounds, and a ride panel with speed and g-force information. Open its settings to choose a preset or tune the individual effects."
+		""
+		"If the view feels too intense, reduce camera movement, shake, or field-of-view changes. Look for Open Coasters: Immersion settings in your keybind menu."
+	]
+	quest.09EAD57E5939ACCD.quest_subtitle: "Coasters: Immersion"
+	quest.09EAD57E5939ACCD.title: "Feel the G’s"
+	quest.0AC57349FEA2ABAF.quest_desc: [
+		"Assemble a Generator using winding and deploying, then supply rotation to produce electricity. Its assembly also needs Capacitors, which have their own sequenced assembly recipe."
+		""
+		"TFMG electrical networks use voltage, resistance, and power. Ponder the Generator before adding loads; connecting more devices can change the voltage each receives."
+	]
+	quest.0AC57349FEA2ABAF.quest_subtitle: "Milestone | Electricity"
+	quest.0AC57349FEA2ABAF.title: "A Different Kind of Power"
+	quest.0BF8C042E61936E5.quest_desc: ["Mechanical Ploughs clear plants and till soil into farmland when moved on a contraption."]
+	quest.0BF8C042E61936E5.quest_subtitle: "Contraptions"
+	quest.0BF8C042E61936E5.title: "Sweep It Up"
+	quest.0C4C10DDBDE4B63A.quest_desc: [
+		"Portable Storage Interfaces transfer items between a contraption and stationary logistics when a matching pair lines up."
+		""
+		"Place storage on the contraption, then arrange item extraction/insertion on the stationary side. Useful for farms, miners, and train cargo."
+		""
+		"A Portable Fluid Interface does the same thing but for fluids."
+	]
+	quest.0C4C10DDBDE4B63A.quest_subtitle: "Contraptions"
+	quest.0C4C10DDBDE4B63A.title: "Unload a Contraption"
+	quest.0C80E1C94A12F5F3.quest_desc: [
+		"A Train Station can be set as a waypoint for trains to travel to, or used to assemble trains."
+		""
+		"To build a train, set a station to assembly mode, use Train Casing to place bogeys, build the carriage(s), add Train Controls, and super glue each carriage together."
+	]
+	quest.0C80E1C94A12F5F3.quest_subtitle: "Railways"
+	quest.0C80E1C94A12F5F3.title: "Assemble a Train"
+	quest.0DB43074DF3A5088.quest_desc: [
+		"A Collector Upgrade picks up dropped item entities from the selected side of a drawer. Use it where a farm or machine leaves its output on the ground."
+		""
+		"Right click the upgrade in an inventory interface to change its direction relative to the drawer."
+	]
+	quest.0DB43074DF3A5088.quest_subtitle: "Functional Storage"
+	quest.0DB43074DF3A5088.title: "Suck It Up"
+	quest.0E3EB5BBCB218047.quest_desc: ["Use wire spools with cable connection points to link electrical equipment. Cable Hubs, insulators, posts, and Cable Tubes offer different ways to route a network. Ponder the supported components to see how they connect."]
+	quest.0E3EB5BBCB218047.quest_subtitle: "Electricity"
+	quest.0E3EB5BBCB218047.title: "Make the Connection"
+	quest.118C12BEC8E73F30.quest_desc: ["The Smoker Upgrade adds a smoker to your backpack for cooking food faster. It still needs fuel."]
+	quest.118C12BEC8E73F30.quest_subtitle: "Traveler's Backpack"
+	quest.118C12BEC8E73F30.title: "Portable Smoker"
+	quest.119F693B91820BAA.quest_desc: ["Open the \"My Team\" menu (button in the top left of the inventory screen) to create a party, or accept an invitation to join an existing party."]
+	quest.119F693B91820BAA.quest_subtitle: "Playing Together"
+	quest.119F693B91820BAA.title: "Form a Party"
+	quest.12437183EFACE3C6.quest_desc: [
+		"Gyroscopic Propeller Bearings and Smart Propellers tilt their propellers to help keep thrust facing upwards. Useful for hovering craft that need help staying upright."
+		""
+		"The bearing lets you build a larger propeller; the Smart Propeller is compact. Ponder them to explore their tilt and stabilization behavior."
+	]
+	quest.12437183EFACE3C6.quest_subtitle: "Airships \\& Aircraft"
+	quest.12437183EFACE3C6.title: "Keep It Upright"
+	quest.1291E0A3177375B4.quest_desc: [
+		"Copper Diving Boots have a variety of uses:"
+		""
+		"- They help you sink and let you walk and jump along the bottom underwater"
+		""
+		"- They stop Mechanical Belts from carrying you along"
+		""
+		"- They can be used to rail-grind down train tracks"
+	]
+	quest.1291E0A3177375B4.quest_subtitle: "Equipment"
+	quest.1291E0A3177375B4.title: "Feet First"
+	quest.14CB6539FFD40DF7.quest_desc: ["Explore the Kinetic Blocks category in the Ponder Index for ways to route rotation, change speed or direction, and connect or disconnect machinery. Create and its many addons such as Petrol's Parts and Create: Bits n' Bobs give you more options for transmitting rotation."]
+	quest.14CB6539FFD40DF7.quest_subtitle: "Power \\& Control"
+	quest.14CB6539FFD40DF7.title: "Kinetics"
+	quest.152BB6569C9D9A4A.quest_desc: [
+		"Make Rose Quartz from quartz and redstone, polish it with sandpaper, then combine the Polished Rose Quartz with an Iron Sheet."
+		""
+		"Brass and Electron Tubes make more advanced machinery available."
+	]
+	quest.152BB6569C9D9A4A.quest_subtitle: "Milestone | Foundations"
+	quest.152BB6569C9D9A4A.title: "Electron Tubes"
+	quest.15AC3CC6E00C8DFE.quest_desc: [
+		"Rivets let you build with blocks at angles and offsets outside the normal grid. Use them for sloped details, custom car bodies, and other shapes that ordinary placement cannot achieve."
+		""
+		"Follow the placement hints to rotate in steps, rotate freely, or disable position snapping. The item tooltip explains the controls for your current keybinds."
+	]
+	quest.15AC3CC6E00C8DFE.quest_subtitle: "Coaster Building"
+	quest.15AC3CC6E00C8DFE.title: "Off the Grid"
+	quest.15E9BD364AF817D0.quest_desc: [
+		"A Physics Assembler turns connected blocks into a Simulated Contraption: a structure that can move freely, has weight, and remains usable while moving."
+		""
+		"Select the blocks with Super Glue or Honey Glue, then hold right-click and pull the assembler's lever. Any Physics Assembler can be used to disassemble it again."
+		""
+		"Explore the Physics Behavior category in the Ponder Index for ways blocks behave on Simulated Contraptions."
+	]
+	quest.15E9BD364AF817D0.quest_subtitle: "Milestone | Common Components"
+	quest.15E9BD364AF817D0.title: "A World in Motion"
+	quest.16A351B47A7968FF.quest_desc: [
+		"A Quiver holds several stacks of arrows and lets you choose which type to fire. Add arrows by clicking a stack onto it in your inventory, then use the Quiver or its keybind to select an arrow type."
+		""
+		"It can be worn in a Belt Curio slot."
+	]
+	quest.16A351B47A7968FF.quest_subtitle: "Equipment"
+	quest.16A351B47A7968FF.title: "Arrows at the Ready"
+	quest.17C6142F5D2158B6.quest_desc: [
+		"The Industrial Blast Furnace can also process quartz into Liquid Silicon. Send it to a Casting Basin for Silicon Ingots."
+		""
+		"Silicon goes into Magnetic Alloy and, later, the semiconductors used in Transistors."
+	]
+	quest.17C6142F5D2158B6.quest_subtitle: "Milestone | Electrical Components"
+	quest.17C6142F5D2158B6.title: "Beyond Steel"
+	quest.191B1863C835C54C.quest_desc: [
+		"Look for Fireclay underground in the Overworld. Smelt its Fireclay Balls into Fireproof Bricks, then craft the brick blocks."
+		""
+		"These heat-resistant blocks form the body and initial reinforcements of an Industrial Blast Furnace, and are also used in the Blast Stove."
+	]
+	quest.191B1863C835C54C.quest_subtitle: "Milestone | Steelmaking"
+	quest.191B1863C835C54C.title: "Built to Take the Heat"
+	quest.1921156847B22625.quest_desc: [
+		"Directional Gearshifts select forward, reverse, or no drive using redstone inputs. Analog Transmissions change the ratio between their shaft and cogwheel based on signal strength."
+		""
+		"Explore their Ponder scenes for ways to turn your control inputs into changes in speed and direction."
+	]
+	quest.1921156847B22625.quest_subtitle: "Common Components"
+	quest.1921156847B22625.title: "P R N D"
+	quest.1A1BF75034D413A1.quest_desc: ["The Refill Upgrade replenishes selected items in your inventory from supplies in your backpack. Useful for keeping building materials stocked."]
+	quest.1A1BF75034D413A1.quest_subtitle: "Traveler's Backpack"
+	quest.1A1BF75034D413A1.title: "Keep Your Hands Full"
+	quest.1A38707ED9C27A2F.quest_desc: [
+		"Hold the Passenger emotes key while riding to open the radial menu. Raise your hands, wave, hold on, or choose another passenger pose."
+		""
+		"Find the binding under Coasters Immersion in your keybind menu. The mod's settings also let you adjust rider reactions and whether other passengers' emotes are shown."
+	]
+	quest.1A38707ED9C27A2F.quest_subtitle: "Coasters: Immersion"
+	quest.1A38707ED9C27A2F.title: "Hands in the Air"
+	quest.1A8EA2AA9C54C330.quest_desc: [
+		"Explore the Electric Machinery category in the Ponder Index for devices that produce, carry, and use electricity. Motors, pumps, lighting, and chemical equipment can all make use of a network."
+		""
+		"Electrical groups affect how loads share voltage. The Configuration Wrench changes these groups; Ponder the electricity scenes before expanding a busy circuit."
+	]
+	quest.1A8EA2AA9C54C330.quest_subtitle: "Electricity"
+	quest.1A8EA2AA9C54C330.title: "Electric Machinery"
+	quest.1BED65AE715B6721.quest_desc: ["Hold an Extendo Grip in your offhand to increase your reach. Wearing a charged Backtank lets it use air instead of durability."]
+	quest.1BED65AE715B6721.quest_subtitle: "Equipment"
+	quest.1BED65AE715B6721.title: "Longer Arms"
+	quest.1C0AE77A86A2CEB6.quest_desc: [
+		"Ponder shows animated examples of how certain blocks or game mechanics work. Hover over a supported item in your inventory or recipe viewer and hold W (by default) to open its Ponder scenes."
+		""
+		"The complete Ponder Index containing all examples and guides can be found in &bESC → goggles button → Ponder Index&r."
+	]
+	quest.1C0AE77A86A2CEB6.quest_subtitle: "Learning Create"
+	quest.1C0AE77A86A2CEB6.title: "Ponder That"
+	quest.1C4B35B7C65CF7C7.quest_desc: ["Place a No Soliciting Sign to prevent Wandering Traders from spawning nearby."]
+	quest.1C4B35B7C65CF7C7.quest_subtitle: "Utility"
+	quest.1C4B35B7C65CF7C7.title: "No Soliciting"
+	quest.1C54C12454825B2C.quest_desc: [
+		"Regular Create Sails produce lift as they move through the air on a Simulated Contraption. Aircraft need enough forward motion for that lift to support their weight."
+		""
+		"Symmetric Sails produce drag instead, making them useful for steering and stabilization surfaces. Ponder the Symmetric Sail to compare the two behaviors."
+	]
+	quest.1C54C12454825B2C.quest_subtitle: "Airships \\& Aircraft"
+	quest.1C54C12454825B2C.title: "Catch the Air"
+	quest.1D2F1BED9AABC6A5.quest_desc: ["The Millstone is a compact processor for grinding down materials. You can view its uses by pressing `U` while hoving the Millstone in the recipe viewer."]
+	quest.1D2F1BED9AABC6A5.quest_subtitle: "Processing"
+	quest.1D2F1BED9AABC6A5.title: "Milling About"
+	quest.1E096190BDACC162.quest_desc: ["Use Mechanical Crafters to make Crushing Wheels. Place a pair with a single block gap between them to process supported items."]
+	quest.1E096190BDACC162.quest_subtitle: "Processing"
+	quest.1E096190BDACC162.title: "Crushing Wheels"
+	quest.1E16D63E2B655C04.quest_desc: ["Arrange and connect Mechanical Crafters to assemble recipes, including patterns larger than a crafting table."]
+	quest.1E16D63E2B655C04.quest_subtitle: "Processing"
+	quest.1E16D63E2B655C04.title: "Beyond the Crafting Table"
+	quest.1F974E629270A0D7.quest_desc: ["Mechanical Drills break blocks ahead of them, either as powered stationary machinery or as part of a moving contraption. Plan a way to collect and store the output."]
+	quest.1F974E629270A0D7.quest_subtitle: "Contraptions"
+	quest.1F974E629270A0D7.title: "Mechanical Mining"
+	quest.208B9C151D8385B5.quest_desc: [
+		"Drawers store large quantities of a few item types. The 1x1, 1x2, and 2x2 layouts hold one, two, or four types, with each compartment showing its contents on the front. Right click a compartment to insert items and left click to take them out."
+		""
+		"Sneak-right-click to open the drawer interface and manage upgrades. A Configuration Tool can lock the contents so an empty compartment remembers its assigned item."
+		""
+		"Framed Drawers work the same way, but can be crafted with blocks to choose their textures."
+	]
+	quest.208B9C151D8385B5.quest_subtitle: "Functional Storage"
+	quest.208B9C151D8385B5.title: "Oldschool Barrels"
+	quest.2286852D336BC9BF.quest_desc: ["The Feeding Upgrade automatically feeds you with food from your backpack. Configure its feeding settings to choose what and when it feeds you."]
+	quest.2286852D336BC9BF.quest_subtitle: "Traveler's Backpack"
+	quest.2286852D336BC9BF.title: "Keep Yourself Fed"
+	quest.24086AA71986B90B.quest_desc: ["Place Crafting Blueprints on a wall and assign recipes to their slots. Use them to craft those recipes from materials in your inventory."]
+	quest.24086AA71986B90B.quest_subtitle: "Crafting"
+	quest.24086AA71986B90B.title: "Quick Crafting"
+	quest.2473D66A8DF2616F.quest_desc: [
+		"Hold right-click on a Steering Wheel and move the mouse to turn it. It provides precise rotational output, with an adjustable turning limit."
+		""
+		"Comparators can read the wheel angle as a redstone signal. Ponder the wheel for examples of direct mechanical controls and comparator outputs."
+	]
+	quest.2473D66A8DF2616F.quest_subtitle: "Controls"
+	quest.2473D66A8DF2616F.title: "Take the Wheel"
+	quest.25160F579D393A4F.quest_desc: [
+		"A Redstone Upgrade makes a drawer emit a signal based on how full the selected compartment is. Use it to control production or indicate when stock is running low."
+		""
+		"Right click the upgrade in an inventory interface to change which compartment it monitors."
+	]
+	quest.25160F579D393A4F.quest_subtitle: "Functional Storage"
+	quest.25160F579D393A4F.title: "Read the Fill Level"
+	quest.25EECBA6D41B80B6.quest_desc: ["Tracks are foundation for building rail networks."]
+	quest.25EECBA6D41B80B6.quest_subtitle: "Railways"
+	quest.25EECBA6D41B80B6.title: "Lay the Rails"
+	quest.2695F38B333530EF.quest_desc: [
+		"Track Anchorpoints define the ends of your coaster track sections. Craft them from Metal Girders and Industrial Iron Blocks, then arrange them along the route you want the ride to take."
+		""
+		"Coasters Simulated uses freely shaped track and carts you can build on. Ponder the track and carts to see how they fit together."
+	]
+	quest.2695F38B333530EF.quest_subtitle: "Milestone | Coaster Building"
+	quest.2695F38B333530EF.title: "Starting a Coaster"
+	quest.2737F6829E6EC46E.quest_desc: [
+		"Use a Configuration Tool to lock drawers to their current contents, keeping the assignment even when a compartment empties. It can also show or hide item displays, amounts, upgrade icons, and fill indicators."
+		""
+		"Sneak-right-click in the air to cycle modes, then right click a drawer to apply the selected setting."
+	]
+	quest.2737F6829E6EC46E.quest_subtitle: "Functional Storage"
+	quest.2737F6829E6EC46E.title: "Set the Rules"
+	quest.27D875E7227B3090.quest_desc: ["An Advanced Demagnetization Coil covers a larger area and adds item filters. Use it with an empty hand to choose which items stay protected from magnets and adjust the range."]
+	quest.27D875E7227B3090.quest_subtitle: "Utility"
+	quest.27D875E7227B3090.title: "Pick What Stays"
+	quest.28BD48C59CEF6B98.quest_desc: ["Press V (by default) to set up proximity voice chat."]
+	quest.28BD48C59CEF6B98.quest_subtitle: "Communication"
+	quest.28BD48C59CEF6B98.title: "Proximity Voice Chat"
+	quest.28C7442F532DA76A.quest_desc: [
+		"Right click a Track Anchorpoint with Lapis Lazuli to turn its track into a braking section. Power it with redstone to slow passing carts, and adjust the braking force on the anchorpoint."
+		""
+		"Braking can bring a cart to a stop without pushing it backward. Use it before the station or wherever the ride needs less speed. Right click with an empty hand to remove the lapis."
+	]
+	quest.28C7442F532DA76A.quest_subtitle: "Coasters: Magnetized"
+	quest.28C7442F532DA76A.title: "Slow Track"
+	quest.2908BE5D54722B4F.quest_desc: [
+		"A Blast Stove turns air and fuel into Hot Air for the Industrial Blast Furnace. Supply air from an Air Intake and start with Creosote; Furnace Gas can take over once steel production is running."
+		""
+		"Fuel enters below, air enters from the side, and Hot Air leaves through the top. Give the Carbon Dioxide an outlet too. Ponder the Blast Stove for the arrangement."
+	]
+	quest.2908BE5D54722B4F.quest_subtitle: "Milestone | Steelmaking"
+	quest.2908BE5D54722B4F.title: "A Blast of Hot Air"
+	quest.2A1EF53A2C26014E.quest_desc: [
+		"Build an Industrial Blast Furnace from Fireproof Bricks, reinforcements, a Blast Furnace Output, and a Hatch for Hot Air. Feed it iron, Limesand, and Coal Coke Dust, then send the Molten Steel to a Casting Basin."
+		""
+		"Keep Slag and Furnace Gas moving out as well. The Metallurgy category in the Ponder Index covers the furnace structure; the recipe viewer shows the available iron inputs."
+	]
+	quest.2A1EF53A2C26014E.quest_subtitle: "Milestone | Steelmaking"
+	quest.2A1EF53A2C26014E.title: "The Age of Steel"
+	quest.2A21495BF968203D.quest_desc: [
+		"Place a Coaster Cart on the track, then build the body of your car directly on it. Add a seat to ride along."
+		""
+		"Add a powered lift or a magnetic launch where needed to climb hills, and leave room to slow down before the loading area. Ponder the Coaster Cart for placement and coupling."
+	]
+	quest.2A21495BF968203D.quest_subtitle: "Milestone | Coaster Building"
+	quest.2A21495BF968203D.title: "Assemble Your Ride"
+	quest.2A917F52A21E2DD5.quest_desc: ["Use a Wrench to adjust the track curve, banking, and anchor height. Track placement normally smooths the path for you; the placement hints show how to disable smoothing when needed."]
+	quest.2A917F52A21E2DD5.quest_subtitle: "Track Shaping"
+	quest.2A917F52A21E2DD5.title: "Round Out the Edges"
+	quest.2BADE9E75EF89BFB.quest_desc: ["The Jukebox Upgrade lets you play music discs from your backpack."]
+	quest.2BADE9E75EF89BFB.quest_subtitle: "Traveler's Backpack"
+	quest.2BADE9E75EF89BFB.title: "Traveling Tunes"
+	quest.2C1CAEE66DF58B5A.quest_desc: [
+		"A Wrench can rotate or instantly break supported Create components."
+		""
+		"Engineer's Goggles reveal stress, speed, and other useful machine information."
+	]
+	quest.2C1CAEE66DF58B5A.quest_subtitle: "Milestone | Workshop Tools"
+	quest.2C1CAEE66DF58B5A.title: "Tools of the Trade"
+	quest.2D0D20FB913A02F1.quest_desc: [
+		"Compact iron and coal in a heated Basin to make Cast Iron. It is the starting material for the Coke Oven, Blast Stove, and the fittings used in steelmaking."
+		""
+		"The Factory Must Grow builds on Create with steel, oil processing, and electricity. Diamond quests mark the main progression milestones; follow the branches that suit your factory. Your recipe viewer has exact recipes, and Ponder shows how supported machines fit together."
+	]
+	quest.2D0D20FB913A02F1.quest_subtitle: "Milestone | Steelmaking"
+	quest.2D0D20FB913A02F1.title: "A Heavier Industry"
+	quest.2D5E6C6CA4D38426.quest_desc: ["Wear a Copper Diving Helmet with a charged Backtank to breathe underwater. The helmet gradually uses the tank's air, so keep an eye on your supply."]
+	quest.2D5E6C6CA4D38426.quest_subtitle: "Equipment"
+	quest.2D5E6C6CA4D38426.title: "Take a Deep Breath"
+	quest.2D9F0827A33E3FC8.quest_desc: [
+		"A Propeller Bearing turns a structure with at least two sail-like blocks into a propeller. More sails make it more efficient at producing thrust."
+		""
+		"Reverse its rotation or use a wrench to reverse the thrust."
+	]
+	quest.2D9F0827A33E3FC8.quest_subtitle: "Airships \\& Aircraft"
+	quest.2D9F0827A33E3FC8.title: "Build a Bigger Propeller"
+	quest.2E3C3CDD7C4DDA95.quest_desc: ["Explore the High Logistics category in the Ponder Index for ways to manage storage and request items."]
+	quest.2E3C3CDD7C4DDA95.quest_subtitle: "Factory Logistics"
+	quest.2E3C3CDD7C4DDA95.title: "High Logistics"
+	quest.2E8DC65EDCDF92D6.quest_desc: ["Engine Assemblies are used to make Portable Engines. Their sequenced assembly alternates cutting and pressing an Iron Sheet. Check the recipe for the repeating sequence and possible outputs."]
+	quest.2E8DC65EDCDF92D6.quest_subtitle: "Milestone | Common Components"
+	quest.2E8DC65EDCDF92D6.title: "Under the Hood"
+	quest.2FB1AA418706F4A8.quest_desc: ["A Rotation Speed Controller is always paired with a Large Cogwheel, and is used to select an output speed from any input speed. Use it to simplify large gear ratios into a tiny two-block footprint."]
+	quest.2FB1AA418706F4A8.quest_subtitle: "Power \\& Control"
+	quest.2FB1AA418706F4A8.title: "Set the Speed"
+	quest.305C3537C7EE9C91.quest_desc: [
+		"A Spout applies measured fluid to items below it. Fluid is supplied through pipes."
+		""
+		"An Item Drain handles the reverse operation for supported containers."
+	]
+	quest.305C3537C7EE9C91.quest_subtitle: "Fluids"
+	quest.305C3537C7EE9C91.title: "Fill and Drain"
+	quest.30D71F7867B660FF.quest_desc: [
+		"Compacting Drawers make different forms of the same material available from a shared supply, such as nuggets, ingots, and blocks. Inserting or extracting one form updates the others automatically when a supported recipe connects them."
+		""
+		"A Compacting Drawer supports three forms; a Simple Compacting Drawer supports two. Framed versions provide the same functions with customizable textures."
+	]
+	quest.30D71F7867B660FF.quest_subtitle: "Functional Storage"
+	quest.30D71F7867B660FF.title: "Compressed Storage"
+	quest.31683873C3104153.quest_desc: [
+		"Turn your harvests, cooking, and manufacturing into income with a Selling Bin. Sellable items show a price in Spurs in their tooltip. Place a bin, then add the goods you want to sell."
+		""
+		"Your shipping inventory has nine slots holding up to eight items each. Every bin placed by you shares this inventory, so extra bins do not increase your allowance. Choose more valuable goods to earn more from the space available."
+		""
+		"Queued goods sell at dawn. Payment goes straight into your Numismatics account. Your goods will only sell while you are online."
+		""
+		"The Selling Bin shows the queued value of the items inside. Use &b/shipping&r to check the expected payout from anywhere. Hoppers and Create automation can keep the bin supplied."
+	]
+	quest.31683873C3104153.quest_subtitle: "Economy"
+	quest.31683873C3104153.title: "We Sell at Dawn"
+	quest.31D90F8BE1D68AE2.quest_desc: [
+		"Wheel Mounts steer toward a redstone signal applied from the side. A signal from above applies the brakes."
+		""
+		"Connect these inputs to your chosen controls. A Steering Wheel can provide precise rotation or be read by comparators; a Linked Typewriter can operate Redstone Links from assigned keys."
+	]
+	quest.31D90F8BE1D68AE2.quest_subtitle: "Ground Vehicles"
+	quest.31D90F8BE1D68AE2.title: "Steer Clear"
+	quest.31DBCA6F76EB6B32.quest_desc: [
+		"Redomesticate adds tools for looking after your pets. Let a tamed animal walk onto an unclaimed Pet Bed to make it theirs. Each bed belongs to one pet."
+		""
+		"If that pet dies, it returns to the bed at the next dawn. Breaking the bed removes the binding."
+	]
+	quest.31DBCA6F76EB6B32.quest_subtitle: "Pet Care | Redomesticate"
+	quest.31DBCA6F76EB6B32.title: "A Home for Every Paw"
+	quest.32033B978B89A178.quest_desc: ["Mix Sulfur Dust, Nitrate Dust, and water in a Chemical Vat to produce Sulfuric Acid. It is used to etch Circuit Boards and in one of the Accumulator recipes. Your recipe viewer shows how to obtain the dusts."]
+	quest.32033B978B89A178.quest_subtitle: "Chemical Processing"
+	quest.32033B978B89A178.title: "Chemical Reactions"
+	quest.325583AEC63D399B.quest_desc: ["Mechanical Pumps move fluids through Fluid Pipes using rotational power. Reversing rotation reverses the pumping direction. Add tanks when storage becomes useful."]
+	quest.325583AEC63D399B.quest_subtitle: "Fluids"
+	quest.325583AEC63D399B.title: "Move Fluids"
+	quest.329C7F08755FDA61.quest_desc: [
+		"Mix clay and Limesand into Cement, then combine it with sand and gravel for Concrete Mixture. Add water to make Liquid Concrete for pouring."
+		""
+		"Slag can replace sand in the mixture recipe. Once chemical processing is available, the Chemical Vat offers another route to large batches of concrete."
+	]
+	quest.329C7F08755FDA61.quest_subtitle: "Factory Building"
+	quest.329C7F08755FDA61.title: "Pour the Floor"
+	quest.32A957C0644A27FE.quest_desc: [
+		"A heated Distillation Tower separates Crude Oil into useful products. Steel Tanks form the base, with a Steel Distillation Controller, Industrial Pipes, and Distillation Outputs completing the structure."
+		""
+		"Different tower recipes produce different fractions. Start collecting Diesel, then expand toward fuels and chemical feedstocks such as Naphtha. Keep every output moving so the tower can continue working."
+	]
+	quest.32A957C0644A27FE.quest_subtitle: "Milestone | Oil Processing"
+	quest.32A957C0644A27FE.title: "Fraction by Fraction"
+	quest.32F67FB5447A9943.quest_desc: ["Equip a Totem of Undying in a Charm Curio slot to keep its protection active while leaving both hands free."]
+	quest.32F67FB5447A9943.quest_subtitle: "Equipment"
+	quest.32F67FB5447A9943.title: "Charm of Undying"
+	quest.331E98315664FA88.quest_desc: [
+		"Use an Empty Blaze Burner on a Blaze or Blaze Spawner to capture a Blaze."
+		""
+		"Feed the burner fuel to provide heat for Basin recipes, including brass. Blaze Cakes provide superheat for recipes that need it."
+	]
+	quest.331E98315664FA88.quest_subtitle: "Milestone | Foundations"
+	quest.331E98315664FA88.title: "Blaze Burner"
+	quest.33C01F0374B80E0C.quest_desc: ["The Blast Furnace Upgrade adds a blast furnace to your backpack for faster metal smelting. It still needs fuel."]
+	quest.33C01F0374B80E0C.quest_subtitle: "Traveler's Backpack"
+	quest.33C01F0374B80E0C.title: "Portable Blast Furnace"
+	quest.362DCA0E4DE7A39D.quest_desc: ["The Crafting Upgrade adds a crafting grid to your backpack for making items on the go."]
+	quest.362DCA0E4DE7A39D.quest_subtitle: "Traveler's Backpack"
+	quest.362DCA0E4DE7A39D.title: "Craft on the Move"
+	quest.37D63EA44466F66D.quest_desc: ["Mechanical Saws can fell trees or process items, depending on their orientation and use."]
+	quest.37D63EA44466F66D.quest_subtitle: "Contraptions"
+	quest.37D63EA44466F66D.title: "A Timber Supply"
+	quest.384474478621AE27.quest_desc: ["Right-click and drag a Throttle Lever to adjust its redstone signal strength. Use it to control a burner, transmission, or other machinery that responds to analog signals. A wrench inverts the signal."]
+	quest.384474478621AE27.quest_subtitle: "Controls"
+	quest.384474478621AE27.title: "Set the Throttle"
+	quest.3896FE66CA622439.quest_desc: [
+		"Airships and aircraft need enough lift to support their weight and a way to control their movement. Hot air balloons, powered propellers, and sails as wings offer different ways to fly."
+		""
+		"Explore the Thrust Producing Blocks category in the Ponder Index. Choose a design that suits your build, and use a Contraption Diagram to inspect the forces acting on it."
+	]
+	quest.3896FE66CA622439.quest_subtitle: "Airships \\& Aircraft"
+	quest.3896FE66CA622439.title: "Take to the Skies"
+	quest.39C1634A5BE69818.quest_desc: [
+		"Equip a Sea Necklace in a Necklace Curio slot to transform into a merperson while in water. It grants faster swimming, Water Breathing, Night Vision, and improved underwater mining."
+		""
+		"The necklace can be dyed and combined with other Mermod items to customize your appearance."
+	]
+	quest.39C1634A5BE69818.quest_subtitle: "Equipment"
+	quest.39C1634A5BE69818.title: "Under the Sea"
+	quest.3A5B2B713A604870.quest_desc: [
+		"A Deployer combines an Andesite Casing, an Electron Tube, and a Brass Hand. The hand uses brass sheets."
+		""
+		"Deployers can apply or place held items, activate blocks, or attack mobs. They are the key operation in Precision Mechanism assembly; one Deployer can be reused in a small setup."
+	]
+	quest.3A5B2B713A604870.quest_subtitle: "Milestone | Foundations"
+	quest.3A5B2B713A604870.title: "A Mechanical Hand"
+	quest.3AA48ACA549677B7.quest_desc: ["A Wand of Symmetry mirrors block placement while kept in your hotbar. Use it on a surface to position the mirror, and sneak-use it to configure the symmetry. Mirrored blocks use materials from your inventory."]
+	quest.3AA48ACA549677B7.quest_subtitle: "Building"
+	quest.3AA48ACA549677B7.title: "Mirror, Mirror"
+	quest.3AB8563914D2AE8D.quest_desc: [
+		"Heavy Plates are made by repeatedly pressing steel through a sequenced assembly recipe. They are the steel plates used throughout TFMG machinery."
+		""
+		"An Unprocessed Heavy Plate is still partway through the sequence; keep it moving through the remaining presses."
+	]
+	quest.3AB8563914D2AE8D.quest_subtitle: "Milestone | Industrial Components"
+	quest.3AB8563914D2AE8D.title: "Under Pressure"
+	quest.3B1B6A0036D2B5F8.quest_desc: ["Andesite Funnels transfer items between inventories and the world. Pair them with belts, depots, or chutes as the layout demands. Brass Funnels later add filters and finer control."]
+	quest.3B1B6A0036D2B5F8.quest_subtitle: "Item Handling"
+	quest.3B1B6A0036D2B5F8.title: "Feed the Line"
+	quest.3B9F5FB0A9C99E2D.quest_desc: [
+		"Explore the Chemical Vat category in the Ponder Index for ways to mix, separate, and process materials. Attachments determine the job: an Industrial Mixer with a Mixer Blade mixes, a Centrifuge separates, and electrodes enable electrical processing."
+		""
+		"Recipes can require a particular vat material, size, heat level, and set of attachments. Check these requirements before building."
+	]
+	quest.3B9F5FB0A9C99E2D.quest_subtitle: "Chemical Processing"
+	quest.3B9F5FB0A9C99E2D.title: "A Change of Chemistry"
+	quest.3C121F6F668A5734.quest_desc: [
+		"Process Naphtha in a heated Chemical Vat with a mixing attachment to make Ethylene and Propylene. Either can be processed into Molten Plastic, then cooled in a Casting Basin to make Plastic Sheets."
+		""
+		"Plastic opens up Circuit Boards, Transistors, and another set of fluid fittings."
+	]
+	quest.3C121F6F668A5734.quest_subtitle: "Milestone | Chemical Processing"
+	quest.3C121F6F668A5734.title: "From Oil to Plastic"
+	quest.3D287BCF8CB0B331.quest_desc: [
+		"A Storage Controller exposes its linked drawers through one shared connection for inserting and extracting items. Use a Linking Tool to connect drawers within range; they do not need to touch."
+		""
+		"The starting linking radius is eight blocks. Storage upgrades can extend its range when installed in the controller."
+	]
+	quest.3D287BCF8CB0B331.quest_subtitle: "Functional Storage"
+	quest.3D287BCF8CB0B331.title: "Drawer Network"
+	quest.3EB43C78A5A0A8B2.quest_desc: [
+		"Explore the Physics Sensor Blocks category in the Ponder Index for ways to measure altitude, speed, orientation, and nearby obstacles. Their redstone signals can drive gauges or automatic controls."
+		""
+		"Navigation Tables also provide signals toward a destination. Explore the Navigation Items category for the targets they can use."
+	]
+	quest.3EB43C78A5A0A8B2.quest_subtitle: "Common Components"
+	quest.3EB43C78A5A0A8B2.title: "Read the Motion"
+	quest.3F3AFD820A1E76FA.quest_desc: ["Super Glue holds blocks together in a moving contraption. Select an area to glue adjacent blocks together."]
+	quest.3F3AFD820A1E76FA.quest_subtitle: "Contraptions"
+	quest.3F3AFD820A1E76FA.title: "It's Sticky"
+	quest.3F64607E467FA5F3.quest_desc: ["Keep a Magnet in your inventory or charm slot to collect nearby dropped items and experience. Use it to toggle attraction on or off, or use the Toggle Magnet keybind (`J` by default)."]
+	quest.3F64607E467FA5F3.quest_subtitle: "Equipment"
+	quest.3F64607E467FA5F3.title: "Magnetic"
+	quest.3F6718A522820A35.quest_desc: [
+		"Apply steel to Hardened Planks for a Steel Casing, then add a Heavy Plate to make a Heavy Machinery Casing."
+		""
+		"Steel Mechanisms use sequenced assembly with steel cogs, Nickel and Lead Sheets, Screws, and a Screwdriver. The Screwdriver has a brass recipe, so you can make your first mechanisms before producing Aluminum."
+		""
+		"Together, these components open up oil extraction, chemical processing, and electrical manufacturing."
+	]
+	quest.3F6718A522820A35.quest_subtitle: "Milestone | Industrial Components"
+	quest.3F6718A522820A35.title: "Built for Industry"
+	quest.404383B2EE4732A5.quest_desc: ["A Hand Crank provides rotation by hand. Useful for testing machinery or powering small setups. Sneak while turning it to reverse the direction."]
+	quest.404383B2EE4732A5.quest_subtitle: "Power"
+	quest.404383B2EE4732A5.title: "Crank It"
+	quest.4083C5D3407D92CA.quest_desc: [
+		"Equip a Bank Meter in the Bank Meter Curio slot to keep your account balance visible on screen. It updates periodically, making it easy to check your earnings while away from a terminal."
+		""
+		"It normally shows your personal account. Equip a bound Bank Card in the Card Curio slot to view a linked account you have access to instead."
+	]
+	quest.4083C5D3407D92CA.quest_subtitle: "Economy"
+	quest.4083C5D3407D92CA.title: "Number Go Up"
+	quest.40EEF86CE2ACEBD2.quest_desc: [
+		"A Wayward Lantern helps recover pets left behind while following you. If they become far enough away to unload, they can eventually return to the nearest Wayward Lantern to you."
+		""
+		"Place one where you want lost companions to gather."
+	]
+	quest.40EEF86CE2ACEBD2.quest_subtitle: "Pet Care | Redomesticate"
+	quest.40EEF86CE2ACEBD2.title: "Find Your Way Back"
+	quest.4175500BD39EAB12.quest_desc: [
+		"Use Hot Air Envelopes to enclose the volume of a balloon. Hot air fills it from the top down, so keep that air contained by airtight blocks."
+		""
+		"Blocks inside take up space that could hold hot air. Shafts can be encased with Envelope Blocks to pass through the balloon without leaving a leak."
+	]
+	quest.4175500BD39EAB12.quest_subtitle: "Airships \\& Aircraft"
+	quest.4175500BD39EAB12.title: "Room for Hot Air"
+	quest.4218E8652D4E7455.quest_desc: [
+		"Right click a Track Anchorpoint with a Gold Ingot to magnetize its track. Apply a redstone signal to accelerate passing carts in their direction of travel."
+		""
+		"Each anchorpoint has an acceleration setting. A longer powered run builds more speed. Right click with an empty hand to remove the gold."
+	]
+	quest.4218E8652D4E7455.quest_subtitle: "Coasters: Magnetized"
+	quest.4218E8652D4E7455.title: "Fast Track"
+	quest.43672428F1AA1797.quest_desc: ["Gyroscopic Mechanisms are ingredients for Gimbal Sensors, Smart Propellers, and Gyroscopic Propeller Bearings. Use sequenced assembly to add Cogwheels, Shafts, and Brass Nuggets to an Iron Sheet."]
+	quest.43672428F1AA1797.quest_subtitle: "Milestone | Common Components"
+	quest.43672428F1AA1797.title: "Finding Your Balance"
+	quest.43AF48927FF9BC52.quest_desc: ["Configure destinations and waiting conditions in a Train Schedule, then assign a conductor to operate the train."]
+	quest.43AF48927FF9BC52.quest_subtitle: "Railways"
+	quest.43AF48927FF9BC52.title: "Run a Route"
+	quest.440F2B1DA00B418F.quest_desc: [
+		"A Linked Controller operates Redstone Link frequencies from your hand. Use it on a Redstone Link receiver, then press one of its six controls to bind that frequency."
+		""
+		"Use the controller to take control, or sneak-use it to configure the bindings. It uses your movement controls while active, and can be placed on a Lectern for a fixed control station."
+	]
+	quest.440F2B1DA00B418F.quest_subtitle: "Controls"
+	quest.440F2B1DA00B418F.title: "Remote Control"
+	quest.449A664AAC51C175.quest_desc: ["Use &b/discord&r and follow the linking instructions to connect your Minecraft account to your Discord name."]
+	quest.449A664AAC51C175.quest_subtitle: "Communication"
+	quest.449A664AAC51C175.title: "Link Your Discord"
+	quest.4682DCAF4F0B4740.quest_desc: [
+		"An Armory Cabinet stores up to 4,096 pieces of equipment and other supported items, including tools, weapons, armor, and enchanted books. It is useful for collections that do not stack neatly into ordinary drawers."
+		""
+		"Right click to open its searchable inventory. Items with their own inventories, such as backpacks, cannot be stored inside."
+	]
+	quest.4682DCAF4F0B4740.quest_subtitle: "Functional Storage"
+	quest.4682DCAF4F0B4740.title: "A Place for the Loot"
+	quest.46F23D6EE97B2C0F.quest_desc: [
+		"A Tweaked Linked Controller lets you operate Redstone Link frequencies with a gamepad. Connect your gamepad, then sneak-use the controller to select it and configure button and axis bindings."
+		""
+		"Use it on a Redstone Link receiver, then press a gamepad button or move an axis to bind that frequency."
+	]
+	quest.46F23D6EE97B2C0F.quest_subtitle: "Controls"
+	quest.46F23D6EE97B2C0F.title: "Gamepad in Hand"
+	quest.4789440767510ABA.quest_desc: [
+		"Right click a Storage Controller with a Linking Tool to select it, then use the tool on nearby drawers to add them to its network. Holding the tool shows the selected controller's connections."
+		""
+		"Sneak-right-click in the air to switch between linking one drawer and selecting an area. Right click in the air to switch between adding and removing connections."
+	]
+	quest.4789440767510ABA.quest_subtitle: "Functional Storage"
+	quest.4789440767510ABA.title: "Link the Drawers"
+	quest.47C8B865985AC5DE.quest_desc: ["Rock Cutting Wheels form the cutting surface of a Borehead Bearing drill. They break blocks around themselves and attach to one another without extra glue."]
+	quest.47C8B865985AC5DE.quest_subtitle: "Ground Vehicles"
+	quest.47C8B865985AC5DE.title: "Sharp Wheel"
+	quest.48258CEAA0FB07E6.quest_desc: ["Hammocks let you sleep through the day without changing your respawn point. Hang the hammock between two facing Rope and Nail supports, leaving two empty blocks between them."]
+	quest.48258CEAA0FB07E6.quest_subtitle: "Exploration"
+	quest.48258CEAA0FB07E6.title: "Sleep the Day Away"
+	quest.4885A1D50B6C3FB0.quest_desc: [
+		"Mix copper and zinc ingots in a Basin over a fueled Blaze Burner. The Mechanical Mixer needs sufficient rotational speed as well as power."
+		""
+		"Brass and Electron Tubes make more advanced machinery available."
+	]
+	quest.4885A1D50B6C3FB0.quest_subtitle: "Milestone | Foundations"
+	quest.4885A1D50B6C3FB0.title: "Brass Foundry"
+	quest.4887C00BA75A310D.quest_desc: ["The Pickup Upgrade sends collected items straight into your backpack. Use its filters to choose which items go inside."]
+	quest.4887C00BA75A310D.quest_subtitle: "Traveler's Backpack"
+	quest.4887C00BA75A310D.title: "In the Bag"
+	quest.4A7F779E3141825E.quest_desc: ["Heated compacting turns Heavy Oil into Bitumen. Mix it with sand and gravel for Asphalt Mixture, then add water to make Liquid Asphalt. Slag can replace the sand in the mixture recipe."]
+	quest.4A7F779E3141825E.quest_subtitle: "Factory Building"
+	quest.4A7F779E3141825E.title: "Pave the World"
+	quest.4C176DCA46787ABE.quest_desc: [
+		"Restrictor Seats add controllable restraints to your coaster cars. Set their Redstone Link frequency on the underside, then send a matching signal to close the restraints. Closed restraints prevent passengers from entering or leaving."
+		""
+		"Use a Wrench to choose between Redstone Link control, direct redstone, or both. A Clipboard can copy the frequency between seats. Ponder a seat for the setup."
+	]
+	quest.4C176DCA46787ABE.quest_subtitle: "Create Coaster Seats"
+	quest.4C176DCA46787ABE.title: "Buckle Up"
+	quest.4C1C78CBA81942B5.quest_desc: ["Bundles hold a mixture of items in a single inventory slot. Useful for the small stacks that build up while exploring."]
+	quest.4C1C78CBA81942B5.quest_subtitle: "Storage"
+	quest.4C1C78CBA81942B5.title: "Odds and Ends"
+	quest.4CF05B26F1132C78.quest_desc: ["Use the Tape Measure on two blocks to mark out an area and see its dimensions. Sneak-use it to undo a measurement."]
+	quest.4CF05B26F1132C78.quest_subtitle: "Building"
+	quest.4CF05B26F1132C78.title: "Measure Twice"
+	quest.4D538104737F562B.quest_desc: [
+		"Explore the Engines category in the Ponder Index for ways to turn fuel into rotation. Choose an engine and fuel supply that fit your build."
+		""
+		"Regular and Radial Engines are assembled with matching Engine Cylinders. Large Engines need air and a Carbon Dioxide outlet as well as fuel. Check the chosen engine's recipes and Ponder scenes for its supporting equipment."
+	]
+	quest.4D538104737F562B.quest_subtitle: "Engines"
+	quest.4D538104737F562B.title: "Sounds Beefy"
+	quest.4D56F1DA3F588AAC.quest_desc: ["Redstone Links carry redstone signals wirelessly between matching item-pair frequencies."]
+	quest.4D56F1DA3F588AAC.quest_subtitle: "Control"
+	quest.4D56F1DA3F588AAC.title: "Signals Without Wires"
+	quest.4D7AC317FA48835F.quest_desc: [
+		"Build a Pumpjack over an oil deposit and connect it to the deposit with Industrial Pipes. A Machine Input supplies rotation, and the glued hammer assembly works the pump."
+		""
+		"The Oil Processing Machinery category in the Ponder Index shows the structure. Collect the Crude Oil and give it somewhere to wait before refining."
+	]
+	quest.4D7AC317FA48835F.quest_subtitle: "Milestone | Oil Processing"
+	quest.4D7AC317FA48835F.title: "Strike Oil"
+	quest.4DE480F7BFB6E49E.quest_desc: [
+		"[ \"Shafts are the primary way of carrying rotation. Cogs and Gearboxes can be used to change direction or speed. See \", { \"text\": \"Kinetics\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"14CB6539FFD40DF7\" } }, \" for more ways to transmit rotation.\" ]"
+		""
+		"Next step is to choose a power source for your builds. Note that faster machinery demands more stress capacity."
+	]
+	quest.4DE480F7BFB6E49E.quest_subtitle: "Milestone | Foundations"
+	quest.4DE480F7BFB6E49E.title: "Put Rotation to Work"
+	quest.4E563E5D812B1898.quest_desc: ["The Tanks Upgrade adds two fluid tanks to your backpack. Use them to carry fluids alongside your items."]
+	quest.4E563E5D812B1898.quest_subtitle: "Traveler's Backpack"
+	quest.4E563E5D812B1898.title: "Fluids to Go"
+	quest.4E9065E56FBFA40F.quest_desc: [
+		"Create: Numismatics is the currency used for buying and selling goods. Money can be carried as coins or kept in a bank account. Spurs are the smallest unit; the larger coins represent the same money in larger denominations."
+		""
+		"1 Bevel = 8 Spurs"
+		"1 Sprocket = 16 Spurs"
+		"1 Cog = 64 Spurs"
+		"1 Crown = 512 Spurs"
+		"1 Sun = 4,096 Spurs"
+		""
+		"Use a Bank Terminal to check your personal balance, deposit coins, or withdraw money as coins. Your account is global; the money is not stored inside a particular block. Selling Bin earnings go directly into this account, and shops can draw from it when you buy something."
+		""
+		"Bank Cards let compatible terminals and trading blocks use a bank account. Right click a blank Bank Card to bind it to your account. Sub Accounts and Authorized Cards let you grant limited access to other players or automation."
+		""
+		"For a separate shared account, use a Banking Guide on a Blaze Burner to create a Blaze Banker. Its trusted players can manage that account, and cards bound in the banker can access it from a Bank Terminal. Ponder the Blaze Banker for the setup."
+	]
+	quest.4E9065E56FBFA40F.quest_subtitle: "Economy"
+	quest.4E9065E56FBFA40F.title: "Money Makes the Gears Go 'Round"
+	quest.4F0EFD8EAE752823.quest_desc: [
+		"Power an Andesite or Wooden Propeller with rotation to generate thrust. Its direction and placement determine how it pushes your craft."
+		""
+		"Propellers lose thrust as air pressure falls at higher altitudes."
+	]
+	quest.4F0EFD8EAE752823.quest_subtitle: "Airships \\& Aircraft"
+	quest.4F0EFD8EAE752823.title: "A Little Push"
+	quest.50530639455C280D.quest_desc: ["Use a Schematic and Quill and a Schematic Table to capture and prepare a design. A Schematicannon builds it from supplied materials and gunpowder."]
+	quest.50530639455C280D.quest_subtitle: "Building"
+	quest.50530639455C280D.title: "Build It Again"
+	quest.50D3BB93734C7B93.quest_desc: ["Crush End Stone into End Stone Powder. It is the main ingredient for Levitite Blend, which can be cast into floating structures."]
+	quest.50D3BB93734C7B93.quest_subtitle: "Airships \\& Aircraft"
+	quest.50D3BB93734C7B93.title: "Something from the End"
+	quest.50F048651C44B407.quest_desc: [
+		"Pass an Encased Fan's airflow through the appropriate medium to wash, smoke, smelt, or haunt items."
+		""
+		"Water, fire or campfires, lava, and soul fire give different processing modes. Leave items in the working airflow until their recipe completes."
+	]
+	quest.50F048651C44B407.quest_subtitle: "Processing"
+	quest.50F048651C44B407.title: "Bulk Processing"
+	quest.51826A2DCF6044FE.quest_desc: ["Power a Surface Scanner from below with a Machine Input to search nearby chunks for oil. Its display is a map of the surrounding chunks, with the scanner in the center; lit cells indicate oil deposits."]
+	quest.51826A2DCF6044FE.quest_subtitle: "Oil Processing"
+	quest.51826A2DCF6044FE.title: "Read the Ground"
+	quest.521820868265BF32.quest_desc: ["The Furnace Upgrade adds a furnace to your backpack. Supply ingredients and fuel to smelt while traveling."]
+	quest.521820868265BF32.quest_subtitle: "Traveler's Backpack"
+	quest.521820868265BF32.title: "Portable Furnace"
+	quest.5230FA97E939F086.quest_desc: [
+		"TFMG adds several materials of pipes, pumps, valves, and tanks for moving fluids and gases. Use your recipe viewer and Ponder to explore the available fittings."
+		""
+		"Industrial Pipes are separate multiblock components used in structures such as pumpjacks and distillation towers."
+	]
+	quest.5230FA97E939F086.quest_subtitle: "Steelmaking"
+	quest.5230FA97E939F086.title: "Industrial Plumbing"
+	quest.531C8CFFE82C94B0.quest_desc: ["A Flarestack provides an outlet for surplus combustible fluids. It can help keep refining moving when one product backs up; keep any fractions you want to use later in storage instead."]
+	quest.531C8CFFE82C94B0.quest_subtitle: "Oil Processing"
+	quest.531C8CFFE82C94B0.title: "Burn Off the Excess"
+	quest.53685DEEEA6B2C49.quest_desc: [
+		"Mix Nickel, Steel, and Silicon in a heated Basin to make Magnetic Alloy. A lightning strike can polarize dropped alloy ingots into Magnets, giving you a route to your first electrical machines."
+		""
+		"Once you have electricity, a Polarizer provides a repeatable way to produce them."
+	]
+	quest.53685DEEEA6B2C49.quest_subtitle: "Milestone | Electrical Components"
+	quest.53685DEEEA6B2C49.title: "A Spark of Inspiration"
+	quest.536C1B8B6D666DA5.quest_desc: [
+		"Contraptions are groups of attached blocks that move together. They can carry inventories and working machinery, allowing you to build moving harvesters, drills, lifts, and more."
+		""
+		"Explore the Movement Anchors category in the Ponder Index for ways to assemble and move contraptions."
+	]
+	quest.536C1B8B6D666DA5.quest_subtitle: "Contraptions"
+	quest.536C1B8B6D666DA5.title: "Movement Anchors"
+	quest.53D590611F0DD67B.quest_desc: [
+		"A Linked Typewriter binds keyboard inputs to Redstone Link frequencies, giving you a control panel for machinery and vehicles. Use it to take control, or sneak-use it to configure the bindings."
+		""
+		"Use the typewriter item on a Redstone Link receiver, then press a key to bind that frequency. An existing Linked Controller can also copy its bindings onto a placed typewriter."
+	]
+	quest.53D590611F0DD67B.quest_subtitle: "Controls"
+	quest.53D590611F0DD67B.title: "At the Keyboard"
+	quest.544AABD44C9E4E8D.quest_desc: [
+		"Attach a Red Balloon to a Simulated Contraption to lift it slightly off the ground and help keep it upright. It is useful while positioning or working on a movable build."
+		""
+		"A projectile pops nearby balloons and drops the structure. Sneak-use a Wrench to retrieve a balloon without popping the others. Balloons have limited lifting capacity, so large builds may be too heavy."
+	]
+	quest.544AABD44C9E4E8D.quest_subtitle: "Coaster Building"
+	quest.544AABD44C9E4E8D.title: "A Lift While You Work"
+	quest.545EBBC9084BAA44.quest_desc: ["Process Heavy Oil and Sulfur Dust in a heated Chemical Vat with a mixing attachment to make Rubber Sheets. They are used in equipment such as the Fireproof Chemical Vat."]
+	quest.545EBBC9084BAA44.quest_subtitle: "Chemical Processing"
+	quest.545EBBC9084BAA44.title: "A Bit of Stretch"
+	quest.546A459C6408FF71.quest_desc: [
+		"Fill an Iron Sheet with honey to make Honey Glue. Use it to mark areas for Simulated Contraptions without attaching them to ordinary Create contraptions."
+		""
+		"Select two corners, then Ctrl-scroll to resize the area. Hold Alt to place a corner in midair. Useful when a vehicle also contains moving Create machinery."
+	]
+	quest.546A459C6408FF71.quest_subtitle: "Common Components"
+	quest.546A459C6408FF71.title: "A Different Kind of Sticky"
+	quest.549CC1F4FD6969AF.quest_desc: [
+		"A Clipboard keeps notes and checklists. Sneak-use it to place it on a surface. It can also copy settings from supported blocks with right-click and apply them with left-click."
+		""
+		"When placed in a Schematicannon loaded with a schematic, the list of missing ingredients will be written to the Clipboard, converting it into a Material Checklist. A Material Checklist can be crafted back into a regular Clipboard."
+	]
+	quest.549CC1F4FD6969AF.quest_subtitle: "Building"
+	quest.549CC1F4FD6969AF.title: "Make a Note of It"
+	quest.54E4EF012E3FDEEA.quest_desc: [
+		"A Hot Air Burner fills the balloon above it when powered with redstone. Set its maximum output on the value panel, then vary the signal strength to adjust how much hot air it produces."
+		""
+		"The balloon's volume limits its lift. Lift also weakens at higher altitudes, so the craft settles where lift and weight balance."
+	]
+	quest.54E4EF012E3FDEEA.quest_subtitle: "Airships \\& Aircraft"
+	quest.54E4EF012E3FDEEA.title: "Up, Up, and Away"
+	quest.5599DFB6AE8BB79D.quest_desc: [
+		"A Swivel Bearing joins a moving section to your build. Power its cog to turn the attached Simulated Contraption; rotation supplied through its shaft passes through to the other side."
+		""
+		"Redstone can unlock the bearing so it turns freely. Ponder it for examples of powered joints and rotating connections."
+	]
+	quest.5599DFB6AE8BB79D.quest_subtitle: "Common Components"
+	quest.5599DFB6AE8BB79D.title: "Room to Turn"
+	quest.5668DA72405978C2.quest_desc: [
+		"The Anchor Style Tool changes the appearance of Track Anchorpoints so the supports suit the rest of your ride. Right click in the air to choose the appearance, then apply it to an anchorpoint."
+		""
+		"Craft it from a Book and Quill and a Track Anchorpoint. The tool's controls and tooltip cover its additional options."
+	]
+	quest.5668DA72405978C2.quest_subtitle: "Track Styles"
+	quest.5668DA72405978C2.title: "Dress the Supports"
+	quest.5898B095D053659E.quest_desc: [
+		"Extend a pair of Docking Connectors to align and lock two structures together. The connection holds them in place while keeping them separate."
+		""
+		"Once docked, items and fluids can be transferred across the connection. Arrange insertion and extraction on both sides, then retract either connector to undock."
+	]
+	quest.5898B095D053659E.quest_subtitle: "Common Components"
+	quest.5898B095D053659E.title: "Engage the Docking Mechanism"
+	quest.5951A3F7D5500E4C.quest_desc: [
+		"Keep your guidebooks together in an Eccentric Tome. Craft the tome with a Book and a Bookshelf, then combine it with supported guidebooks in a crafting grid to add them."
+		""
+		"Right click the tome to choose a stored book and use it normally. Left click in the air to return to the tome and choose another book."
+		""
+		"Sneak-right-click a block with the tome to select a stored guide for that block's mod, when available."
+	]
+	quest.5951A3F7D5500E4C.quest_subtitle: "Utility"
+	quest.5951A3F7D5500E4C.title: "Book of Many Books"
+	quest.5AD9E1F3767DE7AE.quest_desc: ["Use &b/chatbubbles settings&r to customize your chat bubble colors and other settings."]
+	quest.5AD9E1F3767DE7AE.quest_subtitle: "Communication"
+	quest.5AD9E1F3767DE7AE.title: "Chat Bubble Settings"
+	quest.5CCA1930CA45B72C.quest_desc: [
+		"Use heated mixing to combine End Stone Powder, Zinc Nuggets, and water into Levitite Blend. Pour it into a mold and apply heat to start crystallization."
+		""
+		"Enough Levitite helps a Simulated Contraption stay afloat, but it cannot make the craft climb on its own. You will still need another source of force to gain altitude."
+		""
+		"Once crystallized, Levitite cannot be collected again. Explore its Ponder scenes and the Breaks When Crystallizing category before choosing a mold."
+	]
+	quest.5CCA1930CA45B72C.quest_subtitle: "Airships \\& Aircraft"
+	quest.5CCA1930CA45B72C.title: "Stay Afloat"
+	quest.5CFA3186480F4EEA.quest_desc: [
+		"Diodes, Potentiometers, switches, and Transformers offer ways to divide and control electrical networks. Transformers change voltage according to the turns ratio of their coils."
+		""
+		"Explore their scenes in the Electric Machinery category of the Ponder Index before deciding how to control your network."
+	]
+	quest.5CFA3186480F4EEA.quest_subtitle: "Electricity"
+	quest.5CFA3186480F4EEA.title: "Mind the Voltage"
+	quest.5D964874337AD5BD.quest_desc: [
+		"Press F10 (by default) to open the Visual Keybinder. Review your controls and resolve conflicting keybinds between mods."
+		""
+		"The normal Options > Controls > Key Binds menu works too."
+	]
+	quest.5D964874337AD5BD.quest_subtitle: "Controls"
+	quest.5D964874337AD5BD.title: "Set Your Keybinds"
+	quest.5DB215CBC32A2C3D.quest_desc: ["A Water Wheel provides steady early rotation from flowing water. Large Water Wheels trade space for more stress capacity."]
+	quest.5DB215CBC32A2C3D.quest_subtitle: "Power"
+	quest.5DB215CBC32A2C3D.title: "Water to Power"
+	quest.5DF77EE7A0ABCDA6.quest_desc: ["An Engine Gearbox provides another way to handle engine rotation. Ponder it to see how it connects and controls the drive before fitting one to your machinery."]
+	quest.5DF77EE7A0ABCDA6.quest_subtitle: "Engines"
+	quest.5DF77EE7A0ABCDA6.title: "Get It in Gear"
+	quest.5E8266F3A8F2CD06.quest_desc: [
+		"A Puller Upgrade brings items into a drawer from an adjacent inventory on its selected side. It can collect a machine's output or draw supplies from a nearby container."
+		""
+		"Right click the upgrade in an inventory interface to change its direction relative to the drawer."
+	]
+	quest.5E8266F3A8F2CD06.quest_subtitle: "Functional Storage"
+	quest.5E8266F3A8F2CD06.title: "Hopper In"
+	quest.5EFFA2A9FA9F5238.quest_desc: [
+		"Brass Funnels combine brass and Electron Tubes for filtered transfers and control over stack sizes."
+		""
+		"Filters, Brass Tunnels, and Smart Chutes offer other ways to filter and route materials."
+	]
+	quest.5EFFA2A9FA9F5238.quest_subtitle: "Item Handling"
+	quest.5EFFA2A9FA9F5238.title: "Selective Handling"
+	quest.5F8B3AF6A8FEA312.quest_desc: ["Contraption Controls toggle working blocks on a moving contraption. Set the filter before assembly to choose which types of blocks they control."]
+	quest.5F8B3AF6A8FEA312.quest_subtitle: "Contraptions"
+	quest.5F8B3AF6A8FEA312.title: "Control the Contraption"
+	quest.60C8320DD4195DDD.quest_desc: [
+		"Use a Chain to select the start and end of a connected track span and add a chain lift. Supply rotation to the shaft at the starting end to pull carts uphill."
+		""
+		"Sneak-right-click the chain-lifted span with a Wrench to remove it. Ponder Coaster Track for the lift arrangement."
+	]
+	quest.60C8320DD4195DDD.quest_subtitle: "Lift and Launch"
+	quest.60C8320DD4195DDD.title: "Click, Click, Click"
+	quest.60EA187C88A04267.quest_desc: [
+		"Winding Machines wrap wire from a spool around an item. Cut Hardened Planks into Empty Spools, load them with wire, and supply rotation to the machine."
+		""
+		"Winding is part of Generator and Electric Motor assembly, and is also used for coils and resistors. Ponder the machine for loading and automation."
+	]
+	quest.60EA187C88A04267.quest_subtitle: "Milestone | Electrical Components"
+	quest.60EA187C88A04267.title: "Wind It Up"
+	quest.61C259C5CFB40A23.quest_desc: [
+		"An Electric Motor turns electricity back into rotation, letting a wired network power machinery away from the Generator. Set up the electrical supply and connect its kinetic output to your build."
+		""
+		"The Heavy Electric Motor is a further upgrade when you want to expand."
+	]
+	quest.61C259C5CFB40A23.quest_subtitle: "Electricity"
+	quest.61C259C5CFB40A23.title: "Rotation at the Other End"
+	quest.61CA78715CCEB02E.quest_desc: [
+		"Sleeping Bags let you sleep through the night without changing your respawn point. Take one along when exploring away from home."
+		""
+		"If you have a backpack, place it on the ground and sneak right-click it while holding the Sleeping Bag to attach it to the backpack. This lets you carry and use a Sleeping Bag without it taking up a slot in your inventory."
+	]
+	quest.61CA78715CCEB02E.quest_subtitle: "Exploration"
+	quest.61CA78715CCEB02E.title: "A Night Out"
+	quest.627E8B47502B40DB.quest_desc: ["Explore the Logic Components category in the Ponder Index for more redstone controls introduced in Create and its addons."]
+	quest.627E8B47502B40DB.quest_subtitle: "Control"
+	quest.627E8B47502B40DB.title: "Logic Components"
+	quest.631305E825B96C3D.quest_desc: ["Cast a Feather on a Stick to coax your nearest pet toward the feather. Use it to guide a companion out of a doorway, away from a chest, or onto a Pet Bed."]
+	quest.631305E825B96C3D.quest_subtitle: "Pet Care | Redomesticate"
+	quest.631305E825B96C3D.title: "Come and Get It"
+	quest.636C63F8BC1E998E.quest_desc: [
+		"Equip a Traveler's Backpack in the Back Curio slot for extra storage on the go. Open it with the Open Backpack keybind."
+		""
+		"Add functionality upgrades in the slots on the right side of the backpack inventory. Choose the upgrades that suit your travels."
+		""
+		"The Curio slots can be found by clicking the icon in the top left of your character portrait in the inventory screen."
+	]
+	quest.636C63F8BC1E998E.quest_subtitle: "Traveler's Backpack"
+	quest.636C63F8BC1E998E.title: "Pack for the Journey"
+	quest.64FDCDBCEA22BE8D.quest_desc: [
+		"Place a Trader Rug to redirect nearby Wandering Trader spawns onto the rug. Use it to give visiting traders a designated spot."
+		""
+		"Traders still need to spawn naturally. Active No Soliciting Signs and Anti-Solicitor Talismans can prevent their arrival."
+	]
+	quest.64FDCDBCEA22BE8D.quest_subtitle: "Utility"
+	quest.64FDCDBCEA22BE8D.title: "Right This Way"
+	quest.68C8A4B1AB594C00.quest_desc: ["An Iron Downgrade limits a drawer compartment to 64 items. Use it when you want a small stock buffer instead of bulk storage, or combine it with a Void Upgrade to discard excess after keeping a small reserve."]
+	quest.68C8A4B1AB594C00.quest_subtitle: "Functional Storage"
+	quest.68C8A4B1AB594C00.title: "Downsize"
+	quest.68F6950096579846.quest_desc: ["Item Vaults combine iron sheets and barrels into a large expandable storage. Use item transport to insert and extract their contents."]
+	quest.68F6950096579846.quest_subtitle: "Item Handling"
+	quest.68F6950096579846.title: "A Big Box"
+	quest.6A1BCE603BAD549E.quest_desc: ["A Mechanical Arm intelligently moves items between selected inputs and outputs. Set its targets before placing it, then supply rotation."]
+	quest.6A1BCE603BAD549E.quest_subtitle: "Item Handling"
+	quest.6A1BCE603BAD549E.title: "Within Arm's Reach"
+	quest.6A31A4B785EE727D.quest_desc: ["The Void Upgrade provides a trash bin and filters for deleting unwanted items. Filtered items entering through the Pickup Upgrade or hoppers can be deleted automatically, so check the filter before enabling it."]
+	quest.6A31A4B785EE727D.quest_subtitle: "Traveler's Backpack"
+	quest.6A31A4B785EE727D.title: "Goodbye Junk"
+	quest.6AD8657C330B958A.quest_desc: [
+		"A Copper Upgrade multiplies a drawer's item capacity by eight. Install it in a storage upgrade slot through the drawer interface."
+		""
+		"There are higher tier upgrades that increase capacity beyond the Copper Upgrade."
+		""
+		"Storage upgrades can also be installed in a Storage Controller to extend its linking range."
+	]
+	quest.6AD8657C330B958A.quest_subtitle: "Functional Storage"
+	quest.6AD8657C330B958A.title: "Stack it Higher"
+	quest.6AE888977929553E.quest_desc: ["A Factory Gauge can monitor storage and create production requests when items run low."]
+	quest.6AE888977929553E.quest_subtitle: "Factory Logistics"
+	quest.6AE888977929553E.title: "Autocraft Anything"
+	quest.6C4CCAC677818070.quest_desc: ["Use a Contraption Diagram on a Simulated Contraption to inspect its forces. It can help you work out why a vehicle tips, drifts, or struggles to lift its own weight."]
+	quest.6C4CCAC677818070.quest_subtitle: "Common Components"
+	quest.6C4CCAC677818070.title: "See the Forces"
+	quest.6C79514A99571D7B.quest_desc: ["A Hose Pulley lowers into a fluid reservoir for pumping or placement. Useful for collecting bulk fluids. A large enough fluid reservoir becomes an unlimited source."]
+	quest.6C79514A99571D7B.quest_subtitle: "Fluids"
+	quest.6C79514A99571D7B.title: "Tap a Reservoir"
+	quest.6D0E102132D9095B.quest_desc: [
+		"Link a Controller Access Point to an existing Storage Controller to expose the same drawer network at another position. It is useful for separate input and output connections around a storage room."
+		""
+		"Use the Linking Tool to add it to the controller's network within linking range."
+	]
+	quest.6D0E102132D9095B.quest_subtitle: "Functional Storage"
+	quest.6D0E102132D9095B.title: "Backdoor"
+	quest.6D47E02F82BFAEA5.quest_desc: ["A Windmill Bearing turns an assembled sail structure into a power source. Add sails or suitable wool blocks to increase capacity. Use Ponder for assembly and attachment details."]
+	quest.6D47E02F82BFAEA5.quest_subtitle: "Power"
+	quest.6D47E02F82BFAEA5.title: "Working with Wind"
+	quest.6D94BBA188720A1C.quest_desc: ["Exhausts and Smokestacks give waste gases somewhere to go. Connect them to processes that produce Carbon Dioxide so a full output tank does not bring the factory to a stop."]
+	quest.6D94BBA188720A1C.quest_subtitle: "Steelmaking"
+	quest.6D94BBA188720A1C.title: "Let It Breathe"
+	quest.6EA7B99FAE7189A7.quest_desc: ["A Toolbox holds large quantities of eight item types and keeps its contents when picked up. Place it nearby and use the Toolbox keybind to access its supplies."]
+	quest.6EA7B99FAE7189A7.quest_subtitle: "Storage"
+	quest.6EA7B99FAE7189A7.title: "A Place for Parts"
+	quest.6F3DEDC26FEAA51F.quest_desc: ["Use a Spout to treat planks with Creosote and make Hardened Planks. They form the base of Steel Casings and can also be cut into Empty Spools for wire."]
+	quest.6F3DEDC26FEAA51F.quest_subtitle: "Milestone | Industrial Components"
+	quest.6F3DEDC26FEAA51F.title: "Wood, Well Treated"
+	quest.6F8DEEA622864F67.quest_desc: [
+		"Place a Lantern or Soul Lantern in the Belt Curio slot to carry a light while keeping your hands free."
+		""
+		"The Curio slots can be found by clicking the icon in the top left of your character portrait in the inventory screen."
+	]
+	quest.6F8DEEA622864F67.quest_subtitle: "Equipment"
+	quest.6F8DEEA622864F67.title: "Light the Way"
+	quest.6FED61511733C9FB.quest_desc: [
+		"Springs are ingredients for Wheel Mounts and Torsion Springs. They can also connect two blocks with a flexible connection."
+		""
+		"Use a wrench to adjust spring strength, or use additional Springs to change the resting length. Useful when experimenting with suspension and moving joints."
+	]
+	quest.6FED61511733C9FB.quest_subtitle: "Ground Vehicles"
+	quest.6FED61511733C9FB.title: "A Little Give"
+	quest.7038531CD2E422C4.quest_desc: ["Steel Blast Furnace Reinforcements improve the furnace beyond its initial fireproof supports. Ponder the furnace to see where they fit before expanding your steel production."]
+	quest.7038531CD2E422C4.quest_subtitle: "Steelmaking"
+	quest.7038531CD2E422C4.title: "Turn Up the Furnace"
+	quest.71B8EEF0127CD660.quest_desc: ["Use Coaster Track to connect two Track Anchorpoints. Their placement and orientation shape the curve between them. A Wrench lets you adjust that curve after placing it."]
+	quest.71B8EEF0127CD660.quest_subtitle: "Milestone | Coaster Building"
+	quest.71B8EEF0127CD660.title: "Getting on Tracks"
+	quest.72278C56D230CF7E.quest_desc: ["An Advanced Magnet adds item filters and separate range settings for items and experience. Sneak-use it to configure what it collects and how far it reaches."]
+	quest.72278C56D230CF7E.quest_subtitle: "Equipment"
+	quest.72278C56D230CF7E.title: "Selective Attraction"
+	quest.72BCA4ACC1AF4CB5.quest_desc: [
+		"Connect aligned shafts with a Mechanical Belt made from dried kelp. Belts are the most common way to transport items through a production line."
+		""
+		"Explore the Item Transportation category in the Ponder Index for ways to move items."
+	]
+	quest.72BCA4ACC1AF4CB5.quest_subtitle: "Item Handling"
+	quest.72BCA4ACC1AF4CB5.title: "Keep Items Moving"
+	quest.72F63EC421622D96.quest_desc: ["Crush Limestone into Limesand. It serves as the flux in the blast furnace steel recipe, alongside iron and Coal Coke Dust. It also finds a use in concrete production."]
+	quest.72F63EC421622D96.quest_subtitle: "Milestone | Steelmaking"
+	quest.72F63EC421622D96.title: "Set in Limestone"
+	quest.7454F5C98401841A.quest_desc: [
+		"Crush obsidian, fill the powdered obsidian with lava using a Spout, and press the unfinished sheet twice."
+		""
+		"Sturdy Sheets are required to construct trains."
+	]
+	quest.7454F5C98401841A.quest_subtitle: "Processing"
+	quest.7454F5C98401841A.title: "Super Sturdy"
+	quest.74F5BE0FB9A07680.quest_desc: ["Electric lights give the factory another use for its power network. Start with a Light Bulb, then explore the other lamp styles and Neon Tubes as your materials expand."]
+	quest.74F5BE0FB9A07680.quest_subtitle: "Electricity"
+	quest.74F5BE0FB9A07680.title: "Light the Factory"
+	quest.75FD817608635A4D.quest_desc: ["A Mechanical Roller clears, paves, or fills terrain as its contraption moves. Choose a paving material before assembly and supply it from storage on the contraption."]
+	quest.75FD817608635A4D.quest_subtitle: "Contraptions"
+	quest.75FD817608635A4D.title: "Pave the Way"
+	quest.77ACC6413F174CC2.quest_desc: ["Packagers send inventory contents as packages and unpack incoming ones. Move packages using the item transport system that suits your build."]
+	quest.77ACC6413F174CC2.quest_subtitle: "Factory Logistics"
+	quest.77ACC6413F174CC2.title: "Pack it Up"
+	quest.77C327E2B156D168.quest_desc: [
+		"Start with a gold sheet. Apply a small cogwheel, a large cogwheel, and an iron nugget, in that order, for five cycles using Deployers."
+		""
+		"The finished sequence can produce random scrap instead of a Precision Mechanism, so ensure your setup has a way to handle it."
+	]
+	quest.77C327E2B156D168.quest_subtitle: "Milestone | Foundations"
+	quest.77C327E2B156D168.title: "Precision Mechanisms"
+	quest.77CA55DB13649ED4.quest_desc: [
+		"Right click coaster track with planks to give it a wooden appearance. Different woods provide different looks, and the planks are not consumed."
+		""
+		"Right click the track with an empty hand to strip the wood back off."
+	]
+	quest.77CA55DB13649ED4.quest_subtitle: "Coasters: Magnetized"
+	quest.77CA55DB13649ED4.title: "A Wooden Wonder"
+	quest.77CCBAC4DB149C3C.quest_desc: ["Refining Heavy Oil can produce Lubrication Oil for engines. Fill an Oil Can by using it on a tank of Lubrication Oil, then use the can on an engine to add it."]
+	quest.77CCBAC4DB149C3C.quest_subtitle: "Engines"
+	quest.77CCBAC4DB149C3C.title: "Keep It Running Smoothly"
+	quest.78358ED9695EAD53.quest_desc: [
+		"A Steam Vent fills a balloon with steam from a boiler. Supply heat, water, and enough boiler space, then use redstone to control its output."
+		""
+		"This is another way to lift an airship. Ponder the Steam Vent for its boiler requirements and controls."
+	]
+	quest.78358ED9695EAD53.quest_subtitle: "Airships \\& Aircraft"
+	quest.78358ED9695EAD53.title: "Steam in the Sky"
+	quest.784030365929F1C2.quest_desc: ["Use a Hose with an equipped backpack and a Tanks Upgrade to collect, place, or drink fluids. Use the Swap Tool/Change Hose Mode keybind to choose the mode and tank."]
+	quest.784030365929F1C2.quest_subtitle: "Traveler's Backpack"
+	quest.784030365929F1C2.title: "On Tap"
+	quest.79021D3F7C6C1313.quest_desc: [
+		"A Steam Engine turns water + heat into rotational power."
+		""
+		"Build a boiler from Fluid Tanks, supply water, and provide heat. Mount one or more Steam Engines on the sides of the boiler to drive shafts. Boiler size, water supply, and heat together determine its power output."
+	]
+	quest.79021D3F7C6C1313.quest_subtitle: "Power"
+	quest.79021D3F7C6C1313.title: "Boiling Water"
+	quest.79FC6C75167D3F72.quest_desc: [
+		"An Accumulator stores electrical energy supplied from below and releases it from the top. Use one to buffer a network."
+		""
+		"There are Lead and Sulfuric Acid, or Lithium and Nickel, crafting routes; check your recipe viewer for both."
+	]
+	quest.79FC6C75167D3F72.quest_subtitle: "Electricity"
+	quest.79FC6C75167D3F72.title: "Power in Reserve"
+	quest.7B1E4B6A7F3AD2AC.quest_desc: [
+		"A Void Upgrade discards incoming excess once the drawer is full, preventing machines from backing up on items."
+		""
+		"Lock the drawer to the items you intend to collect before using it as an overflow destination."
+	]
+	quest.7B1E4B6A7F3AD2AC.quest_subtitle: "Functional Storage"
+	quest.7B1E4B6A7F3AD2AC.title: "No More Overflow"
+	quest.7B5C9FB0D1C187CB.quest_desc: ["Keep an Anti-Solicitor Talisman in your inventory to prevent Wandering Traders and their llamas from spawning around you. Sneak-use it to toggle the effect on or off."]
+	quest.7B5C9FB0D1C187CB.quest_subtitle: "Equipment"
+	quest.7B5C9FB0D1C187CB.title: "Do Not Disturb"
+	quest.7BA7288765F629E0.quest_desc: [
+		"The Coaster Style Tool changes the appearance of your track. Right click away from a track to choose a style and colors, then use the tool directly on a track curve to apply them."
+		""
+		"For a quick change of color, regular dyes also tint coaster track; an axe removes that dye."
+	]
+	quest.7BA7288765F629E0.quest_subtitle: "Track Styles"
+	quest.7BA7288765F629E0.title: "Rails with Character"
+	quest.7BC4C3B57A4E322E.quest_desc: [
+		"Process coal in a Coke Oven, then crush the Coal Coke into Coal Coke Dust for blast furnace fuel."
+		""
+		"Collect the Creosote as well; it supplies your first Blast Stove fuel and treats planks for steel casings. Remove the Carbon Dioxide from the top of the oven to keep production moving."
+	]
+	quest.7BC4C3B57A4E322E.quest_subtitle: "Milestone | Steelmaking"
+	quest.7BC4C3B57A4E322E.title: "More Than Coal"
+	quest.7BFA3A64D5E173B3.quest_desc: [
+		"A Portable Engine burns fuel to generate rotation in a compact space. Configure its direction and keep it supplied with fuel to power machinery aboard a vehicle."
+		""
+		"Blaze Cakes can superheat it for more power."
+	]
+	quest.7BFA3A64D5E173B3.quest_subtitle: "Common Components"
+	quest.7BFA3A64D5E173B3.title: "Power to Go"
+	quest.7C9FD8F0A801E203.quest_desc: [
+		"Use a powered Mechanical Press to turn an iron ingot into an Iron Sheet. A Depot below the press is enough for a small setup."
+		""
+		"The same press makes copper and gold sheets. Iron sheets open the way to a Mixer whisk, a Blaze Burner, and Electron Tubes."
+	]
+	quest.7C9FD8F0A801E203.quest_subtitle: "Milestone | Foundations"
+	quest.7C9FD8F0A801E203.title: "First Sheets"
+	quest.7D9345EAC9BBD38D.quest_desc: [
+		"Enchant a Collar Tag, then right click your pet to equip it. Pet enchantments can grant extra health, fire protection, item collection, and other abilities."
+		""
+		"Applying another tag returns the old one. Renaming a tag in an anvil also lets you name your pet."
+	]
+	quest.7D9345EAC9BBD38D.quest_subtitle: "Pet Care | Redomesticate"
+	quest.7D9345EAC9BBD38D.title: "Charming Companions"
+	quest.7DFB28089B0EF0B6.quest_desc: ["Place a Demagnetization Coil near dropped items you want to keep in place. It prevents magnets from collecting items in its area. Use it with an empty hand to adjust the range."]
+	quest.7DFB28089B0EF0B6.quest_subtitle: "Utility"
+	quest.7DFB28089B0EF0B6.title: "Stay Put"
+	quest.7F01C941A6478F84.quest_desc: [
+		"Use a Command Drum to order nearby pets to wander, stay, or follow. Interacting with it cycles the command."
+		""
+		"A redstone signal commands the pets of whoever placed the drum, making it useful for gathering companions or leaving them at home."
+	]
+	quest.7F01C941A6478F84.quest_subtitle: "Pet Care | Redomesticate"
+	quest.7F01C941A6478F84.title: "March to the Beat"
+	quest.7F87D99D091ED890.quest_desc: ["Apply Andesite Alloy to a stripped log to make Andesite Casing. Many recipes use this item."]
+	quest.7F87D99D091ED890.quest_subtitle: "Milestone | Foundations"
+	quest.7F87D99D091ED890.title: "A Frame for Machinery"
+	quest.7F9C4AB6557C9E6C.quest_desc: ["Offroad tires come in several sizes. Use a tire on the front of a Wheel Mount to attach it, and choose a size that gives your vehicle room to clear the terrain."]
+	quest.7F9C4AB6557C9E6C.quest_subtitle: "Ground Vehicles"
+	quest.7F9C4AB6557C9E6C.title: "Rubber Meets the Road"
+	quest.7FBBC5E14D5B11A1.quest_desc: [
+		"Pattern Schematics let Schematicannons and contraptions repeat a design."
+		""
+		"Use an Empty Pattern Schematic in a Schematic Table, then use the Clone tool to repeat the structure."
+	]
+	quest.7FBBC5E14D5B11A1.quest_subtitle: "Building"
+	quest.7FBBC5E14D5B11A1.title: "Another One"
+	task.00F3938C52E6058D.title: "Explore High Logistics in the Ponder Index"
+	task.03957C369211E9C3.title: "Lantern or Soul Lantern"
+	task.07C65F97CE3DFD49.title: "Create or join a party"
+	task.0DC40961A3A0381E.title: "Explore lift and drag from sails"
+	task.1B34A7053653B8A4.title: "Any Restrictor Seat"
+	task.1CDDA99C6DABA6AA.title: "Explore vehicle transmissions"
+	task.20363A4E5A9DD61F.title: "Review your shader performance profile"
+	task.26A1DEFC6B043B34.title: "Explore steering and braking"
+	task.271FCEF688E66EFF.title: "Gyroscopic Propeller Bearing or Smart Propeller"
+	task.2A18A29AF092E60B.title: "Any Toolbox"
+	task.2B6DF0B5C12EFF5C.title: "Claim your chunks"
+	task.2C3C2C1CA8B88D2B.title: "Any Bundle"
+	task.327E7F731B6D623A.title: "Explore a Ponder scene"
+	task.3563325FC14CDEFD.title: "Engines"
+	task.3A43C56EDB20F22A.title: "Any Offroad Tire"
+	task.3E30427F75DB4C2C.title: "Explore ground vehicle components"
+	task.447A9CBF32BD507F.title: "Set up proximity voice chat"
+	task.44A6D0FE01B74E13.title: "Any Hot Air Envelope"
+	task.45C655B48C8C3322.title: "Explore Kinetic Blocks in the Ponder Index"
+	task.49F88998A01095D6.title: "Yep"
+	task.4C63F73C950301A0.title: "Any Traveler's Backpack"
+	task.4D7C1E194E0343C3.title: "Explore ways to generate lift and thrust"
+	task.4DCD3112F04A333E.title: "Any Sleeping Bag"
+	task.5054AA9960E2E5F5.title: "Explore Logic Components in the Ponder Index"
+	task.554F8FC9CD1D7347.title: "Andesite or Wooden Propeller"
+	task.58C82A8F82EBBC73.title: "Link your Discord"
+	task.5E50F7D838368FCA.title: "Any Drawer"
+	task.5ED779097B8AE6A8.title: "Review your keybinds"
+	task.633E035A9237A708.title: "Explore Physics Sensor Blocks"
+	task.69ED1AA6410BFEF1.title: "Customize your chat bubbles"
+	task.6DE3B78135DFCD54.title: "Explore Movement Anchors in the Ponder Index"
+	task.72DD6B8904B45C53.title: "Auger Shaft or Auger Cogwheel"
+	task.785ACEA3CE0CFECE.title: "Any Portable Engine"
+	task.78F2B666D56A3C2F.title: "Any Pet Bed"
+	task.794888E34ED621BB.title: "Any Hammock"
+}

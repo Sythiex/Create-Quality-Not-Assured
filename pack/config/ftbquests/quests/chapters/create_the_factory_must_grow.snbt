@@ -1,0 +1,1148 @@
+{
+	autofocus_id: "2D0D20FB913A02F1"
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "create_the_factory_must_grow"
+	group: ""
+	icon: {
+		id: "tfmg:steel_mechanism"
+	}
+	id: "6906914DF5917224"
+	images: [ ]
+	order_index: 4
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["331E98315664FA88"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:cast_iron_ingot"
+			}
+			id: "2D0D20FB913A02F1"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_cast_iron"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3C549382976F83DA"
+				item: { count: 1, id: "tfmg:cast_iron_ingot" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -0.72d
+			y: 0.0d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:fireproof_bricks"
+			}
+			id: "191B1863C835C54C"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_fireproof_bricks"
+			]
+			tasks: [{
+				consume_items: false
+				id: "0AF166908B819861"
+				item: { count: 1, id: "tfmg:fireproof_bricks" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.72d
+			y: 2.16d
+		}
+		{
+			dependencies: [
+				"2D0D20FB913A02F1"
+				"1E096190BDACC162"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:coal_coke_dust"
+			}
+			id: "7BC4C3B57A4E322E"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_coke"
+			]
+			tasks: [{
+				consume_items: false
+				id: "0BD5FE42A8F8BC6D"
+				item: { count: 1, id: "tfmg:coal_coke_dust" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -0.72d
+			y: 2.16d
+		}
+		{
+			dependencies: ["1E096190BDACC162"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:limesand"
+			}
+			id: "72F63EC421622D96"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_flux"
+			]
+			tasks: [{
+				consume_items: false
+				id: "265855A81AA2CC27"
+				item: { count: 1, id: "tfmg:limesand" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.72d
+			y: 4.32d
+		}
+		{
+			dependencies: [
+				"7BC4C3B57A4E322E"
+				"191B1863C835C54C"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:blast_stove"
+			}
+			id: "2908BE5D54722B4F"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_hot_blast"
+			]
+			tasks: [{
+				consume_items: false
+				id: "67100B9A17E2F468"
+				item: { count: 1, id: "tfmg:blast_stove" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -0.72d
+			y: 4.32d
+		}
+		{
+			dependencies: [
+				"2908BE5D54722B4F"
+				"72F63EC421622D96"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:steel_ingot"
+			}
+			id: "2A1EF53A2C26014E"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_steel"
+			]
+			tasks: [{
+				consume_items: false
+				id: "5CE7EFB93BF8C3FF"
+				item: { count: 1, id: "tfmg:steel_ingot" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.48d
+		}
+		{
+			dependencies: ["2D0D20FB913A02F1"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:exhaust"
+			}
+			id: "6D94BBA188720A1C"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_exhaust"
+			]
+			tasks: [{
+				consume_items: false
+				id: "5D5647A57B9EFCA5"
+				item: { count: 1, id: "tfmg:exhaust" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.2d
+		}
+		{
+			dependencies: ["2D0D20FB913A02F1"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:cast_iron_pipe"
+			}
+			id: "5230FA97E939F086"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_pipes"
+			]
+			tasks: [{
+				id: "07B5E9DCFC9577E6"
+				type: "checkmark"
+			}]
+			x: -1.7999999999999998d
+			y: 1.2d
+		}
+		{
+			dependencies: ["7BC4C3B57A4E322E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:hardened_planks"
+			}
+			id: "6F3DEDC26FEAA51F"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_hardened_planks"
+			]
+			tasks: [{
+				consume_items: false
+				id: "191E8974C779CB93"
+				item: { count: 1, id: "tfmg:hardened_planks" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.16d
+			y: 4.32d
+		}
+		{
+			dependencies: ["2A1EF53A2C26014E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:heavy_plate"
+			}
+			id: "3AB8563914D2AE8D"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_heavy_plate"
+			]
+			tasks: [{
+				consume_items: false
+				id: "45CB5F7D32F145ED"
+				item: { count: 1, id: "tfmg:heavy_plate" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.64d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:nickel_ingot"
+			}
+			id: "00DDD4B706ACE501"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_metals"
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "46F15EB5A759CC3E"
+					item: { count: 1, id: "tfmg:nickel_ingot" }
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1335B0701FC2CB01"
+					item: { count: 1, id: "tfmg:lead_ingot" }
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: 1.44d
+			y: 8.64d
+		}
+		{
+			dependencies: [
+				"3AB8563914D2AE8D"
+				"6F3DEDC26FEAA51F"
+				"00DDD4B706ACE501"
+				"3A5B2B713A604870"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:steel_mechanism"
+			}
+			id: "3F6718A522820A35"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_industry"
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "640803339A10BF21"
+					item: { count: 1, id: "tfmg:heavy_machinery_casing" }
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1F50CFEC87D48B12"
+					item: { count: 1, id: "tfmg:steel_mechanism" }
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.8d
+		}
+		{
+			dependencies: ["2A1EF53A2C26014E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:blast_furnace_reinforcement"
+			}
+			id: "7038531CD2E422C4"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_reinforcement"
+			]
+			tasks: [{
+				consume_items: false
+				id: "7614B88F290EC979"
+				item: { count: 1, id: "tfmg:blast_furnace_reinforcement" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.7999999999999998d
+			y: 6.6d
+		}
+		{
+			dependencies: ["72F63EC421622D96"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:concrete_mixture"
+			}
+			id: "329C7F08755FDA61"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_concrete"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3E7B507E4E844F94"
+				item: { count: 1, id: "tfmg:concrete_mixture" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.7999999999999998d
+			y: 5.3999999999999995d
+		}
+		{
+			dependencies: ["3F6718A522820A35"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:surface_scanner"
+			}
+			id: "51826A2DCF6044FE"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_scanner"
+			]
+			tasks: [{
+				consume_items: false
+				id: "42D8FEF6743FE4E7"
+				item: { count: 1, id: "tfmg:surface_scanner" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.4d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3F6718A522820A35"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:crude_oil_bucket"
+			}
+			id: "4D7AC317FA48835F"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_oil"
+			]
+			tasks: [{
+				consume_items: false
+				id: "2DA3435AAC1C8FE2"
+				item: { count: 1, id: "tfmg:crude_oil_bucket" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -0.72d
+			y: 12.96d
+		}
+		{
+			dependencies: ["4D7AC317FA48835F"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:diesel_bucket"
+			}
+			id: "32A957C0644A27FE"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_refining"
+			]
+			tasks: [{
+				consume_items: false
+				id: "4115B30A4670571D"
+				item: { count: 1, id: "tfmg:diesel_bucket" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -1.44d
+			y: 15.120000000000001d
+		}
+		{
+			dependencies: ["3F6718A522820A35"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:regular_engine"
+			}
+			id: "4D538104737F562B"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_engines"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3563325FC14CDEFD"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:or(ftbfiltersystem:item(tfmg:regular_engine) ftbfiltersystem:item(tfmg:radial_engine) ftbfiltersystem:item(tfmg:simple_large_engine) ftbfiltersystem:item(tfmg:large_engine) ftbfiltersystem:item(tfmg:turbine_engine))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.4d
+		}
+		{
+			dependencies: ["3F6718A522820A35"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:engine_gearbox"
+			}
+			id: "5DF77EE7A0ABCDA6"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_gearbox"
+			]
+			tasks: [{
+				consume_items: false
+				id: "56A3840AAF42288A"
+				item: { count: 1, id: "tfmg:engine_gearbox" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.2d
+		}
+		{
+			dependencies: ["32A957C0644A27FE"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:oil_can"
+			}
+			id: "77CCBAC4DB149C3C"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_lubrication"
+			]
+			tasks: [{
+				consume_items: false
+				id: "295F85BF53FB8F7D"
+				item: { count: 1, id: "tfmg:oil_can" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -4.2d
+			y: 16.2d
+		}
+		{
+			dependencies: ["32A957C0644A27FE"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:flarestack"
+			}
+			id: "531C8CFFE82C94B0"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_flarestack"
+			]
+			tasks: [{
+				consume_items: false
+				id: "55AA93EF3AB0CE90"
+				item: { count: 1, id: "tfmg:flarestack" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.0d
+			y: 16.8d
+		}
+		{
+			dependencies: ["32A957C0644A27FE"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:bitumen"
+			}
+			id: "4A7F779E3141825E"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_asphalt"
+			]
+			tasks: [{
+				consume_items: false
+				id: "127EC47EBA228D71"
+				item: { count: 1, id: "tfmg:bitumen" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -5.3999999999999995d
+			y: 15.6d
+		}
+		{
+			dependencies: ["3F6718A522820A35"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:industrial_mixer"
+			}
+			id: "3B9F5FB0A9C99E2D"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_vat"
+			]
+			tasks: [{
+				id: "0D897FC1B863C3E4"
+				type: "checkmark"
+			}]
+			x: -2.4d
+			y: 12.6d
+		}
+		{
+			dependencies: ["3B9F5FB0A9C99E2D"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:sulfuric_acid_bucket"
+			}
+			id: "32033B978B89A178"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_acid"
+			]
+			tasks: [{
+				consume_items: false
+				id: "04733BCF03928541"
+				item: { count: 1, id: "tfmg:sulfuric_acid_bucket" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.4d
+			y: 13.799999999999999d
+		}
+		{
+			dependencies: ["32A957C0644A27FE"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:rubber_sheet"
+			}
+			id: "545EBBC9084BAA44"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_rubber"
+			]
+			tasks: [{
+				consume_items: false
+				id: "2AC00E507D5AA8CB"
+				item: { count: 1, id: "tfmg:rubber_sheet" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.2d
+		}
+		{
+			dependencies: ["32A957C0644A27FE"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:plastic_sheet"
+			}
+			id: "3C121F6F668A5734"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_plastic"
+			]
+			tasks: [{
+				consume_items: false
+				id: "0A7C6B3D5F372B45"
+				item: { count: 1, id: "tfmg:plastic_sheet" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -1.44d
+			y: 17.28d
+		}
+		{
+			dependencies: ["2A1EF53A2C26014E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:silicon_ingot"
+			}
+			id: "17C6142F5D2158B6"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_silicon"
+			]
+			tasks: [{
+				consume_items: false
+				id: "774B26D917A70573"
+				item: { count: 1, id: "tfmg:silicon_ingot" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.88d
+			y: 8.64d
+		}
+		{
+			dependencies: [
+				"17C6142F5D2158B6"
+				"00DDD4B706ACE501"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:magnet"
+			}
+			id: "53685DEEEA6B2C49"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_magnet"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3E2E967007FB7187"
+				item: { count: 1, id: "tfmg:magnet" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.16d
+			y: 10.8d
+		}
+		{
+			dependencies: ["3F6718A522820A35"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:winding_machine"
+			}
+			id: "60EA187C88A04267"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_winding"
+			]
+			tasks: [{
+				consume_items: false
+				id: "76AC40B96D2C6653"
+				item: { count: 1, id: "tfmg:winding_machine" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.72d
+			y: 12.96d
+		}
+		{
+			dependencies: [
+				"60EA187C88A04267"
+				"53685DEEEA6B2C49"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:generator"
+			}
+			id: "0AC57349FEA2ABAF"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"tfmg"
+				"core"
+				"qualitynotassured_tfmg_generator"
+			]
+			tasks: [{
+				consume_items: false
+				id: "6146BF4DD9FDE9FF"
+				item: { count: 1, id: "tfmg:generator" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.44d
+			y: 15.120000000000001d
+		}
+		{
+			dependencies: ["0AC57349FEA2ABAF"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:copper_spool"
+			}
+			id: "0E3EB5BBCB218047"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_wires"
+			]
+			tasks: [{
+				consume_items: false
+				id: "46515F9A33220815"
+				item: { count: 1, id: "tfmg:copper_spool" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 4.2d
+			y: 16.2d
+		}
+		{
+			dependencies: ["0AC57349FEA2ABAF"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:electric_motor"
+			}
+			id: "1A8EA2AA9C54C330"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_electricity"
+			]
+			tasks: [{
+				id: "3472B60B95A3260B"
+				type: "checkmark"
+			}]
+			x: 4.2d
+			y: 17.4d
+		}
+		{
+			dependencies: ["0AC57349FEA2ABAF"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:electric_motor"
+			}
+			id: "61C259C5CFB40A23"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_motor"
+			]
+			tasks: [{
+				consume_items: false
+				id: "7D6C6CE79AC8474E"
+				item: { count: 1, id: "tfmg:electric_motor" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.0d
+			y: 17.4d
+		}
+		{
+			dependencies: ["1A8EA2AA9C54C330"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:transformer"
+			}
+			id: "5CFA3186480F4EEA"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_controls"
+			]
+			tasks: [{
+				id: "4C70E45470FF80C2"
+				type: "checkmark"
+			}]
+			x: 4.2d
+			y: 19.2d
+		}
+		{
+			dependencies: ["1A8EA2AA9C54C330"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:multimeter"
+			}
+			id: "035C284EC728DE8C"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_meter"
+			]
+			tasks: [{
+				consume_items: false
+				id: "7B52BDD8442B053F"
+				item: { count: 1, id: "tfmg:multimeter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.3999999999999995d
+			y: 18.599999999999998d
+		}
+		{
+			dependencies: ["1A8EA2AA9C54C330"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:light_bulb"
+			}
+			id: "74F5BE0FB9A07680"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_lighting"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3BC4DBBE073B5E6B"
+				item: { count: 1, id: "tfmg:light_bulb" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 6.0d
+			y: 17.4d
+		}
+		{
+			dependencies: ["0AC57349FEA2ABAF"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:aluminum_ingot"
+			}
+			id: "01DED6B81999FD0A"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_aluminum"
+			]
+			tasks: [{
+				consume_items: false
+				id: "0B12FE3720E55F66"
+				item: { count: 1, id: "tfmg:aluminum_ingot" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.2d
+			y: 17.4d
+		}
+		{
+			dependencies: ["01DED6B81999FD0A"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:accumulator"
+			}
+			id: "79FC6C75167D3F72"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_accumulator"
+			]
+			tasks: [{
+				consume_items: false
+				id: "6DE379DB19522F5A"
+				item: { count: 1, id: "tfmg:accumulator" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.4d
+			y: 19.2d
+		}
+		{
+			dependencies: [
+				"3C121F6F668A5734"
+				"01DED6B81999FD0A"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:circuit_board"
+			}
+			id: "0377D3032E904B75"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_circuit"
+			]
+			tasks: [{
+				consume_items: false
+				id: "303E8E7EE2E90C23"
+				item: { count: 1, id: "tfmg:circuit_board" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.2d
+		}
+		{
+			dependencies: ["0377D3032E904B75"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "tfmg:fireproof_chemical_vat"
+			}
+			id: "03F67D90AE7E7066"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"tfmg"
+				"optional"
+				"qualitynotassured_tfmg_arc_furnace"
+			]
+			tasks: [{
+				consume_items: false
+				id: "4513930CE0C10EFC"
+				item: { count: 1, id: "tfmg:fireproof_chemical_vat" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 21.0d
+		}
+	]
+}

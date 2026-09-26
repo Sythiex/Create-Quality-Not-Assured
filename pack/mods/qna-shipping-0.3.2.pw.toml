@@ -1,0 +1,8 @@
+name = "qna-shipping-0.3.2"
+filename = "qna-shipping-0.3.2.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Sythiex/Create-Quality-Not-Assured/releases/download/v1.0.0/qna-shipping-0.3.2.jar"
+hash-format = "sha256"
+hash = "ee257b08c54d306825c61e5b453c8b57f7edbd121fc4d227397dd9eabeedcedd"

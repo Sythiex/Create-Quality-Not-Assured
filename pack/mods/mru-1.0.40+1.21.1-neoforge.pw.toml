@@ -1,0 +1,12 @@
+name = "MRU"
+filename = "mru-1.0.40+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SNVQ2c0g/versions/r8GfwQTK/mru-1.0.40%2B1.21.1-neoforge.jar"
+hash-format = "sha256"
+hash = "d13f2d4dd2b8c2ca4a65a5a163fc043d5e3e341f15b2fc906cb256dc8e2e4bb5"
+
+[update.modrinth]
+mod-id = "SNVQ2c0g"
+version = "r8GfwQTK"

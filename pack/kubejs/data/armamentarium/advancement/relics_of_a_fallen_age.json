@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "armamentarium:blade_of_ruin"
+    },
+    "title": {
+      "text": "Relics of a Fallen Age"
+    },
+    "description": {
+      "text": "The kingdoms of old have fallen, but their weapons endure. Search ruins and treasure chests across the world for ancient arms."
+    },
+    "background": "armamentarium:textures/screens/blackice-export.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "begin_journey": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

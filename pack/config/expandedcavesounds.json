@@ -1,0 +1,4 @@
+{
+  "_comment": "Set playVanillaCaveSounds\u003dfalse to hear ONLY the 50 expanded cave sounds; true (default) lets vanilla and expanded both play at random.",
+  "playVanillaCaveSounds": true
+}

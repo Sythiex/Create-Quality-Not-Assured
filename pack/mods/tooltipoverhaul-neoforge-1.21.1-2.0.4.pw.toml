@@ -1,0 +1,12 @@
+name = "Tooltip Overhaul"
+filename = "tooltipoverhaul-neoforge-1.21.1-2.0.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/vRFcG5n6/versions/BcdeQ4bI/tooltipoverhaul-neoforge-1.21.1-2.0.4.jar"
+hash-format = "sha256"
+hash = "757c1223ef160587fe4429c2f5ea4d22739cee0ad56634e28f456ee2d07ce8b6"
+
+[update.modrinth]
+mod-id = "vRFcG5n6"
+version = "BcdeQ4bI"

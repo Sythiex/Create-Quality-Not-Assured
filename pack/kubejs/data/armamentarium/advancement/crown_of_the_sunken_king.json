@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "armamentarium:eventide_waveblade"
+    },
+    "title": {
+      "translate": "advancements.crown_of_the_sunken_king.title"
+    },
+    "description": {
+      "translate": "advancements.crown_of_the_sunken_king.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crown_of_the_sunken_king_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "armamentarium:eventide_waveblade",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "armamentarium:tastes_like_promotion"
+}

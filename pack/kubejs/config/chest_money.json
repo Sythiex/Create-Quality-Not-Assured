@@ -1,0 +1,682 @@
+{
+  "version": 1,
+  "hourlyTargets": {
+    "1": 600,
+    "2": 2000,
+    "3": 5000,
+    "4": 7000,
+    "5": 10000
+  },
+  "tables": [
+    {
+      "id": "idas:chests/abandonedhouse/abandonedhouse",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/abandonedhouse/abandonedhouse_create",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/abandonedhouse/abandonedhouse_library",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/ancient_mines/minesbasic",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/ancient_mines/minescreate",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/ancient_mines/mineshall",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/ancient_portal/ancient_portal_nether",
+      "difficulty": 3,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/ancient_portal/ancient_portal_overworld",
+      "difficulty": 3,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/ancient_statue/ancient_statue_jungle",
+      "difficulty": 1,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "idas:chests/ancient_statue/ancient_statue_treasure_desert",
+      "difficulty": 1,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "idas:chests/ancient_statue/ancient_statue_treasure_jungle",
+      "difficulty": 1,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "idas:chests/ancient_statue/ancient_statue_treasure_plains",
+      "difficulty": 1,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "idas:chests/apothecary_abode/apothecary_abode",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/apothecary_abode/apothecary_abode_books",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/bazaar/bazaar",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/bazaar/bazaar_food",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/bearclaw_inn/bearclaw_inn_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/bearclaw_inn/bearclaw_inn_food",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/beekeepers_house/beekeepers_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/beekeepers_house/beekeepers_food",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/beekeepers_house/beekeepers_tools",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/botanist/botanist",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/botanist/botanist_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/botanist/botanist_food",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/brickhouse/brickhouse_windmill",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/castle/castle",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/castle/castle_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/castle/castle_food",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/castle/castle_library",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/castle/castle_throne",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/collectors_museum/museum_basic",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/collectors_museum/museum_bedroom",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/collectors_museum/museum_farm",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/collectors_museum/museum_food",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/collectors_museum/museum_library",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/collectors_museum/museum_space",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/collectors_museum/museum_treasure",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/cottage/cottage",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/desert_pyramid/desert_pyramid",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/desert_pyramid/desert_pyramid_library",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/desert_pyramid/desert_pyramid_surface",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/desert_pyramid/desert_pyramid_tomb",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/desert_pyramid/desert_pyramid_tools",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/desert_pyramid/desert_pyramid_treasure",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/dig_site/dig_site",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/dig_site/dig_site_desert",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/dig_site/dig_site_tools",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/dig_site/dig_site_treasure",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/enchantingtower/enchantingtower_basic",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/enchantingtower/enchantingtower_library",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/enchantingtower/enchantingtower_top",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/farmhouse/farmhouse",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/farmhouse/farmhouse_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/farmhouse/farmhouse_food",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/farmhouse/farmhouse_mill",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/fishermans_lodge/fishermans_lodge",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/fishermans_lodge/fishermans_lodge_tools",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/frozen_crypt/frozen_crypt",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/haunted_manor/haunted_manor",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/haunted_manor/haunted_manor_tools",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/haunted_manor/haunted_manor_treasure",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/hermits_hollow/hollow_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/hermits_hollow/hollow_food",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/hunters_cabin/hunters_cabin",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/hunters_cabin/hunters_cabin_library",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/hunters_cabin/hunters_cabin_tools",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/labyrinth/labyrinth",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/labyrinth/labyrinth_croc",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/labyrinth/labyrinth_library",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/labyrinth/labyrinth_tomb",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/mason_house/mason_house",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/mason_house/mason_house_food",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/necromancers_spire/necromancers_spire",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/pillager_camp/pillager_camp",
+      "difficulty": 2,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "idas:chests/pillager_fortress/pillager_basic",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/pillager_fortress/pillager_bedroom",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/pillager_fortress/pillager_jail",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/pillager_fortress/pillager_library",
+      "difficulty": 4,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/pumpkin_cafe/pumpkin_cafe",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/pumpkin_cafe/pumpkin_cafe_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/pumpkin_cafe/pumpkin_cafe_kitchen",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/pumpkin_cafe/pumpkin_cafe_storage",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/pumpkin_cafe/pumpkin_cafe_treasure",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/redhorn_guild/redhorn_guild",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/redhorn_guild/redhorn_guild_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/redhorn_guild/redhorn_guild_tools",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/ruined_church/ruined_church",
+      "difficulty": 1,
+      "minutesPerChest": 5
+    },
+    {
+      "id": "idas:chests/ruined_fort/ruined_fort",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/ruins_of_the_deep/ruins_basic",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/ruins_of_the_deep/ruins_bedroom",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/ruins_of_the_deep/ruins_create",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/ruins_of_the_deep/ruins_food",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/ruins_of_the_deep/ruins_library",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/ruins_of_the_deep/ruins_ocean",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/ruins_of_the_deep/ruins_tools",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/ruins_of_the_deep/ruins_treasure",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/sunken_ship/sunken_ship_supply",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/sunken_ship/sunken_ship_treasure",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/the_log/the_log",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/the_log/the_log_tools",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "idas:chests/tinkers_citadel/tinkers_citadel",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/tinkers_citadel/tinkers_citadel_bedroom",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/tinkers_citadel/tinkers_citadel_create",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/tinkers_citadel/tinkers_citadel_library",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/tinkers_citadel/tinkers_citadel_tools",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/tinkers_citadel/tinkers_citadel_vault",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/tinkers_workshop/tinkers_workshop",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/tinkers_workshop/tinkers_workshop_basic",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/tinkers_workshop/tinkers_workshop_bedroom",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/tinkers_workshop/tinkers_workshop_tools",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/tinkers_workshop/tinkers_workshop_vault",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/train_ruins/train_ruins",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/train_ruins/train_ruins_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/train_ruins/train_ruins_create",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/tree_of_wisdom/tree_of_wisdom",
+      "difficulty": 1,
+      "minutesPerChest": 6
+    },
+    {
+      "id": "idas:chests/treetop_tavern/treetop_tavern",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/treetop_tavern/treetop_tavern_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/treetop_tavern/treetop_tavern_food",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/treetop_tavern/treetop_tavern_tools",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/tudor_pub/tudor_pub_barrel",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/tudor_pub/tudor_pub_bedroom",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/tudor_pub/tudor_pub_kitchen",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/tudor_pub/tudor_pub_storage",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/tudor_pub/tudor_pub_treasure",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/wacky_wares/wacky_wares_kitchen",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/wacky_wares/wacky_wares_storage",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/wacky_wares/wacky_wares_store",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "idas:chests/windswept_shrine/windswept_shrine",
+      "difficulty": 1,
+      "minutesPerChest": 6
+    },
+    {
+      "id": "idas:chests/winter_wagon/winter_wagon",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/winter_wagon/winter_wagon_tools",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/witches_treestump/witches_treestump",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/wizardtower/wizardtower_basic",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/wizardtower/wizardtower_library",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "idas:chests/wizardtower/wizardtower_top",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    }
+  ]
+}

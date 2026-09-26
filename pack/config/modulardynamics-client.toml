@@ -1,0 +1,18 @@
+[rendering]
+	#Render distance in blocks for item and fluid visuals traveling through pipes. Set to 0 to disable.
+	# Default: 32
+	# Range: 0 ~ 256
+	pipe_content_render_distance_blocks = 32
+	#
+	#Render distance in blocks for held-wrench pipe overlays such as disabled-side markers. Set to 0 to hide these overlays (not recommended).
+	# Default: 32
+	# Range: 0 ~ 256
+	wrench_overlay_render_distance_blocks = 32
+	#
+	#Render distance in blocks for pipe status indicator lights. Set to 0 to disable.
+	# Default: 32
+	# Range: 0 ~ 256
+	indicator_light_render_distance_blocks = 32
+	#
+	#Enable short green indicator blinks when item or fluid transfers enter the pipe network.
+	outgoing_resource_indicator_flash_enabled = true

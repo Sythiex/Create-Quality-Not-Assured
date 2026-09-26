@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "armamentarium:adams_prison",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 50,
+    "separation": 30,
+    "salt": 2117227247,
+    "frequency": 0.0
+  }
+}

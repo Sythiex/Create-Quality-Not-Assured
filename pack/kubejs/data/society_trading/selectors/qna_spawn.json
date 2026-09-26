@@ -1,0 +1,16 @@
+{
+  "selector_id": "qna_spawn",
+  "name": {
+    "text": "Spawn Market"
+  },
+  "shop_ids": [
+    "qna_crops",
+    "qna_trees",
+    "qna_plants",
+    "qna_animals",
+    "qna_ores",
+    "qna_components",
+    "qna_supplies",
+    "qna_maps"
+  ]
+}

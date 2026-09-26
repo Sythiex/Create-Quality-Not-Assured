@@ -1,0 +1,12 @@
+name = "Society Trading"
+filename = "society_trading-1.2.11-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rFRQxRZI/versions/3Gf6gyTx/society_trading-1.2.11-1.21.1.jar"
+hash-format = "sha256"
+hash = "df83796708d0dfcd8368219264f7f4df481dc39009a9877ae75e2a9d950efbe0"
+
+[update.modrinth]
+mod-id = "rFRQxRZI"
+version = "3Gf6gyTx"

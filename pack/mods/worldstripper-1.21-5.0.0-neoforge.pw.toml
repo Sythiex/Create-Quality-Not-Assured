@@ -1,0 +1,12 @@
+name = "World Stripper"
+filename = "worldstripper-1.21-5.0.0-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4jjTCjk3/versions/7dmSLV0F/worldstripper-1.21-5.0.0-neoforge.jar"
+hash-format = "sha256"
+hash = "bc760b5b688e91b27f1d098c4d9ad5c9c2785b1ba068c4b9d38a67f49cc0db72"
+
+[update.modrinth]
+mod-id = "4jjTCjk3"
+version = "7dmSLV0F"

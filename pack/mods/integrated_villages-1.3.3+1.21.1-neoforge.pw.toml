@@ -1,0 +1,12 @@
+name = "Integrated Villages"
+filename = "integrated_villages-1.3.3+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/o1qh5qIF/versions/B5BcNY1z/integrated_villages-1.3.3%2B1.21.1-neoforge.jar"
+hash-format = "sha256"
+hash = "b53a485828da352b1a6a24cd2796aacf5d8360632b98c7dfba295f235d41ec00"
+
+[update.modrinth]
+mod-id = "o1qh5qIF"
+version = "B5BcNY1z"

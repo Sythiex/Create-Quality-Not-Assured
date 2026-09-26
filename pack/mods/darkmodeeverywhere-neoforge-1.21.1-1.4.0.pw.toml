@@ -1,0 +1,12 @@
+name = "Dark Mode Everywhere"
+filename = "darkmodeeverywhere-neoforge-1.21.1-1.4.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/k3lrwGqk/versions/PEHRE9ut/darkmodeeverywhere-neoforge-1.21.1-1.4.0.jar"
+hash-format = "sha256"
+hash = "cbb814b1d7188ada37ec9236a38efabeba0c56a1a36ad750b6bc272049fabbb2"
+
+[update.modrinth]
+mod-id = "k3lrwGqk"
+version = "PEHRE9ut"

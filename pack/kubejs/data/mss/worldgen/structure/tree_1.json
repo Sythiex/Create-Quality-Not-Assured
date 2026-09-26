@@ -1,0 +1,20 @@
+{
+  "type": "moogs_structures:moogs_structures_generic_jigsaw_structure",
+  "start_pool": "mss:tree_1_start_pool",
+  "size": 2,
+  "liquid_settings": "ignore_waterlogging",
+  "biomes": "#mss:has_structure/overworld_biomes",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "cannot_spawn_in_liquid": false,
+  "start_height": {
+    "min_inclusive": {
+      "absolute": 300
+    },
+    "max_inclusive": {
+      "absolute": 400
+    },
+    "type": "minecraft:uniform"
+  },
+  "spawn_overrides": {}
+}

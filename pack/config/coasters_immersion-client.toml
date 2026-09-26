@@ -1,0 +1,183 @@
+[emotes]
+	#Permite abrir el menu radial de emotes yendo montado.
+	enabled = true
+	#Mostrar los emotes de los demas pasajeros.
+	show_others = true
+
+[camera]
+	#Interruptor maestro de TODOS los efectos de camara.
+	#Con esto en false, Immersion no toca la camara en absoluto.
+	enabled = true
+	#Abrir el campo de vision con la velocidad.
+	dynamic_fov = true
+	#Grados maximos que se abre el campo de vision a velocidad punta.
+	# Default: 15
+	# Range: 0 ~ 40
+	max_fov_increase = 18
+	#Porcentaje de inclinacion lateral que la camara acompana en las curvas.
+	#10 es poco sobre el papel y es justo lo que se ve bien: la formula del peralte
+	#real ya da angulos generosos, asi que una fraccion pequena basta para que se
+	#note sin marear.
+	# Default: 10
+	# Range: 0 ~ 100
+	banking_intensity = 20
+	#Intensidad del temblor de camara, en porcentaje.
+	#Es vibracion de vias, no un tiron: escala con la velocidad.
+	# Default: 20
+	# Range: 0 ~ 100
+	shake = 45
+	#Balanceo vertical de la cabeza. Desactivado por defecto: marea a mucha gente.
+	head_bob = false
+	#La cabeza del pasajero no gira con el raton
+	anchor_head = true
+	#Que parte de los pasajeros levanta los brazos, 0-100
+	# Default: 30
+	# Range: 0 ~ 100
+	hands_up_chance = 60
+	#Modo de brazos arriba: 0 automatico, 1 manual, 2 desactivado
+	# Default: 0
+	# Range: 0 ~ 2
+	hands_up_mode = 0
+	#Mostrar los dos brazos del pasajero en primera persona
+	first_person_arms = true
+	#Grados que puede girar la cabeza respecto al cuerpo sentado
+	# Default: 12
+	# Range: 0 ~ 60
+	neck_freedom = 16
+	#El cuerpo del pasajero mira al frente del asiento en vez de a donde miras
+	lock_body_to_seat = true
+	#Cuanto acompana la cabeza a la camara, 0-100
+	# Default: 85
+	# Range: 0 ~ 100
+	head_follows_camera = 60
+	#Levantar los brazos en las caidas grandes
+	hands_up = true
+	#Reaccion del cuerpo a las fuerzas del recorrido, 0-100
+	# Default: 100
+	# Range: 0 ~ 100
+	rider_reactions = 70
+	#Cuanto se cuelga del arnes boca abajo, 0-100
+	# Default: 100
+	# Range: 0 ~ 100
+	inverted_hang = 95
+	#Cuanto flota y se hunde el cuerpo en el arnes, 0-100
+	# Default: 100
+	# Range: 0 ~ 100
+	body_travel = 60
+	#Cuanto acompana la camara a las fuerzas G, en porcentaje.
+	#Con G positivas la vista se hunde, en el airtime sube y en las curvas se
+	#inclina hacia dentro. Es lo que hace el cuerpo, no la camara.
+	#0 lo apaga.
+	# Default: 60
+	# Range: 0 ~ 100
+	g_force_intensity = 95
+	#Fuerza del golpe al salir disparado, en porcentaje.
+	#Lo que se nota de un lanzamiento no es la fuerza, es lo rapido que llega:
+	#esto detecta ese cambio brusco y le superpone un pico de campo de vision,
+	#de desenfoque y de rayas de aire durante medio segundo.
+	#0 lo apaga.
+	# Default: 75
+	# Range: 0 ~ 100
+	launch_punch = 70
+
+[telemetry]
+	#Panel con velocidad, fuerza G, airtime y maximos del recorrido.
+	#Solo aparece yendo montado.
+	enabled = false
+
+[sound]
+	#Viento y traqueteo de rail ligados a la velocidad.
+	#Usa sonidos que ya trae el juego: no anade ningun archivo de audio y se pueden
+	#sustituir con un paquete de recursos.
+	enabled = true
+	#Volumen del viento, en porcentaje.
+	# Default: 70
+	# Range: 0 ~ 100
+	wind_volume = 90
+	#Volumen del traqueteo de rail, en porcentaje.
+	# Default: 55
+	# Range: 0 ~ 100
+	rail_volume = 25
+	#Volumen de la musica de la atraccion, de 0 a 100.
+	# Default: 80
+	# Range: 0 ~ 100
+	music_volume = 50
+
+[smooth]
+	#Inercia de la cabeza, en milisegundos.
+	#Sable suelda la camara al carrito: lo que el vagon hace de golpe, tu vista lo
+	#hace de golpe. Esto le da al cuello la masa que tendria uno de verdad.
+	#80-120 es lo natural. Para apagarlo del todo esta su tecla.
+	# Default: 40
+	# Range: 0 ~ 150
+	head_inertia_ms = 90
+	#Cuanto se frena la camara en los giros BRUSCOS, en porcentaje.
+	#No afecta a las curvas normales: solo entra cuando el carrito da un latigazo.
+	# Default: 100
+	# Range: 0 ~ 100
+	turn_softening = 55
+	#Suavizado del movimiento de los sub-levels, 0-100
+	# Default: 100
+	# Range: 0 ~ 100
+	sublevel_smoothing = 100
+	#Redondeo de las esquinas de la via, 0-100
+	# Default: 85
+	# Range: 0 ~ 100
+	curve_smoothing = 70
+	#Porcentaje de alabeo que la camara absorbe.
+	#0 = giras con el carrito. 100 = el horizonte se mantiene siempre nivelado.
+	# Default: 15
+	# Range: 0 ~ 100
+	roll_stabilization = 10
+	#Porcentaje de cabeceo que la camara absorbe.
+	#Afecta a subidas y bajadas. Normalmente se deja mas bajo que el alabeo.
+	# Default: 20
+	# Range: 0 ~ 100
+	pitch_stabilization = 10
+
+[render]
+	#No dibujar sub-levels tapados por el terreno
+	sublevel_occlusion = true
+	#Distancia de dibujado de los sub-levels en chunks; 0 = sin limite, minimo 2
+	# Default: 6
+	# Range: 0 ~ 32
+	sublevel_render_distance = 8
+
+[compat]
+	#Recargar los shaders al entrar al mundo para evitar vias translucidas
+	shader_reload_fix = true
+	#Corrige las vias translucidas con shaders (recorte por alfa de Flywheel)
+	shader_cutout_fix = true
+
+[menu]
+	#Preajuste: 0 suave, 1 equilibrado, 2 intenso
+	# Default: 0
+	# Range: 0 ~ 3
+	preset = 0
+	#Mostrar los ajustes avanzados en el menu
+	show_advanced = true
+
+[hud]
+	#Ocultar la mirilla durante una atraccion
+	hide_crosshair_while_riding = true
+
+[speed_fx]
+	#Desenfoque radial ligado a la velocidad.
+	#Deja nitido el centro de la pantalla y estira solo la periferia, que es lo que
+	#hace una camara montada en una atraccion de verdad.
+	#Se apaga solo mientras haya un paquete de shaders activo: Iris sustituye el
+	#post-proceso del juego y el efecto no llegaria a aplicarse bien.
+	motion_blur = true
+	#Fuerza del desenfoque, en porcentaje.
+	# Default: 75
+	# Range: 0 ~ 100
+	motion_blur_strength = 45
+	#Rayas de aire que pasan junto a la camara a gran velocidad.
+	#Actuan en el centro del campo de vision, donde el desenfoque radial no toca.
+	streaks = true
+	#Cantidad y opacidad de las rayas, en porcentaje.
+	#Por defecto va bajo a proposito: pasarse convierte el efecto en un filtro de
+	#comic en vez de en sensacion de velocidad.
+	# Default: 20
+	# Range: 0 ~ 100
+	streaks_intensity = 30

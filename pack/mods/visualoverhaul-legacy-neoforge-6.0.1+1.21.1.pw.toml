@@ -1,0 +1,12 @@
+name = "Visual Overhaul: Legacy"
+filename = "visualoverhaul-legacy-neoforge-6.0.1+1.21.1.jar"
+side = "both"
+
+[download]
+hash = "36c986ac8f1b72642a46e86b90c1eaeff4e605ff"
+hash-format = "sha1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8803522
+project-id = 1680794

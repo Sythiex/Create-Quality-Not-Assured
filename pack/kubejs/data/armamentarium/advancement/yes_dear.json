@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "armamentarium:honeycomb_gavel"
+    },
+    "title": {
+      "translate": "advancements.yes_dear.title"
+    },
+    "description": {
+      "translate": "advancements.yes_dear.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "yes_dear_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "armamentarium:honeycomb_gavel",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "armamentarium:relics_of_a_fallen_age"
+}

@@ -1,0 +1,12 @@
+name = "Prism"
+filename = "Prism-1.21.1-neoforge-1.0.11.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/1OE8wbN0/versions/kMcz2lDj/Prism-1.21.1-neoforge-1.0.11.jar"
+hash-format = "sha256"
+hash = "b6a1e585416c48d7d9fa53fc12c67122ad1f3a6965202b51d4e2c643ffca61c2"
+
+[update.modrinth]
+mod-id = "1OE8wbN0"
+version = "kMcz2lDj"

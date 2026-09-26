@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "armamentarium:excalibur"
+    },
+    "title": {
+      "translate": "advancements.save_the_empire.title"
+    },
+    "description": {
+      "translate": "advancements.save_the_empire.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "save_the_empire_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "armamentarium:excalibur",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "armamentarium:tastes_like_promotion"
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "armamentarium:flame_frenzied_claymore"
+    },
+    "title": {
+      "translate": "advancements.three_fingered_madness.title"
+    },
+    "description": {
+      "translate": "advancements.three_fingered_madness.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "three_fingered_madness_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "armamentarium:flame_frenzied_claymore",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "armamentarium:relics_of_a_fallen_age"
+}

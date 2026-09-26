@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alexsmobs:ender_residue",
+      "required": false
+    }
+  ]
+}

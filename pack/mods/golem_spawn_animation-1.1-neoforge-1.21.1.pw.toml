@@ -1,0 +1,12 @@
+name = "Golem Spawn Animation"
+filename = "golem_spawn_animation-1.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1FoZ14MZ/versions/ooarhc7F/golem_spawn_animation-1.1-neoforge-1.21.1.jar"
+hash-format = "sha256"
+hash = "cfd068936af0ca5f1bff5ed5936b40579acf7c2f135be8aa138f026e7f6cca5c"
+
+[update.modrinth]
+mod-id = "1FoZ14MZ"
+version = "ooarhc7F"

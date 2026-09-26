@@ -1,0 +1,12 @@
+name = "Exposure Catalog"
+filename = "exposure_catalog-neoforge-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PWcQ3kcp/versions/WvDm67vr/exposure_catalog-neoforge-1.1.2.jar"
+hash-format = "sha256"
+hash = "cceee4b4acc19b6e3fb95b009e3cc920f796ea81b2c6b47f3b1e97cb4a70ef50"
+
+[update.modrinth]
+mod-id = "PWcQ3kcp"
+version = "WvDm67vr"

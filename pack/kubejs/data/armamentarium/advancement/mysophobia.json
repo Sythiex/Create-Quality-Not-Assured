@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "armamentarium:sculk_patient_zero"
+    },
+    "title": {
+      "translate": "advancements.mysophobia.title"
+    },
+    "description": {
+      "translate": "advancements.mysophobia.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mysophobia_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "armamentarium:sculk_patient_zero",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "recipes": [
+      "armamentarium:reaper_of_the_gaol_recipe"
+    ]
+  },
+  "parent": "armamentarium:tastes_like_promotion"
+}

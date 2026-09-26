@@ -1,0 +1,12 @@
+name = "iChunUtil"
+filename = "iChunUtil-1.21-NeoForge-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/W6ROj0Hl/versions/OvIyyNh4/iChunUtil-1.21-NeoForge-1.0.3.jar"
+hash-format = "sha256"
+hash = "02e238386407958b19eb53a5a1812258e191cd813071639348ba6d76eee52792"
+
+[update.modrinth]
+mod-id = "W6ROj0Hl"
+version = "OvIyyNh4"

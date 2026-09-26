@@ -1,0 +1,35 @@
+{
+  "replace": false,
+  "values": [
+    "#aeronautics:envelope",
+    "minecraft:slime_block",
+    {
+      "id": "galosphere:stranded_membrane_block",
+      "required": false
+    },
+    {
+      "id": "the_bumblezone:royal_jelly_block",
+      "required": false
+    },
+    {
+      "id": "netherexp:magma_cream_block",
+      "required": false
+    },
+    {
+      "id": "ironfurnaces:million_furnace",
+      "required": false
+    },
+    {
+      "id": "alexscaves:sundrop",
+      "required": false
+    },
+    {
+      "id": "moresnifferflowers:corrupted_sludge",
+      "required": false
+    },
+    {
+      "id": "enderscape:drift_jelly_block",
+      "required": false
+    }
+  ]
+}

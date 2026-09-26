@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "armamentarium:the_mind_of_jean"
+    },
+    "title": {
+      "translate": "advancements.the_mind_electric.title"
+    },
+    "description": {
+      "translate": "advancements.the_mind_electric.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_mind_electric_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "armamentarium:the_mind_of_jean",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250,
+    "recipes": [
+      "armamentarium:dragon_slayer"
+    ]
+  },
+  "parent": "armamentarium:tastes_like_promotion"
+}

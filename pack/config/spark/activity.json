@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Sythiex",
+      "uniqueId": "f12ef91e-a9f0-4610-b6d7-8fe0ec6592f7"
+    },
+    "time": 1790110988975,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/tSZooQcrFT"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Sythiex",
+      "uniqueId": "f12ef91e-a9f0-4610-b6d7-8fe0ec6592f7"
+    },
+    "time": 1787477196632,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3xSVmAlyYt"
+    }
+  }
+]

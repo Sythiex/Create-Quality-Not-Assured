@@ -1,0 +1,5 @@
+[energy]
+	#Maximum FE that one Energy I/O connection may transfer per tick. Requires a server restart.
+	# Default: 100000
+	# Range: > 1
+	energy_io_transfer_cap_fe_per_tick = 100000

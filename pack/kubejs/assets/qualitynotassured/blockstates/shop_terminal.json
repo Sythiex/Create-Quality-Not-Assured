@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "qualitynotassured:block/shop_terminal",
+      "y": 450
+    },
+    "facing=north": {
+      "model": "qualitynotassured:block/shop_terminal",
+      "y": 360
+    },
+    "facing=south": {
+      "model": "qualitynotassured:block/shop_terminal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "qualitynotassured:block/shop_terminal",
+      "y": 270
+    }
+  }
+}

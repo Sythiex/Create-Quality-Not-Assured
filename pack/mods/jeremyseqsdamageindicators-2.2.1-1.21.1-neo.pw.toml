@@ -1,0 +1,12 @@
+name = "JeremySeq's Damage Indicator"
+filename = "jeremyseqsdamageindicators-2.2.1-1.21.1-neo.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/SGJfwZzw/versions/dI93WDeZ/jeremyseqsdamageindicators-2.2.1-1.21.1-neo.jar"
+hash-format = "sha256"
+hash = "ad29e5743f01cfda8b5dc1eaf8ce56c496b90fd701703118988384d369519bdc"
+
+[update.modrinth]
+mod-id = "SGJfwZzw"
+version = "dI93WDeZ"

@@ -1,0 +1,12 @@
+name = "Simple Snowy Fix (Forge / Fabric)"
+filename = "simple_snowy_fix-1.21.1-1.21.11-2.2.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3WP3HZRG/versions/UlwusT7e/simple_snowy_fix-1.21.1-1.21.11-2.2.1-neoforge.jar"
+hash-format = "sha256"
+hash = "2d43c17f4cf3d6fa4db4ac26a29af169b5225b22110e75df2ad4fe28c60f42ad"
+
+[update.modrinth]
+mod-id = "3WP3HZRG"
+version = "UlwusT7e"

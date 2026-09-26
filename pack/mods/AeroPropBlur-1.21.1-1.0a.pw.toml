@@ -1,0 +1,12 @@
+name = "Aeronautics Propeller Blur"
+filename = "AeroPropBlur-1.21.1-1.0a.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uKFK3MBp/versions/27nROiTP/AeroPropBlur-1.21.1-1.0a.jar"
+hash-format = "sha256"
+hash = "5efc1fd59e42f1cb86bce4bed04fc026a70cc2b5b8c9d0ffe6097475d4526ad7"
+
+[update.modrinth]
+mod-id = "uKFK3MBp"
+version = "27nROiTP"

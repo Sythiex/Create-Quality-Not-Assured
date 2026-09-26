@@ -1,0 +1,888 @@
+{
+  "shop_id": "qna_animals",
+  "name": {
+    "text": "Animals"
+  },
+  "texture": "qualitynotassured:textures/block/shop_terminal/shop_terminal_front.png",
+  "hidden_from_auto_trader": true,
+  "hidden_from_selector": true,
+  "selector_weight": 4,
+  "display_type": "thin",
+  "jei_catalyst": {
+    "id": "minecraft:chicken_spawn_egg",
+    "count": 1
+  },
+  "trades": [
+    {
+      "trade_id": "qna_buy_animals_minecraft_chicken_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:chicken_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_cow_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:cow_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_pig_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:pig_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_sheep_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:sheep_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_rabbit_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:rabbit_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_goat_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:goat_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_bee_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:bee_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_horse_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 2
+      },
+      "offer": {
+        "id": "minecraft:horse_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 1024,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_donkey_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 2
+      },
+      "offer": {
+        "id": "minecraft:donkey_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 1024,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_mule_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 2
+      },
+      "offer": {
+        "id": "minecraft:mule_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 1024,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_llama_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 2
+      },
+      "offer": {
+        "id": "minecraft:llama_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 1024,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_camel_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 2
+      },
+      "offer": {
+        "id": "minecraft:camel_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 1024,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_wolf_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:wolf_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_cat_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:cat_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_parrot_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:parrot_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_fox_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:fox_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_ocelot_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:ocelot_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_axolotl_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:axolotl_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_armadillo_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:armadillo_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_bat_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:bat_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_tadpole_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:tadpole_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_panda_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 2
+      },
+      "offer": {
+        "id": "minecraft:panda_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 1024,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_turtle_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:turtle_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_dolphin_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 2
+      },
+      "offer": {
+        "id": "minecraft:dolphin_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 1024,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_squid_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:squid_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_glow_squid_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:glow_squid_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_cod_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:cod_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_salmon_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:salmon_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_tropical_fish_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:tropical_fish_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_minecraft_pufferfish_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:pufferfish_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_deer_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "naturalist:deer_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_duck_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:duck_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_turkey_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:turkey_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_zebra_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "naturalist:zebra_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_giraffe_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 2
+      },
+      "offer": {
+        "id": "naturalist:giraffe_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 1024,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_capybara_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "naturalist:capybara_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_hedgehog_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:hedgehog_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_bird_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:bird_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_lizard_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:lizard_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_rat_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:rat_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_tortoise_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "naturalist:tortoise_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_mole_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:mole_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_butterfly_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:butterfly_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_caterpillar_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:caterpillar_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_firefly_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:firefly_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_dragonfly_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:dragonfly_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_ant_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:ant_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_snail_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:snail_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_bass_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:bass_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_catfish_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:catfish_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_blobfish_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 2
+      },
+      "offer": {
+        "id": "naturalist:blobfish_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 1024,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_anglerfish_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 2
+      },
+      "offer": {
+        "id": "naturalist:anglerfish_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 1024,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_ray_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "naturalist:ray_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_jellyfish_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "naturalist:jellyfish_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_clam_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:clam_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_crab_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:crab_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_starfish_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "naturalist:starfish_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_giant_isopod_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 2
+      },
+      "offer": {
+        "id": "naturalist:giant_isopod_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 1024,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_whale_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 2
+      },
+      "offer": {
+        "id": "naturalist:whale_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 1024,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_quark_shiba_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "quark:shiba_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_quark_crab_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "quark:crab_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_crabbersdelight_crab_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "crabbersdelight:crab_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_create_bic_bit_herring_spawn_egg",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "create_bic_bit:herring_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_piranha_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "naturalist:piranha_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_snake_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "naturalist:snake_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_desert_scorpion_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "naturalist:desert_scorpion_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_animals_naturalist_jungle_scorpion_spawn_egg",
+      "request": {
+        "id": "numismatics:crown",
+        "count": 1
+      },
+      "offer": {
+        "id": "naturalist:jungle_scorpion_spawn_egg",
+        "count": 1
+      },
+      "numismatics_cost": 512,
+      "limit": -1
+    }
+  ]
+}

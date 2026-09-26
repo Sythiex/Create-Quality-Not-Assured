@@ -1,0 +1,12 @@
+name = "Create: Blocks & Bogies"
+filename = "create_bb-1.0.8-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/j4ARnQwY/versions/nC19ZMKK/create_bb-1.0.8-1.21.1.jar"
+hash-format = "sha256"
+hash = "36a1cf8eaef08254085f9190b6a3130dd787747ee30fb8eeb606d6a6e0f9bf4f"
+
+[update.modrinth]
+mod-id = "j4ARnQwY"
+version = "nC19ZMKK"

@@ -1,0 +1,14 @@
+{
+  "shop.society_trading.qna_crops.description": "Seeds and crops for your farm.",
+  "shop.society_trading.qna_trees.description": "Saplings for growing trees.",
+  "shop.society_trading.qna_plants.description": "Flowers and decorative plants for your garden.",
+  "shop.society_trading.qna_animals.description": "Farm animals, pets, and other creatures.",
+  "shop.society_trading.qna_ores.description": "Ores and minerals for crafting and industry.",
+  "shop.society_trading.qna_components.description": "Create parts and materials, unlocked through team progress.",
+  "shop.society_trading.qna_supplies.description": "Everyday materials for crafting.",
+  "shop.society_trading.qna_maps.description": "Maps to large ore deposits.",
+  "gui.society_trading.price": "\uf011%s",
+  "gui.society_trading.hover_price_one": "Price: \uf011%s",
+  "gui.society_trading.balance": "\u00a70\uf011%s",
+  "jei.society_trading.price": "\uf011%s"
+}

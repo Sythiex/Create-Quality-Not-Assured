@@ -1,0 +1,12 @@
+name = "Create: Frogport Reworked"
+filename = "create-frogport-reworked-1.0.1.jar"
+side = "both"
+
+[download]
+hash = "e014c4219a7a1d96554a118215681f84b43ff877"
+hash-format = "sha1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8575689
+project-id = 1629968

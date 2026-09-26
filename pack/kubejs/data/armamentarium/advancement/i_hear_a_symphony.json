@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "armamentarium:ender_maiden_shortbow"
+    },
+    "title": {
+      "translate": "advancements.i_hear_a_symphony.title"
+    },
+    "description": {
+      "translate": "advancements.i_hear_a_symphony.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "i_hear_a_symphony_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "armamentarium:ender_maiden_shortbow",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "armamentarium:tastes_like_promotion"
+}

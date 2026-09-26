@@ -1,0 +1,12 @@
+name = "Brewin' And Chewin'"
+filename = "BrewinAndChewin-neoforge-4.5.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hIu9KJTT/versions/MbcR48Ou/BrewinAndChewin-neoforge-4.5.0%2B1.21.1.jar"
+hash-format = "sha256"
+hash = "9f6581823c2449dde4ac1e9b4f5a7cc226c42e058e656741ab392f714f443971"
+
+[update.modrinth]
+mod-id = "hIu9KJTT"
+version = "MbcR48Ou"

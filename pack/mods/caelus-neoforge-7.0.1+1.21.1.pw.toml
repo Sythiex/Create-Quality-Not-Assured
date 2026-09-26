@@ -1,0 +1,12 @@
+name = "Caelus API"
+filename = "caelus-neoforge-7.0.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/40FYwb4z/versions/KsfI4QsR/caelus-neoforge-7.0.1%2B1.21.1.jar"
+hash-format = "sha256"
+hash = "432a645557f29de159d9edde2fd109f8e3b32ff30895b4fede04ee5f1a1a682f"
+
+[update.modrinth]
+mod-id = "40FYwb4z"
+version = "KsfI4QsR"

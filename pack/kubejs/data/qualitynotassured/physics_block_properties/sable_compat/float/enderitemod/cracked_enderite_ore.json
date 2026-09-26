@@ -1,0 +1,8 @@
+{
+  "selector": "#qualitynotassured:sable_compat/float/enderitemod/cracked_enderite_ore",
+  "properties": {
+    "sable:floating_material": "aeronautics:levitite",
+    "sable:floating_scale": 6.0
+  },
+  "priority": 0
+}

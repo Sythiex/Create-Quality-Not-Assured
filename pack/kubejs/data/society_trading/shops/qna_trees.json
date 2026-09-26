@@ -1,0 +1,316 @@
+{
+  "shop_id": "qna_trees",
+  "name": {
+    "text": "Saplings"
+  },
+  "texture": "qualitynotassured:textures/block/shop_terminal/shop_terminal_front.png",
+  "hidden_from_auto_trader": true,
+  "hidden_from_selector": true,
+  "selector_weight": 2,
+  "display_type": "thin",
+  "jei_catalyst": {
+    "id": "minecraft:oak_sapling",
+    "count": 1
+  },
+  "trades": [
+    {
+      "trade_id": "qna_buy_trees_minecraft_oak_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:oak_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_minecraft_spruce_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:spruce_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_minecraft_birch_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:birch_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_minecraft_jungle_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:jungle_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_minecraft_acacia_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:acacia_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_minecraft_cherry_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "minecraft:cherry_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_minecraft_dark_oak_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:dark_oak_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_minecraft_mangrove_propagule",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "minecraft:mangrove_propagule",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_minecraft_azalea",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:azalea",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_minecraft_flowering_azalea",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "minecraft:flowering_azalea",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_quark_blue_blossom_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "quark:blue_blossom_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_quark_lavender_blossom_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "quark:lavender_blossom_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_quark_orange_blossom_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "quark:orange_blossom_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_quark_yellow_blossom_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "quark:yellow_blossom_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_quark_red_blossom_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "quark:red_blossom_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_cookscollection_lemon_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 3
+      },
+      "offer": {
+        "id": "cookscollection:lemon_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 48,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_culturaldelights_avocado_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 3
+      },
+      "offer": {
+        "id": "culturaldelights:avocado_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 48,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_cluttered_willow_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "cluttered:willow_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_cluttered_poplar_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "cluttered:poplar_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_cluttered_crabapple_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "cluttered:crabapple_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_cluttered_sycamore_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "cluttered:sycamore_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_cluttered_fluorescent_maple_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "cluttered:fluorescent_maple_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_trees_crabbersdelight_palm_sapling",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 3
+      },
+      "offer": {
+        "id": "crabbersdelight:palm_sapling",
+        "count": 1
+      },
+      "numismatics_cost": 48,
+      "limit": -1
+    }
+  ]
+}

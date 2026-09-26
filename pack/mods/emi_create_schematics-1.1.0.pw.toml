@@ -1,0 +1,12 @@
+name = "EMI: Create Schematics"
+filename = "emi_create_schematics-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5bgqgixq/versions/opyfkMHl/emi_create_schematics-1.1.0.jar"
+hash-format = "sha256"
+hash = "2b5cac7e2be8505ff555f679f2c71b717b7be883f1e01f7d8e97c586019947a7"
+
+[update.modrinth]
+mod-id = "5bgqgixq"
+version = "opyfkMHl"

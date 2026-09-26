@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "armamentarium:black_ice_monument",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 21,
+    "separation": 15,
+    "salt": 410169135,
+    "frequency": 0.0
+  }
+}

@@ -1,0 +1,12 @@
+name = "CC: Terminals"
+filename = "ccterminals-1.21.1-forge-0.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mbjglPPW/versions/3VT1i1B2/ccterminals-1.21.1-forge-0.1.1.jar"
+hash-format = "sha256"
+hash = "3c3b9b8b19491b0efbe6989ce5fa9605e3df360c4b7176a5cc8e124cac7d654f"
+
+[update.modrinth]
+mod-id = "mbjglPPW"
+version = "3VT1i1B2"

@@ -1,0 +1,12 @@
+name = "Not interested!"
+filename = "not_interested--mc1.21.1--neoforge--1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/j7Ux0G0U/versions/IWvl2m8o/not_interested--mc1.21.1--neoforge--1.0.1.jar"
+hash-format = "sha256"
+hash = "7caa47857c941da27d7d2fa06e416669b53e063e2b82f683b59faf4507c04ce5"
+
+[update.modrinth]
+mod-id = "j7Ux0G0U"
+version = "IWvl2m8o"

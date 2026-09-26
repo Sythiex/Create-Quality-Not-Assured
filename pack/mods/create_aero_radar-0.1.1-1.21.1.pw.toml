@@ -1,0 +1,12 @@
+name = "Create Aero Radars"
+filename = "create_aero_radar-0.1.1-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Gxj4Ihed/versions/uDnC1TSw/create_aero_radar-0.1.1-1.21.1.jar"
+hash-format = "sha256"
+hash = "77da138d202ed9fa95f57ee45c411f7af4b6addfa55ff5175bd379b68cd079a6"
+
+[update.modrinth]
+mod-id = "Gxj4Ihed"
+version = "uDnC1TSw"

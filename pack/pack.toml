@@ -1,0 +1,13 @@
+name = "Create: Quality Not Assured"
+author = "Sythiex"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a797f722e66a54a6b6ca596b27a995734f30f67f8ff9b7754cb16e64cc245229"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.248"

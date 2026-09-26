@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "armamentarium:spine_of_a_death_lord"
+    },
+    "title": {
+      "translate": "advancements.catastrophic_irony.title"
+    },
+    "description": {
+      "translate": "advancements.catastrophic_irony.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "catastrophic_irony_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "armamentarium:spine_of_a_death_lord",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "recipes": [
+      "armamentarium:warspear_of_the_desecrator"
+    ]
+  },
+  "parent": "armamentarium:tastes_like_promotion"
+}

@@ -1,0 +1,177 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mynethersdelight:slices_of_bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5,
+              "add": false
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "#farmersdelight:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "mynethersdelight:bread_loaf_block"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "mynethersdelight:bread_loaf_block",
+          "properties": {
+            "bites": "0"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mynethersdelight:slices_of_bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "add": false
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "#farmersdelight:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "mynethersdelight:bread_loaf_block"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "mynethersdelight:bread_loaf_block",
+          "properties": {
+            "bites": "1"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mynethersdelight:slices_of_bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3,
+              "add": false
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "#farmersdelight:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "mynethersdelight:bread_loaf_block"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "mynethersdelight:bread_loaf_block",
+          "properties": {
+            "bites": "2"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mynethersdelight:slices_of_bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "add": false
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "#farmersdelight:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "mynethersdelight:bread_loaf_block"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "mynethersdelight:bread_loaf_block",
+          "properties": {
+            "bites": "3"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mynethersdelight:slices_of_bread"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "#farmersdelight:tools/knives"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "mynethersdelight:bread_loaf_block"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "mynethersdelight:bread_loaf_block",
+          "properties": {
+            "bites": "4"
+          }
+        }
+      ]
+    }
+  ]
+}

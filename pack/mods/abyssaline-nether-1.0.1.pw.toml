@@ -1,0 +1,12 @@
+name = "Abyssaline Nether"
+filename = "abyssaline-nether-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zaPcMGz6/versions/HvrLr6AS/abyssaline-nether-1.0.1.jar"
+hash-format = "sha256"
+hash = "ab12369183d516e7cd83995ca0768b0f02cda6f0c7ce64475d7068d31d320e02"
+
+[update.modrinth]
+mod-id = "zaPcMGz6"
+version = "HvrLr6AS"

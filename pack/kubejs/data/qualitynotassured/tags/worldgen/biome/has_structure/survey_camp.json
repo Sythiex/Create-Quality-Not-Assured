@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_overworld",
+    "#c:is_overworld"
+  ],
+  "remove": [
+    "#minecraft:is_ocean",
+    "#minecraft:is_river",
+    "#minecraft:is_beach",
+    "#c:is_ocean",
+    "#c:is_river",
+    "#c:is_beach",
+    "#c:is_underground",
+    "#c:is_cave"
+  ]
+}

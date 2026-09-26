@@ -1,0 +1,12 @@
+name = "Climbable Ropes for Create Aeronautics"
+filename = "climbable_ropes-2.1.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jImqv1M5/versions/bdgQsUVU/climbable_ropes-2.1.3.jar"
+hash-format = "sha256"
+hash = "38bd36f4913012b2b7a465f0cc197de41dd99dde080065d06a0a4e2e727dfaa3"
+
+[update.modrinth]
+mod-id = "jImqv1M5"
+version = "bdgQsUVU"

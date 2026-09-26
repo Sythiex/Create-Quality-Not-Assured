@@ -1,0 +1,12 @@
+name = "Create Big Cannons: Advanced Technologies"
+filename = "cbc_at_Neoforge_1.21.1_0.1.4c.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pTfszyXD/versions/ds01YFge/cbc_at_Neoforge_1.21.1_0.1.4c.jar"
+hash-format = "sha256"
+hash = "88fb40b3353308c90d68f4512b78b63fd7278d05915d9d8628cecab9508ee58f"
+
+[update.modrinth]
+mod-id = "pTfszyXD"
+version = "ds01YFge"

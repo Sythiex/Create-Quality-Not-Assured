@@ -1,0 +1,8 @@
+name = "foodmood-0.1.0"
+filename = "foodmood-0.1.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Sythiex/Create-Quality-Not-Assured/releases/download/v1.0.0/foodmood-0.1.0.jar"
+hash-format = "sha256"
+hash = "c85131e8b4114345c22a36361f11ab495d89223d7f2a7d562cc0745d761790f6"

@@ -1,0 +1,12 @@
+name = "Create: Void Tank"
+filename = "create-void-tank-1.1.0-neo.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/obMoIBR3/versions/xUUQucCF/create-void-tank-1.1.0-neo.jar"
+hash-format = "sha256"
+hash = "4960369e4decc8cb0223427a6928e66b3e04f3eaa4b293c2561670d9d37d5f15"
+
+[update.modrinth]
+mod-id = "obMoIBR3"
+version = "xUUQucCF"

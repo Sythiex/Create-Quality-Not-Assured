@@ -1,0 +1,12 @@
+name = "Coasters: Immersion"
+filename = "coasters-immersion-0.2.3.jar"
+side = "both"
+
+[download]
+hash = "ab3990422d0ea15719a3f2f78efa0c0a286f370b"
+hash-format = "sha1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8765632
+project-id = 1672383

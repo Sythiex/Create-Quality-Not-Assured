@@ -1,0 +1,266 @@
+{
+  "shop_id": "qna_ores",
+  "name": {
+    "text": "Ores and Minerals"
+  },
+  "texture": "qualitynotassured:textures/block/shop_terminal/shop_terminal_front.png",
+  "hidden_from_auto_trader": true,
+  "hidden_from_selector": true,
+  "selector_weight": 5,
+  "display_type": "thin",
+  "jei_catalyst": {
+    "id": "minecraft:diamond_ore",
+    "count": 1
+  },
+  "trades": [
+    {
+      "trade_id": "qna_buy_ores_minecraft_coal_ore",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:coal_ore",
+        "count": 1
+      },
+      "numismatics_cost": 64,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_ores_minecraft_iron_ore",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 3
+      },
+      "offer": {
+        "id": "minecraft:iron_ore",
+        "count": 1
+      },
+      "numismatics_cost": 48,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_ores_minecraft_copper_ore",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:copper_ore",
+        "count": 1
+      },
+      "numismatics_cost": 96,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 32
+      }
+    },
+    {
+      "trade_id": "qna_buy_ores_minecraft_gold_ore",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 2
+      },
+      "offer": {
+        "id": "minecraft:gold_ore",
+        "count": 1
+      },
+      "numismatics_cost": 128,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_ores_minecraft_redstone_ore",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:redstone_ore",
+        "count": 1
+      },
+      "numismatics_cost": 96,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 32
+      }
+    },
+    {
+      "trade_id": "qna_buy_ores_minecraft_emerald_ore",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:emerald_ore",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_ores_minecraft_lapis_ore",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:lapis_ore",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_ores_minecraft_diamond_ore",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:diamond_ore",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_ores_create_zinc_ore",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "offer": {
+        "id": "create:zinc_ore",
+        "count": 1
+      },
+      "numismatics_cost": 96,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 32
+      }
+    },
+    {
+      "trade_id": "qna_buy_ores_createpropulsion_platinum_ore",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 3
+      },
+      "offer": {
+        "id": "createpropulsion:platinum_ore",
+        "count": 1
+      },
+      "numismatics_cost": 192,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_ores_tfmg_lead_ore",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 2
+      },
+      "offer": {
+        "id": "tfmg:lead_ore",
+        "count": 1
+      },
+      "numismatics_cost": 128,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_ores_tfmg_nickel_ore",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 2
+      },
+      "offer": {
+        "id": "tfmg:nickel_ore",
+        "count": 1
+      },
+      "numismatics_cost": 128,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_ores_tfmg_lithium_ore",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 4
+      },
+      "offer": {
+        "id": "tfmg:lithium_ore",
+        "count": 1
+      },
+      "numismatics_cost": 256,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_ores_minecraft_nether_gold_ore",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:nether_gold_ore",
+        "count": 1
+      },
+      "numismatics_cost": 96,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 32
+      },
+      "stage_required": "qna_shop_nether",
+      "unlock_description": {
+        "text": "team entered Nether"
+      }
+    },
+    {
+      "trade_id": "qna_buy_ores_minecraft_nether_quartz_ore",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:nether_quartz_ore",
+        "count": 1
+      },
+      "numismatics_cost": 64,
+      "limit": -1,
+      "stage_required": "qna_shop_nether",
+      "unlock_description": {
+        "text": "team entered Nether"
+      }
+    },
+    {
+      "trade_id": "qna_buy_ores_minecraft_ancient_debris",
+      "request": {
+        "id": "numismatics:sun",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:ancient_debris",
+        "count": 1
+      },
+      "numismatics_cost": 4096,
+      "limit": -1,
+      "stage_required": "qna_shop_debris",
+      "unlock_description": {
+        "text": "team entered Nether and acquired Ancient Debris"
+      }
+    },
+    {
+      "trade_id": "qna_buy_ores_minecraft_amethyst_shard",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:amethyst_shard",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    }
+  ]
+}

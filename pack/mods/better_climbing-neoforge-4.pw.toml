@@ -1,0 +1,12 @@
+name = "Better Climbing"
+filename = "better_climbing-neoforge-4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZucWZEBV/versions/RJgDIKSn/better_climbing-neoforge-4.jar"
+hash-format = "sha256"
+hash = "5b3467bab819272eebea599410e940736d302f18332097e9a2d34193b4189b80"
+
+[update.modrinth]
+mod-id = "ZucWZEBV"
+version = "RJgDIKSn"

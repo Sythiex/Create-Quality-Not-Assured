@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "armamentarium:therons_prison",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 30,
+    "separation": 23,
+    "salt": 728528586,
+    "frequency": 0.0
+  }
+}

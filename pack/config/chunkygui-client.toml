@@ -1,0 +1,9 @@
+[ui]
+	#Show the Chunky GUI shortcut button injected into the vanilla pause menu.
+	#The separately configurable Controls key binding is unaffected.
+	#是否在原版 ESC 暫停選單顯示 Chunky GUI 快捷按鈕。
+	#此設定不影響玩家在控制設定中自行綁定的 Chunky GUI 快捷鍵。
+	showPauseMenuButton = true
+	#Show the manual Refresh button in the Chunky GUI footer.
+	#Automatic polling remains enabled when this is false.
+	showManualRefreshButton = false

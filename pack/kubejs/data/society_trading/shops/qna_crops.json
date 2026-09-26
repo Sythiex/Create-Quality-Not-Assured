@@ -1,0 +1,498 @@
+{
+  "shop_id": "qna_crops",
+  "name": {
+    "text": "Crops"
+  },
+  "texture": "qualitynotassured:textures/block/shop_terminal/shop_terminal_front.png",
+  "hidden_from_auto_trader": true,
+  "hidden_from_selector": true,
+  "selector_weight": 1,
+  "display_type": "thin",
+  "jei_catalyst": {
+    "id": "minecraft:wheat_seeds",
+    "count": 1
+  },
+  "trades": [
+    {
+      "trade_id": "qna_buy_crops_minecraft_wheat_seeds",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:wheat_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_minecraft_beetroot_seeds",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:beetroot_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_minecraft_pumpkin_seeds",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:pumpkin_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_minecraft_melon_seeds",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:melon_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_minecraft_carrot",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:carrot",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_minecraft_potato",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:potato",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_minecraft_cocoa_beans",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:cocoa_beans",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_minecraft_sweet_berries",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:sweet_berries",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_minecraft_glow_berries",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "minecraft:glow_berries",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_minecraft_sugar_cane",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:sugar_cane",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_minecraft_bamboo",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:bamboo",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_minecraft_cactus",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:cactus",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_minecraft_kelp",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:kelp",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_minecraft_brown_mushroom",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:brown_mushroom",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_minecraft_red_mushroom",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:red_mushroom",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_farmersdelight_cabbage_seeds",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "farmersdelight:cabbage_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_farmersdelight_tomato_seeds",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "farmersdelight:tomato_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_farmersdelight_onion",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "farmersdelight:onion",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_farmersdelight_rice",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "farmersdelight:rice",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_supplementaries_flax_seeds",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "supplementaries:flax_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_culturaldelights_cucumber_seeds",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "culturaldelights:cucumber_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_culturaldelights_corn_kernels",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "culturaldelights:corn_kernels",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_culturaldelights_eggplant_seeds",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "culturaldelights:eggplant_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_culturaldelights_beans",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "culturaldelights:beans",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_culturaldelights_mint",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "culturaldelights:mint",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_culturaldelights_agave",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "culturaldelights:agave",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_rusticdelight_cotton_seeds",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "rusticdelight:cotton_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_rusticdelight_bell_pepper_seeds",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "rusticdelight:bell_pepper_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_rusticdelight_coffee_beans",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "rusticdelight:coffee_beans",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_cocktailsdelight_red_grape_seeds",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "cocktailsdelight:red_grape_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_cocktailsdelight_white_grape_seeds",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "cocktailsdelight:white_grape_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_cocktailsdelight_hops_seeds",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "cocktailsdelight:hops_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_createcafe_coffee_beans",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "createcafe:coffee_beans",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_createcafe_cassava_seeds",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 2
+      },
+      "offer": {
+        "id": "createcafe:cassava_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 32,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_farmerspizzeria_basil",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "farmerspizzeria:basil",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_rusticdelight_pale_bell_pepper_seeds",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "offer": {
+        "id": "rusticdelight:pale_bell_pepper_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 64,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_crops_rusticdelight_dark_bell_pepper_seeds",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "offer": {
+        "id": "rusticdelight:dark_bell_pepper_seeds",
+        "count": 1
+      },
+      "numismatics_cost": 64,
+      "limit": -1
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+name = "Clean Swing"
+filename = "cleanswing-1.10-1.21.jar"
+side = "both"
+
+[download]
+hash = "1df3892b57ad00a75c5bb4a6f6b2749aa126e548"
+hash-format = "sha1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8746293
+project-id = 915308

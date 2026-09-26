@@ -1,0 +1,12 @@
+name = "Aeronautics Delivery Quests"
+filename = "aeronautics_delivery_quests-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tEL1KmWB/versions/Gy38odkJ/aeronautics_delivery_quests-1.1.0.jar"
+hash-format = "sha256"
+hash = "6469278e0c88e38decff11583f844ab16060f9b0f25a2641a8e39684f64da345"
+
+[update.modrinth]
+mod-id = "tEL1KmWB"
+version = "Gy38odkJ"

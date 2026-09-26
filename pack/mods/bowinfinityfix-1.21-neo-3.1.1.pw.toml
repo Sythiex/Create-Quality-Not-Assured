@@ -1,0 +1,12 @@
+name = "Bow Infinity Fix"
+filename = "bowinfinityfix-1.21-neo-3.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BFENfScW/versions/sxYEU4oi/bowinfinityfix-1.21-neo-3.1.1.jar"
+hash-format = "sha256"
+hash = "27bce1f3a7d88887e05f8bfcfc17d523a8cc85b1001efca62577a8fa37e366ca"
+
+[update.modrinth]
+mod-id = "BFENfScW"
+version = "sxYEU4oi"

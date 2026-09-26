@@ -1,0 +1,12 @@
+name = "Logprot"
+filename = "logprot-1.21.1-3.6.jar"
+side = "both"
+
+[download]
+hash = "8898ea5203038aea97d1da86ef5146801c6d000d"
+hash-format = "sha1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8824987
+project-id = 358304

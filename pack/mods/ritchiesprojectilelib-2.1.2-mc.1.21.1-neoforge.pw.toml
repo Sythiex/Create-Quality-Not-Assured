@@ -1,0 +1,12 @@
+name = "Ritchie's Projectile Library"
+filename = "ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/B3pb093D/versions/hZ6B2Z0x/ritchiesprojectilelib-2.1.2%2Bmc.1.21.1-neoforge.jar"
+hash-format = "sha256"
+hash = "cc509060833736fb650aa4c36b1ce33a7eeeb9ca6e9f8e80a7c951c9e7487b24"
+
+[update.modrinth]
+mod-id = "B3pb093D"
+version = "hZ6B2Z0x"

@@ -1,0 +1,90 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "exposure:chests/shipwreck_map"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_white"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_lime"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_orange"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_red"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_gray"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_light_gray"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_black"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_brown"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_yellow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_pink"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_magenta"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_purple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_blue"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_light_blue"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_cyan"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:fisherman_hat_green"
+        }
+      ],
+      "conditions": [
+        {
+          "chance": 0.5,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    }
+  ]
+}

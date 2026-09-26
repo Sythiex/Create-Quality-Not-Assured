@@ -1,0 +1,12 @@
+name = "ForgeEndertech"
+filename = "ForgeEndertech-1.21.1-12.1.3.0-NeoForge-build.1100.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EgS8gGp8/versions/fumbwaIS/ForgeEndertech-1.21.1-12.1.3.0-NeoForge-build.1100.jar"
+hash-format = "sha256"
+hash = "935aafdaf4ab84e1454e6d24f2f01121cd64d930be3f72ce45b7d5a407ae26b4"
+
+[update.modrinth]
+mod-id = "EgS8gGp8"
+version = "fumbwaIS"

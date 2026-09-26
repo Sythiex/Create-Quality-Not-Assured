@@ -1,0 +1,12 @@
+name = "Golem Spawn Animation: Copper Golem Addon"
+filename = "golem_spawn_animation_copper-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash = "324427f9f62e9e689cbfeab130a8ec311cd3ecf7"
+hash-format = "sha1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8677234
+project-id = 1652575

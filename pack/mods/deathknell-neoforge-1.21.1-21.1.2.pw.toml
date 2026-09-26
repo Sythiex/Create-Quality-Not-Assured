@@ -1,0 +1,12 @@
+name = "Death Knell"
+filename = "deathknell-neoforge-1.21.1-21.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WNdd2blX/versions/DILKFbOf/deathknell-neoforge-1.21.1-21.1.2.jar"
+hash-format = "sha256"
+hash = "6387124266f3e791b00124cede5dc461ff8fc1185e1658da0e8eceee6a7e459e"
+
+[update.modrinth]
+mod-id = "WNdd2blX"
+version = "DILKFbOf"

@@ -1,0 +1,12 @@
+name = "Starcatcher's Delight - Let's Do: Kaleidoscope edition"
+filename = "starcatcher_delight-3.2-NEOFORGE-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NCXwQVxD/versions/xPr0G0XR/starcatcher_delight-3.2-NEOFORGE-1.21.1.jar"
+hash-format = "sha256"
+hash = "4174abcc80e64447ea349404f0975bb9ddeb1fadcc9dcc3f14ce1463dbe1e0c3"
+
+[update.modrinth]
+mod-id = "NCXwQVxD"
+version = "xPr0G0XR"

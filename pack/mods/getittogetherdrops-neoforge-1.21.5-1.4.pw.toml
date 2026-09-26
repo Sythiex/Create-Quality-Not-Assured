@@ -1,0 +1,12 @@
+name = "Get It Together, Drops!"
+filename = "getittogetherdrops-neoforge-1.21.5-1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/T0OUgf8P/versions/K4TUzlwa/getittogetherdrops-neoforge-1.21.5-1.4.jar"
+hash-format = "sha256"
+hash = "a09466d03e3dde0c0f5c179146a8247b33a720a88979eb813c5f2aa2ad1c7a78"
+
+[update.modrinth]
+mod-id = "T0OUgf8P"
+version = "K4TUzlwa"

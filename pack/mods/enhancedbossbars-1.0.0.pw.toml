@@ -1,0 +1,12 @@
+name = "Enhanced Boss Bars"
+filename = "enhancedbossbars-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/J5bVsBt9/versions/cQKcPNVh/enhancedbossbars-1.0.0.jar"
+hash-format = "sha256"
+hash = "c1bba0057f916d9d8226258e2f57324f32af85bf539219fc175fa0f1cd18372b"
+
+[update.modrinth]
+mod-id = "J5bVsBt9"
+version = "cQKcPNVh"

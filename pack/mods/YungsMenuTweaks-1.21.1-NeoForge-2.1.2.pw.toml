@@ -1,0 +1,12 @@
+name = "YUNG's Menu Tweaks"
+filename = "YungsMenuTweaks-1.21.1-NeoForge-2.1.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Hcy2DFKF/versions/OB9hQTpQ/YungsMenuTweaks-1.21.1-NeoForge-2.1.2.jar"
+hash-format = "sha256"
+hash = "a6487691e22cb3405256453d2496ee74aae824ae865b0ec57654380686993a53"
+
+[update.modrinth]
+mod-id = "Hcy2DFKF"
+version = "OB9hQTpQ"

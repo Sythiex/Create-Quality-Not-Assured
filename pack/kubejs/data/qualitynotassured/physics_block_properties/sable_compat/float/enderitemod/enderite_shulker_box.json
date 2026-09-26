@@ -1,0 +1,8 @@
+{
+  "selector": "#qualitynotassured:sable_compat/float/enderitemod/enderite_shulker_box",
+  "properties": {
+    "sable:floating_material": "aeronautics:levitite",
+    "sable:floating_scale": 8.0
+  },
+  "priority": 0
+}

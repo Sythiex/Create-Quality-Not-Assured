@@ -1,0 +1,8 @@
+leftSide = false
+renderWaistLantern = true
+shaderOffhandOverride = true
+backLantern = true
+waistRenderableItems = []
+bounciness = 0.75
+enablePhysics = true
+renderDiagnosticLog = false

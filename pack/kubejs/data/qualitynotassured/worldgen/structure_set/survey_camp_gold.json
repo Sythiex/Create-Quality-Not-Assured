@@ -1,0 +1,20 @@
+{
+  "structures": [
+    {
+      "structure": "qualitynotassured:survey_camp_gold",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "locate_offset": [
+      8,
+      0,
+      8
+    ],
+    "spacing": 160,
+    "separation": 64,
+    "salt": 611166532,
+    "spread_type": "linear"
+  }
+}

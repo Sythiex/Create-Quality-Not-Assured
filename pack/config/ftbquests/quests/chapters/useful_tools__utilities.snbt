@@ -1,0 +1,1797 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "useful_tools__utilities"
+	group: ""
+	icon: {
+		id: "create:brown_toolbox"
+	}
+	id: "564E2F4A062668E8"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:crafting_blueprint"
+			}
+			id: "24086AA71986B90B"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_crafting_blueprint"
+			]
+			tasks: [{
+				consume_items: false
+				id: "7400FBA9DFEB1E8B"
+				item: { count: 1, id: "create:crafting_blueprint" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.7999999999999998d
+			y: 0.0d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "measurements:tape_measure"
+			}
+			id: "4CF05B26F1132C78"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_tape_measure"
+			]
+			tasks: [{
+				consume_items: false
+				id: "35F17B8EDA6E8F5A"
+				item: { count: 1, id: "measurements:tape_measure" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.5999999999999996d
+			y: 0.0d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:copper_backtank"
+			}
+			id: "05EA90105CB16133"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_backtank"
+			]
+			tasks: [{
+				consume_items: false
+				id: "47AFAF929B63C294"
+				item: { count: 1, id: "create:copper_backtank" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -4.8d
+			y: 2.4d
+		}
+		{
+			dependencies: ["05EA90105CB16133"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:copper_diving_helmet"
+			}
+			id: "2D5E6C6CA4D38426"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_diving_helmet"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3855F09B8BCF2019"
+				item: { count: 1, id: "create:copper_diving_helmet" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -4.8d
+			y: 3.5999999999999996d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:copper_diving_boots"
+			}
+			id: "1291E0A3177375B4"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_diving_boots"
+			]
+			tasks: [{
+				consume_items: false
+				id: "39C9704766455CF2"
+				item: { count: 1, id: "create:copper_diving_boots" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -4.8d
+			y: 1.2d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:extendo_grip"
+			}
+			id: "1BED65AE715B6721"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_extendo_grip"
+			]
+			tasks: [{
+				consume_items: false
+				id: "6B48F9A2BD296CB8"
+				item: { count: 1, id: "create:extendo_grip" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.5999999999999996d
+			y: 2.4d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:wand_of_symmetry"
+			}
+			id: "3AA48ACA549677B7"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_symmetry_wand"
+			]
+			tasks: [{
+				consume_items: false
+				id: "72EAFD432F4F9AE5"
+				item: { count: 1, id: "create:wand_of_symmetry" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.5999999999999996d
+			y: 1.2d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "4C1C78CBA81942B5"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_bundle"
+			]
+			tasks: [{
+				consume_items: false
+				id: "2C3C2C1CA8B88D2B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:bundles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -1.7999999999999998d
+			y: 0.0d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "6EA7B99FAE7189A7"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_toolbox"
+			]
+			tasks: [{
+				consume_items: false
+				id: "2A18A29AF092E60B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:toolboxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -1.7999999999999998d
+			y: 1.2d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "61CA78715CCEB02E"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_sleeping_bag"
+			]
+			tasks: [{
+				consume_items: false
+				id: "4DCD3112F04A333E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:sleeping_bags)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -7.8d
+			y: 0.0d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "48258CEAA0FB07E6"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_hammock"
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "794888E34ED621BB"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:hammocks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "385837BC0E058809"
+					item: { count: 1, id: "comforts:rope_and_nail" }
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			x: -7.8d
+			y: 1.2d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:schematicannon"
+			}
+			id: "50530639455C280D"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_schematics"
+			]
+			tasks: [{
+				consume_items: false
+				id: "4865D265EE595348"
+				item: { count: 1, id: "create:schematicannon" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 4.8d
+			y: 0.0d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create_pattern_schematics:empty_pattern_schematic"
+			}
+			id: "7FBBC5E14D5B11A1"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"create"
+				"optional"
+				"qualitynotassured_pattern_schematic"
+			]
+			tasks: [{
+				consume_items: false
+				id: "25C4944E7A8867FE"
+				item: { count: 1, id: "create_pattern_schematics:empty_pattern_schematic" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 4.8d
+			y: 2.4d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:clipboard"
+			}
+			id: "549CC1F4FD6969AF"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_clipboard"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3F7CC389CBA94531"
+				item: { count: 1, id: "create:clipboard" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 4.8d
+			y: 1.2d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "hearthstonemod:hearthstone"
+			}
+			id: "040FCA09DAB33586"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_hearthstone"
+			]
+			tasks: [{
+				consume_items: false
+				id: "0433F534870B32F3"
+				item: { count: 1, id: "hearthstonemod:hearthstone" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -7.8d
+			y: 2.4d
+		}
+		{
+			dependencies: ["0927AD4FAA7A98BF"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "6F8DEEA622864F67"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_lantern"
+			]
+			tasks: [{
+				consume_items: false
+				id: "03957C369211E9C3"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:or(ftbfiltersystem:item(minecraft:lantern) ftbfiltersystem:item(minecraft:soul_lantern))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -4.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0927AD4FAA7A98BF"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "travelersbackpack:standard"
+			}
+			id: "636C63F8BC1E998E"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"travelersbackpack"
+				"qualitynotassured_utilities_backpack_main"
+			]
+			tasks: [{
+				consume_items: false
+				id: "4C63F73C950301A0"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(travelersbackpack:custom_travelers_backpack)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -7.2d
+			y: 6.0d
+		}
+		{
+			dependencies: ["636C63F8BC1E998E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "travelersbackpack:hose"
+			}
+			id: "784030365929F1C2"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"travelersbackpack"
+				"qualitynotassured_utilities_backpack_hose"
+			]
+			tasks: [{
+				consume_items: false
+				id: "05636E4D6A7454FD"
+				item: { count: 1, id: "travelersbackpack:hose" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -12.44d
+			y: 6.09d
+		}
+		{
+			dependencies: ["636C63F8BC1E998E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "travelersbackpack:tanks_upgrade"
+			}
+			id: "4E563E5D812B1898"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"travelersbackpack"
+				"qualitynotassured_utilities_backpack_tanks_upgrade"
+			]
+			tasks: [{
+				consume_items: false
+				id: "368025A66F3A359D"
+				item: { count: 1, id: "travelersbackpack:tanks_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -11.98d
+			y: 7.31d
+		}
+		{
+			dependencies: ["636C63F8BC1E998E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "travelersbackpack:crafting_upgrade"
+			}
+			id: "362DCA0E4DE7A39D"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"travelersbackpack"
+				"qualitynotassured_utilities_backpack_crafting_upgrade"
+			]
+			tasks: [{
+				consume_items: false
+				id: "01EC03C993055536"
+				item: { count: 1, id: "travelersbackpack:crafting_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -11.24d
+			y: 8.38d
+		}
+		{
+			dependencies: ["636C63F8BC1E998E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "travelersbackpack:furnace_upgrade"
+			}
+			id: "521820868265BF32"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"travelersbackpack"
+				"qualitynotassured_utilities_backpack_furnace_upgrade"
+			]
+			tasks: [{
+				consume_items: false
+				id: "7A38AFF3F5295BB0"
+				item: { count: 1, id: "travelersbackpack:furnace_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -10.27d
+			y: 9.24d
+		}
+		{
+			dependencies: ["636C63F8BC1E998E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "travelersbackpack:smoker_upgrade"
+			}
+			id: "118C12BEC8E73F30"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"travelersbackpack"
+				"qualitynotassured_utilities_backpack_smoker_upgrade"
+			]
+			tasks: [{
+				consume_items: false
+				id: "7FEA49BDEE72141F"
+				item: { count: 1, id: "travelersbackpack:smoker_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -9.11d
+			y: 9.85d
+		}
+		{
+			dependencies: ["636C63F8BC1E998E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "travelersbackpack:blast_furnace_upgrade"
+			}
+			id: "33C01F0374B80E0C"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"travelersbackpack"
+				"qualitynotassured_utilities_backpack_blast_furnace_upgrade"
+			]
+			tasks: [{
+				consume_items: false
+				id: "700BB1AE3A804C71"
+				item: { count: 1, id: "travelersbackpack:blast_furnace_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -7.85d
+			y: 10.16d
+		}
+		{
+			dependencies: ["636C63F8BC1E998E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "travelersbackpack:feeding_upgrade"
+			}
+			id: "2286852D336BC9BF"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"travelersbackpack"
+				"qualitynotassured_utilities_backpack_feeding_upgrade"
+			]
+			tasks: [{
+				consume_items: false
+				id: "42207A724A551E37"
+				item: { count: 1, id: "travelersbackpack:feeding_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -6.55d
+			y: 10.16d
+		}
+		{
+			dependencies: ["636C63F8BC1E998E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "travelersbackpack:refill_upgrade"
+			}
+			id: "1A1BF75034D413A1"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"travelersbackpack"
+				"qualitynotassured_utilities_backpack_refill_upgrade"
+			]
+			tasks: [{
+				consume_items: false
+				id: "2F244F1D01D7BC98"
+				item: { count: 1, id: "travelersbackpack:refill_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -5.29d
+			y: 9.85d
+		}
+		{
+			dependencies: ["636C63F8BC1E998E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "travelersbackpack:pickup_upgrade"
+			}
+			id: "4887C00BA75A310D"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"travelersbackpack"
+				"qualitynotassured_utilities_backpack_pickup_upgrade"
+			]
+			tasks: [{
+				consume_items: false
+				id: "5D1FAFBDEBB1B81D"
+				item: { count: 1, id: "travelersbackpack:pickup_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -4.13d
+			y: 9.24d
+		}
+		{
+			dependencies: ["636C63F8BC1E998E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "travelersbackpack:magnet_upgrade"
+			}
+			id: "05B9CC2F6CE79669"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"travelersbackpack"
+				"qualitynotassured_utilities_backpack_magnet_upgrade"
+			]
+			tasks: [{
+				consume_items: false
+				id: "2418B104284465BE"
+				item: { count: 1, id: "travelersbackpack:magnet_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.16d
+			y: 8.38d
+		}
+		{
+			dependencies: ["636C63F8BC1E998E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "travelersbackpack:void_upgrade"
+			}
+			id: "6A31A4B785EE727D"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"travelersbackpack"
+				"qualitynotassured_utilities_backpack_void_upgrade"
+			]
+			tasks: [{
+				consume_items: false
+				id: "6E58632C8E3BA7F5"
+				item: { count: 1, id: "travelersbackpack:void_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.42d
+			y: 7.31d
+		}
+		{
+			dependencies: ["636C63F8BC1E998E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "travelersbackpack:jukebox_upgrade"
+			}
+			id: "2BADE9E75EF89BFB"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"travelersbackpack"
+				"qualitynotassured_utilities_backpack_jukebox_upgrade"
+			]
+			tasks: [{
+				consume_items: false
+				id: "571C71321D373962"
+				item: { count: 1, id: "travelersbackpack:jukebox_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -1.96d
+			y: 6.09d
+		}
+		{
+			dependencies: ["0927AD4FAA7A98BF"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simplemagnets:basicmagnet"
+			}
+			id: "3F64607E467FA5F3"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_basic_magnet"
+			]
+			tasks: [{
+				consume_items: false
+				id: "26632070F735C0F1"
+				item: { count: 1, id: "simplemagnets:basicmagnet" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F64607E467FA5F3"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simplemagnets:advancedmagnet"
+			}
+			id: "72278C56D230CF7E"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_advanced_magnet"
+			]
+			tasks: [{
+				consume_items: false
+				id: "03F2F3DD1A9F9986"
+				item: { count: 1, id: "simplemagnets:advancedmagnet" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.2d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simplemagnets:basic_demagnetization_coil"
+			}
+			id: "7DFB28089B0EF0B6"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_basic_demagnetization_coil"
+			]
+			tasks: [{
+				consume_items: false
+				id: "32DE2364BCD13E47"
+				item: { count: 1, id: "simplemagnets:basic_demagnetization_coil" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["7DFB28089B0EF0B6"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simplemagnets:advanced_demagnetization_coil"
+			}
+			id: "27D875E7227B3090"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_advanced_demagnetization_coil"
+			]
+			tasks: [{
+				consume_items: false
+				id: "522B2B399B583C91"
+				item: { count: 1, id: "simplemagnets:advanced_demagnetization_coil" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5999999999999996d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "nomowanderer:no_soliciting_sign"
+			}
+			id: "1C4B35B7C65CF7C7"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_no_soliciting_sign"
+			]
+			tasks: [{
+				consume_items: false
+				id: "46A5B4B5DFB5C37C"
+				item: { count: 1, id: "nomowanderer:no_soliciting_sign" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 6.6d
+			y: 1.2d
+		}
+		{
+			dependencies: ["0927AD4FAA7A98BF"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "nomowanderer:no_mo_wanderer_totem"
+			}
+			id: "7B5C9FB0D1C187CB"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_anti_solicitor_talisman"
+			]
+			tasks: [{
+				consume_items: false
+				id: "4D2BD0A968B497A0"
+				item: { count: 1, id: "nomowanderer:no_mo_wanderer_totem" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 6.6d
+			y: 2.4d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "nomowanderer:trader_rug"
+			}
+			id: "64FDCDBCEA22BE8D"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_trader_rug"
+			]
+			tasks: [{
+				consume_items: false
+				id: "5147AEBA664B994D"
+				item: { count: 1, id: "nomowanderer:trader_rug" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 6.6d
+			y: 3.5999999999999996d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "curios:textures/gui/curios/button.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0927AD4FAA7A98BF"
+			tasks: [{
+				id: "49F88998A01095D6"
+				type: "checkmark"
+			}]
+			x: -4.8d
+			y: -1.2d
+		}
+		{
+			dependencies: ["0927AD4FAA7A98BF"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "32F67FB5447A9943"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_totem_of_undying"
+			]
+			tasks: [{
+				consume_items: false
+				id: "60D877E23CB62756"
+				item: { count: 1, id: "minecraft:totem_of_undying" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.5999999999999996d
+			y: 1.2d
+		}
+		{
+			dependencies: ["0927AD4FAA7A98BF"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "supplementaries:quiver"
+			}
+			id: "16A351B47A7968FF"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_quiver"
+			]
+			tasks: [{
+				consume_items: false
+				id: "31E286790020C70D"
+				item: { count: 1, id: "supplementaries:quiver" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.5999999999999996d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0927AD4FAA7A98BF"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "mermod:sea_necklace"
+			}
+			id: "39C1634A5BE69818"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_sea_necklace"
+			]
+			tasks: [{
+				consume_items: false
+				id: "18882CA700A7D663"
+				item: { count: 1, id: "mermod:sea_necklace" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.6d
+			y: 3.6d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "208B9C151D8385B5"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"functionalstorage"
+				"qualitynotassured_utilities_functional_storage_drawers"
+			]
+			tasks: [{
+				consume_items: false
+				id: "5E50F7D838368FCA"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:or(ftbfiltersystem:item_tag(functionalstorage:drawer) ftbfiltersystem:item(functionalstorage:compacting_drawer) ftbfiltersystem:item(functionalstorage:simple_compacting_drawer) ftbfiltersystem:item(functionalstorage:compacting_framed_drawer) ftbfiltersystem:item(functionalstorage:framed_simple_compacting_drawer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 7.2d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3D287BCF8CB0B331"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "functionalstorage:linking_tool"
+			}
+			id: "4789440767510ABA"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"functionalstorage"
+				"qualitynotassured_utilities_functional_storage_linking"
+			]
+			tasks: [{
+				consume_items: false
+				id: "08CD799BBEE79FCE"
+				item: { count: 1, id: "functionalstorage:linking_tool" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 11.4d
+			y: 8.4d
+		}
+		{
+			dependencies: ["208B9C151D8385B5"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "functionalstorage:storage_controller"
+			}
+			id: "3D287BCF8CB0B331"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"functionalstorage"
+				"qualitynotassured_utilities_functional_storage_controller"
+			]
+			tasks: [{
+				consume_items: false
+				id: "454192CCECFFD3C2"
+				item: { count: 1, id: "functionalstorage:storage_controller" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 11.4d
+			y: 7.199999999999999d
+		}
+		{
+			dependencies: ["208B9C151D8385B5"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "30D71F7867B660FF"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"functionalstorage"
+				"qualitynotassured_utilities_functional_storage_compacting"
+			]
+			tasks: [{
+				consume_items: false
+				id: "4A84A39D87236E51"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:or(ftbfiltersystem:item(functionalstorage:compacting_drawer) ftbfiltersystem:item(functionalstorage:simple_compacting_drawer) ftbfiltersystem:item(functionalstorage:compacting_framed_drawer) ftbfiltersystem:item(functionalstorage:framed_simple_compacting_drawer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 12.44d
+			y: 6.09d
+		}
+		{
+			dependencies: ["208B9C151D8385B5"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "functionalstorage:configuration_tool"
+			}
+			id: "2737F6829E6EC46E"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"functionalstorage"
+				"qualitynotassured_utilities_functional_storage_configuration"
+			]
+			tasks: [{
+				consume_items: false
+				id: "4663E047BBD7278A"
+				item: { count: 1, id: "functionalstorage:configuration_tool" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 10.27d
+			y: 9.24d
+		}
+		{
+			dependencies: ["208B9C151D8385B5"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"functionalstorage:slot": 0
+				}
+				id: "functionalstorage:redstone_upgrade"
+			}
+			id: "25160F579D393A4F"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"functionalstorage"
+				"qualitynotassured_utilities_functional_storage_redstone"
+			]
+			tasks: [{
+				consume_items: false
+				id: "6E57459C88A872FF"
+				item: { components: { "functionalstorage:slot": 0 }, count: 1, id: "functionalstorage:redstone_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 9.11d
+			y: 9.85d
+		}
+		{
+			dependencies: ["208B9C151D8385B5"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "functionalstorage:copper_upgrade"
+			}
+			id: "6AD8657C330B958A"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"functionalstorage"
+				"qualitynotassured_utilities_functional_storage_copper"
+			]
+			tasks: [{
+				consume_items: false
+				id: "2B57BF52724C6F06"
+				item: { count: 1, id: "functionalstorage:copper_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 7.85d
+			y: 10.16d
+		}
+		{
+			dependencies: ["208B9C151D8385B5"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "functionalstorage:armory_cabinet"
+			}
+			id: "4682DCAF4F0B4740"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"functionalstorage"
+				"qualitynotassured_utilities_functional_storage_armory"
+			]
+			tasks: [{
+				consume_items: false
+				id: "1F407FED8EF0DCC9"
+				item: { count: 1, id: "functionalstorage:armory_cabinet" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.96d
+			y: 6.09d
+		}
+		{
+			dependencies: ["208B9C151D8385B5"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "functionalstorage:void_upgrade"
+			}
+			id: "7B1E4B6A7F3AD2AC"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"functionalstorage"
+				"qualitynotassured_utilities_functional_storage_void"
+			]
+			tasks: [{
+				consume_items: false
+				id: "2F92456E5DE9620A"
+				item: { count: 1, id: "functionalstorage:void_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.29d
+			y: 9.85d
+		}
+		{
+			dependencies: ["208B9C151D8385B5"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"functionalstorage:direction": "north"
+				}
+				id: "functionalstorage:pusher_upgrade"
+			}
+			id: "0145C04213E02304"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"functionalstorage"
+				"qualitynotassured_utilities_functional_storage_pusher"
+			]
+			tasks: [{
+				consume_items: false
+				id: "7695EB9DB785BC17"
+				item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:pusher_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 4.13d
+			y: 9.24d
+		}
+		{
+			dependencies: ["208B9C151D8385B5"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"functionalstorage:direction": "north"
+				}
+				id: "functionalstorage:puller_upgrade"
+			}
+			id: "5E8266F3A8F2CD06"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"functionalstorage"
+				"qualitynotassured_utilities_functional_storage_puller"
+			]
+			tasks: [{
+				consume_items: false
+				id: "0787EAB435703900"
+				item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:puller_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 3.16d
+			y: 8.38d
+		}
+		{
+			dependencies: ["208B9C151D8385B5"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"functionalstorage:direction": "north"
+				}
+				id: "functionalstorage:collector_upgrade"
+			}
+			id: "0DB43074DF3A5088"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"functionalstorage"
+				"qualitynotassured_utilities_functional_storage_collector"
+			]
+			tasks: [{
+				consume_items: false
+				id: "74AEAE6A61646498"
+				item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:collector_upgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.42d
+			y: 7.31d
+		}
+		{
+			dependencies: ["208B9C151D8385B5"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "functionalstorage:iron_downgrade"
+			}
+			id: "68C8A4B1AB594C00"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"functionalstorage"
+				"qualitynotassured_utilities_functional_storage_iron"
+			]
+			tasks: [{
+				consume_items: false
+				id: "618FED82978407A9"
+				item: { count: 1, id: "functionalstorage:iron_downgrade" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 6.6d
+			y: 10.16d
+		}
+		{
+			dependencies: ["3D287BCF8CB0B331"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "functionalstorage:controller_extension"
+			}
+			id: "6D0E102132D9095B"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"functionalstorage"
+				"qualitynotassured_utilities_functional_storage_access"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3093068AFC594EE3"
+				item: { count: 1, id: "functionalstorage:controller_extension" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 12.6d
+			y: 7.199999999999999d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "redomesticate:pet_bed_red"
+			}
+			id: "31DBCA6F76EB6B32"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_redomesticate_bed"
+			]
+			tasks: [{
+				consume_items: false
+				id: "78F2B666D56A3C2F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(redomesticate:pet_beds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 8.4d
+			y: 0.0d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "redomesticate:collar_tag"
+			}
+			id: "7D9345EAC9BBD38D"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_redomesticate_collar"
+			]
+			tasks: [{
+				consume_items: false
+				id: "5A4AF1B929FBD452"
+				item: { count: 1, id: "redomesticate:collar_tag" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 9.6d
+			y: 1.7999999999999998d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "redomesticate:drum"
+			}
+			id: "7F01C941A6478F84"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_redomesticate_drum"
+			]
+			tasks: [{
+				consume_items: false
+				id: "33727F6EE1511F2E"
+				item: { count: 1, id: "redomesticate:drum" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 8.4d
+			y: 2.4d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "redomesticate:wayward_lantern"
+			}
+			id: "40EEF86CE2ACEBD2"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_redomesticate_lantern"
+			]
+			tasks: [{
+				consume_items: false
+				id: "40443CCDC9C0FCCE"
+				item: { count: 1, id: "redomesticate:wayward_lantern" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 9.6d
+			y: 0.6d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "redomesticate:feather_on_a_stick"
+			}
+			id: "631305E825B96C3D"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_redomesticate_feather"
+			]
+			tasks: [{
+				consume_items: false
+				id: "07577A08214FC9A0"
+				item: { count: 1, id: "redomesticate:feather_on_a_stick" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 8.4d
+			y: 1.2d
+		}
+		{
+			dependencies: ["4E9065E56FBFA40F"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "sellingbin:selling_bin"
+			}
+			id: "31683873C3104153"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_selling_bin"
+			]
+			tasks: [{
+				consume_items: false
+				id: "79D12A946CF313CD"
+				item: { count: 1, id: "sellingbin:selling_bin" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.2d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "numismatics:cog"
+			}
+			id: "4E9065E56FBFA40F"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_numismatics_intro"
+			]
+			tasks: [{
+				id: "6E983F9DF742D11C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4E9065E56FBFA40F"
+				"0927AD4FAA7A98BF"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "numismaticsutils:bank_meter"
+			}
+			id: "4083C5D3407D92CA"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_bank_meter"
+			]
+			tasks: [{
+				consume_items: false
+				id: "256AD2946731FF81"
+				item: { count: 1, id: "numismaticsutils:bank_meter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["4E9065E56FBFA40F"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "numismaticsutils:portable_bank_terminal"
+			}
+			id: "0703E0DA03B814DB"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_portable_bank_terminal"
+			]
+			tasks: [{
+				consume_items: false
+				id: "0FAF7AEB688E2364"
+				item: { count: 1, id: "numismaticsutils:portable_bank_terminal" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.4d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "eccentrictome:tome"
+			}
+			id: "5951A3F7D5500E4C"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"utilities"
+				"optional"
+				"qualitynotassured_utilities_eccentric_tome"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3C08C1DB821A4B2D"
+				item: { count: 1, id: "eccentrictome:tome" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 6.6d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,12 @@
+name = "Sound Control"
+filename = "soundcontrol-neoforge-1.21.1-1.5.1-neo-1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/NWZnn5Ai/versions/Bv5J4Pip/soundcontrol-neoforge-1.21.1-1.5.1-neo-1.21.1.jar"
+hash-format = "sha256"
+hash = "78e6ff6805c324e1827302fb658506a45ac95435939e3695c2b49a0ec36c4117"
+
+[update.modrinth]
+mod-id = "NWZnn5Ai"
+version = "Bv5J4Pip"

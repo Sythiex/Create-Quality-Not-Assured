@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "armamentarium:ambrosia"
+    },
+    "title": {
+      "translate": "advancements.tastes_like_promotion.title"
+    },
+    "description": {
+      "translate": "advancements.tastes_like_promotion.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tastes_like_promotion_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "armamentarium:ambrosia"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30,
+    "recipes": [
+      "armamentarium:severance_scythe",
+      "armamentarium:glory_potion",
+      "armamentarium:agony_potion"
+    ]
+  },
+  "parent": "armamentarium:relics_of_a_fallen_age"
+}

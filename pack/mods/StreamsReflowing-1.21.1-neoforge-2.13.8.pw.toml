@@ -1,0 +1,12 @@
+name = "Streams Reflowing"
+filename = "StreamsReflowing-1.21.1-neoforge-2.13.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oLS8HdJ1/versions/uvDKPoVs/StreamsReflowing-1.21.1-neoforge-2.13.8.jar"
+hash-format = "sha256"
+hash = "c93584c97c1fd0464f71d91dced868cee65b8ab596798fa682e4c985a480baef"
+
+[update.modrinth]
+mod-id = "oLS8HdJ1"
+version = "uvDKPoVs"

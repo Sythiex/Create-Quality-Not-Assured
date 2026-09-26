@@ -1,0 +1,12 @@
+name = "Large Ore Deposits"
+filename = "AdLods-1.21.1-9.1.7.0-NeoForge-build.1080.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Y3a9lWnU/versions/GivDumYJ/AdLods-1.21.1-9.1.7.0-NeoForge-build.1080.jar"
+hash-format = "sha256"
+hash = "80d773a07b4e88eac33218666e5a0cbb2cbe0eeee5fd7a045cc2551527b1d500"
+
+[update.modrinth]
+mod-id = "Y3a9lWnU"
+version = "GivDumYJ"

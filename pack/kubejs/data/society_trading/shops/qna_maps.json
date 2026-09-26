@@ -1,0 +1,244 @@
+{
+  "shop_id": "qna_maps",
+  "name": {
+    "text": "Deposit Maps"
+  },
+  "texture": "qualitynotassured:textures/block/shop_terminal/shop_terminal_front.png",
+  "hidden_from_auto_trader": true,
+  "hidden_from_selector": true,
+  "selector_weight": 8,
+  "display_type": "thin",
+  "jei_catalyst": {
+    "id": "supplementaries:cartographers_quill",
+    "count": 1,
+    "components": {
+      "supplementaries:quill_structure": "qualitynotassured:survey_camp_iron",
+      "supplementaries:quill_search_radius": 75,
+      "supplementaries:quill_skip_known": false,
+      "supplementaries:quill_zoom": 2,
+      "supplementaries:quill_decoration": "minecraft:red_x",
+      "minecraft:item_name": "{\"text\": \"Iron Deposit Map\"}",
+      "minecraft:lore": [
+        "{\"text\": \"Right-click to reveal the nearest deposit\", \"italic\": false}"
+      ]
+    }
+  },
+  "trades": [
+    {
+      "trade_id": "qna_buy_maps_coal",
+      "request": {
+        "id": "numismatics:sun",
+        "count": 2
+      },
+      "offer": {
+        "id": "supplementaries:cartographers_quill",
+        "count": 1,
+        "components": {
+          "supplementaries:quill_structure": "qualitynotassured:survey_camp_coal",
+          "supplementaries:quill_search_radius": 75,
+          "supplementaries:quill_skip_known": false,
+          "supplementaries:quill_zoom": 2,
+          "supplementaries:quill_decoration": "minecraft:red_x",
+          "minecraft:item_name": "{\"text\": \"Coal Deposit Map\"}",
+          "minecraft:lore": [
+            "{\"text\": \"Right-click to reveal the nearest deposit\", \"italic\": false}"
+          ]
+        }
+      },
+      "numismatics_cost": 8192,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_maps_copper",
+      "request": {
+        "id": "numismatics:sun",
+        "count": 2
+      },
+      "offer": {
+        "id": "supplementaries:cartographers_quill",
+        "count": 1,
+        "components": {
+          "supplementaries:quill_structure": "qualitynotassured:survey_camp_copper",
+          "supplementaries:quill_search_radius": 75,
+          "supplementaries:quill_skip_known": false,
+          "supplementaries:quill_zoom": 2,
+          "supplementaries:quill_decoration": "minecraft:red_x",
+          "minecraft:item_name": "{\"text\": \"Copper Deposit Map\"}",
+          "minecraft:lore": [
+            "{\"text\": \"Right-click to reveal the nearest deposit\", \"italic\": false}"
+          ]
+        }
+      },
+      "numismatics_cost": 8192,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_maps_gold",
+      "request": {
+        "id": "numismatics:sun",
+        "count": 4
+      },
+      "offer": {
+        "id": "supplementaries:cartographers_quill",
+        "count": 1,
+        "components": {
+          "supplementaries:quill_structure": "qualitynotassured:survey_camp_gold",
+          "supplementaries:quill_search_radius": 75,
+          "supplementaries:quill_skip_known": false,
+          "supplementaries:quill_zoom": 2,
+          "supplementaries:quill_decoration": "minecraft:red_x",
+          "minecraft:item_name": "{\"text\": \"Gold Deposit Map\"}",
+          "minecraft:lore": [
+            "{\"text\": \"Right-click to reveal the nearest deposit\", \"italic\": false}"
+          ]
+        }
+      },
+      "numismatics_cost": 16384,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_maps_iron",
+      "request": {
+        "id": "numismatics:sun",
+        "count": 2
+      },
+      "offer": {
+        "id": "supplementaries:cartographers_quill",
+        "count": 1,
+        "components": {
+          "supplementaries:quill_structure": "qualitynotassured:survey_camp_iron",
+          "supplementaries:quill_search_radius": 75,
+          "supplementaries:quill_skip_known": false,
+          "supplementaries:quill_zoom": 2,
+          "supplementaries:quill_decoration": "minecraft:red_x",
+          "minecraft:item_name": "{\"text\": \"Iron Deposit Map\"}",
+          "minecraft:lore": [
+            "{\"text\": \"Right-click to reveal the nearest deposit\", \"italic\": false}"
+          ]
+        }
+      },
+      "numismatics_cost": 8192,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_maps_lead",
+      "request": {
+        "id": "numismatics:sun",
+        "count": 3
+      },
+      "offer": {
+        "id": "supplementaries:cartographers_quill",
+        "count": 1,
+        "components": {
+          "supplementaries:quill_structure": "qualitynotassured:survey_camp_lead",
+          "supplementaries:quill_search_radius": 75,
+          "supplementaries:quill_skip_known": false,
+          "supplementaries:quill_zoom": 2,
+          "supplementaries:quill_decoration": "minecraft:red_x",
+          "minecraft:item_name": "{\"text\": \"Lead Deposit Map\"}",
+          "minecraft:lore": [
+            "{\"text\": \"Right-click to reveal the nearest deposit\", \"italic\": false}"
+          ]
+        }
+      },
+      "numismatics_cost": 12288,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_maps_lithium",
+      "request": {
+        "id": "numismatics:sun",
+        "count": 4
+      },
+      "offer": {
+        "id": "supplementaries:cartographers_quill",
+        "count": 1,
+        "components": {
+          "supplementaries:quill_structure": "qualitynotassured:survey_camp_lithium",
+          "supplementaries:quill_search_radius": 75,
+          "supplementaries:quill_skip_known": false,
+          "supplementaries:quill_zoom": 2,
+          "supplementaries:quill_decoration": "minecraft:red_x",
+          "minecraft:item_name": "{\"text\": \"Lithium Deposit Map\"}",
+          "minecraft:lore": [
+            "{\"text\": \"Right-click to reveal the nearest deposit\", \"italic\": false}"
+          ]
+        }
+      },
+      "numismatics_cost": 16384,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_maps_nickel",
+      "request": {
+        "id": "numismatics:sun",
+        "count": 3
+      },
+      "offer": {
+        "id": "supplementaries:cartographers_quill",
+        "count": 1,
+        "components": {
+          "supplementaries:quill_structure": "qualitynotassured:survey_camp_nickel",
+          "supplementaries:quill_search_radius": 75,
+          "supplementaries:quill_skip_known": false,
+          "supplementaries:quill_zoom": 2,
+          "supplementaries:quill_decoration": "minecraft:red_x",
+          "minecraft:item_name": "{\"text\": \"Nickel Deposit Map\"}",
+          "minecraft:lore": [
+            "{\"text\": \"Right-click to reveal the nearest deposit\", \"italic\": false}"
+          ]
+        }
+      },
+      "numismatics_cost": 12288,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_maps_redstone",
+      "request": {
+        "id": "numismatics:sun",
+        "count": 3
+      },
+      "offer": {
+        "id": "supplementaries:cartographers_quill",
+        "count": 1,
+        "components": {
+          "supplementaries:quill_structure": "qualitynotassured:survey_camp_redstone",
+          "supplementaries:quill_search_radius": 75,
+          "supplementaries:quill_skip_known": false,
+          "supplementaries:quill_zoom": 2,
+          "supplementaries:quill_decoration": "minecraft:red_x",
+          "minecraft:item_name": "{\"text\": \"Redstone Deposit Map\"}",
+          "minecraft:lore": [
+            "{\"text\": \"Right-click to reveal the nearest deposit\", \"italic\": false}"
+          ]
+        }
+      },
+      "numismatics_cost": 12288,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_maps_zinc",
+      "request": {
+        "id": "numismatics:sun",
+        "count": 3
+      },
+      "offer": {
+        "id": "supplementaries:cartographers_quill",
+        "count": 1,
+        "components": {
+          "supplementaries:quill_structure": "qualitynotassured:survey_camp_zinc",
+          "supplementaries:quill_search_radius": 75,
+          "supplementaries:quill_skip_known": false,
+          "supplementaries:quill_zoom": 2,
+          "supplementaries:quill_decoration": "minecraft:red_x",
+          "minecraft:item_name": "{\"text\": \"Zinc Deposit Map\"}",
+          "minecraft:lore": [
+            "{\"text\": \"Right-click to reveal the nearest deposit\", \"italic\": false}"
+          ]
+        }
+      },
+      "numismatics_cost": 12288,
+      "limit": -1
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+name = "Wandering Trader May Leave"
+filename = "wanderingtradermayleave-1.21.1-1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kj7dPTJo/versions/eX1Q8MT8/wanderingtradermayleave-1.21.1-1.2.jar"
+hash-format = "sha256"
+hash = "3baa0ce97606880b95480cd1a4d7e8bc9f4f50d683fee6b7f49de8200325c4e1"
+
+[update.modrinth]
+mod-id = "kj7dPTJo"
+version = "eX1Q8MT8"

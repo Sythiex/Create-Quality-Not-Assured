@@ -1,0 +1,269 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "replace": false,
+              "lore": [
+                {
+                  "text": "Alternative barter result; replaces the first ordinary result.",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "Food and non-food branches are mutually exclusive.",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "name": "mynethersdelight:strider_egg",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "replace": false,
+              "lore": [
+                {
+                  "text": "Alternative barter result; replaces the first ordinary result.",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "Food and non-food branches are mutually exclusive.",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "name": "mynethersdelight:ghasta",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "replace": false,
+              "lore": [
+                {
+                  "text": "Alternative barter result; replaces the first ordinary result.",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "Food and non-food branches are mutually exclusive.",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "name": "mynethersdelight:strider_rock",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "replace": false,
+              "lore": [
+                {
+                  "text": "Alternative barter result; replaces the first ordinary result.",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "Food and non-food branches are mutually exclusive.",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "name": "mynethersdelight:bullet_pepper",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 12.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "replace": false,
+              "lore": [
+                {
+                  "text": "Alternative barter result; replaces the first ordinary result.",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "Food and non-food branches are mutually exclusive.",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "name": "mynethersdelight:hoglin_loin",
+          "weight": 25
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.25
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "mynethersdelight:poaching"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "replace": false,
+              "lore": [
+                {
+                  "text": "Alternative barter result; replaces the first ordinary result.",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "Food and non-food branches are mutually exclusive.",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "mynethersdelight:poaching"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "replace": false,
+              "lore": [
+                {
+                  "text": "Alternative barter result; replaces the first ordinary result.",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "Food and non-food branches are mutually exclusive.",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:iron_sword",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mynethersdelight:hoglin_hide",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "replace": false,
+              "lore": [
+                {
+                  "text": "Alternative barter result; replaces the first ordinary result.",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "Food and non-food branches are mutually exclusive.",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 120
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.75
+        }
+      ]
+    }
+  ]
+}

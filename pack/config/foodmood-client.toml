@@ -1,0 +1,20 @@
+#Show current cravings in the inventory screen
+showInventoryCloud = true
+#Show a cloud next to the hunger bar while you have a craving
+showHudIcon = true
+#Move your inventory cloud horizontally in GUI pixels. Positive moves right, negative moves left.
+# Default: 0
+# Range: -1000 ~ 1000
+inventoryOffsetX = 0
+#Move your inventory cloud vertically in GUI pixels. Positive moves down, negative moves up.
+# Default: 0
+# Range: -1000 ~ 1000
+inventoryOffsetY = 0
+#Move your HUD icon horizontally in GUI pixels. Positive moves right, negative moves left.
+# Default: 0
+# Range: -1000 ~ 1000
+hudOffsetX = 0
+#Move your HUD icon vertically in GUI pixels. Positive moves down; negative moves up.
+# Default: 0
+# Range: -1000 ~ 1000
+hudOffsetY = 0

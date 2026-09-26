@@ -1,0 +1,12 @@
+name = "Selling Bin Fixes [Neoforge]"
+filename = "sellingbinfix-1.1.0.jar"
+side = "both"
+
+[download]
+hash = "12a98fe8dd2fca947e0def1fb81e7104932bb39e"
+hash-format = "sha1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7674228
+project-id = 1469494

@@ -1,0 +1,14 @@
+[activation]
+	#Condition that must be met for the Void Tank to void fluid.
+	#ALWAYS_ACTIVE = no condition needed (default)
+	#REQUIRES_HEAT = must be placed above a heat source (Blaze Burner, fire, lava, campfire)
+	#REQUIRES_REDSTONE = must receive a redstone signal
+	#Allowed Values: ALWAYS_ACTIVE, REQUIRES_HEAT, REQUIRES_REDSTONE
+	activationMode = "ALWAYS_ACTIVE"
+	#Minimum heat level required when activationMode is REQUIRES_HEAT.
+	#PASSIVE = campfire, fire, lava (default)
+	#BLAZE_BURNER = lit Blaze Burner
+	#SUPERHEATED = superheated Blaze Burner
+	#Higher heat levels satisfy lower requirements.
+	#Allowed Values: PASSIVE, BLAZE_BURNER, SUPERHEATED
+	minimumHeatLevel = "PASSIVE"

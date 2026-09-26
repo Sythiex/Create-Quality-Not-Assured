@@ -1,0 +1,1005 @@
+{
+	autofocus_id: "15E9BD364AF817D0"
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "create_aeronautics"
+	group: ""
+	icon: {
+		id: "aeronautics:andesite_propeller"
+	}
+	id: "1D3F9CDF49F5F737"
+	images: [ ]
+	order_index: 3
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7F87D99D091ED890"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:physics_assembler"
+			}
+			id: "15E9BD364AF817D0"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"aeronautics"
+				"common"
+				"core"
+				"qualitynotassured_aeronautics_assembler"
+			]
+			tasks: [{
+				consume_items: false
+				id: "012A1CB96731B00A"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"15E9BD364AF817D0"
+				"305C3537C7EE9C91"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:honey_glue"
+			}
+			id: "546A459C6408FF71"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"common"
+				"optional"
+				"qualitynotassured_aeronautics_honey_glue"
+			]
+			tasks: [{
+				consume_items: false
+				id: "6E05E5CC71CBB411"
+				item: { count: 1, id: "simulated:honey_glue" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -1.7999999999999998d
+			y: -0.6d
+		}
+		{
+			dependencies: ["15E9BD364AF817D0"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:contraption_diagram"
+			}
+			id: "6C4CCAC677818070"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"common"
+				"optional"
+				"qualitynotassured_aeronautics_diagram"
+			]
+			tasks: [{
+				consume_items: false
+				id: "26179518ABE77834"
+				item: { count: 1, id: "simulated:contraption_diagram" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.7999999999999998d
+			y: -0.6d
+		}
+		{
+			dependencies: [
+				"1E16D63E2B655C04"
+				"77C327E2B156D168"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:linked_typewriter"
+			}
+			id: "53D590611F0DD67B"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"common"
+				"optional"
+				"qualitynotassured_aeronautics_controls"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3A5588507C5C9FFF"
+				item: { count: 1, id: "simulated:linked_typewriter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.199999999999999d
+		}
+		{
+			dependencies: [
+				"7F87D99D091ED890"
+				"4DE480F7BFB6E49E"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:steering_wheel"
+			}
+			id: "2473D66A8DF2616F"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"common"
+				"optional"
+				"qualitynotassured_aeronautics_steering_wheel"
+			]
+			tasks: [{
+				consume_items: false
+				id: "213C1307677B8B80"
+				item: { count: 1, id: "simulated:steering_wheel" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.4d
+			y: 7.199999999999999d
+		}
+		{
+			dependencies: ["4885A1D50B6C3FB0"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:throttle_lever"
+			}
+			id: "384474478621AE27"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"common"
+				"optional"
+				"qualitynotassured_aeronautics_throttle_lever"
+			]
+			tasks: [{
+				consume_items: false
+				id: "6F2499E3D3209D60"
+				item: { count: 1, id: "simulated:throttle_lever" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -1.2d
+			y: 7.199999999999999d
+		}
+		{
+			dependencies: ["4D56F1DA3F588AAC"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create:linked_controller"
+			}
+			id: "440F2B1DA00B418F"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"common"
+				"optional"
+				"qualitynotassured_aeronautics_linked_controller"
+			]
+			tasks: [{
+				consume_items: false
+				id: "550C43C14A5CB544"
+				item: { count: 1, id: "create:linked_controller" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.2d
+			y: 7.199999999999999d
+		}
+		{
+			dependencies: [
+				"440F2B1DA00B418F"
+				"77C327E2B156D168"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "create_tweaked_controllers:tweaked_linked_controller"
+			}
+			id: "46F23D6EE97B2C0F"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"common"
+				"optional"
+				"qualitynotassured_aeronautics_tweaked_linked_controller"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3621AEB59B629B98"
+				item: { count: 1, id: "create_tweaked_controllers:tweaked_linked_controller" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 2.4d
+			y: 7.199999999999999d
+		}
+		{
+			dependencies: ["4DE480F7BFB6E49E"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:swivel_bearing"
+			}
+			id: "5599DFB6AE8BB79D"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"common"
+				"optional"
+				"qualitynotassured_aeronautics_swivel"
+			]
+			tasks: [{
+				consume_items: false
+				id: "45C03D6C35E4061F"
+				item: { count: 1, id: "simulated:swivel_bearing" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.2d
+		}
+		{
+			dependencies: ["043655FE58110986"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:directional_gearshift"
+			}
+			id: "1921156847B22625"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"common"
+				"optional"
+				"qualitynotassured_aeronautics_drive"
+			]
+			tasks: [{
+				id: "1CDDA99C6DABA6AA"
+				type: "checkmark"
+			}]
+			x: 3.5999999999999996d
+			y: 4.2d
+		}
+		{
+			dependencies: ["7C9FD8F0A801E203"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:engine_assembly"
+			}
+			id: "2E8DC65EDCDF92D6"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"aeronautics"
+				"common"
+				"core"
+				"qualitynotassured_aeronautics_engine_assembly"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3EAAA0DBD6563B4D"
+				item: { count: 1, id: "simulated:engine_assembly" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.44d
+		}
+		{
+			dependencies: ["2E8DC65EDCDF92D6"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:red_portable_engine"
+			}
+			id: "7BFA3A64D5E173B3"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"common"
+				"optional"
+				"qualitynotassured_aeronautics_portable_engine"
+			]
+			tasks: [{
+				consume_items: false
+				id: "785ACEA3CE0CFECE"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:or(ftbfiltersystem:item(simulated:white_portable_engine) ftbfiltersystem:item(simulated:orange_portable_engine) ftbfiltersystem:item(simulated:magenta_portable_engine) ftbfiltersystem:item(simulated:light_blue_portable_engine) ftbfiltersystem:item(simulated:yellow_portable_engine) ftbfiltersystem:item(simulated:lime_portable_engine) ftbfiltersystem:item(simulated:pink_portable_engine) ftbfiltersystem:item(simulated:gray_portable_engine) ftbfiltersystem:item(simulated:light_gray_portable_engine) ftbfiltersystem:item(simulated:cyan_portable_engine) ftbfiltersystem:item(simulated:purple_portable_engine) ftbfiltersystem:item(simulated:blue_portable_engine) ftbfiltersystem:item(simulated:brown_portable_engine) ftbfiltersystem:item(simulated:green_portable_engine) ftbfiltersystem:item(simulated:red_portable_engine) ftbfiltersystem:item(simulated:black_portable_engine))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3A5B2B713A604870"
+				"3896FE66CA622439"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:gyroscopic_mechanism"
+			}
+			id: "43672428F1AA1797"
+			shape: "diamond"
+			size: 1.2d
+			tags: [
+				"aeronautics"
+				"common"
+				"core"
+				"qualitynotassured_aeronautics_gyroscopic_mechanism"
+			]
+			tasks: [{
+				consume_items: false
+				id: "1BDC5CD389CA78A2"
+				item: { count: 1, id: "simulated:gyroscopic_mechanism" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -2.88d
+			y: 3.6d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:gimbal_sensor"
+			}
+			id: "3EB43C78A5A0A8B2"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"common"
+				"optional"
+				"qualitynotassured_aeronautics_sensors"
+			]
+			tasks: [{
+				id: "633E035A9237A708"
+				type: "checkmark"
+			}]
+			x: -1.2d
+			y: 3.5999999999999996d
+		}
+		{
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:rope_coupling"
+			}
+			id: "043A8F88262F7DC9"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"common"
+				"optional"
+				"qualitynotassured_aeronautics_ropes"
+			]
+			tasks: [{
+				consume_items: false
+				id: "5D05AB1EB4D9A38B"
+				item: { count: 1, id: "simulated:rope_coupling" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -1.2d
+			y: 2.4d
+		}
+		{
+			dependencies: ["1E16D63E2B655C04"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:docking_connector"
+			}
+			id: "5898B095D053659E"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"common"
+				"optional"
+				"qualitynotassured_aeronautics_docking"
+			]
+			tasks: [{
+				consume_items: false
+				id: "2AE54D090F9A86E6"
+				item: { count: 1, id: "simulated:docking_connector" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -1.2d
+			y: 4.8d
+		}
+		{
+			dependencies: ["15E9BD364AF817D0"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "aeronautics:andesite_propeller"
+			}
+			id: "3896FE66CA622439"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"flight"
+				"optional"
+				"qualitynotassured_aeronautics_flight"
+			]
+			tasks: [{
+				id: "4D7C1E194E0343C3"
+				type: "checkmark"
+			}]
+			x: -3.5999999999999996d
+			y: 2.4d
+		}
+		{
+			dependencies: ["3896FE66CA622439"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "aeronautics:white_envelope"
+			}
+			id: "4175500BD39EAB12"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"flight"
+				"optional"
+				"qualitynotassured_aeronautics_envelope"
+			]
+			tasks: [{
+				consume_items: false
+				id: "44A6D0FE01B74E13"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(aeronautics:shaftless_envelope)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -4.2d
+			y: 4.2d
+		}
+		{
+			dependencies: [
+				"4175500BD39EAB12"
+				"7C9FD8F0A801E203"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "aeronautics:adjustable_burner"
+			}
+			id: "54E4EF012E3FDEEA"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"flight"
+				"optional"
+				"qualitynotassured_aeronautics_burner"
+			]
+			tasks: [{
+				consume_items: false
+				id: "1E2CEB545D26C482"
+				item: { count: 1, id: "aeronautics:adjustable_burner" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -4.2d
+			y: 5.3999999999999995d
+		}
+		{
+			dependencies: ["4175500BD39EAB12"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "aeronautics:steam_vent"
+			}
+			id: "78358ED9695EAD53"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"flight"
+				"optional"
+				"qualitynotassured_aeronautics_steam_lift"
+			]
+			tasks: [{
+				consume_items: false
+				id: "0EB233F19E69526D"
+				item: { count: 1, id: "aeronautics:steam_vent" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -5.3999999999999995d
+			y: 4.8d
+		}
+		{
+			dependencies: [
+				"3896FE66CA622439"
+				"7C9FD8F0A801E203"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "4F0EFD8EAE752823"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"flight"
+				"optional"
+				"qualitynotassured_aeronautics_propeller"
+			]
+			tasks: [{
+				consume_items: false
+				id: "554F8FC9CD1D7347"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:or(ftbfiltersystem:item(aeronautics:andesite_propeller) ftbfiltersystem:item(aeronautics:wooden_propeller))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -5.3999999999999995d
+			y: 2.4d
+		}
+		{
+			dependencies: [
+				"4885A1D50B6C3FB0"
+				"3896FE66CA622439"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "aeronautics:propeller_bearing"
+			}
+			id: "2D9F0827A33E3FC8"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"flight"
+				"optional"
+				"qualitynotassured_aeronautics_propeller_bearing"
+			]
+			tasks: [{
+				consume_items: false
+				id: "540DEC7824E200B5"
+				item: { count: 1, id: "aeronautics:propeller_bearing" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -5.3999999999999995d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["43672428F1AA1797"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "12437183EFACE3C6"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"flight"
+				"optional"
+				"qualitynotassured_aeronautics_gyro_propeller"
+			]
+			tasks: [{
+				consume_items: false
+				id: "271FCEF688E66EFF"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:or(ftbfiltersystem:item(aeronautics:gyroscopic_propeller_bearing) ftbfiltersystem:item(aeronautics:smart_propeller))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.3999999999999995d
+		}
+		{
+			dependencies: ["3896FE66CA622439"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:white_symmetric_sail"
+			}
+			id: "1C54C12454825B2C"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"flight"
+				"optional"
+				"qualitynotassured_aeronautics_wings"
+			]
+			tasks: [{
+				id: "0DC40961A3A0381E"
+				type: "checkmark"
+			}]
+			x: -4.8d
+			y: 1.2d
+		}
+		{
+			dependencies: [
+				"1E096190BDACC162"
+				"3896FE66CA622439"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "aeronautics:end_stone_powder"
+			}
+			id: "50D3BB93734C7B93"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"flight"
+				"optional"
+				"qualitynotassured_aeronautics_end_stone_powder"
+			]
+			tasks: [{
+				consume_items: false
+				id: "01E113701B4B4ADD"
+				item: { count: 1, id: "aeronautics:end_stone_powder" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.5999999999999996d
+			y: 0.6d
+		}
+		{
+			dependencies: [
+				"50D3BB93734C7B93"
+				"331E98315664FA88"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "aeronautics:levitite_blend_bucket"
+			}
+			id: "5CCA1930CA45B72C"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"flight"
+				"optional"
+				"qualitynotassured_aeronautics_levitite"
+			]
+			tasks: [{
+				consume_items: false
+				id: "7ECFC1B0133E7CB3"
+				item: { count: 1, id: "aeronautics:levitite_blend_bucket" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -3.5999999999999996d
+			y: -0.6d
+		}
+		{
+			dependencies: ["15E9BD364AF817D0"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "offroad:tire"
+			}
+			id: "043655FE58110986"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"ground"
+				"optional"
+				"qualitynotassured_aeronautics_ground"
+			]
+			tasks: [{
+				id: "3E30427F75DB4C2C"
+				type: "checkmark"
+			}]
+			x: 3.5999999999999996d
+			y: 2.4d
+		}
+		{
+			dependencies: [
+				"7C9FD8F0A801E203"
+				"043655FE58110986"
+			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:spring"
+			}
+			id: "6FED61511733C9FB"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"ground"
+				"optional"
+				"qualitynotassured_aeronautics_spring"
+			]
+			tasks: [{
+				consume_items: false
+				id: "75134A765E1D7162"
+				item: { count: 1, id: "simulated:spring" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.3999999999999995d
+			y: 2.4d
+		}
+		{
+			dependencies: ["6FED61511733C9FB"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "offroad:wheel_mount"
+			}
+			id: "0623673115C260FA"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"ground"
+				"optional"
+				"qualitynotassured_aeronautics_wheel_mount"
+			]
+			tasks: [{
+				consume_items: false
+				id: "107DC24CEA93B553"
+				item: { count: 1, id: "offroad:wheel_mount" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.3999999999999995d
+			y: 4.2d
+		}
+		{
+			dependencies: ["0623673115C260FA"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "offroad:tire"
+			}
+			id: "7F9C4AB6557C9E6C"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"ground"
+				"optional"
+				"qualitynotassured_aeronautics_tires"
+			]
+			tasks: [{
+				consume_items: false
+				id: "3A43C56EDB20F22A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:or(ftbfiltersystem:item(offroad:small_tire) ftbfiltersystem:item(offroad:tire) ftbfiltersystem:item(offroad:large_tire) ftbfiltersystem:item(offroad:monstrous_tire))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 5.3999999999999995d
+			y: 5.3999999999999995d
+		}
+		{
+			dependencies: ["0623673115C260FA"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "simulated:steering_wheel"
+			}
+			id: "31D90F8BE1D68AE2"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"ground"
+				"optional"
+				"qualitynotassured_aeronautics_steering"
+			]
+			tasks: [{
+				id: "26A1DEFC6B043B34"
+				type: "checkmark"
+			}]
+			x: 4.2d
+			y: 5.3999999999999995d
+		}
+		{
+			dependencies: ["1E096190BDACC162"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "offroad:rockcutting_wheel"
+			}
+			id: "47C8B865985AC5DE"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"ground"
+				"optional"
+				"qualitynotassured_aeronautics_rock_cutting"
+			]
+			tasks: [{
+				consume_items: false
+				id: "0147CC7D3F9CB32B"
+				item: { count: 1, id: "offroad:rockcutting_wheel" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.2d
+			y: 2.4d
+		}
+		{
+			dependencies: ["47C8B865985AC5DE"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "offroad:borehead_bearing"
+			}
+			id: "052B485A9C1AFC59"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"ground"
+				"optional"
+				"qualitynotassured_aeronautics_borehead"
+			]
+			tasks: [{
+				consume_items: false
+				id: "52B5E7001F8FDDF0"
+				item: { count: 1, id: "offroad:borehead_bearing" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.2d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["7C9FD8F0A801E203"]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "06EB8AC449C41775"
+			optional: true
+			shape: "circle"
+			size: 1.0d
+			tags: [
+				"aeronautics"
+				"ground"
+				"optional"
+				"qualitynotassured_aeronautics_auger"
+			]
+			tasks: [{
+				consume_items: false
+				id: "72DD6B8904B45C53"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:or(ftbfiltersystem:item(simulated:auger_shaft) ftbfiltersystem:item(simulated:auger_cog))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 1.2d
+			y: 4.8d
+		}
+	]
+}

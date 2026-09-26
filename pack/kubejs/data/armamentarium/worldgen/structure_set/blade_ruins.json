@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "armamentarium:blade_ruins",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 100,
+    "separation": 60,
+    "salt": 2010729584,
+    "frequency": 0.0
+  }
+}

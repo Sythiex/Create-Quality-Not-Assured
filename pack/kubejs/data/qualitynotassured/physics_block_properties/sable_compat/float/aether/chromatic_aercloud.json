@@ -1,0 +1,8 @@
+{
+  "selector": "#qualitynotassured:sable_compat/float/aether/chromatic_aercloud",
+  "properties": {
+    "sable:floating_material": "aeronautics:levitite",
+    "sable:floating_scale": 6.0
+  },
+  "priority": 0
+}

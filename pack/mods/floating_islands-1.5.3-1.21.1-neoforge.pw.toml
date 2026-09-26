@@ -1,0 +1,12 @@
+name = "Ember's Floating Islands"
+filename = "floating_islands-1.5.3-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ii9sVXDo/versions/NX2vCZkz/floating_islands-1.5.3-1.21.1-neoforge.jar"
+hash-format = "sha256"
+hash = "34e0df8ec5817a462d31f83d21e2b57aea29043b2a2ab8e92d71e978fc3f05b8"
+
+[update.modrinth]
+mod-id = "Ii9sVXDo"
+version = "NX2vCZkz"

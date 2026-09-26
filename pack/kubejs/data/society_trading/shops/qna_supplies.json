@@ -1,0 +1,190 @@
+{
+  "shop_id": "qna_supplies",
+  "name": {
+    "text": "Crafting Supplies"
+  },
+  "texture": "qualitynotassured:textures/block/shop_terminal/shop_terminal_front.png",
+  "hidden_from_auto_trader": true,
+  "hidden_from_selector": true,
+  "selector_weight": 7,
+  "display_type": "thin",
+  "jei_catalyst": {
+    "id": "minecraft:slime_ball",
+    "count": 1
+  },
+  "trades": [
+    {
+      "trade_id": "qna_buy_supplies_minecraft_slime_ball",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:slime_ball",
+        "count": 1
+      },
+      "numismatics_cost": 16,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_supplies_minecraft_string",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:string",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_supplies_minecraft_bone_meal",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:bone_meal",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_supplies_minecraft_flint",
+      "request": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:flint",
+        "count": 1
+      },
+      "numismatics_cost": 4,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_supplies_minecraft_leather",
+      "request": {
+        "id": "numismatics:sprocket",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:leather",
+        "count": 1
+      },
+      "numismatics_cost": 24,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 8
+      }
+    },
+    {
+      "trade_id": "qna_buy_supplies_minecraft_gunpowder",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:gunpowder",
+        "count": 1
+      },
+      "numismatics_cost": 64,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_supplies_minecraft_name_tag",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 2
+      },
+      "offer": {
+        "id": "minecraft:name_tag",
+        "count": 1
+      },
+      "numismatics_cost": 128,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_supplies_minecraft_oak_log",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:oak_log",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_supplies_minecraft_stone",
+      "request": {
+        "id": "numismatics:spur",
+        "count": 2
+      },
+      "offer": {
+        "id": "minecraft:stone",
+        "count": 1
+      },
+      "numismatics_cost": 2,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_supplies_minecraft_clay",
+      "request": {
+        "id": "numismatics:bevel",
+        "count": 1
+      },
+      "offer": {
+        "id": "minecraft:clay",
+        "count": 1
+      },
+      "numismatics_cost": 8,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_supplies_minecraft_gravel",
+      "request": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:gravel",
+        "count": 1
+      },
+      "numismatics_cost": 4,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_supplies_minecraft_sand",
+      "request": {
+        "id": "numismatics:spur",
+        "count": 4
+      },
+      "offer": {
+        "id": "minecraft:sand",
+        "count": 1
+      },
+      "numismatics_cost": 4,
+      "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_supplies_minecraft_glass",
+      "request": {
+        "id": "numismatics:spur",
+        "count": 6
+      },
+      "offer": {
+        "id": "minecraft:glass",
+        "count": 1
+      },
+      "numismatics_cost": 6,
+      "limit": -1
+    }
+  ]
+}

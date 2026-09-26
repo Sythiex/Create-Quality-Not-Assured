@@ -1,0 +1,12 @@
+name = "Functional Storage: Create & Aero"
+filename = "functionalstoragecreateaero-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DvdmuWPu/versions/3x3kSOMY/functionalstoragecreateaero-1.0.0.jar"
+hash-format = "sha256"
+hash = "7e641625eb880225dc56b9a8e304472af0f02e6a59709e8b9c907a28530342f6"
+
+[update.modrinth]
+mod-id = "DvdmuWPu"
+version = "3x3kSOMY"

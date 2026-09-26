@@ -1,0 +1,12 @@
+name = "Status Effect Bars Reforged"
+filename = "statuseffectbars-1.21.1-NeoForge-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TxIuhIFo/versions/PPVE16f7/statuseffectbars-1.21.1-NeoForge-1.0.2.jar"
+hash-format = "sha256"
+hash = "a631cd09277147bd40aac0392d3b3abe686b07db58cdac0833b16111e0c05ddf"
+
+[update.modrinth]
+mod-id = "TxIuhIFo"
+version = "PPVE16f7"

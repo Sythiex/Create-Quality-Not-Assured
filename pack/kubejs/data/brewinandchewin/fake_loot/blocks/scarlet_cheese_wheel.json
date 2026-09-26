@@ -1,0 +1,235 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "brewinandchewin:scarlet_cheese_wedge"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "brewinandchewin:scarlet_cheese_wheel",
+              "properties": {
+                "servings": "3"
+              }
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {}
+            }
+          ]
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "brewinandchewin:scarlet_cheese_wheel"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "brewinandchewin:scarlet_cheese_wheel",
+          "properties": {
+            "servings": "0"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "brewinandchewin:scarlet_cheese_wedge",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "add": false
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "brewinandchewin:scarlet_cheese_wheel",
+              "properties": {
+                "servings": "3"
+              }
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {}
+            }
+          ]
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "brewinandchewin:scarlet_cheese_wheel"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "brewinandchewin:scarlet_cheese_wheel",
+          "properties": {
+            "servings": "1"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "brewinandchewin:scarlet_cheese_wedge",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3,
+              "add": false
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "brewinandchewin:scarlet_cheese_wheel",
+              "properties": {
+                "servings": "3"
+              }
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {}
+            }
+          ]
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "brewinandchewin:scarlet_cheese_wheel"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "brewinandchewin:scarlet_cheese_wheel",
+          "properties": {
+            "servings": "2"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "brewinandchewin:scarlet_cheese_wheel"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "brewinandchewin:scarlet_cheese_wheel",
+              "properties": {
+                "servings": "3"
+              }
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {}
+            }
+          ]
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "brewinandchewin:scarlet_cheese_wheel"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "brewinandchewin:scarlet_cheese_wheel",
+          "properties": {
+            "servings": "3"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "#c:tools/knife"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "brewinandchewin:scarlet_cheese_wedge",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "add": false
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "brewinandchewin:scarlet_cheese_wheel",
+              "properties": {
+                "servings": "3"
+              }
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {}
+            }
+          ]
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "brewinandchewin:scarlet_cheese_wheel"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "brewinandchewin:scarlet_cheese_wheel",
+          "properties": {
+            "servings": "3"
+          }
+        },
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "#c:tools/knife"
+          }
+        }
+      ]
+    }
+  ]
+}

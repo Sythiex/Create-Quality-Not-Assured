@@ -1,0 +1,12 @@
+name = "ModernMarkings"
+filename = "ags_modernmarkings-0.0.1-1.21.1.jar"
+side = "both"
+
+[download]
+hash = "c6e668e1d9fb5e8cf68e25a24e8a0396b2352720"
+hash-format = "sha1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8061889
+project-id = 1267477

@@ -1,0 +1,141 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:sweet_berry_cheesecake_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "add": false
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "#farmersdelight:tools/knives"
+          }
+        },
+        {
+          "block": "farmersdelight:sweet_berry_cheesecake",
+          "condition": "minecraft:block_state_property"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "farmersdelight:sweet_berry_cheesecake",
+          "properties": {
+            "bites": "0"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:sweet_berry_cheesecake_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3,
+              "add": false
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "#farmersdelight:tools/knives"
+          }
+        },
+        {
+          "block": "farmersdelight:sweet_berry_cheesecake",
+          "condition": "minecraft:block_state_property"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "farmersdelight:sweet_berry_cheesecake",
+          "properties": {
+            "bites": "1"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:sweet_berry_cheesecake_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "add": false
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "#farmersdelight:tools/knives"
+          }
+        },
+        {
+          "block": "farmersdelight:sweet_berry_cheesecake",
+          "condition": "minecraft:block_state_property"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "farmersdelight:sweet_berry_cheesecake",
+          "properties": {
+            "bites": "2"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:sweet_berry_cheesecake_slice"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "#farmersdelight:tools/knives"
+          }
+        },
+        {
+          "block": "farmersdelight:sweet_berry_cheesecake",
+          "condition": "minecraft:block_state_property"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "farmersdelight:sweet_berry_cheesecake",
+          "properties": {
+            "bites": "3"
+          }
+        }
+      ]
+    }
+  ]
+}

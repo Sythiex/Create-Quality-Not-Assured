@@ -1,0 +1,12 @@
+name = "Ding"
+filename = "Ding-1.21-NeoForge-1.5.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/UEtTD3gP/versions/xDYKoTCG/Ding-1.21-NeoForge-1.5.0.jar"
+hash-format = "sha256"
+hash = "13a48ea2d60f7114cd0c816ebd973a78047a1c97e49ef90aa8987ce853dd7028"
+
+[update.modrinth]
+mod-id = "UEtTD3gP"
+version = "xDYKoTCG"

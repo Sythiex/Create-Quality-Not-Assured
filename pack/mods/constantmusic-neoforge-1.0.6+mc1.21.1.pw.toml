@@ -1,0 +1,12 @@
+name = "Constant Music"
+filename = "constantmusic-neoforge-1.0.6+mc1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/tvuSEM6E/versions/5cKUXBAf/constantmusic-neoforge-1.0.6%2Bmc1.21.1.jar"
+hash-format = "sha256"
+hash = "441eb69dd3f4c2665e0e93a4931c27f79c8c1221c5b4a6ca9b91eb560f9e4f2c"
+
+[update.modrinth]
+mod-id = "tvuSEM6E"
+version = "5cKUXBAf"

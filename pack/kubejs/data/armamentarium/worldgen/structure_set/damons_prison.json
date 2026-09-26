@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "armamentarium:damons_prison",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 80,
+    "separation": 60,
+    "salt": 58854835,
+    "frequency": 0.0
+  }
+}

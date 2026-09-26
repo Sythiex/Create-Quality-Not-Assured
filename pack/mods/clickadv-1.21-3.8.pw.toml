@@ -1,0 +1,12 @@
+name = "Clickable advancements"
+filename = "clickadv-1.21-3.8.jar"
+side = "both"
+
+[download]
+hash = "1aeae5774513fdc82fa52d544edcd72b26c498b8"
+hash-format = "sha1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 5551404
+project-id = 511733

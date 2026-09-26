@@ -1,0 +1,133 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endersdelight:chorus_pie_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "add": false
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {}
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "endersdelight:chorus_pie"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "endersdelight:chorus_pie",
+          "properties": {
+            "bites": "0"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endersdelight:chorus_pie_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3,
+              "add": false
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {}
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "endersdelight:chorus_pie"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "endersdelight:chorus_pie",
+          "properties": {
+            "bites": "1"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endersdelight:chorus_pie_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "add": false
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {}
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "endersdelight:chorus_pie"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "endersdelight:chorus_pie",
+          "properties": {
+            "bites": "2"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "endersdelight:chorus_pie_slice"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {}
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "endersdelight:chorus_pie"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "endersdelight:chorus_pie",
+          "properties": {
+            "bites": "3"
+          }
+        }
+      ]
+    }
+  ]
+}

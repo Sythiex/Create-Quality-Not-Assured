@@ -1,0 +1,12 @@
+name = "FTB Filter System"
+filename = "ftb-filter-system-neoforge-21.1.4.jar"
+side = "both"
+
+[download]
+hash = "a48e54edeacc59aaba29a1b627799c052112ee0b"
+hash-format = "sha1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7429011
+project-id = 943925
