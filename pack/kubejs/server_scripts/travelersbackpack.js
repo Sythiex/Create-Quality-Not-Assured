@@ -1,3 +1,25 @@
+// Tier upgrades are crafted only; keep backpack loot and other upgrades intact.
+LootJS.modifiers(event => {
+    const modifiers = [
+        'abandoned_mineshaft_inject_iron_tier_upgrade',
+        'abandoned_mineshaft_inject_gold_tier_upgrade',
+        'simple_dungeon_inject_iron_tier_upgrade',
+        'desert_pyramid_inject_iron_tier_upgrade',
+        'desert_pyramid_inject_gold_tier_upgrade',
+        'shipwreck_treasure_inject_iron_tier_upgrade',
+        'shipwreck_treasure_inject_gold_tier_upgrade',
+        'woodland_mansion_inject_iron_tier_upgrade',
+        'woodland_mansion_inject_gold_tier_upgrade',
+        'nether_bridge_inject_iron_tier_upgrade',
+        'nether_bridge_inject_gold_tier_upgrade',
+        'bastion_treasure_inject_iron_tier_upgrade',
+        'bastion_treasure_inject_gold_tier_upgrade',
+        'end_city_treasure_inject_gold_tier_upgrade',
+        'end_city_treasure_inject_diamond_tier_upgrade'
+    ]
+    modifiers.forEach(id => event.removeGlobalModifiers('travelersbackpack:' + id))
+})
+
 ServerEvents.recipes(event => {
     const tiers = {
         iron: 'c:ingots/iron',
