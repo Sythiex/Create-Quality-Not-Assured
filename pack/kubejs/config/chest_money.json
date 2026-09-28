@@ -2572,6 +2572,201 @@
       "id": "mtr:stronghold_mossy_special",
       "difficulty": 3,
       "minutesPerChest": 1
+    },
+    {
+      "id": "dungeoncrawl:chests/stage_1",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "dungeoncrawl:chests/stage_2",
+      "difficulty": 2,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "dungeoncrawl:chests/stage_3",
+      "difficulty": 3,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "dungeoncrawl:chests/stage_4",
+      "difficulty": 3,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "dungeoncrawl:chests/stage_5",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "dungeoncrawl:chests/treasure",
+      "difficulty": 5,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "dungeoncrawl:chests/secret_room",
+      "difficulty": 2,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "dungeoncrawl:chests/supply",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "betterdungeons:small_dungeon/chests/loot_piles",
+      "difficulty": 2,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "betterdungeons:skeleton_dungeon/chests/common",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "betterdungeons:skeleton_dungeon/chests/middle",
+      "difficulty": 3,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "betterdungeons:zombie_dungeon/chests/common",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "betterdungeons:zombie_dungeon/chests/tombstone",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "betterdungeons:zombie_dungeon/chests/special",
+      "difficulty": 3,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "betterdungeons:spider_dungeon/chests/egg_room",
+      "difficulty": 3,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "betterjungletemples:chests/campsite",
+      "difficulty": 1,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "betterjungletemples:chests/treasure",
+      "difficulty": 3,
+      "minutesPerChest": 10
+    },
+    {
+      "id": "betterfortresses:chests/hall",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "betterfortresses:chests/quarters",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "betterfortresses:chests/keep",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "betterfortresses:chests/extra",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "betterfortresses:chests/storage",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "betterfortresses:chests/obsidian",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "betterfortresses:chests/beacon",
+      "difficulty": 3,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "betterfortresses:chests/worship",
+      "difficulty": 3,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "betterfortresses:chests/puzzle",
+      "difficulty": 3,
+      "minutesPerChest": 4
+    },
+    {
+      "id": "betteroceanmonuments:chests/upper_side_chamber",
+      "difficulty": 3,
+      "minutesPerChest": 10
+    },
+    {
+      "id": "ancient_cities:ancient_city_barrel",
+      "difficulty": 2,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mansions:mansion_junk",
+      "difficulty": 1,
+      "minutesPerChest": 1
+    },
+    {
+      "id": "mansions:mansion_healing",
+      "difficulty": 3,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "mansions:mansion_treasure",
+      "difficulty": 4,
+      "minutesPerChest": 3
+    },
+    {
+      "id": "skyvillages:chests/sky_village_armorer",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "skyvillages:chests/sky_village_butcher",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "skyvillages:chests/sky_village_cartographer",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "skyvillages:chests/sky_village_fisher",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "skyvillages:chests/sky_village_fletcher",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "skyvillages:chests/sky_village_normal_house",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "skyvillages:chests/sky_village_shepherd",
+      "difficulty": 1,
+      "minutesPerChest": 2
+    },
+    {
+      "id": "skyvillages:chests/sky_village_weaponsmith",
+      "difficulty": 1,
+      "minutesPerChest": 2
     }
   ]
 }
