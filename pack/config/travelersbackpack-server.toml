@@ -236,4 +236,4 @@
 		maxNumberOfBackpacks = 1
 		# Default: 1.0
 		# Range: 0.1 ~ 5.0
-		slownessPerExcessedBackpack = 1.0
+		slownessPerExcessedBackpack = 2.0
