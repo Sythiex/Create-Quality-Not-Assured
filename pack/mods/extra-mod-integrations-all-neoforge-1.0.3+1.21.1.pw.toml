@@ -1,0 +1,12 @@
+name = "EMI Addon: Extra Mod Integrations"
+filename = "extra-mod-integrations-all-neoforge-1.0.3+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/bpRHnWUb/versions/bxgGyUjY/extra-mod-integrations-all-neoforge-1.0.3%2B1.21.1.jar"
+hash-format = "sha256"
+hash = "588bc09f0f43e04ef0c18d8e884197ffd4a0e605470f455cf0b5f1508cb994ba"
+
+[update.modrinth]
+mod-id = "bpRHnWUb"
+version = "bxgGyUjY"
