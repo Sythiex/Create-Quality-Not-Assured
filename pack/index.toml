@@ -8018,8 +8018,8 @@ hash = "b6db97ead8657431f5e312c8370cf5974b85552efba4ce03d1a3c2adfa0bab18"
 metafile = true
 
 [[files]]
-file = "mods/vss-0.3.1-neoforge-1.21.1.pw.toml"
-hash = "52627960e03d23256685605e7edfffd49a87982f1524894d77b1edf6483f73be"
+file = "mods/vss-0.3.2-neoforge-1.21.1.pw.toml"
+hash = "f6777ab8d5d3f5aca45fe4fa43ac9d00fc847a68ee9ea848d99779100807a65f"
 metafile = true
 
 [[files]]
