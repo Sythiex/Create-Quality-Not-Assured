@@ -3495,8 +3495,7 @@ preserve = true
 
 [[files]]
 file = "config/travelersbackpack-server.toml"
-hash = "4dc92847fa03ee6629c1aad0c1479054016b998af02630c07cfd45162db237da"
-preserve = true
+hash = "85098068cf34afb136400537fb7dae6675edfc2ce67e668186bfeadd6d99aa1d"
 
 [[files]]
 file = "config/travelerstitles-neoforge-1_21.toml"
@@ -3720,7 +3719,7 @@ preserve = true
 
 [[files]]
 file = "config/xaero/lib/common.cfg"
-hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
+hash = "d46dfe4bfd416bfcdd2b757d33744b4e4595f489b6507eae3c62f5389b11a7c1"
 preserve = true
 
 [[files]]
@@ -3869,6 +3868,10 @@ file = "defaultconfigs/ftbqoptimizer.snbt"
 hash = "44bfb991779a3327302e943a0ac918fe0d0484540fd6e3b918087326090e7178"
 
 [[files]]
+file = "kubejs/assets/abyssaline/lang/en_us.json"
+hash = "13375136a501c628a93cd501a898e19c622e5459c54a2d9f7c428b314460732e"
+
+[[files]]
 file = "kubejs/assets/armamentarium/lang/en_us.json"
 hash = "e0941563fe68ccb57fe26dd4c063abf78acd8288e587a452fe1488b370625713"
 
@@ -3922,7 +3925,7 @@ hash = "abc7785e6077587dae7ed014740a3c215ccc5f11766d04984c34d1230a1bafe6"
 
 [[files]]
 file = "kubejs/config/chest_money.json"
-hash = "2d9bb1358c0ca27601cd61300994aabe1c98aa3bd90070ae5ba704bcbf892404"
+hash = "7d9f3424fc0bdaad850f16def4b9f8bf102f9938712b0d072706b9ffe8eac9f7"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -4694,7 +4697,7 @@ hash = "fbc30d38ba44f3267ea8aacad0f7a63959709f88f65a34dab2acf4d7275b8b6f"
 
 [[files]]
 file = "kubejs/data/minecraft/fake_loot/chests/abandoned_mineshaft.json"
-hash = "6709038aba2f42f64a3fe9fe1ce1a583b4ea19a6eaac1c9d4d7168bb1de20a2e"
+hash = "5b99a91398c2628db745103e29f902e45241157ba81df09c1df315e2f6fc519e"
 
 [[files]]
 file = "kubejs/data/minecraft/fake_loot/chests/ancient_city.json"
@@ -4710,7 +4713,7 @@ hash = "09a956db0130b904739d06cd1d484111eccb7919280e33b8b63c1af1a54a3a82"
 
 [[files]]
 file = "kubejs/data/minecraft/fake_loot/chests/bastion_treasure.json"
-hash = "1429709c5c22c2e55816f5726d8c05d8797f5c5a4471f1c5419e89109c169a8d"
+hash = "4cbfe56e20d6c472fff0ab5c590aaef3d4056996c3101779cb119be44822898e"
 
 [[files]]
 file = "kubejs/data/minecraft/fake_loot/chests/buried_treasure.json"
@@ -4718,11 +4721,11 @@ hash = "0739cb0b5d3bee1f2736e7cf3fe5d34760c00cd6c5eec0313c60799ceb1ff48b"
 
 [[files]]
 file = "kubejs/data/minecraft/fake_loot/chests/desert_pyramid.json"
-hash = "b3594012ce1c0c566d0c8ae4458e430ea8beb7032a730bce1b510af9536d3fac"
+hash = "12236acc173dc054a1167436b4737c689268dfda3c2bcd825a367c87adf3cf4a"
 
 [[files]]
 file = "kubejs/data/minecraft/fake_loot/chests/end_city_treasure.json"
-hash = "c7f8f9f923d8346b981501228b014b1c2b0a6e41951f96884b0e7326f62d2a83"
+hash = "e171b03d6ff5459557348c1c47fc0ff538ff98ba0259fd79dedb7f9df2ea2454"
 
 [[files]]
 file = "kubejs/data/minecraft/fake_loot/chests/igloo_chest.json"
@@ -4734,7 +4737,7 @@ hash = "2bd84de0012055a295c41ce902fe72ff7d76f1e1c91899b183f76b9065fddab1"
 
 [[files]]
 file = "kubejs/data/minecraft/fake_loot/chests/nether_bridge.json"
-hash = "f51ff083fe90f2a3fff2af0a9a33009e9a5fa278b765d24fd141afa93d95b7ef"
+hash = "e12cfeb993a295eaa2744719e756e681bc404484b65cf4c18ade9d5d6fbf0094"
 
 [[files]]
 file = "kubejs/data/minecraft/fake_loot/chests/pillager_outpost.json"
@@ -4754,11 +4757,11 @@ hash = "cabbcc63821f2cd541897312610185dcad10024a3b1fb8d4e7ef3742f15236d6"
 
 [[files]]
 file = "kubejs/data/minecraft/fake_loot/chests/shipwreck_treasure.json"
-hash = "6596bf67978fd6896560bf4f7e2f9cd91aa5c59fcfe8f3e19013a01490f1a8e5"
+hash = "0c2f19322b3f385388a186f899d7443007fabb476766e857f0d0cd99aba3b419"
 
 [[files]]
 file = "kubejs/data/minecraft/fake_loot/chests/simple_dungeon.json"
-hash = "bb9486b795624adf3b2553a8e4b736fc5d9bb6e677019ab26390a846b21e6a6f"
+hash = "ebbd7d7a03ce3e132754d3459e43b19a9e42d29833fb85c3543864b04a0d93fb"
 
 [[files]]
 file = "kubejs/data/minecraft/fake_loot/chests/spawn_bonus_chest.json"
@@ -4810,7 +4813,7 @@ hash = "7f6684419185473d89beb19730500f681d19b78c8bfea87609691ae18dc08a3b"
 
 [[files]]
 file = "kubejs/data/minecraft/fake_loot/chests/woodland_mansion.json"
-hash = "676852afefcc133e770a923b25c6ef561e146eedef8b35946b4531af64b37156"
+hash = "af148248d385e83d04ae8ba9dcab8b05d978d7dcfa9c5ab0d27f4d82f95ae750"
 
 [[files]]
 file = "kubejs/data/minecraft/fake_loot/entities/bogged.json"
@@ -5626,7 +5629,7 @@ hash = "94127a89ca9c2725f99a3fe2d8eccf3e681bb38fee3066a7a461f6a54191c775"
 
 [[files]]
 file = "kubejs/data/society_trading/shops/qna_supplies.json"
-hash = "8832af84699dfcf2b4573c547d1dc2db69e1b51edc8bcdf7ca15a79c8194d0df"
+hash = "cb594b1c6b79570a5c5afb92234630d8b7b0900543af54cff4e1d063c9d7acd6"
 
 [[files]]
 file = "kubejs/data/society_trading/shops/qna_trees.json"
@@ -5734,7 +5737,7 @@ hash = "97c10e2231a5cb7e2062890ec8a280aec3ae3f79017f180671ed8c354027e509"
 
 [[files]]
 file = "kubejs/server_scripts/travelersbackpack.js"
-hash = "896e0f73b874050d6984a6999899b8cda76e5eb35d6e86c1ba55c360ca9e56ed"
+hash = "8ebdb53557cd4d5792df4b2572c84be5dc398d84c22b2b34b03d7ebcac6d7fbc"
 
 [[files]]
 file = "kubejs/startup_scripts/armamentarium_drops.js"
@@ -6190,11 +6193,6 @@ hash = "30958d01c01932cf78871d7f18db03a72ecb0aded51841fd1f6f3ae1933d0fad"
 metafile = true
 
 [[files]]
-file = "mods/ShoulderSurfing-NeoForge-1.21.1-5.1.1.pw.toml"
-hash = "71224c7d662c0996582890fb668591b8f28951328edda6708095d65f28b2cea1"
-metafile = true
-
-[[files]]
 file = "mods/SkyVillages-1.0.6-1.21.x-neoforge-release.pw.toml"
 hash = "1d55b628197e19fd3405300975ae4456efbadaff8790e5528145cd744f16260c"
 metafile = true
@@ -6612,11 +6610,6 @@ metafile = true
 [[files]]
 file = "mods/cluttered-[NeoForge]-3.0.3-1.21.1.pw.toml"
 hash = "bbafaae402ade3d89839a2d25a1adb7ec1a86a8e87c34add5965ac87be5a4321"
-metafile = true
-
-[[files]]
-file = "mods/coasters-immersion-0.2.3.pw.toml"
-hash = "99063d975f0e1afc47088367579141781d1c97373760fda3bc9a45f7e4dd9404"
 metafile = true
 
 [[files]]
@@ -7142,6 +7135,11 @@ metafile = true
 [[files]]
 file = "mods/exposure_polaroid-neoforge-1.21.1-1.1.6.pw.toml"
 hash = "9afbd971f00ff6d0ce6436b24091578b22ad33fdf8b36ce9025fdaf4e41b0e00"
+metafile = true
+
+[[files]]
+file = "mods/extra-mod-integrations-all-neoforge-1.0.3+1.21.1.pw.toml"
+hash = "4343c72096f7d51ae7bce1cea5e391f8d1cc6b3d59aa161e6de3909756bbfbba"
 metafile = true
 
 [[files]]
