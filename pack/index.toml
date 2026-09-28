@@ -8075,7 +8075,6 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "aac712a69fb9932d9d3105a7031d5eff9e3f11427f473dfad7ce19fe90ab0688"
-preserve = true
 
 [[files]]
 file = "resourcepacks/Better+Lanterns+v1.2(mc-1.21).zip"
