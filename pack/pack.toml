@@ -1,12 +1,12 @@
 name = "Create: Quality Not Assured"
 author = "Sythiex"
-version = "1.0.3"
+version = "1.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "cc471d12b788d940ab58fe9c55812c1393fa56dcc9c48062128147b474560727"
+hash = "fbb7261f234798061cd6f8c656997056c94638d67d9ea09c422d94d99e457931"
 
 [versions]
 minecraft = "1.21.1"
