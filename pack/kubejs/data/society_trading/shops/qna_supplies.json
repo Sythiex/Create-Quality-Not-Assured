@@ -185,6 +185,19 @@
       },
       "numismatics_cost": 6,
       "limit": -1
+    },
+    {
+      "trade_id": "qna_buy_supplies_minecraft_andesite",
+      "request": {
+        "id": "numismatics:spur",
+        "count": 2
+      },
+      "offer": {
+        "id": "minecraft:andesite",
+        "count": 1
+      },
+      "numismatics_cost": 2,
+      "limit": -1
     }
   ]
 }
