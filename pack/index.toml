@@ -2720,7 +2720,7 @@ preserve = true
 
 [[files]]
 file = "config/openpartiesandclaims-server.toml"
-hash = "f7d82bf5395289a354bfb91335a64690b4a8c419f4308f81ac44d8efef656766"
+hash = "48d3f93bb7cd7b0f234d9aa4da12c15d2917509d4c58cabe9676877eeeaf566a"
 preserve = true
 
 [[files]]
@@ -2805,8 +2805,7 @@ preserve = true
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "afac5f292dac038e7dda59413f64bd0a42c14ae09b7b80035ca7101d399bcd8a"
-preserve = true
+hash = "5dabe5a70e7ee83799b7e323fe00aa8bf7c3d9595a0fd39d6a4445a1a3cd8abf"
 
 [[files]]
 file = "config/quark_ponders-client.toml"
@@ -3065,8 +3064,7 @@ preserve = true
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
-hash = "a21a7c545b4fe16cd84531d78df044fdda0aea9ad574871385cde515781de287"
-preserve = true
+hash = "d3f8345d06c95f2eb09b2127f2b1658ff2bf82142bed9b291adf1bdbf8af1a92"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties.pre-schema-6.bak"
