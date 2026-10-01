@@ -487,8 +487,7 @@ preserve = true
 
 [[files]]
 file = "config/asynclogger/default.toml"
-hash = "ae5047ab60cc3b2f6d1fec09f2116613a4fcb556679cf6688ec8c39b76b74f58"
-preserve = true
+hash = "151f91c935d0095f3525781fed73a76301750a466cee34e4ffaf47eafc72584b"
 
 [[files]]
 file = "config/attributefix/caelus/fall_flying.json"
