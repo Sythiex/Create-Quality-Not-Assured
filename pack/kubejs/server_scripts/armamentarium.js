@@ -1,4 +1,4 @@
-// Chest rewards are deliberately narrower than the recycling ingredient tag.
+// Chest and vault rewards are deliberately narrower than the recycling ingredient tag.
 const armamentariumLootWeapons = [
     'armamentarium:zombified_arm',
     'armamentarium:bonecarved_scythe',
@@ -80,21 +80,33 @@ const armamentariumArmor = [
 // One chance roll per table generation, then one equally weighted weapon.
 const armamentariumLootChances = {
     'mes:mega_ship_treasure': 1 / 5,
-    'mns:chests/treasure': 1 / 10,
-    'mns:chests/dragon_arena/epic': 1 / 2,
-    'mns:chests/large_arena/treasure': 1 / 8,
-    'mns:chests/mega_fortress/intact_treasure': 1 / 10,
-    'mtr:desert_temple_lower_chamber': 1 / 12,
+    'mns:chests/treasure': 1 / 8,
+    // Four epic chests plus one guaranteed ominous vault average two weapons.
+    'mns:chests/dragon_arena/epic': 1 / 4,
+    'mns:chests/large_arena/treasure': 1 / 12,
+    'mns:chests/mega_fortress/intact_treasure': 1 / 4,
+    'mtr:desert_temple_lower_chamber': 1 / 6,
     'mtr:jungle_temple_puzzle_treasure': 1 / 6,
-    'mtr:nether_temple_rare': 1 / 4,
-    'betterjungletemples:chests/treasure': 1 / 3,
-    'idas:chests/collectors_museum/museum_treasure': 1 / 10,
-    'idas:chests/desert_pyramid/desert_pyramid_treasure': 1 / 16,
-    'idas:chests/labyrinth/labyrinth_tomb': 1 / 16,
-    'idas:chests/ruins_of_the_deep/ruins_treasure': 1 / 16,
+    'mtr:nether_temple_rare': 1 / 2,
+    'betterjungletemples:chests/treasure': 1 / 2,
+    'idas:chests/collectors_museum/museum_treasure': 1 / 5,
+    'idas:chests/desert_pyramid/desert_pyramid_treasure': 1 / 24,
+    'idas:chests/labyrinth/labyrinth_tomb': 1 / 7,
+    // Three single library chests and one double chest average one weapon.
+    'idas:chests/pillager_fortress/pillager_library': 1 / 5,
+    'idas:chests/ruins_of_the_deep/ruins_treasure': 1 / 7,
     'idas:chests/tinkers_citadel/tinkers_citadel_vault': 1 / 12,
     'idas:chests/tinkers_workshop/tinkers_workshop_vault': 1 / 12,
-    'dungeoncrawl:chests/treasure': 1 / 7
+    'dungeoncrawl:chests/treasure': 3 / 5,
+    // Luki's city layout estimate: roughly 15-17 treasure chests per city.
+    'minecraft:chests/ancient_city': 1 / 16,
+    // King's Castle: one guaranteed weapon in the single boss-trigger chest.
+    'create_ltab:evoker_trigger': 1,
+    // Root ominous vault rewards only; normal vaults and trial spawners are excluded.
+    'mss:arena/vault_ominous': 1 / 5,
+    'mansions:vault/reward_ominous': 1 / 22, // 33 vaults average 1.5 weapons.
+    'minecraft:chests/trial_chambers/reward_ominous': 1 / 6,
+    'mns:vaults/dragon_arena/main_ominous': 1
 }
 
 ServerEvents.tags('item', event => {

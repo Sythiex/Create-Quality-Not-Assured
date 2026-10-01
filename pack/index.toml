@@ -5655,7 +5655,7 @@ hash = "a96a6577306a4e5bfd014e43c905b44e53726f8a27f3ade87df0a238812978dd"
 
 [[files]]
 file = "kubejs/server_scripts/armamentarium.js"
-hash = "4708f65d811092cd08f17923d0dd48c4190a866c2114de0846f94d2c7c8591aa"
+hash = "19c7979e369bf897da531a84279736acf518e75257213d33f940daec910f4737"
 
 [[files]]
 file = "kubejs/server_scripts/balancedflight.js"
