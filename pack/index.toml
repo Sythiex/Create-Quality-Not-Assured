@@ -5540,6 +5540,10 @@ file = "kubejs/data/qualitynotassured/worldgen/template_pool/survey_camp_zinc.js
 hash = "1bb5270e3cb55f22bc18d4e8534aa0e343c1403e419b053c2f529f2ff2f961f9"
 
 [[files]]
+file = "kubejs/data/redomesticate/tags/entity_type/command_whitelist.json"
+hash = "0b9268f042d21b0f681fdf834508c520bda28ac595e3fa8a8b8be20b1cf02837"
+
+[[files]]
 file = "kubejs/data/sable/physics_block_properties/float_025.json"
 hash = "ae26fccff5b19d09c6bbfc7fa028aebc3072223ced1655e1cd23edf37914a3f0"
 
