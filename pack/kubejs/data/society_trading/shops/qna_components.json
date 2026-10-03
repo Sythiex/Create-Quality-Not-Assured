@@ -256,6 +256,27 @@
       }
     },
     {
+      "trade_id": "qna_buy_components_create_polished_rose_quartz",
+      "request": {
+        "id": "numismatics:cog",
+        "count": 3
+      },
+      "offer": {
+        "id": "create:polished_rose_quartz",
+        "count": 1
+      },
+      "numismatics_cost": 224,
+      "limit": -1,
+      "second_request": {
+        "id": "numismatics:spur",
+        "count": 32
+      },
+      "stage_required": "qna_shop_brass",
+      "unlock_description": {
+        "text": "Team completes Brass Ingot quest"
+      }
+    },
+    {
       "trade_id": "qna_buy_components_create_electron_tube",
       "request": {
         "id": "numismatics:cog",
