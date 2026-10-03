@@ -2833,8 +2833,7 @@ preserve = true
 
 [[files]]
 file = "config/redomesticate.json"
-hash = "f251fb200b3d79afae3fe7181a2391edb36c11c2ae9b6cfb7411a966a4b0e253"
-preserve = true
+hash = "52327488e6b556da9b761187a4e92aaf01e7c0a8a210a2a08d2fca7ab3740582"
 
 [[files]]
 file = "config/reeses_sodium_options.json"
