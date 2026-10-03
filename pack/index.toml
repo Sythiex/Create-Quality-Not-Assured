@@ -7943,8 +7943,8 @@ hash = "6afaf515d9cad82006615780d19aa72a73ae2ba573775245644a2dbf537f7b08"
 metafile = true
 
 [[files]]
-file = "mods/tfmg-1.21.1-1.3.1-community.pw.toml"
-hash = "7f9556aff682f5942410920fc05af726deff3ce68359c701cdf860713ca6281a"
+file = "mods/tfmg-1.21.1-1.3.2a-community.pw.toml"
+hash = "ae72634956adc05f7c0a8e213fe3ad93f0ba5d122950b44125f2cc049312da70"
 metafile = true
 
 [[files]]
