@@ -1,0 +1,8 @@
+name = "neo-voxy-0.5.0-alpha.12-stale-cache-fix-mc1.21.1-neoforge"
+filename = "neo-voxy-0.5.0-alpha.12-stale-cache-fix-mc1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Sythiex/Create-Quality-Not-Assured/releases/download/v1.0.6/neo-voxy-0.5.0-alpha.12-stale-cache-fix-mc1.21.1-neoforge.jar"
+hash-format = "sha256"
+hash = "54e72065505f54d434fc990470b129e73bf5b65d1e24394db827d6e28dc881b3"

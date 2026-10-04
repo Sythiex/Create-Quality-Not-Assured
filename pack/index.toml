@@ -7593,8 +7593,8 @@ hash = "a047ed194a0bad9f797c18c4738afb7eed69980d3b85d7eac869f90579b68522"
 metafile = true
 
 [[files]]
-file = "mods/neo-voxy-0.5.0-alpha.2-mc1.21.1-neoforge.pw.toml"
-hash = "91346e61e7cef4b5dcc1fd57e7585f7de3affd6f154c95774939ed6d05be91fa"
+file = "mods/neo-voxy-0.5.0-alpha.12-stale-cache-fix-mc1.21.1-neoforge.pw.toml"
+hash = "06cf26f6fbc4f76e5998c4024426d33a7ce406271b08ab0450869814db416101"
 metafile = true
 
 [[files]]
