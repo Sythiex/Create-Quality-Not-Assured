@@ -7703,6 +7703,11 @@ hash = "00e99856d0d2fb1b3ec65a64ffd78760cd52bdafeb8cf1199f2350a4bf39e650"
 metafile = true
 
 [[files]]
+file = "mods/qna-tweaked-sable-compat-1.0.0.pw.toml"
+hash = "1ca587f542ea60d44dd665f1b4886835e36c7cebe67d1785f75bd7ddc6b0f607"
+metafile = true
+
+[[files]]
 file = "mods/railways-0.3.0-beta.2+neoforge-mc1.21.1.pw.toml"
 hash = "8ed078c071a48452b019084a2594786adb320ee8ebbd0dd3a094731aca3bf0bc"
 metafile = true
