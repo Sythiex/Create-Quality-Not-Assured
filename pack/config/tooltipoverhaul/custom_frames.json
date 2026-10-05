@@ -15,7 +15,7 @@
         "#C551C3"
       ],
       "specialEffect": "metal_shining",
-      "priority": 17
+      "priority": 19
     },
     {
       "id": "amber",
@@ -41,7 +41,7 @@
         "#434509"
       ],
       "dividerLineColor": "#9BA323",
-      "priority": 16
+      "priority": 18
     },
     {
       "items": [
@@ -52,7 +52,7 @@
       ],
       "id": "celestisynth",
       "disableScrolling": true,
-      "priority": 15,
+      "priority": 17,
       "specialEffect": "snowfall",
       "gradientType": "custom",
       "showRating": false
@@ -73,7 +73,7 @@
         "#3D3A5E"
       ],
       "specialEffect": "steel_shining",
-      "priority": 14,
+      "priority": 16,
       "effectSettings": {
         "steel_shining": {
           "density": 1.0,
@@ -96,7 +96,7 @@
       ],
       "gradientType": "custom",
       "borderType": "auto_gradient",
-      "priority": 13
+      "priority": 15
     },
     {
       "name": "Hearthstone",
@@ -111,7 +111,7 @@
       ],
       "borderType": "gradient",
       "dividerLineColor": "#A7F0F9",
-      "priority": 12
+      "priority": 14
     },
     {
       "items": [
@@ -140,7 +140,7 @@
         "#2C0000"
       ],
       "dividerLineColor": "match_inner_frame_color",
-      "priority": 11
+      "priority": 13
     },
     {
       "items": [
@@ -198,7 +198,7 @@
           "variation": 48.0
         }
       },
-      "priority": 10
+      "priority": 12
     },
     {
       "items": [
@@ -208,10 +208,23 @@
       ],
       "name": "Stars",
       "specialEffect": "stars",
-      "priority": 9
+      "priority": 11
     },
     {
-      "priority": 8,
+      "items": [
+        "ftbquests:book"
+      ],
+      "name": "Quest Book",
+      "gradientType": "custom",
+      "gradientColors": [
+        "#B9DDFF",
+        "#25619A",
+        "#423A9FFF"
+      ],
+      "priority": 10
+    },
+    {
+      "priority": 9,
       "items": [
         "armamentarium:dragonslayer"
       ],
@@ -254,7 +267,7 @@
       "items": [
         "armamentarium:the_mind_of_jean"
       ],
-      "priority": 7,
+      "priority": 8,
       "name": "The Mind of Jean",
       "specialEffect": "galaxy",
       "effectSettings": {
@@ -265,7 +278,7 @@
       "gradientType": "epic"
     },
     {
-      "priority": 6,
+      "priority": 7,
       "items": [
         "armamentarium:reaper_of_the_gaol"
       ],
@@ -294,7 +307,7 @@
       "items": [
         "armamentarium:teraton_blackhammer"
       ],
-      "priority": 5,
+      "priority": 6,
       "name": "Teraton Blackhammer",
       "gradientType": "custom",
       "specialEffect": "snowfall, rim_light",
@@ -330,7 +343,7 @@
       "items": [
         "armamentarium:warspear_of_the_desecrator"
       ],
-      "priority": 4,
+      "priority": 5,
       "name": "War-Spear of the Desecrator",
       "gradientType": "custom",
       "gradientColors": [
@@ -371,7 +384,7 @@
       "items": [
         "armamentarium:excalibur"
       ],
-      "priority": 3,
+      "priority": 4,
       "name": "Excalibur",
       "gradientType": "custom",
       "gradientColors": [
@@ -426,13 +439,50 @@
         }
       },
       "name": "Blade of Ruin",
-      "priority": 2,
+      "priority": 3,
       "gradientColors": [
         "#545454",
         "#1D1D1D",
         "#150A00"
       ],
       "gradientType": "custom"
+    },
+    {
+      "items": [
+        "armamentarium:hanakiba"
+      ],
+      "priority": 2,
+      "specialEffect": "sunbeams, snowfall",
+      "effectSettings": {
+        "snowfall": {
+          "colors": [
+            "#E556A5",
+            "#FF96DA",
+            "#FFFFFF"
+          ],
+          "turbulence": 1.0,
+          "rotationSpeed": 4.0,
+          "size": 1.0,
+          "glow": 0.2412719,
+          "variation": 0.0,
+          "intensity": 0.45438895
+        },
+        "nebula": {
+          "orbitRadius": 0.8472022
+        },
+        "sunbeams": {
+          "intensity": 0.65836984,
+          "size": 1.0,
+          "glow": 0.464376
+        }
+      },
+      "gradientColors": [
+        "#FFC6EE",
+        "#7F3C75",
+        "#23101F"
+      ],
+      "gradientType": "custom",
+      "name": "Hanakiba"
     },
     {
       "items": [
@@ -455,18 +505,6 @@
         }
       },
       "priority": 1
-    },
-    {
-      "items": [
-        "ftbquests:book"
-      ],
-      "name": "Quest Book",
-      "gradientType": "custom",
-      "gradientColors": [
-        "#B9DDFF",
-        "#25619A",
-        "#423A9FFF"
-      ]
     }
   ]
 }

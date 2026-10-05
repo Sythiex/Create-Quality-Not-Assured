@@ -3456,8 +3456,7 @@ preserve = true
 
 [[files]]
 file = "config/tooltipoverhaul/custom_frames.json"
-hash = "97d73b9918c30c6f00c58a3f41521446ed1c82abc653a38f96f88e0b24e04730"
-preserve = true
+hash = "463f693177949a38bdac8f5e797afd120f9431ef3e9bd38df55bcd5c8fbc12e3"
 
 [[files]]
 file = "config/tooltipoverhaul/custom_frames.json.bak"
