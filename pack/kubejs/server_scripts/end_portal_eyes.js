@@ -1,13 +1,19 @@
 // /endportals on|off|status (operator permission level 2).
-// Controls Eye of Ender insertion in the Overworld only.
-// The setting is saved per world. A missing setting means disabled, including
-// existing worlds that have never used this command. Reload with /reload.
+// Controls the global override for Eye of Ender insertion in the Overworld.
+// With the override off (the default), players need Save The Empire to insert Eyes.
+// The override is saved per world; individual access uses advancement progress.
+// Reload with /reload.
 const END_PORTAL_EYES_ENABLED_KEY = 'cqna:end_portal_eyes_enabled'
+const END_PORTAL_UNLOCK_ADVANCEMENT = 'armamentarium:save_the_empire'
+
+// UNLOCK WHISPER: sent when a player earns Save The Empire, outside the random list.
+const END_PORTAL_UNLOCK_WHISPER = 'Your worth is known. The End awaits.'
 
 // FIXED OPENING WHISPER: always first, after a player switch, and after a full cycle.
 const END_PORTAL_FIRST_WHISPER = "Only a king's blade may unseal the End."
 
-// RANDOM WHISPERS: add more strings here. Each plays once per shuffled cycle.
+// RANDOM MESSAGES: each plays once per shuffled cycle.
+// Strings get "A whisper: "; use { observation: '...' } for unprefixed narration.
 // Run /reload after editing. This also resets the whisper sequence.
 const END_PORTAL_RANDOM_WHISPERS = [
     'The ruined blade has yet to earn its name.',
@@ -19,8 +25,6 @@ const END_PORTAL_RANDOM_WHISPERS = [
     'The scattered arms remember the hands that failed them.',
     'Beyond these stones waits the last battle. This is not yet yours.',
     'Let the kingdom speak your worth. The seal will listen.',
-    'For a moment, the Eye looks back.',
-    'You feel the weight of all the earth above you.',
     'There are still things beneath this sky worth tending to.',
     'A crown is not inherited here. It is answered for.',
     'The old steel waits for an older name.',
@@ -32,12 +36,14 @@ const END_PORTAL_RANDOM_WHISPERS = [
     'There are poisons that kill men, and poisons that kill ages.',
     'What was stolen from the divine may yet remain.',
     'The old name waits beyond ruin.',
-    'Something on the other side seems very far away.',
-    'The stone beneath your feet feels older than the halls around it.',
-    'For a heartbeat, you remember a kingdom you have never seen.',
-    'The silence feels less like refusal than expectation.',
-    'You hear steel being drawn somewhere impossibly far away.',
-    'Somewhere above, the world continues without you.'
+    { observation: 'For a moment, the Eye looks back.' },
+    { observation: 'You feel the weight of all the earth above you.' },
+    { observation: 'Something on the other side seems very far away.' },
+    { observation: 'The stone beneath your feet feels older than the halls around it.' },
+    { observation: 'For a heartbeat, you remember a kingdom you have never seen.' },
+    { observation: 'The silence feels less like refusal than expectation.' },
+    { observation: 'You hear steel being drawn somewhere impossibly far away.' },
+    { observation: 'Somewhere above, the world continues without you.' }
 ]
 
 // Shared, in-memory sequence; nothing about whispers is saved to the world.
@@ -65,17 +71,23 @@ function whisperEndPortal(player) {
         message = state.remaining.pop()
     }
 
-    player.tell(Text.of('A whisper: ' + message).gray().italic())
+    const text = typeof message === 'string' ? 'A whisper: ' + message : message.observation
+    player.tell(Text.of(text).gray().italic())
 }
 
 function endPortalEyesEnabled(server) {
     return server.persistentData.getBoolean(END_PORTAL_EYES_ENABLED_KEY)
 }
 
+PlayerEvents.advancement(END_PORTAL_UNLOCK_ADVANCEMENT, event => {
+    event.player.tell(Text.of('A whisper: ' + END_PORTAL_UNLOCK_WHISPER).gray().italic())
+})
+
 BlockEvents.rightClicked('minecraft:end_portal_frame', event => {
     if (String(event.level.dimension) !== 'minecraft:overworld') return
     if (event.item.id !== 'minecraft:ender_eye') return
     if (endPortalEyesEnabled(event.server)) return
+    if (event.player.isAdvancementDone(END_PORTAL_UNLOCK_ADVANCEMENT)) return
 
     // Cancel before EnderEyeItem.useOn can insert or consume the Eye.
     // In MC 1.21.1, EnderEyeItem.use also returns PASS when aimed at a
@@ -96,7 +108,9 @@ ServerEvents.commandRegistry(event => {
 
     function report(source) {
         const enabled = endPortalEyesEnabled(source.getServer())
-        source.sendSuccess(Text.of('Overworld Eye of Ender insertion: ' + (enabled ? 'enabled' : 'disabled') + '.'), false)
+        source.sendSuccess(Text.of('Overworld Eye of Ender insertion: ' + (enabled
+            ? 'enabled for everyone (global override on).'
+            : 'requires Save The Empire (global override off).')), false)
         return 1
     }
 

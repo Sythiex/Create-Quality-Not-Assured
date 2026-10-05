@@ -5684,7 +5684,7 @@ hash = "3b4971a2fd8001de2967abc5960a6d08f0248c6e7d88ad0344e457c3d9fe4699"
 
 [[files]]
 file = "kubejs/server_scripts/end_portal_eyes.js"
-hash = "9ecf1bd42021a6d0bcba679a253217864577667eb0c31b65f0f06dca9d83db59"
+hash = "3ea23bb118c694c33f94e2dae8b05f906eae399b629eb29bdf28775f063e7791"
 
 [[files]]
 file = "kubejs/server_scripts/food/cocktailsdelight_unavailable.js"
