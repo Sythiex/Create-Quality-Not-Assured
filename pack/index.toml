@@ -7191,6 +7191,11 @@ hash = "2108aff80bb42c4d3d6a946e2d0c904817b27a218ed35231ad33c748aca4ad14"
 metafile = true
 
 [[files]]
+file = "mods/flywheel-neoforge-1.21.1-1.0.6.pw.toml"
+hash = "9ce200d5032fdd6731e50f9f8b89c6e662559aaa95f904e3198352c5c4a56b1d"
+metafile = true
+
+[[files]]
 file = "mods/foodmood-0.1.0.pw.toml"
 hash = "991a762c231df064de4b9b224a180c52642c3e3297304caa61f29e7b4fdc2fed"
 metafile = true
