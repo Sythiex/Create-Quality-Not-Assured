@@ -5664,6 +5664,10 @@ file = "kubejs/server_scripts/balancedflight.js"
 hash = "108cc5d43e026a7c986ceee4d90826b9bc7051ce9f0738eb7f6a5b5cdfcce579"
 
 [[files]]
+file = "kubejs/server_scripts/colorfulazaleas.js"
+hash = "530ab6378274c37f6c8006de74f67cd7ed275551133bf6f5338511ca0349399f"
+
+[[files]]
 file = "kubejs/server_scripts/create.js"
 hash = "ae96a18415c01138c9e48faeebe5aee2f0a12df8b1e2c2a6f6289e20d648d399"
 
