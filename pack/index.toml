@@ -7913,8 +7913,8 @@ hash = "72d703e2f24f71e07f676f5975996ff53a5221f5f04f920aebda8eb48d77928b"
 metafile = true
 
 [[files]]
-file = "mods/stillwander-neoforge-1.1.0-alpha.1+1.21.1.pw.toml"
-hash = "38353bf8e36a68287841b29c917408481206a04641b8905387070c9de297bde2"
+file = "mods/stillwander-neoforge-1.1.0-alpha.2+1.21.1.pw.toml"
+hash = "40bda8deac97d0f09ae4050466158317101f12c2d453e995d1295e928a1f54f4"
 metafile = true
 
 [[files]]
