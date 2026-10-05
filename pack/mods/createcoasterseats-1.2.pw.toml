@@ -3,10 +3,10 @@ filename = "createcoasterseats-1.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/du1KBA2p/versions/MFNJipOl/createcoasterseats-1.2.jar"
+url = "https://cdn.modrinth.com/data/du1KBA2p/versions/vtyvJPEJ/createcoasterseats-1.2.jar"
 hash-format = "sha256"
-hash = "8b7a2c9db89f837406739ac67a63bf80533fa3d0efd8f5b87ef6ead751a9d2f2"
+hash = "d1d8988b3bbcf11bd6dbb529be134e11fab7ce9c70c62c79a912bd9481eb3986"
 
 [update.modrinth]
 mod-id = "du1KBA2p"
-version = "MFNJipOl"
+version = "vtyvJPEJ"
