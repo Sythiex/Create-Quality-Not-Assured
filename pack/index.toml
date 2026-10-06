@@ -2729,8 +2729,7 @@ preserve = true
 
 [[files]]
 file = "config/particular-common.toml"
-hash = "26bebcb2c2a38f280973e18b3554989cdd1fe00724b45a985b5aabb3f09d25d6"
-preserve = true
+hash = "a9e68b4b35decee2f9bd6036c83ff9c80b9b8ebc287b1055e989cd989833b11e"
 
 [[files]]
 file = "config/paxi-neoforge-1_21.toml"
