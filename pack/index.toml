@@ -5726,8 +5726,8 @@ file = "kubejs/server_scripts/travelersbackpack.js"
 hash = "8ebdb53557cd4d5792df4b2572c84be5dc398d84c22b2b34b03d7ebcac6d7fbc"
 
 [[files]]
-file = "kubejs/startup_scripts/armamentarium_drops.js"
-hash = "3124564a7623534808dc0da2de5dcf09f5426b911e6412638cd9a3b2434db922"
+file = "kubejs/startup_scripts/armamentarium.js"
+hash = "feb0119e0c31ec8c20b777689279c0b1b691590cbbb22a9b5a62d2f7dd1be3e9"
 
 [[files]]
 file = "kubejs/startup_scripts/shop_terminal.js"
