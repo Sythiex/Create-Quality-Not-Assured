@@ -7964,6 +7964,11 @@ hash = "f673b3c3ad4b4fc23ed6960e173f36a3a67acc1108c2cc3c26352b892e302437"
 metafile = true
 
 [[files]]
+file = "mods/tracks_plus-1.0.6b7.pw.toml"
+hash = "73b7984e8c92864dd6581dcfd3b59060075486ea3d65098e88ed15d458171278"
+metafile = true
+
+[[files]]
 file = "mods/travelersbackpack-neoforge-1.21.1-10.1.39.pw.toml"
 hash = "aa8db57ceb6ee29b7ec8f3b9e38ffb3fbc137badf863c39c1747b3829a6dc3a2"
 metafile = true
