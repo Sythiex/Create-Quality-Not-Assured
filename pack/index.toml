@@ -2846,8 +2846,7 @@ preserve = true
 
 [[files]]
 file = "config/resourcepackoverrides.json"
-hash = "5fd57b58dd42436936ae5fa719265725a5c25dd8fabc32303fe489ccad9cb174"
-preserve = true
+hash = "b829345429095172a37e496770620461c4b84e7680a524e8c1d72857166f541e"
 
 [[files]]
 file = "config/responsive-shields.toml"
@@ -8093,6 +8092,10 @@ hash = "ab5b5526f0a961cea6d31e456593f0fa16448479ec588630c33f2a42590469e7"
 [[files]]
 file = "resourcepacks/FA+Emissive-v1.6.zip"
 hash = "4da38e4f1580da77e308a551b5bb3bf9d8926c14fd0b4bb9275c90f9c3f6b609"
+
+[[files]]
+file = "resourcepacks/FA+Player-No-Inventory-Scans.zip"
+hash = "dc3a9ef06fca907c8673c0f6e8e55ab48346f9c321c53079d7b11cce86488693"
 
 [[files]]
 file = "resourcepacks/FA+Player-v1.1.zip"
