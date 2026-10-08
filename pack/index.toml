@@ -3025,48 +3025,33 @@ hash = "13a350ba9dc29cece88472aaced191cecf6670ce86486df8408d42d2caaed031"
 preserve = true
 
 [[files]]
-file = "config/sound_physics_remastered/.spra-config-schema.properties"
+file = "config/sound_physics_aeronautics/.spra-config-schema.properties"
 hash = "6cd7b8251d83ee6080772835d37b955bb854f400e52e6fea2740cebf1b3a6ae7"
 preserve = true
 
 [[files]]
-file = "config/sound_physics_remastered/occlusion.properties"
-hash = "b52c15415929db8b5d93be0e43c4e5b6b736ce82a976eea6bae7599ac36ae67b"
+file = "config/sound_physics_aeronautics/occlusion.properties"
+hash = "53dfd19e928d61289ef9dfe226a9d723066b073ccc488e7dd6d45f98b5601715"
 preserve = true
 
 [[files]]
-file = "config/sound_physics_remastered/occlusion.properties.pre-schema-6.bak"
-hash = "ebbac45fbb3ca01487b85ffee9601b213b71896e6606fb297bcb0f3ac9c30ffb"
+file = "config/sound_physics_aeronautics/propeller_occlusion_overrides.properties"
+hash = "8dd1a5e61aa6d34ce98209cccf1b88e8603fc358910da87fec0a60526e406eab"
 preserve = true
 
 [[files]]
-file = "config/sound_physics_remastered/propeller_occlusion_overrides.properties"
-hash = "644d4eca4353c6285170a5d5c1f5c659ddb9c408cb01d7b84f9a4a99309cf7d8"
+file = "config/sound_physics_aeronautics/reflectivity.properties"
+hash = "f27c9c4e53e23b843255f7e8ff2d8e6535305568c063e90a18d4c1a3286432f9"
 preserve = true
 
 [[files]]
-file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "1fc0564734b2c584146365c2f25d76f9e6d350fb168061c918fcd285c7b8bfa5"
+file = "config/sound_physics_aeronautics/sound_rates.properties"
+hash = "4e710eef8ba0a6b7d99218447501902aca94e9130c16c6ef440e61e7f22cd3f0"
 preserve = true
 
 [[files]]
-file = "config/sound_physics_remastered/reflectivity.properties.pre-schema-6.bak"
-hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
-preserve = true
-
-[[files]]
-file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "fe45a3ab8903e3f4e0a1f4af9612b75426a38835c1f66b3a183fe4bc086356e2"
-preserve = true
-
-[[files]]
-file = "config/sound_physics_remastered/soundphysics.properties"
-hash = "d3f8345d06c95f2eb09b2127f2b1658ff2bf82142bed9b291adf1bdbf8af1a92"
-
-[[files]]
-file = "config/sound_physics_remastered/soundphysics.properties.pre-schema-6.bak"
-hash = "d29dede3f214ee4b1aa03314f92c3f973c21ee6e26d173eba3d01a2083237b6d"
-preserve = true
+file = "config/sound_physics_aeronautics/soundphysics.properties"
+hash = "8d66704d61d96fffd6c5fd7d172aee88ee70c5565af14e9284e58f78dc80fb8c"
 
 [[files]]
 file = "config/soundcontrol/configs/default.json"
