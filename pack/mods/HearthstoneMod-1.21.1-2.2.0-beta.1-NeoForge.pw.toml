@@ -1,0 +1,12 @@
+name = "Hearthstone Mod"
+filename = "HearthstoneMod-1.21.1-2.2.0-beta.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rpEuqmuu/versions/ys3Jm3vD/HearthstoneMod-1.21.1-2.2.0-beta.1-NeoForge.jar"
+hash-format = "sha512"
+hash = "e623a89ac513a35665f2b43298e54610373aa2ccbdb15937a2c685e65ea7c225bffc2bf24aad76864c4951d8b29ceaa341076fc49c9509391ac7a6af4978a0fb"
+
+[update.modrinth]
+mod-id = "rpEuqmuu"
+version = "ys3Jm3vD"

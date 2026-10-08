@@ -5979,8 +5979,8 @@ hash = "27c9ed827304b9abca3d0456296d3684c60846c4272ab82c9793ba3b7861e23e"
 metafile = true
 
 [[files]]
-file = "mods/HearthstoneMod-1.21.1-2.1.0-NeoForge.pw.toml"
-hash = "9726bbfdb98fc192bf26dad7a26c06f800993b283019f00e32376578fda4c105"
+file = "mods/HearthstoneMod-1.21.1-2.2.0-beta.1-NeoForge.pw.toml"
+hash = "6cd91a9783278eecd849e8579f7ccc4c2306a7f7d838c5313117c965d28fd898"
 metafile = true
 
 [[files]]
