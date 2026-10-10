@@ -3439,12 +3439,7 @@ preserve = true
 
 [[files]]
 file = "config/tooltipoverhaul/custom_frames.json"
-hash = "463f693177949a38bdac8f5e797afd120f9431ef3e9bd38df55bcd5c8fbc12e3"
-
-[[files]]
-file = "config/tooltipoverhaul/custom_frames.json.bak"
-hash = "bcc8b6128e6c81dff64c4815ad6297e46288c3f4aa1de9a6181d9d43bddd7648"
-preserve = true
+hash = "5bba6d3f482b82da348bc66552840b7627b2284bcd7f980ce745a266ce00d930"
 
 [[files]]
 file = "config/tooltipoverhaul/custom_frames.json.defaults.json"
@@ -3453,7 +3448,7 @@ preserve = true
 
 [[files]]
 file = "config/tooltipoverhaul/tooltipoverhaul.toml"
-hash = "caefc3c2e420e10ae97c0c2d343d77dacf106751df5cf275dfde585eec70beba"
+hash = "b1002a6cedab5c33b2ee774affe72f134b004cb07c63554e57b4c149e28275b0"
 preserve = true
 
 [[files]]

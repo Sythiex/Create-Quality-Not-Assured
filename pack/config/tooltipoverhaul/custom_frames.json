@@ -15,7 +15,7 @@
         "#C551C3"
       ],
       "specialEffect": "metal_shining",
-      "priority": 19
+      "priority": 21
     },
     {
       "id": "amber",
@@ -41,7 +41,7 @@
         "#434509"
       ],
       "dividerLineColor": "#9BA323",
-      "priority": 18
+      "priority": 20
     },
     {
       "items": [
@@ -52,7 +52,7 @@
       ],
       "id": "celestisynth",
       "disableScrolling": true,
-      "priority": 17,
+      "priority": 19,
       "specialEffect": "snowfall",
       "gradientType": "custom",
       "showRating": false
@@ -73,7 +73,7 @@
         "#3D3A5E"
       ],
       "specialEffect": "steel_shining",
-      "priority": 16,
+      "priority": 18,
       "effectSettings": {
         "steel_shining": {
           "density": 1.0,
@@ -96,7 +96,7 @@
       ],
       "gradientType": "custom",
       "borderType": "auto_gradient",
-      "priority": 15
+      "priority": 17
     },
     {
       "name": "Hearthstone",
@@ -111,7 +111,7 @@
       ],
       "borderType": "gradient",
       "dividerLineColor": "#A7F0F9",
-      "priority": 14
+      "priority": 16
     },
     {
       "items": [
@@ -140,7 +140,7 @@
         "#2C0000"
       ],
       "dividerLineColor": "match_inner_frame_color",
-      "priority": 13
+      "priority": 15
     },
     {
       "items": [
@@ -198,7 +198,7 @@
           "variation": 48.0
         }
       },
-      "priority": 12
+      "priority": 14
     },
     {
       "items": [
@@ -208,7 +208,7 @@
       ],
       "name": "Stars",
       "specialEffect": "stars",
-      "priority": 11
+      "priority": 13
     },
     {
       "items": [
@@ -221,10 +221,10 @@
         "#25619A",
         "#423A9FFF"
       ],
-      "priority": 10
+      "priority": 12
     },
     {
-      "priority": 9,
+      "priority": 11,
       "items": [
         "armamentarium:dragonslayer"
       ],
@@ -267,7 +267,7 @@
       "items": [
         "armamentarium:the_mind_of_jean"
       ],
-      "priority": 8,
+      "priority": 10,
       "name": "The Mind of Jean",
       "specialEffect": "galaxy",
       "effectSettings": {
@@ -278,7 +278,7 @@
       "gradientType": "epic"
     },
     {
-      "priority": 7,
+      "priority": 9,
       "items": [
         "armamentarium:reaper_of_the_gaol"
       ],
@@ -307,7 +307,7 @@
       "items": [
         "armamentarium:teraton_blackhammer"
       ],
-      "priority": 6,
+      "priority": 8,
       "name": "Teraton Blackhammer",
       "gradientType": "custom",
       "specialEffect": "snowfall, rim_light",
@@ -343,7 +343,7 @@
       "items": [
         "armamentarium:warspear_of_the_desecrator"
       ],
-      "priority": 5,
+      "priority": 7,
       "name": "War-Spear of the Desecrator",
       "gradientType": "custom",
       "gradientColors": [
@@ -384,7 +384,7 @@
       "items": [
         "armamentarium:excalibur"
       ],
-      "priority": 4,
+      "priority": 6,
       "name": "Excalibur",
       "gradientType": "custom",
       "gradientColors": [
@@ -439,7 +439,7 @@
         }
       },
       "name": "Blade of Ruin",
-      "priority": 3,
+      "priority": 5,
       "gradientColors": [
         "#545454",
         "#1D1D1D",
@@ -449,9 +449,31 @@
     },
     {
       "items": [
+        "armamentarium:raw_adamantium"
+      ],
+      "name": "Raw Adamantium",
+      "gradientType": "custom",
+      "gradientColors": [
+        "#1C1C1C",
+        "#33F2FF",
+        "#0E0E0E"
+      ],
+      "dividerLineColor": "#33F2FF",
+      "specialEffect": "steel_shining",
+      "effectSettings": {
+        "steel_shining": {
+          "intensity": 0.28015524,
+          "density": 1.0,
+          "bandWidth": 0.53544116
+        }
+      },
+      "priority": 4
+    },
+    {
+      "items": [
         "armamentarium:hanakiba"
       ],
-      "priority": 2,
+      "priority": 3,
       "specialEffect": "sunbeams, snowfall",
       "effectSettings": {
         "snowfall": {
@@ -486,25 +508,71 @@
     },
     {
       "items": [
-        "armamentarium:raw_adamantium"
+        "armamentarium:empyrean_cinquedea"
       ],
-      "name": "Raw Adamantium",
+      "priority": 2,
+      "name": "Empyrean Cinquedea",
       "gradientType": "custom",
       "gradientColors": [
-        "#1C1C1C",
-        "#33F2FF",
-        "#0E0E0E"
+        "#957633",
+        "#000000",
+        "#2D2D2D"
       ],
-      "dividerLineColor": "#33F2FF",
-      "specialEffect": "steel_shining",
       "effectSettings": {
-        "steel_shining": {
-          "intensity": 0.28015524,
-          "density": 1.0,
-          "bandWidth": 0.53544116
+        "crystals": {
+          "stretch": 0.7107372,
+          "rotationSpeed": 1.0,
+          "saturation": 1.0,
+          "variation": 0.0,
+          "glow": 1.0,
+          "size": 1.0,
+          "density": 1.4220243,
+          "intensity": 1.0,
+          "speed": 1.0,
+          "thickness": 1.0,
+          "colors": [
+            "#303030",
+            "#AEAEAE",
+            "#ECE7FF"
+          ]
+        },
+        "bubbles": {},
+        "fluorite": {
+          "colors": [
+            "#C7C7C7",
+            "#000000",
+            "#957633"
+          ],
+          "intensity": 0.4140177,
+          "fieldScale": 1.2345442,
+          "distortion": 1.6500149,
+          "sharpness": 0.25
         }
       },
-      "priority": 1
+      "specialEffect": "fluorite"
+    },
+    {
+      "items": [
+        "armamentarium:twinned_netherdagger"
+      ],
+      "priority": 1,
+      "name": "Twinned Netherdagger",
+      "effectSettings": {
+        "cinder": {
+          "colors": [
+            "#FFEF95",
+            "#D67D2B",
+            "#B12E23"
+          ]
+        }
+      },
+      "specialEffect": "cinder",
+      "gradientType": "custom",
+      "gradientColors": [
+        "#FFC8CE3A",
+        "#BA5E00",
+        "#307C0000"
+      ]
     }
   ]
 }
