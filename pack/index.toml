@@ -7684,8 +7684,8 @@ hash = "a0cabdcaa9a0f2f64282e683cfdc8b6fd99e2d7ca09876150fdcc5da08d2bbfd"
 metafile = true
 
 [[files]]
-file = "mods/qna-shipping-0.3.2.pw.toml"
-hash = "0bcfde153c563ccd6422efed0850c23826199fb0462f3a9cd166b0553d815147"
+file = "mods/qna-shipping-0.3.4.pw.toml"
+hash = "34e3b6b2d15904347fb1242562bbabc220548788b74e985ceb2a90db978781ed"
 metafile = true
 
 [[files]]
