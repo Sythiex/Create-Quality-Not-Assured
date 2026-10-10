@@ -1,12 +1,13 @@
 name = "Back with the Bundle"
-filename = "backwiththebundle-1.0.0-rc.1.jar"
+filename = "backwiththebundle-1.0.0.jar"
 side = "both"
 
 [download]
-hash = "4062c4808aa3a571e4f2babb31955d24c05e61d1"
 hash-format = "sha1"
+hash = "825af90fe6a956fcd42128dc017f083ba31d7409"
 mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 8805221
+file-id = 9115704
 project-id = 1678735
