@@ -34,7 +34,8 @@ const armamentariumLootWeapons = [
     'armamentarium:rum_strawberry'
 ]
 
-// All 56 weapon IDs in Armamentarium 1.3.3, including depleted charge states,
+// All 55 eligible weapon IDs in Armamentarium 1.3.3, excluding Severance Shotel,
+// including depleted charge states,
 // the Ancient Cullblade, and all six reusable throwable fruit tonics.
 // Ordinary mining tools and armor are not weapons.
 const armamentariumRecyclableWeapons = armamentariumLootWeapons.concat([
@@ -46,7 +47,6 @@ const armamentariumRecyclableWeapons = armamentariumLootWeapons.concat([
     'armamentarium:greatalloy_sword',
     'armamentarium:reaper_of_the_gaol',
     'armamentarium:severance_scythe',
-    'armamentarium:severance_shotel',
     'armamentarium:splitwing_scissorblade',
     'armamentarium:teraton_blackhammer',
     'armamentarium:warspear_of_the_desecrator',
@@ -522,8 +522,9 @@ ItemEvents.entityInteracted(event => {
 
     const offers = merchant.getOffers()
     for (let i = offers.size() - 1; i >= 0; i--) {
-        const offer = offers.get(i)
-        const involvesBlockedItem = [offer.getBaseCostA(), offer.getCostB(), offer.getResult()]
+        // Rhino redeclares loop-local const bindings on the second iteration.
+        let offer = offers.get(i)
+        let involvesBlockedItem = [offer.getBaseCostA(), offer.getCostB(), offer.getResult()]
             .some(stack => {
                 const item = String(stack.id)
                 return item === 'armamentarium:severance_shotel' || armamentariumWhetstones.indexOf(item) !== -1
