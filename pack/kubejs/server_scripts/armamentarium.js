@@ -121,7 +121,8 @@ ServerEvents.recipes(event => {
     // Remove all armor crafting/upgrading and reclamation, plus unused templates.
     armamentariumArmor.forEach(item => {
         event.remove({ output: item })
-        event.remove({ input: item })
+        // Preserve shared recipes such as armor trimming that also accept this armor.
+        event.remove({ mod: 'armamentarium', input: item })
     })
     ;['adam_template', 'damon_template', 'theron_template'].forEach(template => {
         event.remove({ output: 'armamentarium:' + template })
