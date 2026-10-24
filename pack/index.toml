@@ -5681,6 +5681,10 @@ file = "kubejs/server_scripts/food/drink_compatibility.js"
 hash = "b0ca5c6f458a22a7c01d76b278951e771f4f2f5a98cd48f769629b81451a09dd"
 
 [[files]]
+file = "kubejs/server_scripts/food/salt_compatibility.js"
+hash = "e06e1321fef8113529af651318c98ed4cb7472c55a51f160fa0b422cdbcb87a9"
+
+[[files]]
 file = "kubejs/server_scripts/food/squid_drops.js"
 hash = "8e03f25b1dba16f22f4dd1a96b0ba678d61759b875305382f43899fdf81335a0"
 
