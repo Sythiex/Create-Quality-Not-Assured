@@ -1,0 +1,12 @@
+name = "Enhanced Celestials 2: Shader Support"
+filename = "Enhanced-Celestials-2-Shaders-NeoForge-1.21.1-2.0.0.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6cEnKtmZ/versions/4uOjogNm/Enhanced-Celestials-2-Shaders-NeoForge-1.21.1-2.0.0.3.jar"
+hash-format = "sha256"
+hash = "368ba7d3e80ea94cda6a10b1fb49b4054708e05f4d65a3e637a5a4125f5c56d8"
+
+[update.modrinth]
+mod-id = "6cEnKtmZ"
+version = "4uOjogNm"

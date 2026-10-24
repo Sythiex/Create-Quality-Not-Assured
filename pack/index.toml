@@ -4449,6 +4449,14 @@ file = "kubejs/data/endersdelight/fake_loot/blocks/chorus_pie.json"
 hash = "cd227c769539a7bf1bdfb13c3bed57088890f666fdcc20c0a7657ec32773e37a"
 
 [[files]]
+file = "kubejs/data/enhancedcelestials2defaultlunarevents/enhancedcelestials2core/lunar/event_probability/blue_moon.json"
+hash = "44ebb18247b51d5cd03cb1a65013e93bfecee82cee9ee4870161a0671c058f19"
+
+[[files]]
+file = "kubejs/data/enhancedcelestials2defaultlunarevents/enhancedcelestials2core/lunar/event_probability/harvest_moon.json"
+hash = "48cbf821cdbff08ac6f08efc633c25ab90fb701e69065665b01d314c093ca9ba"
+
+[[files]]
 file = "kubejs/data/farmersdelight/fake_loot/blocks/apple_pie.json"
 hash = "de2d4745d2af5457d796cda6dc73e58712514f5ce92c08fbb87e8a5527af5a76"
 
@@ -5858,6 +5866,11 @@ hash = "9735bbef99632dc7a87be9949f16756e692942254e7d207716cb37888fb54bed"
 metafile = true
 
 [[files]]
+file = "mods/Corgilib-NeoForge-1.21.1-5.0.0.10.pw.toml"
+hash = "c6ec1a944e15f6d58f585e3b9140478b287820b74630c1dbf480e6b3cb33d55b"
+metafile = true
+
+[[files]]
 file = "mods/CreateDragonsPlus-1.11.9.pw.toml"
 hash = "d3b2d70f156f851e4e38409257cc9c22da6e6207b401ca44f32942efd6d9086f"
 metafile = true
@@ -5870,6 +5883,11 @@ metafile = true
 [[files]]
 file = "mods/CreativeCore_NEOFORGE_v2.13.48_mc1.21.1.pw.toml"
 hash = "cb1b34cb6fe90f15cbe90909b969e31b64d0a841252ab138a2674ff0e3723d16"
+metafile = true
+
+[[files]]
+file = "mods/Data_Anchor-neoforge-1.21.1-2.0.0.17.pw.toml"
+hash = "84cc110931b9081004ddbffe5c2912fb27a47093ade606b738fb96a710dd47cf"
 metafile = true
 
 [[files]]
@@ -5890,6 +5908,11 @@ metafile = true
 [[files]]
 file = "mods/Ding-1.21-NeoForge-1.5.0.pw.toml"
 hash = "590d0e15ba80aaa684eb25c8b503987c63e6b16603fe9f870726153b23808611"
+metafile = true
+
+[[files]]
+file = "mods/DistantFriends-neoforge-1.21.1-0.9.5.pw.toml"
+hash = "8b9398306d56cc7bdabed9509b038134e95e06754956c555c68d00261bae9e02"
 metafile = true
 
 [[files]]
@@ -5920,6 +5943,21 @@ metafile = true
 [[files]]
 file = "mods/Emojiful-Neoforge-1.21-5.2.4-all.pw.toml"
 hash = "36c5ad818781e283fb502ebaa773992fe4e5a5941ef2258a83137275d717bcfe"
+metafile = true
+
+[[files]]
+file = "mods/Enhanced-Celestials-2-Core-NeoForge-1.21.1-2.0.3.3.pw.toml"
+hash = "a02c0021026cc4745b42061449d78b63651229c6c23439ae05a9ad447569393b"
+metafile = true
+
+[[files]]
+file = "mods/Enhanced-Celestials-2-Default-Lunar-Events-NeoForge-1.21.1-2.0.1.3.pw.toml"
+hash = "c3f1872959707cda51611096821b31cc2dfd3f32151020be8c98c8ba589ccb6e"
+metafile = true
+
+[[files]]
+file = "mods/Enhanced-Celestials-2-Shaders-NeoForge-1.21.1-2.0.0.3.pw.toml"
+hash = "718787e42b792c57b287d0d0cbf77975f6b51f5b5e2839fe8d1253b87c135349"
 metafile = true
 
 [[files]]
@@ -10707,5 +10745,5 @@ hash = "34ae1317940876f42272e3fd8f9ec2be97b2cdfe2eb8aeaf7bf971304d1a168d"
 
 [[files]]
 file = "shaderpacks/Spooklementary_v2.0.4.zip.txt"
-hash = "3d7f147a474f16a81e073ed0cf861d0584c517b9544250c111bc1fce0129189a"
+hash = "9f6f574b13c22abf849660e89c40e3bc548b480a3b3e5492b1df572b628be60c"
 preserve = true
