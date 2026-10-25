@@ -6531,6 +6531,11 @@ hash = "f1bb419ce3bd1ab3879a67f9b0c5d4a152454d2a35c737ed3cb7e77a4673a8fd"
 metafile = true
 
 [[files]]
+file = "mods/cave13-0.1.0.pw.toml"
+hash = "37144adf4c1e4e9c4b6d54c372faedbce5d7e6e840ccac7eac1263976e128769"
+metafile = true
+
+[[files]]
 file = "mods/cbc_at_Neoforge_1.21.1_0.1.4c.pw.toml"
 hash = "1f2db9e2ae42182b8d1caa477b6adb1d31fb3bf952325dba2d7cd85279d0a967"
 metafile = true
