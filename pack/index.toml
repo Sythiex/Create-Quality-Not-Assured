@@ -6531,8 +6531,8 @@ hash = "f1bb419ce3bd1ab3879a67f9b0c5d4a152454d2a35c737ed3cb7e77a4673a8fd"
 metafile = true
 
 [[files]]
-file = "mods/cave13-0.1.0.pw.toml"
-hash = "37144adf4c1e4e9c4b6d54c372faedbce5d7e6e840ccac7eac1263976e128769"
+file = "mods/cave13-0.1.1.pw.toml"
+hash = "be63af89a447e39819e5c0d2cfbcf177a102202592207d68275303dc54ef5dee"
 metafile = true
 
 [[files]]
